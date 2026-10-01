@@ -19,12 +19,12 @@ The individual project-building exercises are formative steps. They do not repla
 ## Suggested folders
 
 - shared/ — project charter, workflow map, synthetic-data documentation, and common decision brief.
-- AIDA-1141/exercises/week-NN/ — individual AIDA 1141 project-building exercises.
-- AIDA-2156/exercises/week-NN/ — individual AIDA 2156 project-building exercises.
-- AIDA-2154/exercises/week-NN/ — individual AIDA 2154 project-building exercises.
+- AIDA-1141/project-labs/ — ten individual AIDA 1141 project-building exercises.
+- AIDA-2156/project-labs/ — ten individual AIDA 2156 project-building exercises.
+- AIDA-2154/project-labs/ — ten individual AIDA 2154 project-building exercises.
 - AIDA-1141/final-project/, AIDA-2156/final-project/, and AIDA-2154/final-project/ — course-specific final-project evidence and packaging.
 
-For each project-building exercise, save the requested code or analysis, relevant output, and a short note explaining what you found and one limitation. Keep each exercise small and build on earlier work.
+Follow [AC-STUDENT-PROJECT-GUIDE.md](AC-STUDENT-PROJECT-GUIDE.md) for the step-by-step Git/D2L workflow, the 30 connected project-lab use cases, each lab's deliverables, and the separate final-project checklists. Each exercise folder should contain its requested code or analysis, relevant output, and a short explanation of what you found and one limitation. Keep each exercise small and build on earlier work.
 
 ## Checkpoints
 
@@ -32,7 +32,7 @@ Bring developing evidence to the course checkpoints: Week 6 scope, Week 8 eviden
 
 ## Git and submissions
 
-Make meaningful commits as the project develops and push them to this private repository. Check GitHub after pushing to confirm the files and latest commit are visible. Do not push to an instructor repository.
+Make meaningful commits as the project develops and push the 30 AC-specific project-lab exercises and integrated project work to this private repository. Submit each exercise's direct folder link and latest commit ID through its matching D2L project-lab/checkpoint item when one is assigned. Check GitHub after pushing to confirm the files and latest commit are visible. Do not push this work to an instructor repository.
 
 Regular graded course labs still go in the course repository specified in that lab's D2L instructions and must be submitted by their normal D2L due dates. Each final project also has its own D2L assignment and course-specific requirements. Use D2L for the exact submission instructions and examination schedule.
 
