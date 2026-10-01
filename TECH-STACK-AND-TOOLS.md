@@ -1,108 +1,112 @@
-# AC Project Technology Stack and Tools
+# Technology Stack and Tools for Your Project
 
-This guide gives the project one manageable, reproducible toolset for AIDA 1141, AIDA 2156, and AIDA 2154. Follow the exact package list and submission requirements in the relevant D2L instructions when they differ from this guide.
+## The recommendation
 
-## Recommended stack
+Use **one integrated project, one private GitHub repository, one local MariaDB database, and one Python 3.12 environment** for all 30 project exercises, the three course-specific analyses, and the small demonstration app.
 
-| Need | Recommended tool | How it is used |
-|---|---|---|
-| Programming language | **Python 3.12** | Shared foundation for the three project strands. Use the Python version and package pins named by the course starter if it specifies a more exact version. |
-| Code editor | **Visual Studio Code** with the Python and Jupyter extensions | Edit scripts and notebooks, choose the correct interpreter, and run the course work locally. |
-| Reproducible environments | **One Python virtual environment per course strand** | Keep course package versions separate. Use the provided course requirements file; do not install everything into one global Python environment. |
-| Data exchange | **Small synthetic CSV files** and documented image files | Use CSV as the simple, inspectable handoff between data preparation, exploratory analysis, and structured-data analysis. Generate and document all records and images; never use actual employee records or documents. |
-| Source control and evidence | **The private GitHub project repository** | Keep the AC-specific project exercises and integrated project here. Commit meaningful changes and submit the direct folder URL and commit ID in the matching D2L item. Regular graded course labs still go to the repository specified in each lab’s D2L instructions. |
-| Optional relational storage | **Local MariaDB, only if approved for a specific learning outcome** | Use only a local development instance with synthetic data. Keep the CSV export and setup script so the analysis remains reproducible without a running database. MariaDB is not needed just to make the three analyses connect. |
-| Workflow/screens | **A workflow diagram and a few screen mockups** made in a familiar drawing or presentation tool | Explain the intake, suggested route, human review, and tracking steps. Treat screens as illustrations; do not build a web application unless the instructor separately approves that scope. |
+The project is one fictional HR onboarding intake-and-routing workflow. Its data, database, code, and demo screens build on the same synthetic records. The AIDA 1141, AIDA 2156, and AIDA 2154 folders hold the different analysis and evidence required for each course; they are not separate software projects and do not need separate environments.
 
-Python is the right common starting point: the AIDA 1141 setup already uses Python, VS Code, Jupyter, and scikit-learn, while the AIDA 2156 project materials provide a pinned Python environment and an offline CSV path. Separate virtual environments help prevent one course's library versions from disrupting another's. Python's official documentation describes virtual environments as isolated installations for project-specific packages, and VS Code can detect and select them. See [Python virtual environments](https://docs.python.org/3/tutorial/venv.html) and [Python in VS Code](https://code.visualstudio.com/docs/languages/python).
+Use this single stack for your cross-course project in this repository. Continue to complete and submit regular weekly course labs as their D2L instructions direct.
 
-## Libraries by course
+## Your project tools
 
-Install only what the specific exercise needs, using the course-provided requirements file where available.
+| Tool | What you will use it for |
+|---|---|
+| **Python 3.12** | The one project runtime for data preparation, EDA, the structured-data model, computer vision, and the local demo. Python 3.12 is a practical choice on Windows because the current PyTorch install guidance supports Windows with Python 3.9–3.12; Streamlit supports Python 3.12 as well. See [PyTorch installation guidance](https://docs.pytorch.org/get-started/locally/) and [Streamlit Python support](https://docs.streamlit.io/knowledge-base/using-streamlit/sanity-checks). |
+| **Visual Studio Code** with the Python and Jupyter extensions | Open this repository, edit code/notebooks, and select the project interpreter. |
+| **One project-root virtual environment** named `.venv` | Install and run one compatible package set for all of the project exercises. Do not create one environment per course or per lab. |
+| **MariaDB Community Server, running locally** | Store only synthetic onboarding requests, routing suggestions, human decisions, and status history in the project database. |
+| **DBeaver Community or a MariaDB client** (optional) | View and inspect the local synthetic database. This is a helper, not another programming stack. |
+| **Python packages** | Use pandas and NumPy for data; Matplotlib/Seaborn for EDA; scikit-learn for structured-data models; OpenCV and Pillow for image processing; PyTorch/Torchvision for the small approved vision model; Streamlit for the local screens; and MariaDB Connector/Python for database access. |
+| **CSV and generated image files** | Export documented data snapshots for reproducible analysis. Keep synthetic images as files with a manifest and labels; do not store employee documents or personal images. |
+| **Git and this private GitHub repository** | Track and push all project exercises and integrated project work. Submit the matching folder link and commit ID in D2L as directed in the student project guide. |
 
-### AIDA 1141 — structured-data analysis
+The app is a small, local demonstration. It may show three connected views: (1) enter a synthetic onboarding request, (2) see a routing suggestion in a staff review queue, and (3) confirm the route and update completion status. The system must show that a person reviews and confirms suggestions. It is not a real HR application and does not connect to an ERP.
 
-- **pandas** and **NumPy** for loading, checking, and preparing the synthetic request table;
-- **scikit-learn** for a course-appropriate baseline/model and evaluation; and
-- **Jupyter** for exploration, with a clean run order and explanations, or a Python script when the lab starter expects a script.
+Streamlit is intended for Python data apps and supports a local development server. See its [official documentation](https://docs.streamlit.io/) and [data connection guidance](https://docs.streamlit.io/develop/concepts/connections/connecting-to-data). MariaDB provides an [official Python connector](https://mariadb.com/docs/connectors/mariadb-connector-python).
 
-### AIDA 2156 — Exploratory Data Analysis
+## How the three course strands connect
 
-- **pandas** and **NumPy** for data quality checks, summaries, and sensitivity checks;
-- **Matplotlib** (and **Seaborn** only if useful/approved) for readable plots; and
-- **Jupyter Notebook** or the course-specified script/report format for a reproducible exploration.
+1. **Shared project data:** Generate a small, documented set of fictional onboarding requests. Store structured request and status data in MariaDB. Keep the schema, data generator, and a CSV export command in Git.
+2. **AIDA 2156 exploration:** Use a CSV snapshot generated from those same synthetic records to examine data quality, intake volume, delay patterns, and handoffs.
+3. **AIDA 1141 structured-data work:** Use the documented request fields and labels to build and evaluate a small routing suggestion. Save its outputs and state the cases that require human review.
+4. **AIDA 2154 vision work:** Use only instructor-approved, computer-generated icons or mock visual cards associated with fictional requests. Save image files and their labels/metadata. Do not use real forms, employee documents, or personal photographs.
+5. **Integrated demonstration:** The local Streamlit views connect intake, suggested route, human review, and status tracking using the same project database and outputs.
 
-Use the CSV fallback unless an exercise explicitly requires an approved database source. The existing AIDA 2156 final-project starter is designed to run offline from CSV; a live database is not a prerequisite.
+The course questions and final reports remain distinct even though they use one workflow and toolset. Keep course-specific evidence in its named folder and explain how that strand contributes to the shared workflow.
 
-### AIDA 2154 — Computer Vision
+## One environment for the whole project
 
-- **OpenCV-Python** and **Pillow** for image inspection, preprocessing, filtering, feature or region work, and saved visual evidence;
-- **PyTorch** and **Torchvision** only for the course exercises that require neural-network or transfer-learning work; and
-- a documented CPU run command unless the course starter explicitly provides another supported option.
+You will create **one** Python virtual environment at the root of this repository. Python documents virtual environments as isolated project package setups; this lets the project keep one reproducible package set without changing packages installed elsewhere on your computer. See [Python's virtual-environment guide](https://docs.python.org/3/tutorial/venv.html).
 
-The course project should use only the small, computer-generated, non-personal image set approved at the scope checkpoint. The AIDA 2154 starter packages use OpenCV for image-processing work and PyTorch/Torchvision for the transfer-learning strand; the official [OpenCV-Python tutorials](https://docs.opencv.org/5.0/py_tutorials/py_setup/py_intro/py_intro.html) and [PyTorch transfer-learning tutorial](https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) are suitable references when those methods are part of the assigned course work.
+The project will use one repository-root `requirements.txt` containing a compatible, pinned set of all Python packages used across the project. Your instructor will provide that file before package installation. Do not create separate per-course package files, install a second course-specific project environment, or guess package versions.
 
-## MariaDB: keep it optional
+After the project `requirements.txt` is present, open PowerShell at the repository root and run:
 
-**Recommendation: keep Python; do not make MariaDB a required dependency for all 30 exercises.** A small CSV file is easier to inspect, share through the private project repository, and rerun for EDA and model analysis. Requiring a database service would add server setup, accounts, connection configuration, and secret handling without being necessary for the current three course questions.
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python --version
+```
 
-MariaDB can be a useful **optional extension** if the instructor confirms that relational schema design, SQL queries, or persistence is an explicit course outcome for this project. If approved:
+Select the `.venv` interpreter in VS Code. When you return to this project later, activate the same environment:
 
-1. Install/run MariaDB locally on AC’s computer; do not connect to a live business or institutional database.
-2. Use only synthetic records and generated metadata.
-3. Keep schema-creation and synthetic-load scripts in Git; keep passwords, connection strings, and local `.env` files out of Git.
-4. Keep a documented CSV export as the reproducible fallback for analysis.
-5. Use a dedicated local project database and a non-administrator account; do not use a shared/root account.
-6. Do not make successful access to MariaDB a prerequisite for the EDA or vision tasks.
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
 
-If an approved local database connection is needed, MariaDB publishes an official Python connector. Its installation and connection details belong in a separate course-approved setup note, not in a shared credential or a committed connection string. See [MariaDB Connector/Python](https://mariadb.com/docs/connectors/mariadb-connector-python).
+Do not commit `.venv/`, package caches, local database passwords, or secret files. The repository's `.gitignore` excludes common local-only files.
 
-## Repository layout and environment files
+## Database setup and safe data
 
-Keep the project repository organized by course. Use the course-specific environment file where versions differ:
+- Run one local MariaDB database for this project. Use a dedicated project database and a non-administrator local account.
+- Use only synthetic records and generated images. Do not connect to a live ERP, payroll system, HR system, or institutional database.
+- Store the schema, synthetic-data generator, and seed/load scripts in the project repository.
+- Keep database passwords and connection details in an untracked local configuration file. Commit only a placeholder example such as `.env.example`, never a working secret.
+- Keep a CSV export of each analysis dataset so that the EDA and structured-data results can be reviewed without manually editing database tables.
+- Keep generated images outside MariaDB and link them to fictional request IDs through a manifest.
+- Never commit personal information, actual employer/client records, or confidential data.
+
+## Suggested project layout
 
 ```text
 AIDA_Izzy_HR_Onboarding_Project/
   .gitignore
+  requirements.txt
   README.md
   AC-STUDENT-PROJECT-GUIDE.md
   TECH-STACK-AND-TOOLS.md
   shared/
-    synthetic-data/
+    database/
+      schema.sql
+      seed_synthetic_data.py
+      export_csv.py
+    data/
+      generated/
+      exports/
+    images/
+      generated/
+      image-manifest.csv
+    app/
+      streamlit_app.py
     workflow/
   AIDA-1141/
-    requirements.txt
     project-labs/
     final-project/
   AIDA-2156/
-    requirements.txt
     project-labs/
     final-project/
   AIDA-2154/
-    requirements.txt
     project-labs/
     final-project/
 ```
 
-Do not commit `.venv/`, Python cache folders, notebook checkpoints, secrets, real employee data, or unapproved datasets. A requirements file records packages, not credentials. Follow any additional course-provided ignore or packaging instructions.
+Create each exercise folder when you start that exercise. Keep all three course strands, all 30 project exercises, and the integrated prototype in this repository. Your regular weekly course labs still go to the course repositories named in their D2L instructions.
 
-## Simple setup on Windows
+## Your Git and D2L routine
 
-Use the Python version named in the course instructions. Create one environment per course when you begin that course strand. **Install from the exact requirements file linked or supplied by the instructor for the project.** The example below assumes the instructor has supplied `AIDA-2156/requirements.txt`; if that file is not present yet, do not create a package list or guess versions—ask for the setup instructions first.
-
-```powershell
-py -3.12 -m venv .venv-2156
-.\.venv-2156\Scripts\Activate.ps1
-python -m pip install -r AIDA-2156\requirements.txt
-python --version
-deactivate
-```
-
-For AIDA 1141 and AIDA 2154, repeat with environment names `.venv-1141` and `.venv-2154` and the matching requirements file supplied or identified by the instructor. If the course package already supplies exact version pins or a tested runtime, use those instead of inventing new versions. Keep all virtual environments local; do not push them to GitHub.
-
-## Git and D2L tools
-
-Use Git for the complete project folder and its history:
+For each completed project exercise:
 
 ```text
 git status
@@ -111,18 +115,10 @@ git commit -m "AIDA 2156 project lab 01: profile intake volume"
 git push
 ```
 
-After pushing, open the exact folder on GitHub. Copy that folder’s URL into the corresponding D2L project-exercise/checkpoint item, and include the latest commit ID and a short completion note. Continue to submit official weekly labs to the course repository and D2L assignment named in each official lab's instructions. Do not use this one project repository as a substitute for the regular course lab repositories.
+Change the folder and commit message to match the exercise. Open the folder on GitHub after pushing and confirm the files and commit are visible. Submit that folder's direct URL and the latest commit ID to its matching D2L project exercise. Follow the posted D2L due date and instructions. For regular course labs, use the D2L-assigned course repository and normal lab due date.
 
-## ERP access
+## ERP access is separate from this project
 
-**Do not provide AC with an account in a live ERP, HR, payroll, or employee-record system for this academic project.** The proposed work uses synthetic data and does not need production-system access. Do not export actual employee information into this GitHub repository or any student workspace.
+You do **not** need access to a live ERP, HR, payroll, or employee-record system to complete this project. The project uses synthetic data and the local project database. Do not use an ERP export or add real employee information to GitHub.
 
-If AC separately needs to learn or assist with ERP tasks, treat that as a separate, authorized activity—not as a project requirement. Use the ERP vendor’s training/demo environment with fake records where possible. If a real system account is ever considered, first have the system owner and the institution/business security or privacy contact approve a specific role, purpose, permitted records/actions, and end date. Grant only the minimum access needed for that defined task; do not share an owner/admin account or credentials. The Office of the Privacy Commissioner of Canada recommends limiting access to employee information on a need-to-know basis and safeguarding it against inappropriate access or disclosure; see [Privacy in the Workplace](https://www.priv.gc.ca/en/privacy-topics/employers-and-employees/02_05_d_17). The general least-privilege principle is also described by [NIST](https://csrc.nist.gov/glossary/term/least_privilege).
-
-## Scope checkpoint
-
-Before the student installs an additional service or builds a larger prototype, confirm the project question, course fit, data/image source, deliverables, and approved tools with the instructor. In particular:
-
-- approve whether the AIDA 2154 image question fits the course outcomes;
-- decide whether a local MariaDB component adds an assessed learning outcome; and
-- keep any optional screen mockup small enough that it explains the analysis without becoming a separate application build.
+If you are separately asked to learn or help with ERP tasks, that is a different activity from this project. Use an approved training/demo environment with fake records where possible. Do not use another person's login. Any real-system account must be separately approved for a defined task and limited to the minimum access and time needed. The [Office of the Privacy Commissioner of Canada](https://www.priv.gc.ca/en/privacy-topics/employers-and-employees/02_05_d_17) recommends need-to-know access to employee information; [NIST's least-privilege principle](https://csrc.nist.gov/glossary/term/least_privilege) likewise calls for only the access needed for the task.

@@ -1,20 +1,19 @@
-# AC HR Onboarding Project Guide
+# Your HR Onboarding Project Guide
 
-**Student:** AC  
 **Project repository:** [AIDA_Izzy_HR_Onboarding_Project](https://github.com/stem-ai-studio-classroom/AIDA_Izzy_HR_Onboarding_Project)  
 **Courses connected by this project:** AIDA 1141, AIDA 2156 (Exploratory Data Analysis), and AIDA 2154 (Computer Vision)
 
 ## What you are building
 
-You will investigate one small, fictional business workflow: **staff receive onboarding requests, review them, route them to the right next step, and track whether the request is complete**. Your project may include a simple workflow diagram and a few screen mockups to explain the idea. You are not expected to build a production HR application.
+You will investigate one small, fictional business workflow: **staff receive onboarding requests, review them, route them to the right next step, and track whether the request is complete**. Explain it with a workflow diagram and a few screen views. If included, the demo is a small local Streamlit app using only synthetic records; you are not expected to build a production HR application.
 
-The work is individual. Use synthetic records and computer-generated images only. Do not use real employee information, actual identity documents, employer/client records, or real photographs. Keep a person responsible for reviewing any suggested category, status, or route.
+Complete your work individually. Use synthetic records and computer-generated images only. Do not use real employee information, actual identity documents, employer/client records, or real photographs. A person must review any suggested category, status, or route.
 
 The same context links your work across the courses, but each course asks a different question and requires its own evidence. **There are three separate final projects, each worth 25% in its course, with separate course rubrics and separate D2L final submissions.** This connected project does not combine the three grades or replace any regular course lab or knowledge check.
 
 ## Before you start: follow these steps
 
-1. **Accept the private GitHub invitation.** Sign in to GitHub and accept the invitation to `AIDA_Izzy_HR_Onboarding_Project`. This is the one repository for this AC-specific project sequence and the project artifacts described in this guide.
+1. **Accept the private GitHub invitation.** Sign in to GitHub and accept the invitation to `AIDA_Izzy_HR_Onboarding_Project`. This is the one repository for your cross-course project exercises and integrated project work.
 2. **Clone the project repository once.** In a terminal, run:
 
    ```text
@@ -23,13 +22,13 @@ The same context links your work across the courses, but each course asks a diff
    git status
    ```
 
-   Keep this local folder for the AC-specific project exercises and integrated project. Do not create multiple competing copies.
+   Keep this local folder for all of your project exercises and integrated project work. Do not create multiple competing copies. Use the **one project-wide Python environment** in [TECH-STACK-AND-TOOLS.md](TECH-STACK-AND-TOOLS.md) for all 30 exercises and all three course strands; do not create a separate environment for each course or exercise.
 3. **Keep regular course labs in their assigned course repositories.** For each official weekly lab, follow that lab’s D2L instructions and use the assigned private course repository. Do not submit this project repository instead of an official lab repository. Complete the official lab exactly as assigned and meet its normal D2L due date, even when its case or required files differ from this project.
 4. **Read the D2L instructions before every submission.** D2L is the source for the official lab title, due date, required files, final-project instructions, and any project-checkpoint assignment. This guide does not change those instructions or dates.
 5. **Start with the small scope.** Write the project question and draw the one onboarding workflow before building screens or models. Keep a feature only when it helps explain intake, routing, tracking, or human review.
 6. **Use only synthetic data.** Record how each synthetic table or image was generated. Do not put credentials, personal data, or confidential files in GitHub.
 7. **Work in the matching folder below.** Each exercise has a small, named deliverable. Keep its code, data or data-generation recipe, output, and explanation together in that exercise folder.
-8. **Commit and push meaningful progress.** After completing an exercise, use:
+8. **Commit and push meaningful progress.** After completing an exercise, use the same project-root Python environment described in [TECH-STACK-AND-TOOLS.md](TECH-STACK-AND-TOOLS.md). Then use Git:
 
    ```text
    git status
@@ -40,7 +39,7 @@ The same context links your work across the courses, but each course asks a diff
 
    Change the path and commit message to match your exercise. Do not make an empty commit just to show activity. If Git reports a problem, stop and use your course Git instructions or ask for help rather than deleting or force-pushing work.
 9. **Verify the push.** Open the repository on GitHub and check that the folder, files, and latest commit are visible. A saved file on your computer is not yet evidence in GitHub.
-10. **Submit the direct folder link in D2L.** In the matching AC project-exercise/checkpoint dropbox, paste the link to the completed GitHub folder (the page URL should include the folder path), plus the latest commit ID and a one-sentence summary. Submit any additional export D2L requests. Use the D2L due date for that project exercise if one is posted. Do not put this link into an unrelated regular-lab dropbox. If you cannot find the matching project dropbox, ask the instructor which D2L item to use; do not guess.
+10. **Submit the direct folder link in D2L.** In the matching project-exercise/checkpoint dropbox, paste the link to the completed GitHub folder (the page URL should include the folder path), plus the latest commit ID and a one-sentence summary. Submit any additional export D2L requests. Use the due date posted for that project exercise. Do not put this link into an unrelated regular-lab dropbox. If you cannot find the matching project dropbox, ask your instructor which D2L item to use; do not guess.
 
 ## What every one of the 30 project exercises must contain
 
@@ -91,7 +90,7 @@ These exercises build a reproducible evidence trail about synthetic onboarding w
 
 ## AIDA 2154 — Computer Vision: 10 project exercises
 
-**Scope checkpoint:** Before doing the vision exercises beyond a tiny synthetic feasibility sample, confirm with the instructor that computer-generated onboarding-card images and the proposed task fit AIDA 2154 outcomes and workload. Never use scans or photographs of real employee documents. If this image question does not fit, pause and use the course-appropriate synthetic vision question agreed with the instructor; keep the same project workflow connection only where it makes sense.
+**Scope checkpoint:** Before doing the vision exercises beyond a tiny synthetic feasibility sample, confirm with your instructor that computer-generated onboarding-card images and the proposed task fit AIDA 2154 and the project workload. Never use scans or photographs of real employee documents. If this image question does not fit, pause and use the synthetic vision question you and your instructor agree on; keep the connection to the onboarding workflow only where it makes sense.
 
 The proposed image task is limited to computer-generated, non-personal mock intake cards, icons, or status panels. It asks whether a course-appropriate vision method can help organize a visual element for staff review. It is not identity recognition, document verification, OCR of real forms, or an automated hiring/onboarding decision.
 
@@ -110,7 +109,7 @@ The proposed image task is limited to computer-generated, non-personal mock inta
 
 ## How to submit each exercise in D2L
 
-For each AC project exercise that has a corresponding D2L dropbox:
+For each project exercise, use its matching D2L project-exercise/checkpoint dropbox:
 
 1. Push the completed exercise folder to this private project repository.
 2. Open that exact folder on GitHub and copy its URL. Check that the URL names the correct course and exercise folder.
@@ -119,7 +118,7 @@ For each AC project exercise that has a corresponding D2L dropbox:
 5. Attach an export only when the D2L instructions request it.
 6. Submit by the due date shown for that D2L item. The due dates for regular course labs remain their normal published dates and are not extended by this project.
 
-Each exercise should be assessable from its own folder and commit history. The instructor can review whether the required artifacts are present, whether the work is reproducible, and whether you explain the result and its limits. D2L remains the official record for grades and formal feedback. This guide does not add a new course grading weight: any score must follow the approved course assessment structure and the instructions posted in D2L.
+Each exercise should be reviewable from its own folder and commit history. Your instructor can check whether the required artifacts are present, whether the work is reproducible, and whether you explain the result and its limits. D2L is the official place for grades and formal feedback. These project exercises do not add a course grading weight; any score follows the approved course assessment structure and the instructions posted in D2L.
 
 ## End-of-project deliverables
 
@@ -127,8 +126,11 @@ When the three course strands are complete, the project repository should includ
 
 ```text
 AIDA_Izzy_HR_Onboarding_Project/
+  .gitignore
+  requirements.txt
   README.md
   AC-STUDENT-PROJECT-GUIDE.md
+  TECH-STACK-AND-TOOLS.md
   shared/
     project-charter.md
     workflow-map/
@@ -136,6 +138,12 @@ AIDA_Izzy_HR_Onboarding_Project/
     synthetic-data/
       README.md
       generators/
+    database/
+      schema.sql
+      seed_synthetic_data.py
+      export_csv.py
+    app/
+      streamlit_app.py
   AIDA-1141/
     project-labs/
       01-workflow-question/ ... 10-aida1141-evidence-brief/
