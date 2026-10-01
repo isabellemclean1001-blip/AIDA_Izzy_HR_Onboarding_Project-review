@@ -24,7 +24,7 @@ The individual project-building exercises are formative steps. They do not repla
 - AIDA-2154/project-labs/ — ten individual AIDA 2154 project-building exercises.
 - AIDA-1141/final-project/, AIDA-2156/final-project/, and AIDA-2154/final-project/ — course-specific final-project evidence and packaging.
 
-Follow [AC-STUDENT-PROJECT-GUIDE.md](AC-STUDENT-PROJECT-GUIDE.md) for the step-by-step Git/D2L workflow, the 30 connected project-lab use cases, each lab's deliverables, and the separate final-project checklists. Each exercise folder should contain its requested code or analysis, relevant output, and a short explanation of what you found and one limitation. Keep each exercise small and build on earlier work.
+Follow [AC-STUDENT-PROJECT-GUIDE.md](AC-STUDENT-PROJECT-GUIDE.md) for the step-by-step Git/D2L workflow, the 30 connected project-lab use cases, each lab's deliverables, and the separate final-project checklists. Follow [TECH-STACK-AND-TOOLS.md](TECH-STACK-AND-TOOLS.md) for the recommended Python stack, per-course environments, optional MariaDB scope, and ERP access boundary. Each exercise folder should contain its requested code or analysis, relevant output, and a short explanation of what you found and one limitation. Keep each exercise small and build on earlier work.
 
 ## Checkpoints
 
