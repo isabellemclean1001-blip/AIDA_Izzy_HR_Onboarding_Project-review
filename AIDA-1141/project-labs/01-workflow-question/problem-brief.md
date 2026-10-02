@@ -31,13 +31,13 @@ The model's role is to identify tasks at risk of missing the start date. The coo
 
 The model handles the uncertain question of whether a task is likely to finish on time. Every suggested action requires coordinator confirmation. 
 
-Tasks are assessed at intake and, if still incomplete, five business days before the start date. The second checkpoint only applies when it falls after intake, giving each request at most two assessments.
+Tasks are assessed at intake (once required information is complete) and, if still incomplete, five business days before the start date. The second checkpoint only applies when it falls after intake, giving each request at most two assessments.
 
-Model inputs include task type, responsible team, hiring department, intake channel, days until start, current status, time in that status, missing-information indicators, and current team workload. Only information available at assessment time will be used.
+Model inputs include task type, responsible team, hiring department, intake channel, days until start, current status, time in that status, whether information was missing at intake, and current team workload. Only information available at assessment time will be used.
 
 Requests are tracked as open, in progress, waiting for information, or complete, with timestamps for each status change. "In progress" means assigned to the responsible team. Completion requires confirmation from that team and the coordinator.
 
-The workflow diagram will show intake, routing, risk assessment, staff review, and tracking to completion.
+See [workflow-diagram.md](workflow-diagram.md). It shows intake, routing, risk assessment, staff review, and tracking to completion.
 
 ## 3. One measurable question
 
@@ -63,7 +63,7 @@ These targets may be revised using training and validation results before final 
 
 This project will not include:
 
-- Real employee data, documents, or city records.
+- Real employee data, documents, or City of Red Deer records.
 - Names, ages, gender, or other personal attributes; employees will have fictional IDs only.
 - Sensitive information such as SIN numbers, banking details, or tax forms.
 - Connections to real HR, ERP, payroll, or document management systems. 
