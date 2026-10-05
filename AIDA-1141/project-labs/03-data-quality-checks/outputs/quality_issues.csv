@@ -1,0 +1,511 @@
+source_row_number,request_id,field,check,issue,category,original_value,action,resolved
+50,REQ-00049,task_type,missing,unexpected blank (data quality problem),data quality,,not recoverable; left blank,no
+1064,REQ-01059,task_type,missing,unexpected blank (data quality problem),data quality,,recovered: team maps to one task type,yes
+2065,REQ-02056,task_type,missing,unexpected blank (data quality problem),data quality,,recovered: team maps to one task type,yes
+4,REQ-00003,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+58,REQ-00057,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+66,REQ-00065,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+94,REQ-00093,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+126,REQ-00125,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+145,REQ-00144,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+157,REQ-00156,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+193,REQ-00192,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+243,REQ-00242,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+277,REQ-00276,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+288,REQ-00287,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+298,REQ-00296,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+311,REQ-00309,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+366,REQ-00364,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+389,REQ-00387,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+408,REQ-00406,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+440,REQ-00438,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+446,REQ-00443,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+479,REQ-00476,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+502,REQ-00499,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+503,REQ-00500,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+511,REQ-00508,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+624,REQ-00621,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+632,REQ-00629,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+649,REQ-00646,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+759,REQ-00755,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+767,REQ-00763,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+768,REQ-00764,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+797,REQ-00792,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+806,REQ-00801,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+829,REQ-00824,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+835,REQ-00830,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+883,REQ-00878,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+897,REQ-00892,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+912,REQ-00907,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+956,REQ-00951,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+991,REQ-00986,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+993,REQ-00988,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1021,REQ-01016,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1026,REQ-01021,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1062,REQ-01057,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1090,REQ-01085,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1100,REQ-01095,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1126,REQ-01121,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1269,REQ-01263,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1294,REQ-01288,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1295,REQ-01289,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1306,REQ-01300,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1308,REQ-01302,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1312,REQ-01306,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1333,REQ-01327,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1336,REQ-01330,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1343,REQ-01337,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1409,REQ-01401,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1435,REQ-01427,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1492,REQ-01484,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1549,REQ-01541,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1552,REQ-01544,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1559,REQ-01551,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1624,REQ-01616,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1664,REQ-01656,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1665,REQ-01657,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1725,REQ-01717,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1735,REQ-01727,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1767,REQ-01759,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1796,REQ-01788,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1833,REQ-01825,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1835,REQ-01827,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1848,REQ-01840,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1893,REQ-01884,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1903,REQ-01894,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1918,REQ-01909,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1929,REQ-01920,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1939,REQ-01930,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1946,REQ-01937,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1955,REQ-01946,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+2018,REQ-02009,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+2034,REQ-02025,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+2046,REQ-02037,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+2063,REQ-02054,submitted_hiring_department,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+588,REQ-00585,employee_type,missing,unexpected blank (data quality problem),data quality,,recovered: employee's other records agree,yes
+1601,REQ-01593,employee_type,missing,unexpected blank (data quality problem),data quality,,recovered: employee's other records agree,yes
+263,REQ-00262,intake_channel,missing,unexpected blank (data quality problem),data quality,,not recoverable; left blank,no
+873,REQ-00868,intake_channel,missing,unexpected blank (data quality problem),data quality,,not recoverable; left blank,no
+1455,REQ-01447,intake_channel,missing,unexpected blank (data quality problem),data quality,,not recoverable; left blank,no
+2,REQ-00001,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+6,REQ-00005,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+87,REQ-00086,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+150,REQ-00149,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+240,REQ-00239,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+260,REQ-00259,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+263,REQ-00262,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+322,REQ-00320,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+331,REQ-00329,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+337,REQ-00335,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+405,REQ-00403,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+415,REQ-00413,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+460,REQ-00457,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+505,REQ-00502,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+512,REQ-00509,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+548,REQ-00545,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+557,REQ-00554,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+575,REQ-00572,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+582,REQ-00579,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+583,REQ-00580,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+671,REQ-00668,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+679,REQ-00676,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+709,REQ-00705,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+713,REQ-00709,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+731,REQ-00727,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+769,REQ-00765,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+785,REQ-00781,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+788,REQ-00783,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+830,REQ-00825,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+838,REQ-00833,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+914,REQ-00909,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+931,REQ-00926,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+945,REQ-00940,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+947,REQ-00942,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+979,REQ-00974,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+984,REQ-00979,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+986,REQ-00981,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1041,REQ-01036,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1046,REQ-01041,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1202,REQ-01197,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1230,REQ-01225,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1238,REQ-01233,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1357,REQ-01351,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1363,REQ-01357,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1430,REQ-01422,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1507,REQ-01499,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1514,REQ-01506,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1522,REQ-01514,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1548,REQ-01540,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1572,REQ-01564,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1614,REQ-01606,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1621,REQ-01613,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1622,REQ-01614,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1631,REQ-01623,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1716,REQ-01708,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1758,REQ-01750,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1777,REQ-01769,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1788,REQ-01780,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1836,REQ-01828,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1954,REQ-01945,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1960,REQ-01951,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+1975,REQ-01966,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+2021,REQ-02012,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+2028,REQ-02019,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+2050,REQ-02041,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+2057,REQ-02048,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+2062,REQ-02053,submitted_start_date,missing,designed intake gap (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+40,REQ-00039,equipment_item,missing,missing item on an equipment task (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+129,REQ-00128,equipment_item,missing,missing item on an equipment task (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+169,REQ-00168,equipment_item,missing,missing item on an equipment task (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+868,REQ-00863,equipment_item,missing,missing item on an equipment task (information issue),designed intake issue,,kept: expected intake issue (resolved later by coordinator),n/a
+319,REQ-00317,task_type,invalid_value,not in the dictionary's allowed values,data quality,orientaton_scheduling,corrected to orientation_scheduling (documented mapping),yes
+1093,REQ-01088,task_type,invalid_value,not in the dictionary's allowed values,data quality,workplace_acess,corrected to workplace_access (documented mapping),yes
+1538,REQ-01530,task_type,invalid_value,not in the dictionary's allowed values,data quality,sytem_access,corrected to system_access (documented mapping),yes
+505,REQ-00502,responsible_team,invalid_value,not in the dictionary's allowed values,data quality,Payrol,corrected to Payroll (documented mapping),yes
+773,REQ-00769,responsible_team,invalid_value,not in the dictionary's allowed values,data quality,I.T.,corrected to IT (documented mapping),yes
+1593,REQ-01585,responsible_team,invalid_value,not in the dictionary's allowed values,data quality,I.T.,corrected to IT (documented mapping),yes
+272,REQ-00271,intake_channel,invalid_value,not in the dictionary's allowed values,data quality,fax,no valid match; cleaned value left blank,no
+737,REQ-00733,intake_channel,invalid_value,not in the dictionary's allowed values,data quality,fax,no valid match; cleaned value left blank,no
+845,REQ-00840,intake_channel,invalid_value,not in the dictionary's allowed values,data quality,fax,no valid match; cleaned value left blank,no
+1132,REQ-01127,intake_channel,invalid_value,not in the dictionary's allowed values,data quality,fax,no valid match; cleaned value left blank,no
+5,REQ-00004,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+38,REQ-00037,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+52,REQ-00051,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+86,REQ-00085,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+140,REQ-00139,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+211,REQ-00210,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+213,REQ-00212,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+218,REQ-00217,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+245,REQ-00244,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+265,REQ-00264,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+296,REQ-00294,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+318,REQ-00316,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+359,REQ-00357,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+360,REQ-00358,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+405,REQ-00403,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+426,REQ-00424,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+436,REQ-00434,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+440,REQ-00438,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+449,REQ-00446,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+450,REQ-00447,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+475,REQ-00472,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+554,REQ-00551,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+591,REQ-00588,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+687,REQ-00683,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+715,REQ-00711,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+731,REQ-00727,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+737,REQ-00733,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+785,REQ-00781,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+790,REQ-00785,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+793,REQ-00788,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+840,REQ-00835,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+863,REQ-00858,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+898,REQ-00893,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+974,REQ-00969,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1012,REQ-01007,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1042,REQ-01037,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1113,REQ-01108,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1124,REQ-01119,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1230,REQ-01225,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1240,REQ-01235,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1271,REQ-01265,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1311,REQ-01305,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1361,REQ-01355,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1414,REQ-01406,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1426,REQ-01418,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1520,REQ-01512,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1645,REQ-01637,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1646,REQ-01638,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1656,REQ-01648,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1662,REQ-01654,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1687,REQ-01679,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1695,REQ-01687,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1710,REQ-01702,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1738,REQ-01730,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1742,REQ-01734,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1825,REQ-01817,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1835,REQ-01827,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+1907,REQ-01898,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+1960,REQ-01951,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,phone,kept: expected intake issue (resolved later by coordinator),n/a
+2009,REQ-02000,equipment_item,conflict_rule_a,item listed on a non-equipment task,designed intake issue,laptop,kept: expected intake issue (resolved later by coordinator),n/a
+511,REQ-00508,submitted_at,impossible_date,not a real calendar date,data quality,2026-02-30T10:15,recovered from the single submission event in status_events.csv,yes
+818,REQ-00813,submitted_at,impossible_date,not a real calendar date,data quality,2026-04-31T10:15,recovered from the single submission event in status_events.csv,yes
+1366,REQ-01360,submitted_at,impossible_date,not a real calendar date,data quality,2026-04-31T10:15,recovered from the single submission event in status_events.csv,yes
+1009,REQ-01004,submitted_start_date,impossible_date,not a real calendar date,data quality,2026-02-30,set to blank (no trusted source); confirmed date still available,no
+1563,REQ-01555,submitted_start_date,impossible_date,not a real calendar date,data quality,2026-06-31,set to blank (no trusted source); confirmed date still available,no
+35,REQ-00034,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-02-26,kept: expected intake issue (resolved later by coordinator),n/a
+37,REQ-00036,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-02-26,kept: expected intake issue (resolved later by coordinator),n/a
+38,REQ-00037,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-12,kept: expected intake issue (resolved later by coordinator),n/a
+59,REQ-00058,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-24,kept: expected intake issue (resolved later by coordinator),n/a
+60,REQ-00059,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-17,kept: expected intake issue (resolved later by coordinator),n/a
+64,REQ-00063,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-17,kept: expected intake issue (resolved later by coordinator),n/a
+71,REQ-00070,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-17,kept: expected intake issue (resolved later by coordinator),n/a
+74,REQ-00073,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-02-24,kept: expected intake issue (resolved later by coordinator),n/a
+76,REQ-00075,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-02-17,kept: expected intake issue (resolved later by coordinator),n/a
+78,REQ-00077,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-02-24,kept: expected intake issue (resolved later by coordinator),n/a
+82,REQ-00081,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-02-24,kept: expected intake issue (resolved later by coordinator),n/a
+167,REQ-00166,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-11,kept: expected intake issue (resolved later by coordinator),n/a
+175,REQ-00174,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-18,kept: expected intake issue (resolved later by coordinator),n/a
+176,REQ-00175,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-11,kept: expected intake issue (resolved later by coordinator),n/a
+183,REQ-00182,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-11,kept: expected intake issue (resolved later by coordinator),n/a
+200,REQ-00199,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-01,kept: expected intake issue (resolved later by coordinator),n/a
+201,REQ-00200,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-18,kept: expected intake issue (resolved later by coordinator),n/a
+216,REQ-00215,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-18,kept: expected intake issue (resolved later by coordinator),n/a
+222,REQ-00221,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-18,kept: expected intake issue (resolved later by coordinator),n/a
+225,REQ-00224,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-18,kept: expected intake issue (resolved later by coordinator),n/a
+246,REQ-00245,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-13,kept: expected intake issue (resolved later by coordinator),n/a
+251,REQ-00250,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-06,kept: expected intake issue (resolved later by coordinator),n/a
+254,REQ-00253,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-06,kept: expected intake issue (resolved later by coordinator),n/a
+256,REQ-00255,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-31,kept: expected intake issue (resolved later by coordinator),n/a
+265,REQ-00264,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-16,kept: expected intake issue (resolved later by coordinator),n/a
+267,REQ-00266,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-24,kept: expected intake issue (resolved later by coordinator),n/a
+268,REQ-00267,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-17,kept: expected intake issue (resolved later by coordinator),n/a
+269,REQ-00268,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-24,kept: expected intake issue (resolved later by coordinator),n/a
+276,REQ-00275,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-17,kept: expected intake issue (resolved later by coordinator),n/a
+279,REQ-00278,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-10,kept: expected intake issue (resolved later by coordinator),n/a
+280,REQ-00279,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-17,kept: expected intake issue (resolved later by coordinator),n/a
+282,REQ-00281,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-17,kept: expected intake issue (resolved later by coordinator),n/a
+285,REQ-00284,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-16,kept: expected intake issue (resolved later by coordinator),n/a
+288,REQ-00287,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-23,kept: expected intake issue (resolved later by coordinator),n/a
+289,REQ-00288,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-16,kept: expected intake issue (resolved later by coordinator),n/a
+305,REQ-00303,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-21,kept: expected intake issue (resolved later by coordinator),n/a
+308,REQ-00306,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-21,kept: expected intake issue (resolved later by coordinator),n/a
+311,REQ-00309,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-28,kept: expected intake issue (resolved later by coordinator),n/a
+321,REQ-00319,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-21,kept: expected intake issue (resolved later by coordinator),n/a
+339,REQ-00337,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-30,kept: expected intake issue (resolved later by coordinator),n/a
+345,REQ-00343,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-23,kept: expected intake issue (resolved later by coordinator),n/a
+371,REQ-00369,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-03,kept: expected intake issue (resolved later by coordinator),n/a
+372,REQ-00370,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-03,kept: expected intake issue (resolved later by coordinator),n/a
+374,REQ-00372,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-03,kept: expected intake issue (resolved later by coordinator),n/a
+380,REQ-00378,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-03,kept: expected intake issue (resolved later by coordinator),n/a
+381,REQ-00379,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-03-27,kept: expected intake issue (resolved later by coordinator),n/a
+383,REQ-00381,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-30,kept: expected intake issue (resolved later by coordinator),n/a
+418,REQ-00416,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-23,kept: expected intake issue (resolved later by coordinator),n/a
+427,REQ-00425,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-23,kept: expected intake issue (resolved later by coordinator),n/a
+433,REQ-00431,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-30,kept: expected intake issue (resolved later by coordinator),n/a
+451,REQ-00448,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-10,kept: expected intake issue (resolved later by coordinator),n/a
+455,REQ-00452,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-03,kept: expected intake issue (resolved later by coordinator),n/a
+456,REQ-00453,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-10,kept: expected intake issue (resolved later by coordinator),n/a
+458,REQ-00455,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-10,kept: expected intake issue (resolved later by coordinator),n/a
+465,REQ-00462,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-09,kept: expected intake issue (resolved later by coordinator),n/a
+468,REQ-00465,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-09,kept: expected intake issue (resolved later by coordinator),n/a
+478,REQ-00475,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-10,kept: expected intake issue (resolved later by coordinator),n/a
+481,REQ-00478,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-09,kept: expected intake issue (resolved later by coordinator),n/a
+484,REQ-00481,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-13,kept: expected intake issue (resolved later by coordinator),n/a
+487,REQ-00484,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-16,kept: expected intake issue (resolved later by coordinator),n/a
+494,REQ-00491,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-09,kept: expected intake issue (resolved later by coordinator),n/a
+499,REQ-00496,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-13,kept: expected intake issue (resolved later by coordinator),n/a
+501,REQ-00498,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-13,kept: expected intake issue (resolved later by coordinator),n/a
+517,REQ-00514,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-13,kept: expected intake issue (resolved later by coordinator),n/a
+519,REQ-00516,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-27,kept: expected intake issue (resolved later by coordinator),n/a
+624,REQ-00621,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-29,kept: expected intake issue (resolved later by coordinator),n/a
+632,REQ-00629,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-22,kept: expected intake issue (resolved later by coordinator),n/a
+636,REQ-00633,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-29,kept: expected intake issue (resolved later by coordinator),n/a
+643,REQ-00640,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-21,kept: expected intake issue (resolved later by coordinator),n/a
+644,REQ-00641,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-08,kept: expected intake issue (resolved later by coordinator),n/a
+647,REQ-00644,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-08,kept: expected intake issue (resolved later by coordinator),n/a
+649,REQ-00646,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-08,kept: expected intake issue (resolved later by coordinator),n/a
+661,REQ-00658,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-29,kept: expected intake issue (resolved later by coordinator),n/a
+667,REQ-00664,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-15,kept: expected intake issue (resolved later by coordinator),n/a
+673,REQ-00670,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-05,kept: expected intake issue (resolved later by coordinator),n/a
+676,REQ-00673,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-08,kept: expected intake issue (resolved later by coordinator),n/a
+678,REQ-00675,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-01,kept: expected intake issue (resolved later by coordinator),n/a
+682,REQ-00679,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-21,kept: expected intake issue (resolved later by coordinator),n/a
+683,REQ-00680,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-08,kept: expected intake issue (resolved later by coordinator),n/a
+684,REQ-00681,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-08,kept: expected intake issue (resolved later by coordinator),n/a
+694,REQ-00690,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-29,kept: expected intake issue (resolved later by coordinator),n/a
+700,REQ-00696,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-13,kept: expected intake issue (resolved later by coordinator),n/a
+708,REQ-00704,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-29,kept: expected intake issue (resolved later by coordinator),n/a
+711,REQ-00707,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-04,kept: expected intake issue (resolved later by coordinator),n/a
+716,REQ-00712,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-04,kept: expected intake issue (resolved later by coordinator),n/a
+733,REQ-00729,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-04,kept: expected intake issue (resolved later by coordinator),n/a
+740,REQ-00736,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-04,kept: expected intake issue (resolved later by coordinator),n/a
+749,REQ-00745,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-29,kept: expected intake issue (resolved later by coordinator),n/a
+755,REQ-00751,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-28,kept: expected intake issue (resolved later by coordinator),n/a
+762,REQ-00758,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-18,kept: expected intake issue (resolved later by coordinator),n/a
+765,REQ-00761,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-29,kept: expected intake issue (resolved later by coordinator),n/a
+771,REQ-00767,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-05,kept: expected intake issue (resolved later by coordinator),n/a
+778,REQ-00774,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-05,kept: expected intake issue (resolved later by coordinator),n/a
+779,REQ-00775,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-25,kept: expected intake issue (resolved later by coordinator),n/a
+784,REQ-00780,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-25,kept: expected intake issue (resolved later by coordinator),n/a
+789,REQ-00784,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-25,kept: expected intake issue (resolved later by coordinator),n/a
+799,REQ-00794,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-04,kept: expected intake issue (resolved later by coordinator),n/a
+800,REQ-00795,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-08,kept: expected intake issue (resolved later by coordinator),n/a
+801,REQ-00796,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-13,kept: expected intake issue (resolved later by coordinator),n/a
+802,REQ-00797,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-25,kept: expected intake issue (resolved later by coordinator),n/a
+805,REQ-00800,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-19,kept: expected intake issue (resolved later by coordinator),n/a
+807,REQ-00802,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-06,kept: expected intake issue (resolved later by coordinator),n/a
+811,REQ-00806,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-05,kept: expected intake issue (resolved later by coordinator),n/a
+824,REQ-00819,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-04,kept: expected intake issue (resolved later by coordinator),n/a
+825,REQ-00820,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-05,kept: expected intake issue (resolved later by coordinator),n/a
+826,REQ-00821,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-05,kept: expected intake issue (resolved later by coordinator),n/a
+827,REQ-00822,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-05,kept: expected intake issue (resolved later by coordinator),n/a
+832,REQ-00827,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-06,kept: expected intake issue (resolved later by coordinator),n/a
+841,REQ-00836,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-06,kept: expected intake issue (resolved later by coordinator),n/a
+872,REQ-00867,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-04-27,kept: expected intake issue (resolved later by coordinator),n/a
+874,REQ-00869,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-04,kept: expected intake issue (resolved later by coordinator),n/a
+877,REQ-00872,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-23,kept: expected intake issue (resolved later by coordinator),n/a
+883,REQ-00878,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-06,kept: expected intake issue (resolved later by coordinator),n/a
+906,REQ-00901,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-13,kept: expected intake issue (resolved later by coordinator),n/a
+918,REQ-00913,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-13,kept: expected intake issue (resolved later by coordinator),n/a
+922,REQ-00917,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-09,kept: expected intake issue (resolved later by coordinator),n/a
+923,REQ-00918,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-13,kept: expected intake issue (resolved later by coordinator),n/a
+924,REQ-00919,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-28,kept: expected intake issue (resolved later by coordinator),n/a
+930,REQ-00925,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-09,kept: expected intake issue (resolved later by coordinator),n/a
+936,REQ-00931,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-08,kept: expected intake issue (resolved later by coordinator),n/a
+942,REQ-00937,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-15,kept: expected intake issue (resolved later by coordinator),n/a
+948,REQ-00943,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-14,kept: expected intake issue (resolved later by coordinator),n/a
+951,REQ-00946,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-14,kept: expected intake issue (resolved later by coordinator),n/a
+958,REQ-00953,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-15,kept: expected intake issue (resolved later by coordinator),n/a
+962,REQ-00957,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-15,kept: expected intake issue (resolved later by coordinator),n/a
+969,REQ-00964,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-14,kept: expected intake issue (resolved later by coordinator),n/a
+1022,REQ-01017,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-18,kept: expected intake issue (resolved later by coordinator),n/a
+1026,REQ-01021,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-18,kept: expected intake issue (resolved later by coordinator),n/a
+1030,REQ-01025,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-25,kept: expected intake issue (resolved later by coordinator),n/a
+1037,REQ-01032,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-18,kept: expected intake issue (resolved later by coordinator),n/a
+1042,REQ-01037,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-08,kept: expected intake issue (resolved later by coordinator),n/a
+1045,REQ-01040,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-22,kept: expected intake issue (resolved later by coordinator),n/a
+1050,REQ-01045,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-18,kept: expected intake issue (resolved later by coordinator),n/a
+1062,REQ-01057,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-15,kept: expected intake issue (resolved later by coordinator),n/a
+1066,REQ-01061,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-08,kept: expected intake issue (resolved later by coordinator),n/a
+1076,REQ-01071,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-11,kept: expected intake issue (resolved later by coordinator),n/a
+1078,REQ-01073,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-11,kept: expected intake issue (resolved later by coordinator),n/a
+1084,REQ-01079,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-11,kept: expected intake issue (resolved later by coordinator),n/a
+1096,REQ-01091,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-22,kept: expected intake issue (resolved later by coordinator),n/a
+1099,REQ-01094,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-27,kept: expected intake issue (resolved later by coordinator),n/a
+1100,REQ-01095,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-25,kept: expected intake issue (resolved later by coordinator),n/a
+1103,REQ-01098,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-11,kept: expected intake issue (resolved later by coordinator),n/a
+1108,REQ-01103,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-28,kept: expected intake issue (resolved later by coordinator),n/a
+1110,REQ-01105,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-20,kept: expected intake issue (resolved later by coordinator),n/a
+1112,REQ-01107,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-28,kept: expected intake issue (resolved later by coordinator),n/a
+1114,REQ-01109,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-11,kept: expected intake issue (resolved later by coordinator),n/a
+1117,REQ-01112,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-16,kept: expected intake issue (resolved later by coordinator),n/a
+1120,REQ-01115,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-27,kept: expected intake issue (resolved later by coordinator),n/a
+1122,REQ-01117,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-02,kept: expected intake issue (resolved later by coordinator),n/a
+1125,REQ-01120,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-05,kept: expected intake issue (resolved later by coordinator),n/a
+1126,REQ-01121,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-27,kept: expected intake issue (resolved later by coordinator),n/a
+1129,REQ-01124,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-22,kept: expected intake issue (resolved later by coordinator),n/a
+1134,REQ-01129,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-20,kept: expected intake issue (resolved later by coordinator),n/a
+1135,REQ-01130,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-28,kept: expected intake issue (resolved later by coordinator),n/a
+1136,REQ-01131,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-28,kept: expected intake issue (resolved later by coordinator),n/a
+1138,REQ-01133,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-21,kept: expected intake issue (resolved later by coordinator),n/a
+1139,REQ-01134,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-15,kept: expected intake issue (resolved later by coordinator),n/a
+1145,REQ-01140,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-21,kept: expected intake issue (resolved later by coordinator),n/a
+1146,REQ-01141,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-21,kept: expected intake issue (resolved later by coordinator),n/a
+1147,REQ-01142,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-03,kept: expected intake issue (resolved later by coordinator),n/a
+1148,REQ-01143,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-02,kept: expected intake issue (resolved later by coordinator),n/a
+1150,REQ-01145,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-22,kept: expected intake issue (resolved later by coordinator),n/a
+1151,REQ-01146,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-20,kept: expected intake issue (resolved later by coordinator),n/a
+1157,REQ-01152,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-22,kept: expected intake issue (resolved later by coordinator),n/a
+1163,REQ-01158,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-22,kept: expected intake issue (resolved later by coordinator),n/a
+1165,REQ-01160,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-16,kept: expected intake issue (resolved later by coordinator),n/a
+1170,REQ-01165,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-20,kept: expected intake issue (resolved later by coordinator),n/a
+1173,REQ-01168,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-14,kept: expected intake issue (resolved later by coordinator),n/a
+1180,REQ-01175,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-21,kept: expected intake issue (resolved later by coordinator),n/a
+1192,REQ-01187,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-15,kept: expected intake issue (resolved later by coordinator),n/a
+1194,REQ-01189,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-16,kept: expected intake issue (resolved later by coordinator),n/a
+1197,REQ-01192,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-16,kept: expected intake issue (resolved later by coordinator),n/a
+1200,REQ-01195,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-16,kept: expected intake issue (resolved later by coordinator),n/a
+1220,REQ-01215,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-30,kept: expected intake issue (resolved later by coordinator),n/a
+1224,REQ-01219,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-03,kept: expected intake issue (resolved later by coordinator),n/a
+1242,REQ-01237,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-03,kept: expected intake issue (resolved later by coordinator),n/a
+1250,REQ-01245,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-27,kept: expected intake issue (resolved later by coordinator),n/a
+1254,REQ-01249,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-17,kept: expected intake issue (resolved later by coordinator),n/a
+1257,REQ-01251,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-05-27,kept: expected intake issue (resolved later by coordinator),n/a
+1271,REQ-01265,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-17,kept: expected intake issue (resolved later by coordinator),n/a
+1286,REQ-01280,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-03,kept: expected intake issue (resolved later by coordinator),n/a
+1290,REQ-01284,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-03,kept: expected intake issue (resolved later by coordinator),n/a
+1310,REQ-01304,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-22,kept: expected intake issue (resolved later by coordinator),n/a
+1311,REQ-01305,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-22,kept: expected intake issue (resolved later by coordinator),n/a
+1313,REQ-01307,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-15,kept: expected intake issue (resolved later by coordinator),n/a
+1316,REQ-01310,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-22,kept: expected intake issue (resolved later by coordinator),n/a
+1317,REQ-01311,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-03,kept: expected intake issue (resolved later by coordinator),n/a
+1322,REQ-01316,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-03,kept: expected intake issue (resolved later by coordinator),n/a
+1327,REQ-01321,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-08,kept: expected intake issue (resolved later by coordinator),n/a
+1328,REQ-01322,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-30,kept: expected intake issue (resolved later by coordinator),n/a
+1329,REQ-01323,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-08,kept: expected intake issue (resolved later by coordinator),n/a
+1331,REQ-01325,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-14,kept: expected intake issue (resolved later by coordinator),n/a
+1335,REQ-01329,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-30,kept: expected intake issue (resolved later by coordinator),n/a
+1336,REQ-01330,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-30,kept: expected intake issue (resolved later by coordinator),n/a
+1339,REQ-01333,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-22,kept: expected intake issue (resolved later by coordinator),n/a
+1342,REQ-01336,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-08,kept: expected intake issue (resolved later by coordinator),n/a
+1343,REQ-01337,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-08,kept: expected intake issue (resolved later by coordinator),n/a
+1344,REQ-01338,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-22,kept: expected intake issue (resolved later by coordinator),n/a
+1346,REQ-01340,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-30,kept: expected intake issue (resolved later by coordinator),n/a
+1389,REQ-01382,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-09,kept: expected intake issue (resolved later by coordinator),n/a
+1403,REQ-01395,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-26,kept: expected intake issue (resolved later by coordinator),n/a
+1415,REQ-01407,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-03,kept: expected intake issue (resolved later by coordinator),n/a
+1418,REQ-01410,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-09,kept: expected intake issue (resolved later by coordinator),n/a
+1423,REQ-01415,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-23,kept: expected intake issue (resolved later by coordinator),n/a
+1437,REQ-01429,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-26,kept: expected intake issue (resolved later by coordinator),n/a
+1443,REQ-01435,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-10,kept: expected intake issue (resolved later by coordinator),n/a
+1450,REQ-01442,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-26,kept: expected intake issue (resolved later by coordinator),n/a
+1468,REQ-01460,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-24,kept: expected intake issue (resolved later by coordinator),n/a
+1469,REQ-01461,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-01,kept: expected intake issue (resolved later by coordinator),n/a
+1482,REQ-01474,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-24,kept: expected intake issue (resolved later by coordinator),n/a
+1493,REQ-01485,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-24,kept: expected intake issue (resolved later by coordinator),n/a
+1494,REQ-01486,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-24,kept: expected intake issue (resolved later by coordinator),n/a
+1553,REQ-01545,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-06,kept: expected intake issue (resolved later by coordinator),n/a
+1557,REQ-01549,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-06,kept: expected intake issue (resolved later by coordinator),n/a
+1559,REQ-01551,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-29,kept: expected intake issue (resolved later by coordinator),n/a
+1564,REQ-01556,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-20,kept: expected intake issue (resolved later by coordinator),n/a
+1567,REQ-01559,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-03,kept: expected intake issue (resolved later by coordinator),n/a
+1579,REQ-01571,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-20,kept: expected intake issue (resolved later by coordinator),n/a
+1584,REQ-01576,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-30,kept: expected intake issue (resolved later by coordinator),n/a
+1587,REQ-01579,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-30,kept: expected intake issue (resolved later by coordinator),n/a
+1589,REQ-01581,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-23,kept: expected intake issue (resolved later by coordinator),n/a
+1596,REQ-01588,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-30,kept: expected intake issue (resolved later by coordinator),n/a
+1604,REQ-01596,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-06-30,kept: expected intake issue (resolved later by coordinator),n/a
+1608,REQ-01600,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-15,kept: expected intake issue (resolved later by coordinator),n/a
+1613,REQ-01605,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-08,kept: expected intake issue (resolved later by coordinator),n/a
+1619,REQ-01611,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-29,kept: expected intake issue (resolved later by coordinator),n/a
+1632,REQ-01624,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-14,kept: expected intake issue (resolved later by coordinator),n/a
+1634,REQ-01626,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-07,kept: expected intake issue (resolved later by coordinator),n/a
+1643,REQ-01635,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-07,kept: expected intake issue (resolved later by coordinator),n/a
+1653,REQ-01645,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-07,kept: expected intake issue (resolved later by coordinator),n/a
+1655,REQ-01647,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-07,kept: expected intake issue (resolved later by coordinator),n/a
+1710,REQ-01702,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-29,kept: expected intake issue (resolved later by coordinator),n/a
+1719,REQ-01711,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-29,kept: expected intake issue (resolved later by coordinator),n/a
+1721,REQ-01713,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-07-22,kept: expected intake issue (resolved later by coordinator),n/a
+1727,REQ-01719,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-13,kept: expected intake issue (resolved later by coordinator),n/a
+1733,REQ-01725,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-06,kept: expected intake issue (resolved later by coordinator),n/a
+1737,REQ-01729,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-06,kept: expected intake issue (resolved later by coordinator),n/a
+1739,REQ-01731,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-06,kept: expected intake issue (resolved later by coordinator),n/a
+1779,REQ-01771,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-07,kept: expected intake issue (resolved later by coordinator),n/a
+1791,REQ-01783,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-07,kept: expected intake issue (resolved later by coordinator),n/a
+1795,REQ-01787,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-09,kept: expected intake issue (resolved later by coordinator),n/a
+1797,REQ-01789,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-16,kept: expected intake issue (resolved later by coordinator),n/a
+1804,REQ-01796,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-09,kept: expected intake issue (resolved later by coordinator),n/a
+1805,REQ-01797,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-21,kept: expected intake issue (resolved later by coordinator),n/a
+1806,REQ-01798,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-07,kept: expected intake issue (resolved later by coordinator),n/a
+1818,REQ-01810,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-09,kept: expected intake issue (resolved later by coordinator),n/a
+1820,REQ-01812,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-21,kept: expected intake issue (resolved later by coordinator),n/a
+1824,REQ-01816,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-28,kept: expected intake issue (resolved later by coordinator),n/a
+1839,REQ-01831,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-21,kept: expected intake issue (resolved later by coordinator),n/a
+1851,REQ-01843,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-21,kept: expected intake issue (resolved later by coordinator),n/a
+1901,REQ-01892,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-14,kept: expected intake issue (resolved later by coordinator),n/a
+1902,REQ-01893,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-24,kept: expected intake issue (resolved later by coordinator),n/a
+1903,REQ-01894,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-17,kept: expected intake issue (resolved later by coordinator),n/a
+1904,REQ-01895,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-24,kept: expected intake issue (resolved later by coordinator),n/a
+1906,REQ-01897,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-07,kept: expected intake issue (resolved later by coordinator),n/a
+1907,REQ-01898,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-08-24,kept: expected intake issue (resolved later by coordinator),n/a
+1908,REQ-01899,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-14,kept: expected intake issue (resolved later by coordinator),n/a
+1918,REQ-01909,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-07,kept: expected intake issue (resolved later by coordinator),n/a
+2045,REQ-02036,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-25,kept: expected intake issue (resolved later by coordinator),n/a
+2046,REQ-02037,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-25,kept: expected intake issue (resolved later by coordinator),n/a
+2047,REQ-02038,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-25,kept: expected intake issue (resolved later by coordinator),n/a
+2049,REQ-02040,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-18,kept: expected intake issue (resolved later by coordinator),n/a
+2051,REQ-02042,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-25,kept: expected intake issue (resolved later by coordinator),n/a
+2065,REQ-02056,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-10-05,kept: expected intake issue (resolved later by coordinator),n/a
+2066,REQ-02057,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-28,kept: expected intake issue (resolved later by coordinator),n/a
+2068,REQ-02059,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-28,kept: expected intake issue (resolved later by coordinator),n/a
+2071,REQ-02062,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-28,kept: expected intake issue (resolved later by coordinator),n/a
+2073,REQ-02064,submitted_start_date,conflict_rule_c,start dates disagree across this employee's requests,designed intake issue,2026-09-28,kept: expected intake issue (resolved later by coordinator),n/a
+291,REQ-00289,,duplicate,exact duplicate of an earlier row,data quality,,removed extra copy,yes
+445,REQ-00442,,duplicate,exact duplicate of an earlier row,data quality,,removed extra copy,yes
+686,REQ-00682,,duplicate,exact duplicate of an earlier row,data quality,,removed extra copy,yes
+787,REQ-00782,,duplicate,exact duplicate of an earlier row,data quality,,removed extra copy,yes
+1255,REQ-01249,,duplicate,exact duplicate of an earlier row,data quality,,removed extra copy,yes
+1378,REQ-01371,,duplicate,exact duplicate of an earlier row,data quality,,removed extra copy,yes
+1395,REQ-01387,,duplicate,exact duplicate of an earlier row,data quality,,removed extra copy,yes
+1858,REQ-01849,,duplicate,exact duplicate of an earlier row,data quality,,removed extra copy,yes

@@ -1,0 +1,15 @@
+category,check,field,findings,resolved,unresolved,handling
+data quality,duplicate,,8,8,0,removed extra copy
+data quality,impossible_date,submitted_at,3,3,0,recovered from the single submission event in status_events.csv
+data quality,impossible_date,submitted_start_date,2,0,2,set to blank (no trusted source); confirmed date still available
+data quality,invalid_value,intake_channel,4,0,4,no valid match; cleaned value left blank
+data quality,invalid_value,responsible_team,3,3,0,corrected to IT (documented mapping); corrected to Payroll (documented mapping)
+data quality,invalid_value,task_type,3,3,0,corrected to orientation_scheduling (documented mapping); corrected to system_access (documented mapping); corrected to workplace_access (documented mapping)
+data quality,missing,employee_type,2,2,0,recovered: employee's other records agree
+data quality,missing,intake_channel,3,0,3,not recoverable; left blank
+data quality,missing,task_type,3,2,1,not recoverable; left blank; recovered: team maps to one task type
+designed intake issue,conflict_rule_a,equipment_item,60,0,0,kept: expected intake issue (resolved later by coordinator)
+designed intake issue,conflict_rule_c,submitted_start_date,268,0,0,kept: expected intake issue (resolved later by coordinator)
+designed intake issue,missing,equipment_item,4,0,0,kept: expected intake issue (resolved later by coordinator)
+designed intake issue,missing,submitted_hiring_department,80,0,0,kept: expected intake issue (resolved later by coordinator)
+designed intake issue,missing,submitted_start_date,67,0,0,kept: expected intake issue (resolved later by coordinator)
