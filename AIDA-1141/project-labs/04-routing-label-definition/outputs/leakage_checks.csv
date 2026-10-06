@@ -1,0 +1,10 @@
+check,scope,passed
+"deadline rule: 07:59 ready, 08:00 ready, 08:01 at risk",constructed test,True
+at_risk recomputed from completion time and 08:00 deadline,all assessments,True
+past_deadline_at_assessment recomputed from assessment time,all assessments,True
+label is the same at both checkpoints of a task,all tasks,True
+"no label, outcome, or simulation-only field is a model input",10 inputs checked,True
+every assessment happens at or after information is complete,all assessments,True
+every assessment happens before the team finishes,all assessments,True
+business_days_until_start recomputed from assessment date and confirmed start date,all assessments,True
+team_open_workload recomputed from events at or before the assessment,all assessments,True

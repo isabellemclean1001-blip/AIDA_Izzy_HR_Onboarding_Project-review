@@ -1,0 +1,39 @@
+input,group,assessments,at_risk_%
+task_type,equipment_setup,408,22.5
+task_type,orientation_scheduling,496,10.1
+task_type,payroll_setup,618,21.0
+task_type,system_access,595,12.1
+task_type,workplace_access,399,16.0
+responsible_team,Facilities,399,16.0
+responsible_team,IT,1003,16.4
+responsible_team,Manager,496,10.1
+responsible_team,Payroll,618,21.0
+hiring_department,Administration,346,10.1
+hiring_department,Finance,284,10.9
+hiring_department,Parks,636,21.4
+hiring_department,Recreation,495,24.0
+hiring_department,Transit,432,10.9
+hiring_department,Utilities,323,12.4
+employee_type,permanent,1193,3.1
+employee_type,seasonal,714,34.3
+employee_type,temporary,609,20.7
+intake_channel,email,796,16.7
+intake_channel,phone,387,16.3
+intake_channel,web_form,1333,15.9
+info_issue_at_intake,False,2218,15.8
+info_issue_at_intake,True,298,19.1
+current_status,in_progress,488,13.5
+current_status,open,2028,16.9
+business_days_until_start,"(-inf, 2.0]",122,99.2
+business_days_until_start,"(2.0, 5.0]",713,29.5
+business_days_until_start,"(5.0, 10.0]",593,12.5
+business_days_until_start,"(10.0, 20.0]",648,0.5
+business_days_until_start,"(20.0, inf]",440,0.0
+business_days_in_current_status,"(-inf, 0.0]",2001,16.5
+business_days_in_current_status,"(0.0, 2.0]",265,19.2
+business_days_in_current_status,"(2.0, 5.0]",206,12.1
+business_days_in_current_status,"(5.0, inf]",44,2.3
+team_open_workload,"(-inf, 5.0]",271,9.6
+team_open_workload,"(5.0, 10.0]",525,10.3
+team_open_workload,"(10.0, 20.0]",873,14.0
+team_open_workload,"(20.0, inf]",847,24.3
