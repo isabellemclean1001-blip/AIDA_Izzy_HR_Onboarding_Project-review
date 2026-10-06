@@ -1,0 +1,9 @@
+,,requests,start_date,department,equipment_item,any_missing,any_missing_%
+by intake channel,web_form,1096,18,24,0,42,3.8
+by intake channel,email,661,31,41,2,74,11.2
+by intake channel,phone,307,18,15,2,35,11.4
+by task type,payroll_setup,500,15,20,0,35,7.0
+by task type,system_access,500,13,22,0,35,7.0
+by task type,orientation_scheduling,426,17,14,0,31,7.3
+by task type,workplace_access,322,17,11,0,28,8.7
+by task type,equipment_setup,316,5,13,4,22,7.0
