@@ -18,7 +18,7 @@ The boxes in `icon_instances.csv` include transparent margins around the drawing
 
 ## 3. How the images were generated
 
-The `generate_kit_cards.py` script reads the clean `requests.csv` from AIDA 1141 Exercise 02 and creates one card per fictional employee. It determines the expected items using the kit rules below, then randomly leaves some items off to represent omissions. Pillow draws the remaining icons with varied sizes, contrast levels, and positions.
+The `generate_kit_cards.py` script reads the clean [`requests.csv`](../../../AIDA-1141/project-labs/02-synthetic-request-records/data/requests.csv) from AIDA 1141 Exercise 02 (see its [data card](../../../AIDA-1141/project-labs/02-synthetic-request-records/data-card.md)) and creates one card per fictional employee. It determines the expected items using the kit rules below, then randomly leaves some items off to represent omissions. Pillow draws the remaining icons with varied sizes, contrast levels, and positions.
 
 The generator uses seed 2026. Rerunning it with the same source records, script, and environment produces identical files.
 
@@ -36,7 +36,7 @@ To regenerate the files, run this command from the exercise folder:
 | Laptop | `equipment_setup` task lists `laptop` | `equipment_item` |
 | Phone | `equipment_setup` task lists `phone` | `equipment_item` |
 
-These rules are invented for the fictional Town of Pinecrest and do not represent real municipal policy. The manifest links each card to its employee ID and, where applicable, workplace-access and equipment request IDs.
+The source fields are defined in the Exercise 02 [data dictionary](../../../AIDA-1141/project-labs/02-synthetic-request-records/data-dictionary.csv). These rules are invented for the fictional Town of Pinecrest and do not represent real municipal policy. The manifest links each card to its employee ID and, where applicable, workplace-access and equipment request IDs.
 
 Four equipment requests have a blank item, recorded as `device_unknown = True`. Their laptop and phone expectations are unresolved and will be excluded from missing-item evaluation, with human clarification required. Their visual presence labels remain valid because the generator records what it draws.
 
