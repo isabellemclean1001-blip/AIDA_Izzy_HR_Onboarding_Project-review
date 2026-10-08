@@ -1,0 +1,5 @@
+group,correct,unsure,incorrect,tiles
+control (no icon),5,0,0,5
+"larger, low contrast",15,0,0,15
+small + low contrast,15,0,0,15
+"small, higher contrast",15,0,0,15

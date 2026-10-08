@@ -1,0 +1,10 @@
+size,contrast,train,validation,test
+small,high,71,27,27
+small,medium,72,22,27
+small,low,51,14,23
+medium,high,77,36,16
+medium,medium,71,33,23
+medium,low,59,27,26
+large,high,59,15,18
+large,medium,74,17,25
+large,low,65,16,16

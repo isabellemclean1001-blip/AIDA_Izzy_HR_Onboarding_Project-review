@@ -1,0 +1,18 @@
+part,check,passed,detail
+A,One manifest row and file per card,True,500 rows
+A,Every listed file exists,True,0 missing
+A,No unlisted files in images/,True,0 extra
+A,Every file passes Pillow verify,True,0 failed
+A,Every file is PNG,True,{'PNG': 500}
+A,"Every file is RGB (3 channels, no transparency)",True,{'RGB': 500}
+A,Every file is 480 x 320,True,
+A,OpenCV can read every file,True,0 failed
+A,Every icon instance belongs to a listed card,True,
+A,Identical images are blank cards only,True,50 cards in 1 identical group(s)
+B,"Background outside icon boxes is exactly (236, 236, 230)",True,0 cards differ
+B,"Header is exactly (90, 110, 130)",True,0 cards differ
+B,"Border is exactly (120, 120, 120)",True,0 cards differ
+B,Blank-card content areas contain only the background colour,True,
+B,All icon boxes have positive size and sit inside the content area,True,
+F,Every card's preprocessed views have the same content-crop size,True,476 x 281 pixels
+F,Blank cards' colour-difference maps are all zero,True,50 blank cards

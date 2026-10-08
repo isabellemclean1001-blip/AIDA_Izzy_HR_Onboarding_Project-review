@@ -1,0 +1,51 @@
+sample_id,card_id,icon,scale_level,contrast_level,group,x0,y0,x1,y1,tile_key,what_you_see,notes,result
+S01,KIT-0415,hard_hat,small,low,small + low contrast,216,54,254,92,f61d2862fd,hard_hat,,correct
+S02,KIT-0410,phone,small,low,small + low contrast,57,211,95,249,dfc81a5035,phone,,correct
+S03,KIT-0477,safety_vest,small,low,small + low contrast,125,116,163,154,b7f3706dc0,safety_vest,,correct
+S04,KIT-0450,safety_vest,small,low,small + low contrast,413,211,451,249,5cc6317a80,safety_vest,,correct
+S05,KIT-0336,phone,small,high,"small, higher contrast",244,222,282,260,8182d93dc3,phone,,correct
+S06,KIT-0280,laptop,large,low,"larger, low contrast",45,65,135,155,91c4159226,laptop,,correct
+S07,KIT-0434,phone,small,medium,"small, higher contrast",194,220,232,258,bfcfb96865,phone,,correct
+S08,KIT-0351,safety_vest,small,medium,"small, higher contrast",179,197,217,235,b413aeaf56,safety_vest,,correct
+S09,KIT-0311,phone,small,medium,"small, higher contrast",387,89,425,127,374593769a,phone,,correct
+S10,KIT-0305,hard_hat,medium,low,"larger, low contrast",292,62,356,126,0785bcf097,hard_hat,,correct
+S11,KIT-0134,none,,,control (no icon),372,193,410,231,5556a4f21b,none,,correct
+S12,KIT-0269,phone,large,low,"larger, low contrast",316,151,406,241,690f9bbd63,phone,,correct
+S13,KIT-0349,laptop,small,medium,"small, higher contrast",233,145,271,183,6aafe0bf39,laptop,,correct
+S14,KIT-0224,phone,small,low,small + low contrast,79,86,117,124,0266a8bbac,phone,,correct
+S15,KIT-0450,access_badge,small,medium,"small, higher contrast",144,201,182,239,e47179d6bf,access_badge,,correct
+S16,KIT-0155,hard_hat,small,high,"small, higher contrast",195,265,233,303,656dbe3007,hard_hat,,correct
+S17,KIT-0483,access_badge,small,low,small + low contrast,424,258,462,296,0eb2a86a14,access_badge,,correct
+S18,KIT-0300,access_badge,medium,low,"larger, low contrast",101,241,165,305,ebfcc3c8aa,access_badge,,correct
+S19,KIT-0234,phone,large,low,"larger, low contrast",191,188,281,278,6e49966f3e,phone,,correct
+S20,KIT-0231,hard_hat,small,medium,"small, higher contrast",410,52,448,90,fd1f98d7fc,hard_hat,,correct
+S21,KIT-0335,hard_hat,small,high,"small, higher contrast",159,54,197,92,b2b48cf713,hard_hat,,correct
+S22,KIT-0335,safety_vest,medium,low,"larger, low contrast",374,107,438,171,fd238b8b32,safety_vest,,correct
+S23,KIT-0322,laptop,large,low,"larger, low contrast",146,178,236,268,5f33af254f,laptop,,correct
+S24,KIT-0092,safety_vest,small,low,small + low contrast,185,215,223,253,209b9eacc2,safety_vest,,correct
+S25,KIT-0385,safety_vest,medium,low,"larger, low contrast",212,56,276,120,11d561ce76,safety_vest,,correct
+S26,KIT-0089,laptop,small,medium,"small, higher contrast",16,163,54,201,ee149dc47f,laptop,,correct
+S27,KIT-0407,hard_hat,small,low,small + low contrast,315,99,353,137,27e782d295,hard_hat,,correct
+S28,KIT-0171,access_badge,small,high,"small, higher contrast",335,103,373,141,04a3ddc37a,access_badge,,correct
+S29,KIT-0267,hard_hat,medium,low,"larger, low contrast",402,94,466,158,4a8c434bef,hard_hat,,correct
+S30,KIT-0359,none,,,control (no icon),135,82,173,120,91fc23d5eb,none,,correct
+S31,KIT-0397,safety_vest,large,low,"larger, low contrast",256,119,346,209,fd6d666554,safety_vest,,correct
+S32,KIT-0005,none,,,control (no icon),279,205,369,295,7602e878ae,none,,correct
+S33,KIT-0082,hard_hat,small,low,small + low contrast,116,179,154,217,4d70f4c570,hard_hat,,correct
+S34,KIT-0273,laptop,medium,low,"larger, low contrast",334,228,398,292,61752aebb5,laptop,,correct
+S35,KIT-0457,phone,small,low,small + low contrast,372,210,410,248,aff339d327,phone,,correct
+S36,KIT-0201,access_badge,medium,low,"larger, low contrast",338,130,402,194,6a8bff1340,access_badge,,correct
+S37,KIT-0395,laptop,small,medium,"small, higher contrast",184,127,222,165,ffce9dd144,laptop,,correct
+S38,KIT-0220,laptop,small,low,small + low contrast,275,106,313,144,f1ab1df497,laptop,,correct
+S39,KIT-0345,none,,,control (no icon),339,203,403,267,c4299d3228,none,,correct
+S40,KIT-0057,access_badge,small,low,small + low contrast,41,258,79,296,1b934d94d8,access_badge,,correct
+S41,KIT-0321,phone,large,low,"larger, low contrast",251,213,341,303,6d87154075,phone,,correct
+S42,KIT-0232,safety_vest,small,medium,"small, higher contrast",66,132,104,170,4e541ac9c8,safety_vest,,correct
+S43,KIT-0226,access_badge,small,medium,"small, higher contrast",225,180,263,218,a59a3e7bae,access_badge,,correct
+S44,KIT-0282,laptop,small,low,small + low contrast,59,251,97,289,d95764aa31,laptop,,correct
+S45,KIT-0128,laptop,small,low,small + low contrast,37,120,75,158,12c636ece7,laptop,,correct
+S46,KIT-0221,none,,,control (no icon),344,171,434,261,eda52af78d,none,,correct
+S47,KIT-0174,safety_vest,small,high,"small, higher contrast",79,236,117,274,60434940f4,safety_vest,,correct
+S48,KIT-0139,hard_hat,medium,low,"larger, low contrast",218,69,282,133,2986f92fbf,hard_hat,,correct
+S49,KIT-0435,access_badge,medium,low,"larger, low contrast",255,82,319,146,ddb2cfe226,access_badge,,correct
+S50,KIT-0474,access_badge,small,low,small + low contrast,147,184,185,222,bb53253968,access_badge,,correct
