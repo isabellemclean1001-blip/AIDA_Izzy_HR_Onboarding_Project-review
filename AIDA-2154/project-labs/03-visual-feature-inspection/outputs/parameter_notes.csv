@@ -1,0 +1,16 @@
+part,setting,value,reason
+Data,Training icons only,599 icons,Validation kept for later tuning; test held back
+A,Colour difference,"Euclidean RGB distance from (236, 236, 230), scaled so background-to-black = 255",Same definition as Exercise 02
+A,Grayscale difference,|OpenCV grayscale - 235|,Same definition as Exercise 02
+B,Reference foreground,Colour difference > 0 inside the rendering box,Defines what retention is measured against
+B,Thresholds compared,"2, 5, 10, 20, 40",Exploratory sweep on the 0-255 scales
+B-E,Working threshold,Colour difference > 10,Provisional; non-empty mask for every training icon; not optimized or tested for noise
+C,Pieces,8-connected components,Diagonal neighbours count as connected
+C,Shape measurements,Combined foreground; rasterized convex hull,Split masks would distort largest-piece shape
+D,Colour space,"OpenCV HSV: hue 0-179, saturation 0-255",OpenCV's 8-bit convention
+D,Minimum saturation for hue,20,Provisional; hue is unreliable for nearly grey pixels
+D,Hue average,Circular mean; missing if consistency <= 1e-6,Hue wraps around
+E,Canny thresholds,50 / 150,"Chosen fixed values; exploratory, not tuned"
+E,Canny aperture and gradient,3 x 3 Sobel; L1 gradient,"OpenCV defaults, stated explicitly"
+E,Blur before Canny,None,Cards contain no noise
+E,8-bit conversion,Colour difference clipped to 0-255 and truncated,Required by Canny; small differences can be lost

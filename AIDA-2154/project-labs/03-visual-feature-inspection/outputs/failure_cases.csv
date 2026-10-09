@@ -1,0 +1,7 @@
+failure_case,part,evidence,implication
+Grayscale mask loses the low-contrast hard hat,B,median retention 44% at gray > 10; 38 of 38 masks empty at gray > 20,Grayscale thresholds treat icons unequally
+Low-contrast masks split into pieces,C,"55 icons: {('laptop', 'low'): 12, ('safety_vest', 'low'): 43}",Measuring only the largest piece changes the vest's aspect ratio
+Low-contrast badge loses foreground pixels,B,median retention 71% at colour > 10,Thresholding can change fill ratio and solidity
+Blue-icon hue values overlap,D,"hue 103-113 for badge, laptop, and phone",Hue alone cannot separate these icons
+Few low-contrast laptop pixels meet the saturation cutoff,D,median 45% of retained foreground pixels,Device hue shifts as contrast falls
+Grayscale Canny finds no edges,E,"81 icons: {('hard_hat', 'low'): 38, ('safety_vest', 'low'): 43}",One fixed edge setting does not suit every icon
