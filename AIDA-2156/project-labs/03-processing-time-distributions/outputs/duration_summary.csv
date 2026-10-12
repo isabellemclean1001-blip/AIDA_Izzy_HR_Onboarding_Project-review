@@ -1,0 +1,3 @@
+,requests,mean,median,std,q1,q3,iqr,p90,min,max,skewness,mean_minus_median
+Working-day equivalents,2064.0,4.75,4.39,2.28,3.13,5.93,2.8,7.84,0.29,15.15,0.91,0.36
+Calendar days,2064.0,6.62,6.16,3.28,4.72,8.01,3.29,11.01,0.75,21.05,0.84,0.46
