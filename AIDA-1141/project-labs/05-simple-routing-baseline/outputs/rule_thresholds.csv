@@ -1,0 +1,5 @@
+rule,employee_type,threshold,source,at_risk_assessments,at_risk_tasks,employees_with_at_risk
+days_until_start_rule,all,7,all training,246,202,92
+days_rule_by_employee_type,permanent,9,own group,26,14,12
+days_rule_by_employee_type,temporary,7,own group,75,60,28
+days_rule_by_employee_type,seasonal,6,own group,145,128,52

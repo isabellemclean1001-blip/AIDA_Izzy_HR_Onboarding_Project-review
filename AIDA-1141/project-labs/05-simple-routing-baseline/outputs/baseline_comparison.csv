@@ -1,0 +1,9 @@
+split,baseline,assessments,at_risk,TP,FP,FN,TN,recall,precision,flagged_assessments,flagged_%,unique_tasks_flagged,unique_tasks,accuracy
+train,never_at_risk,1509,246,0,0,246,1263,0.0,,0,0.0,0,1214,0.837
+train,flag_everything,1509,246,246,1263,0,0,1.0,0.163,1509,100.0,1214,1214,0.163
+train,days_until_start_rule,1509,246,227,401,19,862,0.923,0.361,628,41.617,498,1214,0.722
+train,days_rule_by_employee_type,1509,246,228,409,18,854,0.927,0.358,637,42.213,509,1214,0.717
+validation,never_at_risk,505,84,0,0,84,421,0.0,,0,0.0,0,397,0.834
+validation,flag_everything,505,84,84,421,0,0,1.0,0.166,505,100.0,397,397,0.166
+validation,days_until_start_rule,505,84,80,149,4,272,0.952,0.349,229,45.347,171,397,0.697
+validation,days_rule_by_employee_type,505,84,79,150,5,271,0.94,0.345,229,45.347,175,397,0.693
