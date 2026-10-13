@@ -1,0 +1,14 @@
+,value
+model,"LogisticRegression (L2, C = 1.0, unweighted, max_iter = 1000)"
+package_versions,scikit-learn 1.9.1; pandas 3.0.6; NumPy 2.5.3; joblib 1.6.0; SciPy 1.18.1
+features,"business_days_until_start, business_days_in_current_status, team_open_workload, current_status, task_type, hiring_department, employee_type, intake_channel, info_issue_at_intake"
+excluded_model_input,responsible_team (duplicates task_type)
+numeric_preprocessing,StandardScaler
+categorical_preprocessing,"OneHotEncoder(drop='first', handle_unknown='ignore')"
+reference_categories,current_status = in_progress; task_type = equipment_setup; hiring_department = Administration; employee_type = permanent; intake_channel = email; info_issue_at_intake = False
+training_rows,1509 training early-warning assessments (246 at risk)
+cross_validation,"GroupKFold, 5 folds grouped by employee, shuffle with seed 2026"
+recall_target,0.9
+threshold_rule,highest threshold with at least 90% out-of-fold training recall; flag when probability >= threshold
+threshold,0.12537892109220394
+checks_passed,16 of 16

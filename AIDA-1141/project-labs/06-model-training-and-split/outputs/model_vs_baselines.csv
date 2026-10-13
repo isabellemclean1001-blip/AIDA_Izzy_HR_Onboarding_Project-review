@@ -1,0 +1,4 @@
+,assessments,at_risk,TP,FP,FN,TN,recall,precision,flagged_assessments,flagged_%,unique_tasks_flagged,unique_tasks,accuracy
+logistic_regression,505,84,78,95,6,326,0.929,0.451,173,34.257,129,397,0.8
+days_until_start_rule,505,84,80,149,4,272,0.952,0.349,229,45.347,171,397,0.697
+days_rule_by_employee_type,505,84,79,150,5,271,0.94,0.345,229,45.347,175,397,0.693

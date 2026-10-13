@@ -1,0 +1,10 @@
+feature,type,source
+business_days_until_start,numeric,assessments.csv
+business_days_in_current_status,numeric,assessments.csv
+team_open_workload,numeric,assessments.csv
+current_status,categorical,assessments.csv
+task_type,categorical,requests.csv
+hiring_department,categorical,requests.csv
+employee_type,categorical,requests.csv
+intake_channel,categorical,requests.csv
+info_issue_at_intake,categorical,requests.csv

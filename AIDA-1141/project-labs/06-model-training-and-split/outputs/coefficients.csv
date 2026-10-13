@@ -1,0 +1,20 @@
+term,coefficient,feature,compared_with
+intercept,-4.8547,intercept,all inputs at reference level or training mean
+numeric__business_days_until_start,-5.172,business_days_until_start,1 standard deviation increase
+categorical__task_type_orientation_scheduling,-1.1231,task_type,reference: equipment_setup
+categorical__hiring_department_Parks,-1.0991,hiring_department,reference: Administration
+categorical__task_type_system_access,-1.003,task_type,reference: equipment_setup
+categorical__hiring_department_Finance,-0.7352,hiring_department,reference: Administration
+categorical__hiring_department_Transit,-0.5977,hiring_department,reference: Administration
+categorical__hiring_department_Recreation,-0.5149,hiring_department,reference: Administration
+numeric__business_days_in_current_status,-0.3782,business_days_in_current_status,1 standard deviation increase
+categorical__hiring_department_Utilities,-0.3199,hiring_department,reference: Administration
+categorical__intake_channel_web_form,-0.2898,intake_channel,reference: email
+categorical__task_type_workplace_access,-0.1978,task_type,reference: equipment_setup
+categorical__employee_type_temporary,-0.1022,employee_type,reference: permanent
+categorical__info_issue_at_intake_True,-0.0189,info_issue_at_intake,reference: False
+categorical__intake_channel_phone,0.0556,intake_channel,reference: email
+categorical__employee_type_seasonal,0.1874,employee_type,reference: permanent
+categorical__task_type_payroll_setup,0.3243,task_type,reference: equipment_setup
+numeric__team_open_workload,0.4335,team_open_workload,1 standard deviation increase
+categorical__current_status_open,1.3548,current_status,reference: in_progress

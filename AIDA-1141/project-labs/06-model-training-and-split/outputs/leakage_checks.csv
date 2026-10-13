@@ -1,0 +1,17 @@
+stage,check,passed
+data and split,Every assessment has a split,True
+data and split,500 employees in the saved split,True
+data and split,Split matches Exercise 05 (299 / 103 / 98 employees),True
+data and split,Early-warning at-risk counts match Exercise 05 (246 / 84 / 78),True
+data and split,One row per assessment,True
+data and split,Assessment and request employee IDs agree,True
+features,Every feature has the model_input role,True
+features,Every model_input field is used or explained,True
+features,"No ID, label, outcome, or simulation-only field is a feature",True
+features,No missing values in the features,True
+features,Split and stratification columns are not features,True
+features,No employee appears in more than one split,True
+cross-validation,Cross-validation uses training employees only,True
+cross-validation,Every training assessment predicted exactly once,True
+cross-validation,No employee is in both parts of any fold,True
+cross-validation,Every score is a finite value between 0 and 1,True
