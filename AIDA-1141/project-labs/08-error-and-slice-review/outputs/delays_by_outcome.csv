@@ -1,0 +1,9 @@
+method,outcome,assessments,tasks,with_hidden_delay,with_hidden_delay_%,median_hidden_delay_days_when_present,with_workload_delay_%
+model,TP,78.0,62.0,26.0,33.3,4.0,38.5
+model,FN,6.0,4.0,6.0,100.0,5.0,0.0
+model,FP,95.0,67.0,7.0,7.4,1.0,26.3
+model,TN,326.0,286.0,55.0,16.9,3.0,16.9
+global_rule,TP,80.0,64.0,29.0,36.2,4.0,36.2
+global_rule,FN,4.0,4.0,3.0,75.0,5.0,25.0
+global_rule,FP,149.0,107.0,14.0,9.4,3.0,16.8
+global_rule,TN,272.0,272.0,48.0,17.6,3.0,20.2

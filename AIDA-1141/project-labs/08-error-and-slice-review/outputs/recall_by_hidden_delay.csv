@@ -1,0 +1,5 @@
+method,hidden_delay,at_risk_assessments,tasks,flagged,recall
+model,False,52,45,52,1.0
+model,True,32,19,26,0.812
+global_rule,False,52,45,51,0.981
+global_rule,True,32,19,29,0.906

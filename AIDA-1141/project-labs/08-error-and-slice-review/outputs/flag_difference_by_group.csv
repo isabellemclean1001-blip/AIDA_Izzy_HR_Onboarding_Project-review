@@ -1,0 +1,14 @@
+slice,group,global_rule,model,rule_minus_model
+checkpoint,checkpoint_1,121,119,2
+checkpoint,checkpoint_2,108,54,54
+employee_type,permanent,24,13,11
+employee_type,seasonal,127,104,23
+employee_type,temporary,78,56,22
+intake_channel,email,66,49,17
+intake_channel,phone,49,41,8
+intake_channel,web_form,114,83,31
+task_type,equipment_setup,39,34,5
+task_type,orientation_scheduling,43,21,22
+task_type,payroll_setup,55,56,-1
+task_type,system_access,52,35,17
+task_type,workplace_access,40,27,13
