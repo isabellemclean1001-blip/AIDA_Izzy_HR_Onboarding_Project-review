@@ -1,0 +1,23 @@
+review_group,assessment_id,request_id,checkpoint,at_risk,risk_probability,logistic_regression,days_until_start_rule,business_days_until_start,current_status,business_days_in_current_status,team_open_workload,task_type,hiring_department,employee_type,intake_channel,info_issue_at_intake,sim_base_processing_days,sim_hidden_delay_days,sim_delay_reason,sim_workload_delay_days
+1 missed at-risk (all),ASM-02388,REQ-01922,checkpoint_1,True,0.123,False,True,6,open,0,3,orientation_scheduling,Transit,temporary,email,False,2,3,staff_absence,0
+1 missed at-risk (all),ASM-00191,REQ-00177,checkpoint_1,True,0.101,False,True,6,open,0,16,system_access,Parks,temporary,web_form,False,4,4,vendor_delay,0
+1 missed at-risk (all),ASM-02557,REQ-02052,checkpoint_1,True,0.097,False,False,8,open,0,3,payroll_setup,Finance,permanent,web_form,False,3,6,staff_absence,0
+1 missed at-risk (all),ASM-02569,REQ-02052,checkpoint_2,True,0.09,False,True,5,in_progress,3,3,payroll_setup,Finance,permanent,web_form,False,3,6,staff_absence,0
+1 missed at-risk (all),ASM-00355,REQ-00263,checkpoint_2,True,0.044,False,True,5,in_progress,5,5,workplace_access,Recreation,permanent,web_form,False,5,5,backlog,0
+1 missed at-risk (all),ASM-00285,REQ-00263,checkpoint_1,True,0.011,False,False,11,open,0,6,workplace_access,Recreation,permanent,web_form,False,5,5,backlog,0
+2 highest-scoring false positives,ASM-02332,REQ-01875,checkpoint_1,False,0.732,True,True,4,open,0,13,payroll_setup,Recreation,temporary,web_form,False,2,0,none,0
+2 highest-scoring false positives,ASM-01286,REQ-01045,checkpoint_2,False,0.691,True,True,5,open,1,43,equipment_setup,Parks,seasonal,phone,False,3,0,none,1
+2 highest-scoring false positives,ASM-02186,REQ-01756,checkpoint_1,False,0.674,True,True,4,open,0,5,payroll_setup,Recreation,temporary,web_form,False,2,0,none,0
+2 highest-scoring false positives,ASM-01280,REQ-01045,checkpoint_1,False,0.635,True,True,6,open,0,48,equipment_setup,Parks,seasonal,phone,False,3,0,none,1
+2 highest-scoring false positives,ASM-00662,REQ-00566,checkpoint_1,False,0.619,True,True,4,open,0,35,system_access,Parks,seasonal,phone,False,2,0,none,0
+"3 boundary band, just above threshold",ASM-00430,REQ-00378,checkpoint_1,True,0.128,True,False,8,open,0,7,payroll_setup,Parks,seasonal,phone,False,3,5,vendor_delay,0
+"3 boundary band, just above threshold",ASM-00557,REQ-00481,checkpoint_1,False,0.128,True,False,8,open,0,17,payroll_setup,Parks,seasonal,web_form,False,2,0,none,0
+"3 boundary band, just above threshold",ASM-01310,REQ-01063,checkpoint_1,False,0.13,True,True,6,open,0,11,orientation_scheduling,Parks,seasonal,email,False,1,0,none,0
+"4 boundary band, just below threshold",ASM-02388,REQ-01922,checkpoint_1,True,0.123,False,True,6,open,0,3,orientation_scheduling,Transit,temporary,email,False,2,3,staff_absence,0
+"4 boundary band, just below threshold",ASM-02416,REQ-01926,checkpoint_2,False,0.12,False,True,5,in_progress,2,16,system_access,Administration,temporary,email,False,4,0,none,0
+"4 boundary band, just below threshold",ASM-00761,REQ-00583,checkpoint_2,False,0.119,False,True,5,in_progress,5,15,payroll_setup,Transit,permanent,email,False,5,0,none,0
+"5 rule flagged, model did not, not at risk",ASM-02241,REQ-01770,checkpoint_2,False,0.015,False,True,5,in_progress,3,5,orientation_scheduling,Parks,temporary,web_form,False,4,0,none,0
+"5 rule flagged, model did not, not at risk",ASM-01164,REQ-00834,checkpoint_2,False,0.018,False,True,5,in_progress,6,16,orientation_scheduling,Parks,seasonal,email,False,3,4,staff_absence,0
+"5 rule flagged, model did not, not at risk",ASM-01917,REQ-01433,checkpoint_2,False,0.028,False,True,5,in_progress,8,22,system_access,Utilities,permanent,phone,False,4,4,vendor_delay,0
+6 correct: highest-scoring true positives,ASM-01709,REQ-01369,checkpoint_1,True,0.955,True,True,2,open,0,24,payroll_setup,Recreation,seasonal,web_form,False,2,6,vendor_delay,1
+6 correct: highest-scoring true positives,ASM-01802,REQ-01447,checkpoint_1,True,0.948,True,True,2,open,0,29,equipment_setup,Recreation,seasonal,web_form,False,3,0,none,0
