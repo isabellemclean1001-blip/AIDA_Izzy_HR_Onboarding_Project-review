@@ -1,0 +1,4 @@
+,TP,FP,FN,TN
+logistic_regression,78,95,6,326
+days_until_start_rule,80,149,4,272
+days_rule_by_employee_type,79,150,5,271

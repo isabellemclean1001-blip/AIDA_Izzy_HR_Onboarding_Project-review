@@ -1,0 +1,4 @@
+,accuracy,precision,recall,specificity,f1
+logistic_regression,0.8,0.451,0.929,0.774,0.607
+days_until_start_rule,0.697,0.349,0.952,0.646,0.511
+days_rule_by_employee_type,0.693,0.345,0.94,0.644,0.505

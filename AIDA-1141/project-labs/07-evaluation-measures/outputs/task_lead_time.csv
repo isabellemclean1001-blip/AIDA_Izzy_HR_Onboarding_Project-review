@@ -1,0 +1,4 @@
+,at_risk_tasks_flagged,median_weekdays_until_start_at_first_flag,fewest_weekdays_until_start_at_first_flag
+logistic_regression,62.0,4.0,1.0
+days_until_start_rule,64.0,4.0,1.0
+days_rule_by_employee_type,64.0,4.0,1.0

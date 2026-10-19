@@ -1,0 +1,5 @@
+request_id,method,assessment_id,checkpoint,task_type,business_days_until_start,risk_probability
+REQ-00263,logistic_regression,ASM-00285,checkpoint_1,workplace_access,11,0.0109622026540475
+REQ-00263,logistic_regression,ASM-00355,checkpoint_2,workplace_access,5,0.0441742434176016
+REQ-02052,logistic_regression,ASM-02557,checkpoint_1,payroll_setup,8,0.0972167918442463
+REQ-02052,logistic_regression,ASM-02569,checkpoint_2,payroll_setup,5,0.090453604526738
