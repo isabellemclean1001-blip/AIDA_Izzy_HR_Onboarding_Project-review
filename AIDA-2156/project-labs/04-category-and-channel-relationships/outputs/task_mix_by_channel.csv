@@ -1,0 +1,7 @@
+task_type,web_form_requests,web_form_%,email_requests,email_%,phone_requests,phone_%,all_channels_requests,all_channels_%
+payroll_setup,363,33.1,98,14.8,39,12.7,500,24.2
+system_access,268,24.5,164,24.8,68,22.1,500,24.2
+orientation_scheduling,184,16.8,188,28.4,54,17.6,426,20.6
+workplace_access,125,11.4,96,14.5,101,32.9,322,15.6
+equipment_setup,156,14.2,115,17.4,45,14.7,316,15.3
+Total,1096,100.0,661,100.0,307,100.0,2064,100.0
