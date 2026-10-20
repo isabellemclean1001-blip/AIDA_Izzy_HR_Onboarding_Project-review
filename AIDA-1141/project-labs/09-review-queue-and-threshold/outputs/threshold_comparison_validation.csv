@@ -1,0 +1,19 @@
+method,threshold,note,flagged_assessments,flagged_%,unique_tasks_flagged,TP,FP,FN,TN,recall,precision,at_risk_tasks_missed
+logistic_regression,0.03,,282,55.8416,185,83,199,1,222,0.9881,0.2943,0
+logistic_regression,0.05,,249,49.3069,167,82,167,2,254,0.9762,0.3293,1
+logistic_regression,0.07,,228,45.1485,157,82,146,2,275,0.9762,0.3596,1
+logistic_regression,0.09,,207,40.9901,146,82,125,2,296,0.9762,0.3961,1
+logistic_regression,0.1,,195,38.6139,141,80,115,4,306,0.9524,0.4103,2
+logistic_regression,0.1254,original Exercise 06 threshold,173,34.2574,129,78,95,6,326,0.9286,0.4509,2
+logistic_regression,0.15,,156,30.8911,121,75,81,9,340,0.8929,0.4808,3
+logistic_regression,0.2,,123,24.3564,97,72,51,12,370,0.8571,0.5854,5
+logistic_regression,0.3,,102,20.198,85,64,38,20,383,0.7619,0.6275,8
+logistic_regression,0.5,,59,11.6832,56,48,11,36,410,0.5714,0.8136,18
+days_until_start_rule,3.0,,26,5.1485,26,25,1,59,420,0.2976,0.9615,39
+days_until_start_rule,4.0,,46,9.1089,46,39,7,45,414,0.4643,0.8478,25
+days_until_start_rule,5.0,,171,33.8614,171,64,107,20,314,0.7619,0.3743,0
+days_until_start_rule,6.0,,205,40.5941,171,76,129,8,292,0.9048,0.3707,0
+days_until_start_rule,7.0,original Exercise 05 threshold,229,45.3465,171,80,149,4,272,0.9524,0.3493,0
+days_until_start_rule,8.0,,246,48.7129,174,82,164,2,257,0.9762,0.3333,0
+days_until_start_rule,9.0,,279,55.2475,185,83,196,1,225,0.9881,0.2975,0
+days_until_start_rule,10.0,,299,59.2079,200,83,216,1,205,0.9881,0.2776,0

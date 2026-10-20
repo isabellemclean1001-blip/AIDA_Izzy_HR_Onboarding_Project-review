@@ -1,0 +1,7 @@
+,policy,assessments_reviewed,review_rate_%,unique_tasks_reviewed,recall,precision,at_risk_tasks_not_reviewed
+validation,model tier 1 only,159,31.485,124,0.905,0.478,2
+validation,model tiers 1 + 2 (full review queue),251,49.703,174,0.988,0.331,0
+validation,days rule (<= 6),205,40.594,171,0.905,0.371,0
+test,model tier 1 only,147,29.283,116,0.833,0.442,5
+test,model tiers 1 + 2 (full review queue),248,49.402,174,0.936,0.294,0
+test,days rule (<= 6),201,40.04,170,0.897,0.348,0

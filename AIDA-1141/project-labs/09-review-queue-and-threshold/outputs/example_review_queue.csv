@@ -1,0 +1,16 @@
+tier,review_reasons,assessment_id,request_id,checkpoint,task_type,business_days_until_start,risk_probability,simulated_outcome_at_risk
+1,,ASM-01709,REQ-01369,checkpoint_1,payroll_setup,2,0.955,True
+1,,ASM-01802,REQ-01447,checkpoint_1,equipment_setup,2,0.948,True
+1,,ASM-01424,REQ-01146,checkpoint_1,workplace_access,1,0.9302,True
+1,,ASM-02178,REQ-01748,checkpoint_1,equipment_setup,1,0.9296,True
+1,,ASM-00599,REQ-00502,checkpoint_1,payroll_setup,2,0.9256,True
+2,"near threshold, methods disagree, high impact",ASM-01866,REQ-01474,checkpoint_2,workplace_access,5,0.1456,False
+2,"near threshold, methods disagree, high impact",ASM-02525,REQ-02020,checkpoint_2,payroll_setup,5,0.1432,False
+2,near threshold,ASM-01429,REQ-01151,checkpoint_1,system_access,7,0.1397,False
+2,near threshold,ASM-01738,REQ-01396,checkpoint_1,payroll_setup,9,0.1362,False
+2,near threshold,ASM-01105,REQ-00878,checkpoint_1,system_access,9,0.1349,False
+3,,ASM-02235,REQ-01800,checkpoint_1,equipment_setup,9,0.0731,False
+3,,ASM-01713,REQ-01373,checkpoint_1,equipment_setup,10,0.0723,False
+3,,ASM-00414,REQ-00369,checkpoint_1,equipment_setup,9,0.0696,False
+3,,ASM-01194,REQ-00969,checkpoint_1,payroll_setup,11,0.0682,False
+3,,ASM-00204,REQ-00156,checkpoint_1,payroll_setup,9,0.0673,False

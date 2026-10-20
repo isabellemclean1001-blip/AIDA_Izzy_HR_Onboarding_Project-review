@@ -1,0 +1,25 @@
+{
+  "policy": {
+    "recall_target": 0.9,
+    "model_threshold": 0.14627610525077084,
+    "model_threshold_rule": "highest distinct validation score with at least 90% recall; flag when probability >= threshold",
+    "days_threshold": 6,
+    "days_threshold_rule": "smallest weekday count with at least 90% recall; flag when weekday count <= threshold",
+    "near_threshold_lower_fraction": 0.5,
+    "high_impact_any_task_max_weekdays": 2,
+    "high_impact_task_types": [
+      "payroll_setup",
+      "system_access",
+      "workplace_access"
+    ],
+    "high_impact_task_max_weekdays": 5,
+    "tier_precedence": "tier 1 over tier 2 over tier 3; one tier per early-warning assessment",
+    "task_deduplication": "a task takes the highest tier of any of its early-warning assessments",
+    "overdue_assessments": "separate urgent-review label; coordinator review required"
+  },
+  "fingerprints": {
+    "model.joblib": "4b56388be5d19b9bd8ac89f113735eb3aba68b8c873434f36c3c239d34bc0dc1",
+    "employee_split.csv": "1efa2bf528b169af6b1f06e9978cd4a86b1bff8eb0be727a05bafd1f1b95868b",
+    "validation_probabilities_and_tiers": "c10c478493d9725787a2a9df0d18ab5b29394e2c889f5eed5dfeea06dd3fec83"
+  }
+}
