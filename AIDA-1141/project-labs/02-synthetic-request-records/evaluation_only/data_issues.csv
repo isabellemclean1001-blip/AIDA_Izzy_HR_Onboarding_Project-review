@@ -1,0 +1,514 @@
+issue_id,export_row_number,request_id,issue_type,field,recorded_value,true_value
+ISS-0001,5,REQ-00004,category_variant,hiring_department,administration,Administration
+ISS-0002,51,REQ-00050,category_variant,submitted_hiring_department,administration,Administration
+ISS-0003,77,REQ-00076,year_typo,submitted_at,2052-02-20T10:26,2025-02-20T10:26
+ISS-0004,89,REQ-00088,extra_whitespace,submitted_hiring_department,Recreation ,Recreation
+ISS-0005,103,REQ-00102,category_variant,intake_channel,e-mail,email
+ISS-0006,105,REQ-00104,missing_value,employee_type,,permanent
+ISS-0007,106,REQ-00105,missing_value,employee_type,,permanent
+ISS-0008,108,REQ-00107,missing_value,hiring_department,,Recreation
+ISS-0009,111,REQ-00110,category_variant,responsible_team,I.T.,IT
+ISS-0010,116,REQ-00115,category_variant,hiring_department,transit,Transit
+ISS-0011,121,REQ-00120,category_variant,hiring_department,utilities,Utilities
+ISS-0012,130,REQ-00129,category_variant,employee_type,Permanent,permanent
+ISS-0013,139,REQ-00138,category_variant,hiring_department,transit,Transit
+ISS-0014,142,REQ-00141,category_variant,hiring_department,Transit Services,Transit
+ISS-0015,142,REQ-00141,missing_value,intake_channel,,web_form
+ISS-0016,159,REQ-00158,missing_value,employee_type,,permanent
+ISS-0017,159,REQ-00158,extra_whitespace,submitted_hiring_department, Utilities,Utilities
+ISS-0018,162,REQ-00161,category_variant,intake_channel,webform,web_form
+ISS-0019,164,REQ-00163,year_typo,submitted_at,2052-03-11T11:47,2025-03-11T11:47
+ISS-0020,176,REQ-00175,category_variant,employee_type,Permanent,permanent
+ISS-0021,187,REQ-00186,category_variant,hiring_department,Utilties,Utilities
+ISS-0022,191,REQ-00190,extra_whitespace,submitted_hiring_department,Administration ,Administration
+ISS-0023,216,REQ-00215,category_variant,task_type,system access,system_access
+ISS-0024,233,REQ-00232,missing_value,hiring_department,,Utilities
+ISS-0025,235,REQ-00234,missing_value,employee_type,,temporary
+ISS-0026,240,REQ-03412,exact_duplicate,,,
+ISS-0027,243,REQ-00241,category_variant,employee_type,temp,temporary
+ISS-0028,275,REQ-00273,extra_whitespace,responsible_team,IT ,IT
+ISS-0029,279,REQ-00277,category_variant,submitted_hiring_department,Prks,Parks
+ISS-0030,289,REQ-00287,category_variant,task_type,Orientation Scheduling,orientation_scheduling
+ISS-0031,295,REQ-00293,category_variant,intake_channel,webform,web_form
+ISS-0032,328,REQ-00326,extra_whitespace,employee_type, seasonal,seasonal
+ISS-0033,337,REQ-00335,category_variant,hiring_department,Prks,Parks
+ISS-0034,340,REQ-00338,extra_whitespace,employee_type, seasonal,seasonal
+ISS-0035,345,REQ-00343,category_variant,responsible_team,I.T.,IT
+ISS-0036,354,REQ-00352,missing_value,employee_type,,seasonal
+ISS-0037,354,REQ-00352,category_variant,intake_channel,E-mail,email
+ISS-0038,365,REQ-00363,extra_whitespace,submitted_hiring_department,Parks ,Parks
+ISS-0039,365,REQ-00363,extra_whitespace,task_type,system_access ,system_access
+ISS-0040,367,REQ-00365,category_variant,hiring_department,recreation,Recreation
+ISS-0041,386,REQ-00384,category_variant,task_type,orientation,orientation_scheduling
+ISS-0042,404,REQ-00402,missing_value,employee_type,,seasonal
+ISS-0043,404,REQ-00402,category_variant,task_type,equipment set-up,equipment_setup
+ISS-0044,441,REQ-00439,category_variant,hiring_department,Rec,Recreation
+ISS-0045,443,REQ-00441,extra_whitespace,hiring_department, Parks,Parks
+ISS-0046,447,REQ-00445,missing_value,employee_type,,temporary
+ISS-0047,456,REQ-00454,category_variant,task_type,System Access,system_access
+ISS-0048,463,REQ-00461,category_variant,submitted_hiring_department,Admin,Administration
+ISS-0049,477,REQ-00475,category_variant,employee_type,temp,temporary
+ISS-0050,478,REQ-00476,missing_value,intake_channel,,web_form
+ISS-0051,478,REQ-00476,extra_whitespace,task_type,system_access  ,system_access
+ISS-0052,482,REQ-00480,category_variant,responsible_team,Mgr,Manager
+ISS-0053,487,REQ-00485,missing_value,employee_type,,seasonal
+ISS-0054,492,REQ-00490,category_variant,intake_channel,WEB_FORM,web_form
+ISS-0055,492,REQ-00490,category_variant,responsible_team,payroll,Payroll
+ISS-0056,504,REQ-00502,extra_whitespace,employee_type,temporary  ,temporary
+ISS-0057,504,REQ-00502,category_variant,task_type,equipment set-up,equipment_setup
+ISS-0058,512,REQ-00510,category_variant,responsible_team,payroll,Payroll
+ISS-0059,520,REQ-00518,category_variant,task_type,Equipment Setup,equipment_setup
+ISS-0060,530,REQ-00528,category_variant,employee_type,Permanent,permanent
+ISS-0061,538,REQ-00536,extra_whitespace,hiring_department,Transit  ,Transit
+ISS-0062,539,REQ-00537,category_variant,responsible_team,manager,Manager
+ISS-0063,542,REQ-00540,category_variant,submitted_hiring_department,Transit Services,Transit
+ISS-0064,548,REQ-00546,category_variant,task_type,system access,system_access
+ISS-0065,550,REQ-00548,category_variant,intake_channel,Email,email
+ISS-0066,557,REQ-00555,category_variant,intake_channel,Email,email
+ISS-0067,572,REQ-00570,category_variant,responsible_team,facilities,Facilities
+ISS-0068,575,REQ-03234,exact_duplicate,,,
+ISS-0069,584,REQ-00581,extra_whitespace,hiring_department, Utilities,Utilities
+ISS-0070,590,REQ-00587,category_variant,task_type,orientation,orientation_scheduling
+ISS-0071,598,REQ-00595,category_variant,intake_channel,E-mail,email
+ISS-0072,617,REQ-00614,category_variant,responsible_team,Mgr,Manager
+ISS-0073,634,REQ-00631,category_variant,submitted_hiring_department,Transit Services,Transit
+ISS-0074,642,REQ-00639,missing_value,hiring_department,,Parks
+ISS-0075,644,REQ-00641,extra_whitespace,intake_channel,web_form ,web_form
+ISS-0076,647,REQ-00644,extra_whitespace,hiring_department, Recreation,Recreation
+ISS-0077,666,REQ-00663,missing_value,intake_channel,,email
+ISS-0078,669,REQ-00666,category_variant,intake_channel,Phone,phone
+ISS-0079,671,REQ-00668,extra_whitespace,hiring_department,Parks ,Parks
+ISS-0080,696,REQ-02179,exact_duplicate,,,
+ISS-0081,702,REQ-00698,missing_value,intake_channel,,email
+ISS-0082,709,REQ-00705,missing_value,employee_type,,seasonal
+ISS-0083,712,REQ-00708,category_variant,employee_type,Seasonal,seasonal
+ISS-0084,724,REQ-00720,category_variant,submitted_hiring_department,recreation,Recreation
+ISS-0085,735,REQ-00731,category_variant,employee_type,Seasonal,seasonal
+ISS-0086,736,REQ-00732,extra_whitespace,submitted_hiring_department,Parks ,Parks
+ISS-0087,738,REQ-00734,category_variant,intake_channel,web form,web_form
+ISS-0088,741,REQ-00737,category_variant,task_type,payroll setup,payroll_setup
+ISS-0089,743,REQ-00739,category_variant,task_type,payroll setup,payroll_setup
+ISS-0090,745,REQ-00741,category_variant,task_type,System Access,system_access
+ISS-0091,757,REQ-00753,missing_value,hiring_department,,Recreation
+ISS-0092,758,REQ-00754,missing_value,employee_type,,permanent
+ISS-0093,758,REQ-00754,category_variant,submitted_hiring_department,administration,Administration
+ISS-0094,760,REQ-00756,category_variant,task_type,system access,system_access
+ISS-0095,763,REQ-00759,missing_value,intake_channel,,email
+ISS-0096,764,REQ-00760,category_variant,responsible_team,payroll,Payroll
+ISS-0097,767,REQ-00763,category_variant,responsible_team,I.T.,IT
+ISS-0098,776,REQ-00772,category_variant,employee_type,Temporary,temporary
+ISS-0099,787,REQ-00783,category_variant,submitted_hiring_department,Transit Services,Transit
+ISS-0100,793,REQ-01316,exact_duplicate,,,
+ISS-0101,804,REQ-00799,missing_value,hiring_department,,Administration
+ISS-0102,808,REQ-02523,exact_duplicate,,,
+ISS-0103,809,REQ-00803,extra_whitespace,intake_channel, email,email
+ISS-0104,813,REQ-00807,category_variant,responsible_team,it,IT
+ISS-0105,839,REQ-00833,missing_value,intake_channel,,web_form
+ISS-0106,843,REQ-00837,missing_value,employee_type,,permanent
+ISS-0107,844,REQ-00838,missing_value,employee_type,,seasonal
+ISS-0108,847,REQ-00841,category_variant,submitted_hiring_department,Prks,Parks
+ISS-0109,849,REQ-00843,category_variant,responsible_team,Mgr,Manager
+ISS-0110,861,REQ-00855,missing_value,intake_channel,,web_form
+ISS-0111,869,REQ-00863,impossible_date,submitted_at,2026-09-31T08:51,2025-05-22T08:51
+ISS-0112,901,REQ-03519,exact_duplicate,,,
+ISS-0113,905,REQ-00898,missing_value,intake_channel,,phone
+ISS-0114,906,REQ-00899,missing_value,hiring_department,,Parks
+ISS-0115,918,REQ-00911,extra_whitespace,submitted_hiring_department,Recreation  ,Recreation
+ISS-0116,990,REQ-00983,extra_whitespace,task_type,equipment_setup  ,equipment_setup
+ISS-0117,993,REQ-00986,category_variant,employee_type,Permanent,permanent
+ISS-0118,994,REQ-00987,category_variant,task_type,orientation,orientation_scheduling
+ISS-0119,999,REQ-00992,impossible_date,submitted_start_date,2025-02-30,2025-06-16
+ISS-0120,1009,REQ-01002,category_variant,responsible_team,manager,Manager
+ISS-0121,1033,REQ-01026,category_variant,responsible_team,facilities,Facilities
+ISS-0122,1038,REQ-01031,category_variant,submitted_hiring_department,transit,Transit
+ISS-0123,1039,REQ-01032,category_variant,employee_type,Seasonal,seasonal
+ISS-0124,1048,REQ-01041,category_variant,submitted_hiring_department,Transit Services,Transit
+ISS-0125,1093,REQ-01086,extra_whitespace,task_type,workplace_access ,workplace_access
+ISS-0126,1097,REQ-01090,category_variant,task_type,Payroll Setup,payroll_setup
+ISS-0127,1104,REQ-01097,extra_whitespace,employee_type, permanent,permanent
+ISS-0128,1112,REQ-01105,extra_whitespace,task_type,system_access ,system_access
+ISS-0129,1165,REQ-01158,missing_value,intake_channel,,email
+ISS-0130,1179,REQ-01172,category_variant,task_type,Orientation Scheduling,orientation_scheduling
+ISS-0131,1189,REQ-01182,category_variant,intake_channel,WEB_FORM,web_form
+ISS-0132,1254,REQ-01247,category_variant,hiring_department,administration,Administration
+ISS-0133,1257,REQ-01250,category_variant,intake_channel,WEB_FORM,web_form
+ISS-0134,1259,REQ-01252,category_variant,submitted_hiring_department,utilities,Utilities
+ISS-0135,1262,REQ-01255,category_variant,task_type,Payroll Setup,payroll_setup
+ISS-0136,1263,REQ-01256,category_variant,employee_type,perm,permanent
+ISS-0137,1265,REQ-01258,missing_value,hiring_department,,Administration
+ISS-0138,1278,REQ-01271,missing_value,intake_channel,,email
+ISS-0139,1280,REQ-01273,category_variant,responsible_team,it,IT
+ISS-0140,1281,REQ-01274,category_variant,responsible_team,manager,Manager
+ISS-0141,1294,REQ-01287,category_variant,responsible_team,it,IT
+ISS-0142,1310,REQ-01303,category_variant,employee_type,perm,permanent
+ISS-0143,1320,REQ-01313,category_variant,intake_channel,phone call,phone
+ISS-0144,1322,REQ-01315,category_variant,intake_channel,PHONE,phone
+ISS-0145,1325,REQ-01318,missing_value,hiring_department,,Utilities
+ISS-0146,1326,REQ-01319,missing_value,employee_type,,permanent
+ISS-0147,1339,REQ-01332,category_variant,employee_type,perm,permanent
+ISS-0148,1357,REQ-01350,missing_value,intake_channel,,email
+ISS-0149,1371,REQ-01364,missing_value,hiring_department,,Parks
+ISS-0150,1377,REQ-01370,extra_whitespace,hiring_department,Transit ,Transit
+ISS-0151,1383,REQ-01376,category_variant,employee_type,Temporary,temporary
+ISS-0152,1413,REQ-01406,category_variant,responsible_team,it,IT
+ISS-0153,1413,REQ-01406,extra_whitespace,submitted_hiring_department,Transit  ,Transit
+ISS-0154,1421,REQ-01414,missing_value,hiring_department,,Transit
+ISS-0155,1432,REQ-01425,missing_value,hiring_department,,Administration
+ISS-0156,1433,REQ-01426,missing_value,hiring_department,,Transit
+ISS-0157,1438,REQ-01431,missing_value,employee_type,,permanent
+ISS-0158,1439,REQ-01432,category_variant,employee_type,Permanent,permanent
+ISS-0159,1445,REQ-01438,extra_whitespace,submitted_hiring_department, Administration,Administration
+ISS-0160,1449,REQ-01442,category_variant,intake_channel,Web Form,web_form
+ISS-0161,1471,REQ-01464,impossible_date,submitted_at,2025-06-31T14:56,2025-08-07T14:56
+ISS-0162,1475,REQ-01468,extra_whitespace,hiring_department, Recreation,Recreation
+ISS-0163,1485,REQ-01478,extra_whitespace,hiring_department, Administration,Administration
+ISS-0164,1497,REQ-01490,category_variant,employee_type,Temporary,temporary
+ISS-0165,1499,REQ-02569,exact_duplicate,,,
+ISS-0166,1509,REQ-01501,category_variant,employee_type,perm,permanent
+ISS-0167,1551,REQ-01543,missing_value,hiring_department,,Parks
+ISS-0168,1555,REQ-01547,category_variant,responsible_team,payroll,Payroll
+ISS-0169,1557,REQ-01549,category_variant,submitted_hiring_department,Parks Dept,Parks
+ISS-0170,1563,REQ-01555,missing_value,intake_channel,,web_form
+ISS-0171,1563,REQ-01555,category_variant,responsible_team,Mgr,Manager
+ISS-0172,1564,REQ-01556,category_variant,responsible_team,payroll,Payroll
+ISS-0173,1593,REQ-01585,category_variant,responsible_team,it,IT
+ISS-0174,1594,REQ-01586,missing_value,intake_channel,,email
+ISS-0175,1595,REQ-01587,missing_value,intake_channel,,web_form
+ISS-0176,1609,REQ-01601,category_variant,intake_channel,webform,web_form
+ISS-0177,1624,REQ-01616,category_variant,intake_channel,e-mail,email
+ISS-0178,1628,REQ-01620,category_variant,hiring_department,Transit Services,Transit
+ISS-0179,1633,REQ-01625,category_variant,employee_type,Temporary,temporary
+ISS-0180,1635,REQ-01627,missing_value,employee_type,,temporary
+ISS-0181,1645,REQ-01637,category_variant,responsible_team,Facilites,Facilities
+ISS-0182,1646,REQ-01638,category_variant,task_type,Workplace Access,workplace_access
+ISS-0183,1655,REQ-01647,missing_value,hiring_department,,Administration
+ISS-0184,1667,REQ-01659,category_variant,employee_type,perm,permanent
+ISS-0185,1674,REQ-01666,category_variant,submitted_hiring_department,Parks Dept,Parks
+ISS-0186,1675,REQ-04267,exact_duplicate,,,
+ISS-0187,1676,REQ-01667,extra_whitespace,intake_channel,phone  ,phone
+ISS-0188,1694,REQ-01685,category_variant,submitted_hiring_department,Finanace,Finance
+ISS-0189,1694,REQ-01685,extra_whitespace,task_type,payroll_setup  ,payroll_setup
+ISS-0190,1695,REQ-04044,exact_duplicate,,,
+ISS-0191,1698,REQ-01688,extra_whitespace,task_type,orientation_scheduling  ,orientation_scheduling
+ISS-0192,1732,REQ-01722,extra_whitespace,hiring_department, Recreation,Recreation
+ISS-0193,1736,REQ-01726,extra_whitespace,hiring_department, Administration,Administration
+ISS-0194,1738,REQ-01728,category_variant,intake_channel,PHONE,phone
+ISS-0195,1742,REQ-01732,category_variant,employee_type,Temporary,temporary
+ISS-0196,1748,REQ-01738,missing_value,employee_type,,permanent
+ISS-0197,1750,REQ-01740,missing_value,hiring_department,,Administration
+ISS-0198,1755,REQ-01745,category_variant,submitted_hiring_department,transit,Transit
+ISS-0199,1760,REQ-01750,category_variant,submitted_hiring_department,Parks Dept,Parks
+ISS-0200,1766,REQ-01756,category_variant,intake_channel,Phone,phone
+ISS-0201,1773,REQ-01763,category_variant,employee_type,temp,temporary
+ISS-0202,1785,REQ-01775,missing_value,employee_type,,permanent
+ISS-0203,1785,REQ-01775,category_variant,responsible_team,it,IT
+ISS-0204,1796,REQ-01786,missing_value,intake_channel,,web_form
+ISS-0205,1798,REQ-01788,extra_whitespace,submitted_hiring_department, Utilities,Utilities
+ISS-0206,1807,REQ-01797,extra_whitespace,hiring_department, Transit,Transit
+ISS-0207,1811,REQ-01801,category_variant,employee_type,Permanent,permanent
+ISS-0208,1816,REQ-01806,category_variant,responsible_team,it,IT
+ISS-0209,1819,REQ-01809,category_variant,intake_channel,web form,web_form
+ISS-0210,1820,REQ-01810,category_variant,task_type,orientation,orientation_scheduling
+ISS-0211,1845,REQ-01835,missing_value,employee_type,,permanent
+ISS-0212,1865,REQ-01855,category_variant,intake_channel,webform,web_form
+ISS-0213,1867,REQ-01857,missing_value,intake_channel,,web_form
+ISS-0214,1876,REQ-01866,extra_whitespace,employee_type, permanent,permanent
+ISS-0215,1888,REQ-01878,category_variant,intake_channel,web form,web_form
+ISS-0216,1891,REQ-01881,missing_value,intake_channel,,email
+ISS-0217,1897,REQ-01887,missing_value,hiring_department,,Recreation
+ISS-0218,1923,REQ-01913,missing_value,hiring_department,,Administration
+ISS-0219,1930,REQ-01920,missing_value,intake_channel,,email
+ISS-0220,1940,REQ-01930,category_variant,intake_channel,Phone,phone
+ISS-0221,1946,REQ-01936,missing_value,hiring_department,,Finance
+ISS-0222,1968,REQ-01958,extra_whitespace,task_type,equipment_setup  ,equipment_setup
+ISS-0223,1975,REQ-01965,category_variant,task_type,system access,system_access
+ISS-0224,1992,REQ-01982,extra_whitespace,submitted_hiring_department,Administration  ,Administration
+ISS-0225,1995,REQ-01985,extra_whitespace,responsible_team,IT  ,IT
+ISS-0226,2014,REQ-02004,extra_whitespace,submitted_hiring_department,Administration  ,Administration
+ISS-0227,2019,REQ-02009,missing_value,employee_type,,permanent
+ISS-0228,2019,REQ-02009,category_variant,intake_channel,Email,email
+ISS-0229,2019,REQ-02009,extra_whitespace,submitted_hiring_department,Finance  ,Finance
+ISS-0230,2020,REQ-02010,extra_whitespace,task_type, system_access,system_access
+ISS-0231,2029,REQ-02019,missing_value,intake_channel,,phone
+ISS-0232,2036,REQ-02026,category_variant,submitted_hiring_department,administration,Administration
+ISS-0233,2047,REQ-02037,category_variant,intake_channel,Email,email
+ISS-0234,2057,REQ-02047,category_variant,task_type,Payroll Setup,payroll_setup
+ISS-0235,2065,REQ-02055,missing_value,employee_type,,permanent
+ISS-0236,2073,REQ-01550,exact_duplicate,,,
+ISS-0237,2074,REQ-02063,category_variant,intake_channel,Phone,phone
+ISS-0238,2076,REQ-02065,extra_whitespace,employee_type, temporary,temporary
+ISS-0239,2077,REQ-02066,category_variant,employee_type,perm,permanent
+ISS-0240,2081,REQ-02070,category_variant,task_type,system access,system_access
+ISS-0241,2092,REQ-02081,category_variant,intake_channel,Phone,phone
+ISS-0242,2095,REQ-02084,category_variant,hiring_department,Utilties,Utilities
+ISS-0243,2097,REQ-02086,category_variant,submitted_hiring_department,Recreaton,Recreation
+ISS-0244,2099,REQ-02088,missing_value,employee_type,,permanent
+ISS-0245,2102,REQ-02091,category_variant,submitted_hiring_department,Utilties,Utilities
+ISS-0246,2113,REQ-02102,category_variant,intake_channel,Email,email
+ISS-0247,2119,REQ-02108,category_variant,responsible_team,manager,Manager
+ISS-0248,2144,REQ-02133,extra_whitespace,hiring_department,Parks  ,Parks
+ISS-0249,2149,REQ-02138,missing_value,employee_type,,temporary
+ISS-0250,2150,REQ-02139,category_variant,intake_channel,WEB_FORM,web_form
+ISS-0251,2153,REQ-02142,missing_value,intake_channel,,email
+ISS-0252,2166,REQ-02155,extra_whitespace,intake_channel, email,email
+ISS-0253,2191,REQ-02180,category_variant,intake_channel,Email,email
+ISS-0254,2193,REQ-02182,extra_whitespace,task_type,workplace_access ,workplace_access
+ISS-0255,2220,REQ-02209,extra_whitespace,employee_type,permanent ,permanent
+ISS-0256,2221,REQ-02210,category_variant,responsible_team,payroll,Payroll
+ISS-0257,2228,REQ-02217,category_variant,task_type,orientation,orientation_scheduling
+ISS-0258,2249,REQ-02238,category_variant,employee_type,Temporary,temporary
+ISS-0259,2249,REQ-02238,category_variant,intake_channel,E-mail,email
+ISS-0260,2259,REQ-02248,category_variant,task_type,orientation,orientation_scheduling
+ISS-0261,2262,REQ-02251,category_variant,hiring_department,Transit Services,Transit
+ISS-0262,2266,REQ-02255,missing_value,intake_channel,,web_form
+ISS-0263,2270,REQ-02259,category_variant,employee_type,perm,permanent
+ISS-0264,2288,REQ-02277,missing_value,employee_type,,permanent
+ISS-0265,2291,REQ-02280,category_variant,task_type,payroll setup,payroll_setup
+ISS-0266,2300,REQ-02289,extra_whitespace,submitted_hiring_department, Utilities,Utilities
+ISS-0267,2301,REQ-02290,category_variant,employee_type,temp,temporary
+ISS-0268,2301,REQ-02290,category_variant,intake_channel,webform,web_form
+ISS-0269,2309,REQ-02298,missing_value,hiring_department,,Transit
+ISS-0270,2320,REQ-02309,extra_whitespace,employee_type, permanent,permanent
+ISS-0271,2324,REQ-02313,missing_value,employee_type,,permanent
+ISS-0272,2324,REQ-02313,missing_value,hiring_department,,Utilities
+ISS-0273,2325,REQ-02314,category_variant,hiring_department,Transit Services,Transit
+ISS-0274,2329,REQ-02318,category_variant,employee_type,Permanent,permanent
+ISS-0275,2330,REQ-02319,missing_value,employee_type,,permanent
+ISS-0276,2330,REQ-02319,category_variant,hiring_department,transit,Transit
+ISS-0277,2337,REQ-02326,category_variant,submitted_hiring_department,Rec,Recreation
+ISS-0278,2350,REQ-02339,extra_whitespace,hiring_department,Utilities ,Utilities
+ISS-0279,2356,REQ-02345,category_variant,intake_channel,webform,web_form
+ISS-0280,2357,REQ-02346,category_variant,hiring_department,Utilties,Utilities
+ISS-0281,2369,REQ-02358,category_variant,intake_channel,WEB_FORM,web_form
+ISS-0282,2371,REQ-02360,missing_value,intake_channel,,web_form
+ISS-0283,2373,REQ-02362,missing_value,intake_channel,,email
+ISS-0284,2387,REQ-02376,category_variant,responsible_team,payroll,Payroll
+ISS-0285,2389,REQ-02378,category_variant,hiring_department,Recreaton,Recreation
+ISS-0286,2390,REQ-02379,missing_value,hiring_department,,Administration
+ISS-0287,2397,REQ-02386,missing_value,employee_type,,temporary
+ISS-0288,2399,REQ-02388,missing_value,employee_type,,permanent
+ISS-0289,2400,REQ-02389,extra_whitespace,hiring_department, Transit,Transit
+ISS-0290,2415,REQ-02404,category_variant,responsible_team,it,IT
+ISS-0291,2443,REQ-02432,missing_value,intake_channel,,web_form
+ISS-0292,2459,REQ-02448,missing_value,intake_channel,,email
+ISS-0293,2464,REQ-02453,extra_whitespace,task_type, payroll_setup,payroll_setup
+ISS-0294,2501,REQ-02490,category_variant,hiring_department,finance,Finance
+ISS-0295,2505,REQ-02494,extra_whitespace,submitted_hiring_department,Administration  ,Administration
+ISS-0296,2517,REQ-02506,extra_whitespace,responsible_team, IT,IT
+ISS-0297,2518,REQ-02507,category_variant,submitted_hiring_department,utilities,Utilities
+ISS-0298,2522,REQ-02511,missing_value,intake_channel,,email
+ISS-0299,2526,REQ-02515,category_variant,intake_channel,Web Form,web_form
+ISS-0300,2527,REQ-02516,missing_value,hiring_department,,Recreation
+ISS-0301,2531,REQ-02520,category_variant,responsible_team,manager,Manager
+ISS-0302,2541,REQ-02530,category_variant,submitted_hiring_department,recreation,Recreation
+ISS-0303,2552,REQ-02541,missing_value,hiring_department,,Transit
+ISS-0304,2552,REQ-02541,missing_value,intake_channel,,phone
+ISS-0305,2553,REQ-01827,exact_duplicate,,,
+ISS-0306,2554,REQ-02542,category_variant,intake_channel,WEB_FORM,web_form
+ISS-0307,2563,REQ-02551,missing_value,employee_type,,permanent
+ISS-0308,2566,REQ-02554,missing_value,intake_channel,,email
+ISS-0309,2586,REQ-02574,missing_value,hiring_department,,Utilities
+ISS-0310,2586,REQ-02574,category_variant,intake_channel,PHONE,phone
+ISS-0311,2599,REQ-02587,category_variant,responsible_team,payroll,Payroll
+ISS-0312,2605,REQ-02593,category_variant,submitted_hiring_department,transit,Transit
+ISS-0313,2619,REQ-02607,category_variant,submitted_hiring_department,utilities,Utilities
+ISS-0314,2624,REQ-02612,missing_value,employee_type,,temporary
+ISS-0315,2630,REQ-02618,category_variant,submitted_hiring_department,Parks Dept,Parks
+ISS-0316,2642,REQ-02630,category_variant,task_type,orientation,orientation_scheduling
+ISS-0317,2662,REQ-02650,year_typo,submitted_at,2062-02-24T08:18,2026-02-24T08:18
+ISS-0318,2665,REQ-02653,category_variant,intake_channel,WEB_FORM,web_form
+ISS-0319,2673,REQ-02661,category_variant,employee_type,Temporary,temporary
+ISS-0320,2679,REQ-02667,category_variant,hiring_department,Finanace,Finance
+ISS-0321,2684,REQ-02672,extra_whitespace,employee_type,temporary  ,temporary
+ISS-0322,2695,REQ-02683,missing_value,employee_type,,temporary
+ISS-0323,2700,REQ-02688,missing_value,intake_channel,,web_form
+ISS-0324,2708,REQ-02696,extra_whitespace,intake_channel,web_form  ,web_form
+ISS-0325,2711,REQ-02699,category_variant,employee_type,Permanent,permanent
+ISS-0326,2724,REQ-02712,category_variant,employee_type,Permanent,permanent
+ISS-0327,2729,REQ-02717,category_variant,submitted_hiring_department,recreation,Recreation
+ISS-0328,2742,REQ-02730,extra_whitespace,responsible_team,IT ,IT
+ISS-0329,2747,REQ-02735,missing_value,hiring_department,,Parks
+ISS-0330,2758,REQ-02746,category_variant,intake_channel,webform,web_form
+ISS-0331,2771,REQ-02759,category_variant,responsible_team,I.T.,IT
+ISS-0332,2772,REQ-02760,category_variant,submitted_hiring_department,Transit Services,Transit
+ISS-0333,2775,REQ-02763,missing_value,hiring_department,,Recreation
+ISS-0334,2779,REQ-02767,missing_value,employee_type,,seasonal
+ISS-0335,2810,REQ-02798,category_variant,employee_type,Seasonal,seasonal
+ISS-0336,2811,REQ-02799,category_variant,intake_channel,WEB_FORM,web_form
+ISS-0337,2812,REQ-02800,category_variant,hiring_department,Transit Services,Transit
+ISS-0338,2816,REQ-02804,category_variant,task_type,System Access,system_access
+ISS-0339,2829,REQ-02817,missing_value,intake_channel,,web_form
+ISS-0340,2833,REQ-02866,exact_duplicate,,,
+ISS-0341,2835,REQ-02822,category_variant,submitted_hiring_department,Admin,Administration
+ISS-0342,2847,REQ-02834,missing_value,employee_type,,permanent
+ISS-0343,2873,REQ-02860,missing_value,intake_channel,,web_form
+ISS-0344,2874,REQ-02861,category_variant,submitted_hiring_department,parks,Parks
+ISS-0345,2877,REQ-02864,extra_whitespace,responsible_team,IT ,IT
+ISS-0346,2878,REQ-02865,category_variant,submitted_hiring_department,parks,Parks
+ISS-0347,2882,REQ-02869,missing_value,employee_type,,seasonal
+ISS-0348,2889,REQ-02876,category_variant,submitted_hiring_department,transit,Transit
+ISS-0349,2904,REQ-02891,category_variant,employee_type,Temporary,temporary
+ISS-0350,2919,REQ-02906,category_variant,submitted_hiring_department,Transit Services,Transit
+ISS-0351,2940,REQ-02927,missing_value,intake_channel,,email
+ISS-0352,2943,REQ-02930,impossible_date,submitted_at,2026-02-29T10:24,2026-04-06T10:24
+ISS-0353,2945,REQ-02903,exact_duplicate,,,
+ISS-0354,2946,REQ-02932,extra_whitespace,responsible_team, Payroll,Payroll
+ISS-0355,2950,REQ-02936,extra_whitespace,hiring_department,Parks ,Parks
+ISS-0356,2955,REQ-02941,extra_whitespace,task_type,system_access  ,system_access
+ISS-0357,2957,REQ-02943,category_variant,submitted_hiring_department,Parks Dept,Parks
+ISS-0358,2961,REQ-02947,extra_whitespace,hiring_department,Parks ,Parks
+ISS-0359,2965,REQ-02951,missing_value,hiring_department,,Recreation
+ISS-0360,2994,REQ-02980,category_variant,employee_type,Seasonal,seasonal
+ISS-0361,3000,REQ-02986,category_variant,submitted_hiring_department,parks,Parks
+ISS-0362,3011,REQ-02997,category_variant,intake_channel,webform,web_form
+ISS-0363,3022,REQ-03008,missing_value,intake_channel,,web_form
+ISS-0364,3022,REQ-03008,extra_whitespace,responsible_team, IT,IT
+ISS-0365,3025,REQ-03011,missing_value,intake_channel,,web_form
+ISS-0366,3027,REQ-03013,missing_value,employee_type,,permanent
+ISS-0367,3062,REQ-03048,missing_value,employee_type,,temporary
+ISS-0368,3074,REQ-03123,exact_duplicate,,,
+ISS-0369,3077,REQ-03062,category_variant,responsible_team,facilities,Facilities
+ISS-0370,3097,REQ-03341,exact_duplicate,,,
+ISS-0371,3103,REQ-03087,category_variant,hiring_department,Parks Dept,Parks
+ISS-0372,3106,REQ-03090,category_variant,employee_type,SEASONAL,seasonal
+ISS-0373,3119,REQ-03103,category_variant,hiring_department,Recreaton,Recreation
+ISS-0374,3158,REQ-03142,missing_value,employee_type,,permanent
+ISS-0375,3161,REQ-03145,category_variant,responsible_team,I.T.,IT
+ISS-0376,3183,REQ-03167,missing_value,intake_channel,,phone
+ISS-0377,3183,REQ-03167,extra_whitespace,responsible_team, IT,IT
+ISS-0378,3198,REQ-03182,missing_value,hiring_department,,Administration
+ISS-0379,3216,REQ-02378,exact_duplicate,,,
+ISS-0380,3222,REQ-03205,missing_value,intake_channel,,web_form
+ISS-0381,3232,REQ-03215,category_variant,intake_channel,e-mail,email
+ISS-0382,3267,REQ-03250,missing_value,employee_type,,permanent
+ISS-0383,3280,REQ-03263,category_variant,employee_type,SEASONAL,seasonal
+ISS-0384,3285,REQ-03268,missing_value,employee_type,,permanent
+ISS-0385,3290,REQ-03273,missing_value,hiring_department,,Finance
+ISS-0386,3291,REQ-03274,category_variant,employee_type,Permanent,permanent
+ISS-0387,3292,REQ-03275,category_variant,task_type,orientation,orientation_scheduling
+ISS-0388,3294,REQ-03277,missing_value,hiring_department,,Finance
+ISS-0389,3295,REQ-03278,category_variant,employee_type,Permanent,permanent
+ISS-0390,3308,REQ-03291,category_variant,employee_type,temp,temporary
+ISS-0391,3318,REQ-03301,category_variant,employee_type,Temporary,temporary
+ISS-0392,3321,REQ-03304,category_variant,employee_type,SEASONAL,seasonal
+ISS-0393,3325,REQ-00069,exact_duplicate,,,
+ISS-0394,3332,REQ-03314,category_variant,hiring_department,Utilties,Utilities
+ISS-0395,3370,REQ-03352,category_variant,intake_channel,Email,email
+ISS-0396,3383,REQ-03365,category_variant,task_type,equipment set-up,equipment_setup
+ISS-0397,3386,REQ-03368,category_variant,intake_channel,webform,web_form
+ISS-0398,3393,REQ-03375,category_variant,employee_type,Seasonal,seasonal
+ISS-0399,3407,REQ-03389,extra_whitespace,submitted_hiring_department,Recreation  ,Recreation
+ISS-0400,3413,REQ-03395,category_variant,submitted_hiring_department,administration,Administration
+ISS-0401,3449,REQ-03431,category_variant,hiring_department,administration,Administration
+ISS-0402,3449,REQ-03431,extra_whitespace,responsible_team,Facilities  ,Facilities
+ISS-0403,3454,REQ-03436,missing_value,hiring_department,,Administration
+ISS-0404,3484,REQ-03466,extra_whitespace,submitted_hiring_department,Administration ,Administration
+ISS-0405,3485,REQ-03467,category_variant,intake_channel,WEB_FORM,web_form
+ISS-0406,3508,REQ-03490,category_variant,hiring_department,parks,Parks
+ISS-0407,3543,REQ-03525,extra_whitespace,employee_type,permanent  ,permanent
+ISS-0408,3543,REQ-03525,category_variant,hiring_department,administration,Administration
+ISS-0409,3553,REQ-03535,category_variant,task_type,equipment set-up,equipment_setup
+ISS-0410,3558,REQ-03540,extra_whitespace,intake_channel,email ,email
+ISS-0411,3566,REQ-03548,missing_value,hiring_department,,Administration
+ISS-0412,3581,REQ-03563,category_variant,task_type,payroll setup,payroll_setup
+ISS-0413,3585,REQ-03567,category_variant,task_type,Equipment Setup,equipment_setup
+ISS-0414,3586,REQ-03568,missing_value,hiring_department,,Parks
+ISS-0415,3592,REQ-03574,category_variant,hiring_department,Admin,Administration
+ISS-0416,3597,REQ-03579,missing_value,intake_channel,,web_form
+ISS-0417,3599,REQ-03581,impossible_date,submitted_at,2025-04-31T09:20,2026-06-01T09:20
+ISS-0418,3613,REQ-03595,category_variant,task_type,equipment set-up,equipment_setup
+ISS-0419,3619,REQ-01927,exact_duplicate,,,
+ISS-0420,3629,REQ-03610,category_variant,task_type,orientation,orientation_scheduling
+ISS-0421,3631,REQ-03612,category_variant,responsible_team,facilities,Facilities
+ISS-0422,3632,REQ-03613,category_variant,employee_type,Seasonal,seasonal
+ISS-0423,3633,REQ-03614,category_variant,responsible_team,it,IT
+ISS-0424,3654,REQ-03635,missing_value,hiring_department,,Transit
+ISS-0425,3655,REQ-03636,extra_whitespace,hiring_department, Recreation,Recreation
+ISS-0426,3665,REQ-03646,category_variant,submitted_hiring_department,recreation,Recreation
+ISS-0427,3668,REQ-03649,missing_value,hiring_department,,Utilities
+ISS-0428,3680,REQ-03661,extra_whitespace,responsible_team,Manager  ,Manager
+ISS-0429,3710,REQ-03691,category_variant,intake_channel,e-mail,email
+ISS-0430,3717,REQ-03698,category_variant,responsible_team,payroll,Payroll
+ISS-0431,3721,REQ-03702,category_variant,employee_type,Seasonal,seasonal
+ISS-0432,3747,REQ-03728,extra_whitespace,hiring_department,Recreation ,Recreation
+ISS-0433,3752,REQ-03733,category_variant,employee_type,SEASONAL,seasonal
+ISS-0434,3753,REQ-03734,category_variant,hiring_department,parks,Parks
+ISS-0435,3756,REQ-03737,missing_value,intake_channel,,web_form
+ISS-0436,3758,REQ-03739,category_variant,intake_channel,E-mail,email
+ISS-0437,3763,REQ-03744,missing_value,hiring_department,,Parks
+ISS-0438,3775,REQ-03756,category_variant,submitted_hiring_department,Utilties,Utilities
+ISS-0439,3783,REQ-03764,missing_value,hiring_department,,Transit
+ISS-0440,3785,REQ-03766,extra_whitespace,submitted_hiring_department,Recreation  ,Recreation
+ISS-0441,3803,REQ-03784,missing_value,employee_type,,seasonal
+ISS-0442,3808,REQ-03789,extra_whitespace,employee_type, permanent,permanent
+ISS-0443,3823,REQ-03804,missing_value,employee_type,,seasonal
+ISS-0444,3826,REQ-03807,missing_value,employee_type,,seasonal
+ISS-0445,3829,REQ-03810,category_variant,submitted_hiring_department,Recreaton,Recreation
+ISS-0446,3830,REQ-03811,category_variant,employee_type,Seasonal,seasonal
+ISS-0447,3830,REQ-03811,category_variant,hiring_department,Recreaton,Recreation
+ISS-0448,3838,REQ-03819,category_variant,submitted_hiring_department,utilities,Utilities
+ISS-0449,3842,REQ-03823,missing_value,hiring_department,,Parks
+ISS-0450,3844,REQ-03825,missing_value,intake_channel,,web_form
+ISS-0451,3845,REQ-03826,category_variant,employee_type,Seasonal,seasonal
+ISS-0452,3855,REQ-03836,extra_whitespace,task_type, payroll_setup,payroll_setup
+ISS-0453,3857,REQ-03838,missing_value,intake_channel,,email
+ISS-0454,3866,REQ-03847,extra_whitespace,task_type, orientation_scheduling,orientation_scheduling
+ISS-0455,3872,REQ-03853,category_variant,intake_channel,WEB_FORM,web_form
+ISS-0456,3880,REQ-03861,missing_value,intake_channel,,web_form
+ISS-0457,3883,REQ-03864,category_variant,hiring_department,Rec,Recreation
+ISS-0458,3884,REQ-03865,extra_whitespace,hiring_department, Utilities,Utilities
+ISS-0459,3884,REQ-03865,category_variant,submitted_hiring_department,Utilties,Utilities
+ISS-0460,3886,REQ-03867,category_variant,employee_type,Seasonal,seasonal
+ISS-0461,3900,REQ-03881,category_variant,responsible_team,payroll,Payroll
+ISS-0462,3906,REQ-03887,missing_value,employee_type,,permanent
+ISS-0463,3908,REQ-03889,category_variant,task_type,System Access,system_access
+ISS-0464,3922,REQ-03903,missing_value,intake_channel,,phone
+ISS-0465,3928,REQ-03909,category_variant,hiring_department,parks,Parks
+ISS-0466,3933,REQ-03914,missing_value,hiring_department,,Finance
+ISS-0467,3933,REQ-03914,category_variant,responsible_team,I.T.,IT
+ISS-0468,3942,REQ-03923,missing_value,hiring_department,,Recreation
+ISS-0469,3942,REQ-03923,missing_value,intake_channel,,email
+ISS-0470,3956,REQ-03937,category_variant,task_type,System Access,system_access
+ISS-0471,3965,REQ-03946,category_variant,submitted_hiring_department,Admin,Administration
+ISS-0472,3967,REQ-03948,missing_value,hiring_department,,Administration
+ISS-0473,3967,REQ-03948,category_variant,submitted_hiring_department,Admin,Administration
+ISS-0474,3975,REQ-03956,category_variant,employee_type,Permanent,permanent
+ISS-0475,3989,REQ-03970,missing_value,employee_type,,permanent
+ISS-0476,4004,REQ-03985,extra_whitespace,intake_channel, web_form,web_form
+ISS-0477,4015,REQ-03996,category_variant,responsible_team,payroll,Payroll
+ISS-0478,4017,REQ-02099,exact_duplicate,,,
+ISS-0479,4018,REQ-03998,category_variant,employee_type,Permanent,permanent
+ISS-0480,4028,REQ-04008,extra_whitespace,submitted_hiring_department,Utilities ,Utilities
+ISS-0481,4033,REQ-04013,missing_value,employee_type,,permanent
+ISS-0482,4045,REQ-04025,category_variant,employee_type,Permanent,permanent
+ISS-0483,4050,REQ-04030,extra_whitespace,intake_channel, web_form,web_form
+ISS-0484,4056,REQ-04036,category_variant,responsible_team,manager,Manager
+ISS-0485,4072,REQ-04052,category_variant,employee_type,temp,temporary
+ISS-0486,4072,REQ-04052,category_variant,responsible_team,facilities,Facilities
+ISS-0487,4077,REQ-04057,category_variant,submitted_hiring_department,administration,Administration
+ISS-0488,4082,REQ-04062,category_variant,submitted_hiring_department,administration,Administration
+ISS-0489,4096,REQ-04076,missing_value,hiring_department,,Transit
+ISS-0490,4118,REQ-04098,category_variant,intake_channel,e-mail,email
+ISS-0491,4119,REQ-04099,category_variant,responsible_team,it,IT
+ISS-0492,4121,REQ-04101,extra_whitespace,intake_channel,phone  ,phone
+ISS-0493,4146,REQ-04126,category_variant,hiring_department,Transit Services,Transit
+ISS-0494,4156,REQ-04136,impossible_date,submitted_start_date,2026-04-31,2026-10-13
+ISS-0495,4162,REQ-04142,extra_whitespace,intake_channel,email  ,email
+ISS-0496,4185,REQ-04192,exact_duplicate,,,
+ISS-0497,4191,REQ-04170,category_variant,hiring_department,Transit Services,Transit
+ISS-0498,4210,REQ-04189,extra_whitespace,hiring_department,Transit ,Transit
+ISS-0499,4225,REQ-04204,year_typo,submitted_at,2062-08-26T16:29,2026-08-26T16:29
+ISS-0500,4225,REQ-04204,category_variant,submitted_hiring_department,Finanace,Finance
+ISS-0501,4227,REQ-02702,exact_duplicate,,,
+ISS-0502,4249,REQ-04227,category_variant,employee_type,Permanent,permanent
+ISS-0503,4256,REQ-04234,extra_whitespace,hiring_department,Transit  ,Transit
+ISS-0504,4271,REQ-04249,category_variant,intake_channel,Web Form,web_form
+ISS-0505,4296,REQ-02500,exact_duplicate,,,
+ISS-0506,4305,REQ-04282,extra_whitespace,submitted_hiring_department,Transit  ,Transit
+ISS-0507,4307,REQ-04284,extra_whitespace,submitted_hiring_department,Finance ,Finance
+ISS-0508,4316,REQ-04293,category_variant,intake_channel,E-mail,email
+ISS-0509,4333,REQ-04310,missing_value,intake_channel,,email
+ISS-0510,4360,REQ-04337,category_variant,responsible_team,it,IT
+ISS-0511,4367,REQ-04344,extra_whitespace,intake_channel,web_form ,web_form
+ISS-0512,4375,REQ-04352,missing_value,hiring_department,,Administration
+ISS-0513,4386,REQ-04363,missing_value,hiring_department,,Parks
