@@ -1,0 +1,94 @@
+{
+  "cleaning_version": "0.1-provisional",
+  "source_requests": "AIDA-1141/project-labs/02-synthetic-request-records/data/requests.csv",
+  "source_requests_sha256": "1f7dc62035939a6fd3a21767b402b518d8269a37033baa2de47dcd63ec24b5e7",
+  "source_events": "AIDA-1141/project-labs/02-synthetic-request-records/data/status_events.csv",
+  "source_events_sha256": "1989ec1af5195265e3f116aa2d1576343061fd270bac54108646948a6c7962f0",
+  "output": "candidate-v2/provisional/requests_cleaned.csv",
+  "output_sha256": "7c5088598d5228f4989e3c950981cff74a99d51bf429856dcb5b9b97a3845066",
+  "rows_in": 4386,
+  "rows_out": 4364,
+  "steps": [
+    {
+      "step": "exact_duplicates_removed",
+      "field": "",
+      "rows": 22
+    },
+    {
+      "step": "categories_standardized",
+      "field": "task_type",
+      "rows": 50
+    },
+    {
+      "step": "categories_standardized",
+      "field": "responsible_team",
+      "rows": 54
+    },
+    {
+      "step": "categories_standardized",
+      "field": "hiring_department",
+      "rows": 54
+    },
+    {
+      "step": "categories_standardized",
+      "field": "submitted_hiring_department",
+      "rows": 66
+    },
+    {
+      "step": "categories_standardized",
+      "field": "employee_type",
+      "rows": 63
+    },
+    {
+      "step": "categories_standardized",
+      "field": "intake_channel",
+      "rows": 62
+    },
+    {
+      "step": "employee_level_value_filled",
+      "field": "employee_type",
+      "rows": 44
+    },
+    {
+      "step": "employee_level_value_filled",
+      "field": "hiring_department",
+      "rows": 45
+    },
+    {
+      "step": "submitted_at_repaired_from_events",
+      "field": "submitted_at",
+      "rows": 8
+    },
+    {
+      "step": "invalid_submitted_start_date_blanked",
+      "field": "submitted_start_date",
+      "rows": 2
+    }
+  ],
+  "unresolved": {
+    "task_type": {
+      "blank": 0,
+      "unmapped": 0
+    },
+    "responsible_team": {
+      "blank": 0,
+      "unmapped": 0
+    },
+    "hiring_department": {
+      "blank": 0,
+      "unmapped": 0
+    },
+    "submitted_hiring_department": {
+      "blank": 146,
+      "unmapped": 0
+    },
+    "employee_type": {
+      "blank": 0,
+      "unmapped": 0
+    },
+    "intake_channel": {
+      "blank": 44,
+      "unmapped": 0
+    }
+  }
+}

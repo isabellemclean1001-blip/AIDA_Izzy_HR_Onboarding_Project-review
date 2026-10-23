@@ -432,6 +432,8 @@ def outcome_at_extract(req):
     """Readiness as the system could know it at the extract: True, False, or None (unknown)."""
     if req["team_completed_at"] <= EXTRACT_AT:
         return req["team_completed_at"] <= req["deadline"]
+    if req["info_complete_at"] > EXTRACT_AT:
+        return None    # unfinished and the start date is not yet confirmed: the system cannot know the deadline
     if req["deadline"] <= EXTRACT_AT:
         return False  # unfinished and the deadline has passed: known to have missed it
     return None        # unfinished and the deadline is still ahead: outcome unknown
