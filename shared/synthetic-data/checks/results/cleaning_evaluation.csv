@@ -1,0 +1,20 @@
+issue_type,field,problems,restored,unresolved
+category_variant,employee_type,52,52,0
+category_variant,hiring_department,33,33,0
+category_variant,intake_channel,51,51,0
+category_variant,responsible_team,44,44,0
+category_variant,submitted_hiring_department,46,46,0
+category_variant,task_type,36,36,0
+extra_whitespace,employee_type,11,11,0
+extra_whitespace,hiring_department,21,21,0
+extra_whitespace,intake_channel,11,11,0
+extra_whitespace,responsible_team,10,10,0
+extra_whitespace,submitted_hiring_department,20,20,0
+extra_whitespace,task_type,14,14,0
+impossible_date,submitted_at,4,4,0
+impossible_date,submitted_start_date,2,0,2
+missing_value,employee_type,44,44,0
+missing_value,hiring_department,44,44,0
+missing_value,intake_channel,44,0,44
+year_typo,submitted_at,4,4,0
+exact_duplicate,(whole row),22,22,0

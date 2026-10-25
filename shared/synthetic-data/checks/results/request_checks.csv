@@ -1,0 +1,13 @@
+,passed
+Answer key matches the raw export row by row,True
+Exact duplicate rows in the export equal the key's duplicate count,True
+Request status equals the status of its latest event,True
+Workflow timestamps that are present always parse,True
+A blank team completion never has status complete,True
+Confirmed start date and department blank while information is incomplete,True
+ready_by_start blank exactly when unfinished and the deadline is after the extract or not yet confirmed,True
+Unfinished with the deadline passed is recorded as not ready,True
+No event after the extract,True
+No assessment after the extract,True
+"Coordinator and team events on business days, 08:00-16:30",True
+Checkpoint 1 within working hours,True

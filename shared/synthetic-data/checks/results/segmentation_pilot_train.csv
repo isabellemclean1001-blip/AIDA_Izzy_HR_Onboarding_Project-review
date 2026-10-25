@@ -1,0 +1,6 @@
+config,training_cards,objects,missed,one_region_good_fit,one_region_poor_fit,split,false_regions,merged_regions
+"A: global median background, threshold 10, close 7",360,920,0,70,522,328,2183,293
+"B: global median background, threshold 20, close 7",360,920,0,290,261,369,877,206
+"C: global median background, threshold 30, close 7",360,920,3,523,86,308,634,116
+"D: local blurred background, threshold 20, close 7",360,920,0,342,361,217,209,154
+"E: median filter 5, local background, threshold 20, open 3, close 9",360,920,1,568,340,11,2,65
