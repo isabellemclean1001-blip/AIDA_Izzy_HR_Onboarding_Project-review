@@ -1,9 +1,0 @@
-,result
-"present_<item> equals the kit items drawn, on every card",True
-At most one of each kit item per card,True
-Expected / present / omitted logic consistent; unknown expectations stay blank,True
-Every box lies inside the content area,True
-Object pairs closer than the 14-pixel margin,0
-Reserved style c never drawn,True
-Rendered appearances shared across splits (exact pixel match before degradation),0
-Input fingerprint and cleaning version recorded,0.1-provisional
