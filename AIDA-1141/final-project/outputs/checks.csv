@@ -1,0 +1,28 @@
+section,check,passed
+A. data and labels,Cleaned request IDs are unique,True
+A. data and labels,Assessment IDs are unique,True
+A. data and labels,Every assessment matches one cleaned request,True
+A. data and labels,Assessment and request employee IDs agree,True
+A. data and labels,"at_risk is True, False, or blank only",True
+A. data and labels,"ready_by_start is True, False, or blank only",True
+A. data and labels,past_deadline_at_assessment is True or False only,True
+A. data and labels,Each task has one label across its checkpoints,True
+A. data and labels,No assessment after the extract,True
+A. data and labels,"Labels recalculate from timestamps (completed: finished after the deadline; unfinished: deadline passed = at risk, future deadline = unknown)",True
+A. data and labels,Overdue flag recalculates as assessed at or after the deadline,True
+A. data and labels,Known overdue assessments are always at risk,True
+A. data and labels,Assessment labels agree with the requests' readiness (opposite values; both blank when unknown),True
+C. input availability,Checkpoint 1 happens exactly when information is complete,True
+C. input availability,Checkpoint 2 happens after information is complete,True
+C. input availability,Every assessment happens before the task is team-completed,True
+C. input availability,Current status equals the latest event status at the assessment time,True
+C. input availability,Days until start recalculates with the closure calendar,True
+C. input availability,Business days in current status recalculates from the status start (closure calendar),True
+C. input availability,Team workload recalculates from status events (no future information),True
+C. input availability,"No input is an outcome, label, simulation, or answer-key field",True
+C. input availability,Numeric inputs parse as whole numbers,True
+C. input availability,Time in status and team workload are never negative,True
+C. input availability,No missing or empty inputs after marking missing channels as 'unknown',True
+D. split,Every employee with assessments is assigned exactly once,True
+D. split,Every assessment has a split,True
+D. split,No task appears in more than one split,True

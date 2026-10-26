@@ -1,0 +1,21 @@
+{
+  "data_version": "2",
+  "purpose": "Secondary check of performance on a later period; the employee split above remains the main analysis.",
+  "cutoff": "2026-01-01 00:00:00",
+  "training_rule": "Early-warning assessments made before the cutoff whose outcome was already known at the cutoff: the team finished by the cutoff, or the deadline had passed by the cutoff while the task was unfinished. Outcomes that became known only after the cutoff are not used for training.",
+  "evaluation_rule": "Early-warning assessments made on or after the cutoff, with an outcome known at the extract, from employees with no assessment before the cutoff.",
+  "threshold_rule": "Chosen within the training period only (grouped by employee), never on the evaluation period.",
+  "measures": "The same measures as the main analysis: recall (primary), precision, flags, and unique tasks flagged.",
+  "seasons": "Both periods include a spring peak (2025 in training, 2026 in evaluation); differences are reported as deployment findings.",
+  "spanning_employees": "Employees with assessments on both sides of the cutoff keep their eligible pre-cutoff records in training; their post-cutoff assessments are excluded from evaluation.",
+  "cleaning_limitation": "The cleaned requests were made retrospectively from the full export, so a few repaired values may come from records created after the cutoff; this limits the check's realism.",
+  "isolation": "The model and threshold procedures for this check and for the main employee split are decided and frozen before either held-out result (main test set or evaluation period) is inspected.",
+  "sizes": {
+    "training_assessments": 2683,
+    "training_employees": 540,
+    "excluded_before_cutoff_outcome_not_yet_known": 51,
+    "evaluation_assessments": 2410,
+    "evaluation_employees": 477,
+    "excluded_employees_spanning_the_cutoff": 14
+  }
+}

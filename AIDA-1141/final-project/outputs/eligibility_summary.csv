@@ -1,0 +1,9 @@
+data_version,group,checkpoint,assessments,at_risk,tasks,employees,at_risk_%
+2,early warning (eligible),all,5173,949,4128,1026,18.3
+2,early warning (eligible),checkpoint_1,4128,726,4128,1026,17.6
+2,early warning (eligible),checkpoint_2,1045,223,1045,480,21.3
+2,overdue (reported separately),all,191,191,191,71,100.0
+2,overdue (reported separately),checkpoint_1,191,191,191,71,100.0
+2,unknown outcome (not eligible),all,49,,44,18,
+2,unknown outcome (not eligible),checkpoint_1,44,,44,18,
+2,unknown outcome (not eligible),checkpoint_2,5,,5,3,

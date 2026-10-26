@@ -1,0 +1,10 @@
+data_version,feature,type,source,known
+2,task_type,categorical,cleaned requests,at submission
+2,hiring_department,categorical,cleaned requests,confirmed at the information check (checkpoint 1 or earlier)
+2,employee_type,categorical,cleaned requests,at submission
+2,intake_channel,categorical,cleaned requests,at submission; 'unknown' when missing at source
+2,info_issue_at_intake,categorical,cleaned requests,at submission
+2,current_status,categorical,assessments,status at the assessment time
+2,business_days_until_start,numeric,assessments,calculated at the assessment time
+2,business_days_in_current_status,numeric,assessments,calculated at the assessment time
+2,team_open_workload,numeric,assessments,calculated from events before the assessment time
