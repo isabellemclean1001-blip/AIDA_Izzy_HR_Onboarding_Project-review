@@ -1,0 +1,21 @@
+term,coefficient,feature,compared_with
+intercept,-5.107,,
+numeric__business_days_until_start,-4.5436,business_days_until_start,1 training standard deviation increase
+numeric__business_days_in_current_status,0.1939,business_days_in_current_status,1 training standard deviation increase
+numeric__team_open_workload,0.2027,team_open_workload,1 training standard deviation increase
+categorical__task_type_orientation_scheduling,-0.2026,task_type,reference: equipment_setup
+categorical__task_type_payroll_setup,0.0373,task_type,reference: equipment_setup
+categorical__task_type_system_access,-0.6563,task_type,reference: equipment_setup
+categorical__task_type_workplace_access,0.0346,task_type,reference: equipment_setup
+categorical__hiring_department_Finance,0.4381,hiring_department,reference: Administration
+categorical__hiring_department_Parks,0.1161,hiring_department,reference: Administration
+categorical__hiring_department_Recreation,0.2339,hiring_department,reference: Administration
+categorical__hiring_department_Transit,0.1865,hiring_department,reference: Administration
+categorical__hiring_department_Utilities,0.1961,hiring_department,reference: Administration
+categorical__employee_type_seasonal,0.057,employee_type,reference: permanent
+categorical__employee_type_temporary,0.2963,employee_type,reference: permanent
+categorical__intake_channel_phone,0.0447,intake_channel,reference: email
+categorical__intake_channel_unknown,1.1794,intake_channel,reference: email
+categorical__intake_channel_web_form,0.126,intake_channel,reference: email
+categorical__info_issue_at_intake_True,-0.1148,info_issue_at_intake,reference: False
+categorical__current_status_open,1.6015,current_status,reference: in_progress

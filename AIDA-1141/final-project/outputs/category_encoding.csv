@@ -1,0 +1,7 @@
+feature,reference_category,categories_seen_in_training
+task_type,equipment_setup,equipment_setup; orientation_scheduling; payroll_setup; system_access; workplace_access
+hiring_department,Administration,Administration; Finance; Parks; Recreation; Transit; Utilities
+employee_type,permanent,permanent; seasonal; temporary
+intake_channel,email,email; phone; unknown; web_form
+info_issue_at_intake,False,False; True
+current_status,in_progress,in_progress; open

@@ -1,0 +1,5 @@
+,passed
+Every training assessment has exactly one out-of-fold prediction,True
+Every out-of-fold probability is finite and between 0 and 1,True
+No employee appears in both the fitting and held-out rows of a fold,True
+Out-of-fold recall at the threshold reaches the target,True

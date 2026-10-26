@@ -1,0 +1,3 @@
+,ROC AUC,average precision
+Logistic regression (probability),0.885,0.7072
+Days until start (fewer days = higher risk),0.8762,0.6427

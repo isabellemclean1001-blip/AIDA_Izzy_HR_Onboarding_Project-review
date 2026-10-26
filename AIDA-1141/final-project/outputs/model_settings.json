@@ -1,0 +1,55 @@
+{
+  "data_version": "2",
+  "model": "logistic regression (L2, C=1, unweighted), scaled numeric inputs, one-hot categories (first category dropped; unseen categories encoded as zeros)",
+  "features": [
+    "task_type",
+    "hiring_department",
+    "employee_type",
+    "intake_channel",
+    "info_issue_at_intake",
+    "current_status",
+    "business_days_until_start",
+    "business_days_in_current_status",
+    "team_open_workload"
+  ],
+  "recall_target": 0.9,
+  "model_threshold": 0.13377081029764315,
+  "model_threshold_rule": "highest out-of-fold probability (5-fold, grouped by employee, training only) reaching the recall target",
+  "days_threshold": 8,
+  "days_threshold_rule": "smallest days-until-start count reaching the recall target on training",
+  "unknown_channel_in_training": true,
+  "estimator_parameters": {
+    "C": 1.0,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 1000,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": null,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "encoder_parameters": {
+    "drop": "first",
+    "handle_unknown": "ignore"
+  },
+  "source_fingerprints_sha256": {
+    "requests_cleaned.csv": "7c5088598d5228f4989e3c950981cff74a99d51bf429856dcb5b9b97a3845066",
+    "assessments.csv": "bcd8f8f387931d565205e25f750181007333d5ed19439c2bd224e32aac9990c8",
+    "employee_split.csv": "4a5822b164bc0a491c45ef320aa9b4135934233b186a75c7421824f6ddfc2cc8",
+    "feature_list.csv": "b9862423afb2e449d1954e87b876e0d82abe7566dec158216affb8fb6743af93"
+  },
+  "seed": 2026,
+  "package_versions": {
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  }
+}

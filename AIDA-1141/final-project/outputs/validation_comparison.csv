@@ -1,0 +1,4 @@
+method,data_version,assessments,at_risk,TP,FP,FN,TN,recall,precision,flagged_assessments,flagged_%,unique_tasks_flagged,at_risk_tasks,at_risk_tasks_never_flagged
+Never at risk (reference),2,1033,194,0,0,194,839,0.0,,0,0.0,0,154,154
+Days until start <= 8,2,1033,194,177,309,17,530,0.9123711340206185,0.36419753086419754,486,47.047434656340755,366,154,0
+Logistic regression,2,1033,194,178,316,16,523,0.9175257731958762,0.3603238866396761,494,47.82187802516941,368,154,0

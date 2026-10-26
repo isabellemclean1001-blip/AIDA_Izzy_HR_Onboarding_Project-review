@@ -1,0 +1,6 @@
+fold,fit_assessments,fit_at_risk,held_out_assessments,held_out_at_risk,employees_in_both,fit_has_unknown_channel,held_out_categories_unseen_in_fit
+1,2467,447,617,116,0,True,none
+2,2448,433,636,130,0,True,none
+3,2446,457,638,106,0,True,none
+4,2494,453,590,110,0,True,none
+5,2481,462,603,101,0,True,none

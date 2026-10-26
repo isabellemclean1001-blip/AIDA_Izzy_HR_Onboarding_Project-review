@@ -1,0 +1,13 @@
+,passed
+Assessment IDs are complete and unique,True
+Assessment employee IDs match their requests,True
+"at_risk is True, False, or blank only",True
+past_deadline_at_assessment is True or False only,True
+Each task has one label across its checkpoints,True
+Every assessment has a split from notebook 01,True
+Training and validation employees do not overlap,True
+"Eligible early-warning counts match notebook 01, by split",True
+"At-risk counts match notebook 01, by split",True
+"Overdue counts match notebook 01, by split",True
+No missing or empty model inputs,True
+'unknown' is the only added intake-channel value,True
