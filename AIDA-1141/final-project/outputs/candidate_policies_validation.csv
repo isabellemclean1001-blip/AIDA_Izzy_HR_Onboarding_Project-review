@@ -1,0 +1,4 @@
+policy,data_version,flagged_assessments,flagged_%,recall,precision,unique_tasks_flagged,at_risk_tasks_never_flagged,at_risk_reached_in_first_25%,at_risk_reached_in_first_50%
+"(a) Days rule alone (<= 8 days), fewest days first",2,486,47.047434656340755,0.9123711340206185,0.36419753086419754,366,0,95,125
+(b) Model alone (>= 0.134),2,494,47.82187802516941,0.9175257731958762,0.3603238866396761,368,0,,
+(c) Days rule decides the list; model risk sets the order,2,486,47.047434656340755,0.9123711340206185,0.36419753086419754,366,0,91,132

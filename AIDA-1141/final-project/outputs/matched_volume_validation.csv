@@ -1,0 +1,14 @@
+data_version,review_volume,rule_threshold,rule_recall,model_recall_same_volume,rule_at_risk_tasks_missed,model_at_risk_tasks_missed,cutoff_tied_group_size,selection_splits_tied_group
+2,33,<= 2 days,0.1701,0.1701,121,121,1,False
+2,69,<= 3 days,0.3247,0.3144,91,93,1,False
+2,111,<= 4 days,0.4691,0.4485,63,67,1,False
+2,360,<= 5 days,0.7938,0.7887,0,10,1,False
+2,411,<= 6 days,0.866,0.8505,0,4,1,False
+2,445,<= 7 days,0.8814,0.8969,0,1,1,False
+2,486,<= 8 days,0.9124,0.9175,0,0,3,True
+2,536,<= 9 days,0.9381,0.9485,0,0,1,False
+2,568,<= 10 days,0.9691,0.9691,0,0,1,False
+2,605,<= 11 days,0.9794,0.9794,0,0,1,False
+2,631,<= 12 days,0.9794,0.9794,0,0,1,False
+2,668,<= 13 days,0.9897,0.9897,0,0,1,False
+2,694,<= 14 days,0.9897,0.9897,0,0,1,False

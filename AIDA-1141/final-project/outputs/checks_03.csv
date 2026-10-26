@@ -1,0 +1,10 @@
+,passed
+Input fingerprints match the ones saved with the model in notebook 02,True
+Prediction IDs are exactly the eligible validation assessment IDs (rebuilt from the source files),True
+Prediction count matches notebook 01's split summary,True
+Labels are binary (True/False) with no blanks,True
+Flags are Boolean,True
+Each task has one label across its assessments,True
+Probabilities are finite and between 0 and 1,True
+Saved rule flags equal 'days until start <= threshold',True
+Saved model flags equal 'probability >= threshold',True

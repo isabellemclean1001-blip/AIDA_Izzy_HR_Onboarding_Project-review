@@ -1,0 +1,11 @@
+data_version,order,share_of_list_reviewed,assessments_reviewed,at_risk_assessments_reached,unique_tasks_reached,at_risk_tasks_reached
+2,model risk (highest first),10%,49,45,49,45
+2,model risk (highest first),25%,122,91,121,91
+2,model risk (highest first),50%,243,132,230,130
+2,model risk (highest first),75%,364,156,319,145
+2,model risk (highest first),100%,486,177,366,154
+2,fewest days first,10%,49,45,49,45
+2,fewest days first,25%,122,95,122,95
+2,fewest days first,50%,243,125,243,125
+2,fewest days first,75%,364,155,360,154
+2,fewest days first,100%,486,177,366,154
