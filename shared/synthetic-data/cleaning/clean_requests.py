@@ -14,7 +14,12 @@ from pathlib import Path
 
 import pandas as pd
 
-CLEANING_VERSION = "1.0"
+CLEANING_VERSION = "1.1"
+# Version history
+#   1.0  First official cleaning of data version 2.
+#   1.1  A blank confirmed hiring department is filled only once the request's information check is
+#        complete (info_complete_at present). Version 1.0 also filled it for a request still waiting for
+#        information, recording a confirmed value before it was confirmed (1 request: REQ-04358).
 
 # Allowed values after cleaning
 ALLOWED = {
@@ -37,6 +42,7 @@ MAPPINGS = {
 }
 MAPPINGS["submitted_hiring_department"] = MAPPINGS["hiring_department"]
 EMPLOYEE_LEVEL = ["employee_type", "hiring_department"]  # one value per employee in this workflow
+CONFIRMED_FIELDS = ["hiring_department"]                  # blank until the information check is complete
 TIME_FORMAT = "%Y-%m-%dT%H:%M"
 
 
@@ -66,11 +72,19 @@ def clean(raw, events):
         cleaned[field] = before.map(lambda v: standardize(v, field))
         log.append({"step": "categories_standardized", "field": field, "rows": int((before != cleaned[field]).sum())})
 
-    # Employee-level fields: fill a blank only when the employee's other rows agree on one value
+    # Employee-level fields: fill a blank only when the employee's other rows agree on one value.
+    # For a confirmed field, only rows whose information check is complete count: they are the only rows
+    # with a confirmed value to use as evidence, and the only rows that should have one. Before the check,
+    # a blank is expected (the value has not been confirmed yet), not a recording problem.
+    # info_complete_at is a workflow timestamp that cleaning never changes; its present values always
+    # parse (checked in checks/check_requests.py).
+    info_complete = cleaned["info_complete_at"] != ""
     for field in EMPLOYEE_LEVEL:
-        known = cleaned[cleaned[field] != ""].groupby("employee_id")[field].agg(lambda s: s.unique().tolist())
+        confirmed_only = info_complete if field in CONFIRMED_FIELDS else pd.Series(True, index=cleaned.index)
+        evidence = cleaned[(cleaned[field] != "") & confirmed_only]
+        known = evidence.groupby("employee_id")[field].agg(lambda s: s.unique().tolist())
         single = known[known.map(len) == 1].map(lambda v: v[0])
-        blank = cleaned[field] == ""
+        blank = (cleaned[field] == "") & confirmed_only
         filled = cleaned.loc[blank, "employee_id"].map(single)
         cleaned.loc[blank & filled.notna(), field] = filled.dropna()
         log.append({"step": "employee_level_value_filled", "field": field, "rows": int(filled.notna().sum())})

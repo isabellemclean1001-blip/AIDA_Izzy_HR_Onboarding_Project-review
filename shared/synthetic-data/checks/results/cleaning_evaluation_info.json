@@ -1,0 +1,9 @@
+{
+  "evaluates": "cleaning/output/requests_cleaned.csv",
+  "cleaned_sha256": "571d98a916435dda570b2f8f035db217658d7a52a7b72b65d3b7097069149615",
+  "cleaning_version": "1.1",
+  "answer_key": "requests/evaluation_only/data_issues.csv",
+  "answer_key_sha256": "0baf0ef6dfda7fbc9a6e581943be9fa74566c7ede0eb8e990c2ec14620e17756",
+  "evaluation": "checks/results/cleaning_evaluation.csv",
+  "evaluation_sha256": "86b02c5a0d4eb956eecff9624608fd60e0c21d0dab18ab05ff2d117e3fb6c2be"
+}

@@ -5,9 +5,12 @@ the cleaner itself never reads evaluation_only/. Run from anywhere:
 
     python shared/synthetic-data/checks/check_requests.py
 
-Writes checks/results/request_checks.csv and checks/results/cleaning_evaluation.csv.
+Writes checks/results/request_checks.csv, checks/results/cleaning_evaluation.csv, and
+checks/results/cleaning_evaluation_info.json (which cleaned file the evaluation measured).
 """
+import hashlib
 import importlib.util
+import json
 from pathlib import Path
 
 import pandas as pd
@@ -68,6 +71,9 @@ checks = {
     "Checkpoint 1 within working hours": working(pd.to_datetime(
         assessments.loc[assessments["checkpoint"] == "checkpoint_1", "assessed_at"])).all(),
 }
+cleaned_rows = read(SD / "cleaning/output/requests_cleaned.csv")
+checks["Cleaned file: confirmed start date and department blank while information is incomplete"] = (
+    cleaned_rows.loc[cleaned_rows["info_complete_at"] == "", ["confirmed_start_date", "hiring_department"]] == "").all().all()
 pd.Series(checks, name="passed").to_csv(OUT / "request_checks.csv")
 
 # Cleaning evaluation (separate from cleaning): duplicates by row, field problems by request_id + field
@@ -81,7 +87,23 @@ evaluation.loc[len(evaluation)] = {"issue_type": "exact_duplicate", "field": "(w
                                    * int((key["issue_type"] == "exact_duplicate").sum())}
 evaluation["unresolved"] = evaluation["problems"] - evaluation["restored"]
 evaluation.to_csv(OUT / "cleaning_evaluation.csv", index=False)
+sha256_of = lambda path: hashlib.sha256(path.read_bytes()).hexdigest()
+cleaning_record = json.loads((SD / "cleaning/output/requests_cleaned_info.json").read_text())
+(OUT / "cleaning_evaluation_info.json").write_text(json.dumps({
+    "evaluates": "cleaning/output/requests_cleaned.csv",
+    "cleaned_sha256": sha256_of(SD / "cleaning/output/requests_cleaned.csv"),
+    "cleaning_version": cleaning_record["cleaning_version"],
+    "answer_key": "requests/evaluation_only/data_issues.csv",
+    "answer_key_sha256": sha256_of(ROOT / "evaluation_only/data_issues.csv"),
+    "evaluation": "checks/results/cleaning_evaluation.csv",
+    "evaluation_sha256": sha256_of(OUT / "cleaning_evaluation.csv"),
+}, indent=2) + "\n")
 
 print(pd.Series(checks, name="passed").to_string())
 print(evaluation.to_string(index=False))
 print(f"Field problems restored: {fields['restored'].sum()} of {len(fields)}")
+
+# Stop with an error if any consistency check failed, so a broken export or cleaned file can't pass quietly
+failed = [name for name, passed in checks.items() if not passed]
+if failed:
+    raise SystemExit("Failed checks:\n- " + "\n- ".join(failed))

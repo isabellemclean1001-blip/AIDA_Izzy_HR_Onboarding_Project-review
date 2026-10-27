@@ -4356,7 +4356,7 @@ REQ-04354,EMP-0024,equipment_setup,IT,Recreation,Recreation,permanent,web_form,2
 REQ-04355,EMP-0787,payroll_setup,Payroll,Administration,Administration,permanent,web_form,2026-09-29T08:55,2026-11-20,2026-11-20,not_applicable,,False,none,2026-09-29T08:55,2026-09-29T12:47,,,in_progress,
 REQ-04356,EMP-0393,orientation_scheduling,Manager,Utilities,Utilities,temporary,email,2026-09-29T10:08,2026-10-13,2026-10-13,not_applicable,,False,none,2026-09-29T10:08,2026-09-29T11:32,,,in_progress,
 REQ-04357,EMP-1059,system_access,IT,Parks,Parks,permanent,email,2026-09-29T12:01,2026-11-20,2026-11-20,not_applicable,,False,none,2026-09-29T12:01,2026-09-29T12:38,,,in_progress,
-REQ-04358,EMP-0541,orientation_scheduling,Manager,Transit,Transit,permanent,email,2026-09-29T12:36,,,not_applicable,,True,missing,,,,,waiting_for_information,
+REQ-04358,EMP-0541,orientation_scheduling,Manager,Transit,,permanent,email,2026-09-29T12:36,,,not_applicable,,True,missing,,,,,waiting_for_information,
 REQ-04359,EMP-0581,system_access,IT,Recreation,Recreation,permanent,email,2026-09-29T12:42,2026-10-21,2026-10-21,not_applicable,,False,none,2026-09-29T12:42,2026-09-29T16:30,,,in_progress,
 REQ-04360,EMP-0359,orientation_scheduling,Manager,Parks,Parks,permanent,email,2026-09-29T13:00,2026-11-18,2026-11-18,not_applicable,Please set up before first day,False,none,2026-09-29T13:00,2026-09-29T15:57,,,in_progress,
 REQ-04361,EMP-0541,equipment_setup,IT,Transit,Transit,permanent,email,2026-09-29T13:47,2026-10-16,2026-10-16,laptop,,False,none,2026-09-29T13:47,,,,open,

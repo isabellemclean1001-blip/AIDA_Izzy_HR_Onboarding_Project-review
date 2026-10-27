@@ -14,7 +14,7 @@ Every result should state its data version, so version 1 and version 2 results a
 | Folder | Contents |
 |:---|:---|
 | `requests/` | Request generator, the messy system export (`data/`), the evaluation-only answer key and simulation values (`evaluation_only/`), data card, and data dictionary |
-| `cleaning/` | Shared cleaning rules (`clean_requests.py`, version 1.0), the script that makes the official cleaned file, and its output with a record of how it was made |
+| `cleaning/` | Shared cleaning rules (`clean_requests.py`, version 1.1; see the version history at the top of that file), the script that makes the official cleaned file, and its output with a record of how it was made |
 | `kit-cards/` | Kit-card generator, 600 card images, labels, reference drawings, and a README with field definitions |
 | `checks/` | Consistency checks, the cleaning evaluation, and a training-only segmentation pilot, with saved results in `checks/results/` |
 
