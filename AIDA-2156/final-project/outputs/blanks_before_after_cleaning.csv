@@ -1,0 +1,14 @@
+field,blank_in_raw,blank_after_cleaning
+submitted_hiring_department,146,146
+hiring_department,45,1
+employee_type,44,0
+intake_channel,44,44
+submitted_start_date,137,139
+confirmed_start_date,1,1
+equipment_item,17,17
+requester_comment,3197,3197
+info_complete_at,1,1
+assigned_at,6,6
+team_completed_at,45,45
+completion_confirmed_at,51,51
+ready_by_start,45,45

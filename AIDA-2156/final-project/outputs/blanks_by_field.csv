@@ -1,0 +1,16 @@
+field,explanation,blanks
+submitted_hiring_department,Missing at intake,146
+hiring_department,Workflow step not reached yet: information check not complete,1
+hiring_department,Unexplained (recording problem),44
+employee_type,Unexplained (recording problem),44
+intake_channel,Unexplained (recording problem),44
+submitted_start_date,Missing at intake,137
+confirmed_start_date,Workflow step not reached yet: information check not complete,1
+equipment_item,Missing at intake,17
+requester_comment,Optional,3197
+info_complete_at,Workflow step not reached yet: waiting for information,1
+assigned_at,Workflow step not reached yet: not assigned,6
+team_completed_at,Workflow step not reached yet: team not finished,45
+completion_confirmed_at,Workflow step not reached yet: not confirmed complete,51
+ready_by_start,"Outcome not yet known: unfinished, deadline after the extract",44
+ready_by_start,"Outcome not yet known: unfinished, start date not yet confirmed",1

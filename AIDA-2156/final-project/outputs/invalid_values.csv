@@ -1,0 +1,37 @@
+check,field,rows
+Exact duplicate rows in the raw export,(whole row),22
+Repeated request IDs that are not exact copies,request_id,0
+Category value with extra spaces,task_type,14
+Category value with a spelling or capitalisation variant,task_type,36
+Category value with extra spaces,responsible_team,10
+Category value with a spelling or capitalisation variant,responsible_team,44
+Category value with extra spaces,hiring_department,21
+Category value with a spelling or capitalisation variant,hiring_department,33
+Category value with extra spaces,submitted_hiring_department,20
+Category value with a spelling or capitalisation variant,submitted_hiring_department,46
+Category value with extra spaces,employee_type,11
+Category value with a spelling or capitalisation variant,employee_type,52
+Category value with extra spaces,intake_channel,11
+Category value with a spelling or capitalisation variant,intake_channel,51
+Date that can't be read,submitted_at,4
+Recorded event after the extract,submitted_at,4
+Date that can't be read,info_complete_at,0
+Recorded event after the extract,info_complete_at,0
+Date that can't be read,assigned_at,0
+Recorded event after the extract,assigned_at,0
+Date that can't be read,team_completed_at,0
+Recorded event after the extract,team_completed_at,0
+Date that can't be read,completion_confirmed_at,0
+Recorded event after the extract,completion_confirmed_at,0
+Date that can't be read,submitted_start_date,2
+Date that can't be read,confirmed_start_date,0
+Cleaned: info_complete_at before submitted_at,info_complete_at,0
+Cleaned: assigned_at before submitted_at,assigned_at,0
+Cleaned: team_completed_at before submitted_at,team_completed_at,0
+Cleaned: completion_confirmed_at before submitted_at,completion_confirmed_at,0
+Cleaned: assigned_at before info_complete_at,assigned_at,0
+Cleaned: team_completed_at before info_complete_at,team_completed_at,0
+Cleaned: completion_confirmed_at before info_complete_at,completion_confirmed_at,0
+Cleaned: team_completed_at before assigned_at,team_completed_at,0
+Cleaned: completion_confirmed_at before assigned_at,completion_confirmed_at,0
+Cleaned: completion_confirmed_at before team_completed_at,completion_confirmed_at,0

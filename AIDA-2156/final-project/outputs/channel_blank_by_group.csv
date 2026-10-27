@@ -1,0 +1,16 @@
+grouped_by,group,requests,channel_blank,channel_blank_%
+task_type,equipment_setup,642,9,1.4
+task_type,orientation_scheduling,906,10,1.1
+task_type,payroll_setup,1071,10,0.9
+task_type,system_access,1073,11,1.0
+task_type,workplace_access,672,4,0.6
+hiring_department,Administration,614,9,1.5
+hiring_department,Finance,409,4,1.0
+hiring_department,Parks,978,9,0.9
+hiring_department,Recreation,848,9,1.1
+hiring_department,Transit,889,8,0.9
+hiring_department,Utilities,625,5,0.8
+hiring_department,unknown,1,0,0.0
+employee_type,permanent,2324,27,1.2
+employee_type,seasonal,1115,11,1.0
+employee_type,temporary,925,6,0.6

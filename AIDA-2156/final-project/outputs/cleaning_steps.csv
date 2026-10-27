@@ -1,0 +1,12 @@
+step,field,rows_changed
+exact_duplicates_removed,(whole row),22
+categories_standardized,task_type,50
+categories_standardized,responsible_team,54
+categories_standardized,hiring_department,54
+categories_standardized,submitted_hiring_department,66
+categories_standardized,employee_type,63
+categories_standardized,intake_channel,62
+employee_level_value_filled,employee_type,44
+employee_level_value_filled,hiring_department,44
+submitted_at_repaired_from_events,submitted_at,8
+invalid_submitted_start_date_blanked,submitted_start_date,2

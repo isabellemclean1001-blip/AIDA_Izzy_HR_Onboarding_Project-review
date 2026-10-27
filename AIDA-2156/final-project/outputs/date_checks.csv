@@ -1,0 +1,8 @@
+field,kind,blank,unreadable,after_extract
+submitted_at,recorded event,0,4,4
+info_complete_at,recorded event,1,0,0
+assigned_at,recorded event,6,0,0
+team_completed_at,recorded event,45,0,0
+completion_confirmed_at,recorded event,51,0,0
+submitted_start_date,planned date,137,2,
+confirmed_start_date,planned date,1,0,

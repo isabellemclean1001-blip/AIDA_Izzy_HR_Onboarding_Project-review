@@ -1,0 +1,19 @@
+check,passed
+Cleaned file matches the raw files it was made from (fingerprints),True
+Answer-key evaluation measured this cleaned file and is unchanged (fingerprints),True
+Distinct raw rows equal cleaned requests,True
+Request IDs are unique after removing exact duplicates,True
+Cleaned and distinct raw requests have the same IDs,True
+Every blank is counted exactly once,True
+"Unexplained blanks only in employee type, channel and confirmed department",True
+Unexplained channel blanks equal channel blanks left after cleaning,True
+Duplicates found equal the cleaning record,True
+Recorded missing information always has a visible blank,True
+A visible blank in a submitted field is always recorded as missing information,True
+Recorded conflicts are always visible,True
+Visible conflicts are always recorded,True
+Group tables cover every request,True
+No category value outside the allowed list after cleaning,True
+Cleaned workflow timestamps in order for every pair,True
+No confirmed department recorded before the information check,True
+Count columns in every saved table are written as whole numbers (presentation check),True
