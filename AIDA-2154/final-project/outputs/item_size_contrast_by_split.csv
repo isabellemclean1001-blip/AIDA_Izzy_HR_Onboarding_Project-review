@@ -1,0 +1,4 @@
+split,kit_items,size_small,size_medium,size_large,size_small_%,size_medium_%,size_large_%,contrast_low,contrast_medium,contrast_high,contrast_low_%,contrast_medium_%,contrast_high_%
+train,720,177,278,265,24.6,38.6,36.8,175,312,233,24.3,43.3,32.4
+validation,238,50,92,96,21.0,38.7,40.3,56,105,77,23.5,44.1,32.4
+test,251,55,101,95,21.9,40.2,37.8,70,101,80,27.9,40.2,31.9

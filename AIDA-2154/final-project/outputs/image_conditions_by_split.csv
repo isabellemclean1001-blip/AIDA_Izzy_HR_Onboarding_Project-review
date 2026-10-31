@@ -1,0 +1,4 @@
+split,cards,blurred_cards,median_jpeg_quality,median_noise,omitted_items,background_objects,blurred_%
+train,360,154,77.0,3.14,128,200,42.8
+validation,120,42,77.0,2.9,43,82,35.0
+test,120,46,76.0,3.38,42,70,38.3

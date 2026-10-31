@@ -1,0 +1,13 @@
+,,gray_signal,gray_signal,gray_signal,colour_signal,colour_signal,colour_signal
+contrast_band,,low,medium,high,low,medium,high
+object,style,,,,,,
+access_badge,a,50.0,92.6,141.8,83.3,152.6,235.7
+access_badge,b,48.6,93.4,147.3,90.5,171.4,270.6
+hard_hat,a,23.2,39.8,60.6,76.0,128.8,196.3
+hard_hat,b,18.3,32.5,49.3,31.9,53.7,83.7
+laptop,a,57.0,92.0,146.3,96.1,157.0,249.0
+laptop,b,70.2,111.7,164.7,119.2,189.9,279.2
+phone,a,57.5,102.5,158.3,97.7,175.9,269.0
+phone,b,62.1,111.2,153.5,106.0,190.2,262.3
+safety_vest,a,26.5,50.1,75.1,70.9,131.2,204.9
+safety_vest,b,16.2,27.5,42.2,63.1,115.1,171.0

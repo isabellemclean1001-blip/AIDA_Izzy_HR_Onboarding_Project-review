@@ -1,0 +1,1439 @@
+card_id,split,object,style,size_band,contrast,contrast_band,gray_signal,colour_signal
+KIT-0001,validation,laptop,b,small,0.9,high,169.67,292.96
+KIT-0001,validation,hard_hat,b,large,0.31,low,18.31,32.47
+KIT-0001,validation,safety_vest,a,large,0.5,medium,41.95,112.41
+KIT-0004,train,access_badge,b,small,0.65,medium,95.46,177.6
+KIT-0005,validation,phone,a,large,0.93,high,158.27,271.51
+KIT-0007,train,access_badge,b,medium,0.36,low,55.08,101.28
+KIT-0007,train,safety_vest,b,large,0.96,high,45.57,188.57
+KIT-0007,train,hard_hat,a,small,0.58,medium,37.41,121.58
+KIT-0009,validation,laptop,a,large,0.47,medium,82.25,138.76
+KIT-0010,train,access_badge,b,large,0.38,low,63.99,119.34
+KIT-0010,train,hard_hat,b,small,0.9,high,53.0,91.8
+KIT-0010,train,safety_vest,a,medium,0.78,high,68.22,190.32
+KIT-0012,train,hard_hat,a,medium,0.84,high,55.69,179.42
+KIT-0012,train,safety_vest,b,small,0.24,low,14.22,49.2
+KIT-0012,train,access_badge,b,small,0.98,high,155.0,285.09
+KIT-0013,train,laptop,b,medium,0.62,medium,122.47,208.08
+KIT-0013,train,access_badge,b,medium,0.68,medium,116.12,215.93
+KIT-0014,train,safety_vest,b,large,0.56,medium,29.02,115.46
+KIT-0014,train,hard_hat,a,large,0.63,medium,44.46,142.82
+KIT-0016,train,hard_hat,b,large,0.42,medium,24.08,41.74
+KIT-0016,train,safety_vest,a,medium,0.86,high,71.93,200.9
+KIT-0017,train,access_badge,a,medium,0.29,low,48.28,81.31
+KIT-0017,train,laptop,a,large,0.84,high,147.02,249.88
+KIT-0019,train,access_badge,b,small,0.27,low,41.69,78.79
+KIT-0021,train,access_badge,a,large,0.3,low,49.88,83.57
+KIT-0021,train,phone,b,medium,0.9,high,176.21,301.27
+KIT-0021,train,hard_hat,b,small,0.79,high,48.33,82.18
+KIT-0022,validation,access_badge,b,large,0.92,high,155.87,287.37
+KIT-0022,validation,safety_vest,b,medium,0.89,high,45.92,186.9
+KIT-0022,validation,hard_hat,a,small,0.36,low,26.54,85.64
+KIT-0023,validation,access_badge,a,large,0.3,low,51.23,87.28
+KIT-0023,validation,laptop,b,medium,0.36,low,68.76,119.28
+KIT-0023,validation,safety_vest,b,large,0.96,high,46.29,205.16
+KIT-0024,train,laptop,b,medium,0.82,high,163.23,278.68
+KIT-0024,train,hard_hat,a,medium,0.95,high,60.16,206.2
+KIT-0024,train,access_badge,b,medium,0.55,medium,84.47,160.52
+KIT-0024,train,safety_vest,a,large,0.86,high,73.12,199.93
+KIT-0026,train,access_badge,b,large,0.58,medium,98.01,178.7
+KIT-0026,train,hard_hat,b,large,0.75,high,40.83,68.8
+KIT-0026,train,safety_vest,b,small,0.81,high,37.35,158.0
+KIT-0027,train,hard_hat,b,large,0.9,high,47.9,77.27
+KIT-0028,train,laptop,b,medium,0.31,low,56.56,93.73
+KIT-0029,train,phone,a,large,0.26,low,47.95,80.96
+KIT-0030,train,safety_vest,a,medium,0.52,medium,50.06,130.73
+KIT-0030,train,phone,b,medium,0.74,medium,144.14,246.32
+KIT-0030,train,access_badge,b,medium,0.29,low,51.47,94.15
+KIT-0030,train,hard_hat,a,large,0.4,low,28.02,90.91
+KIT-0031,validation,laptop,b,large,0.95,high,178.84,301.83
+KIT-0031,validation,access_badge,a,large,0.46,medium,72.22,120.65
+KIT-0032,train,phone,b,small,0.71,medium,126.5,218.75
+KIT-0032,train,access_badge,b,medium,0.72,medium,113.93,211.34
+KIT-0032,train,safety_vest,a,large,0.72,medium,57.03,170.48
+KIT-0032,train,hard_hat,b,small,0.9,high,46.0,80.22
+KIT-0033,train,access_badge,a,large,0.98,high,144.74,242.37
+KIT-0034,train,access_badge,a,medium,0.64,medium,108.04,179.08
+KIT-0034,train,hard_hat,b,medium,0.82,high,51.02,84.7
+KIT-0034,train,safety_vest,b,medium,0.29,low,15.98,63.1
+KIT-0035,train,hard_hat,b,large,0.91,high,56.9,95.55
+KIT-0035,train,phone,b,large,0.63,medium,123.09,209.81
+KIT-0035,train,safety_vest,a,small,0.76,high,71.32,187.04
+KIT-0036,train,safety_vest,a,medium,0.85,high,73.28,191.41
+KIT-0036,train,access_badge,a,large,0.51,medium,81.85,136.35
+KIT-0036,train,hard_hat,a,small,0.26,low,17.14,57.15
+KIT-0036,train,laptop,b,small,0.82,high,166.16,278.99
+KIT-0037,train,phone,b,medium,0.76,high,153.21,258.22
+KIT-0041,train,hard_hat,b,medium,0.4,low,21.24,35.34
+KIT-0041,train,safety_vest,a,medium,0.85,high,69.79,193.74
+KIT-0043,train,hard_hat,b,medium,0.5,medium,28.71,47.13
+KIT-0043,train,access_badge,b,medium,0.95,high,156.39,283.25
+KIT-0043,train,laptop,a,large,0.62,medium,107.81,181.38
+KIT-0043,train,safety_vest,a,medium,0.97,high,80.73,224.28
+KIT-0044,train,phone,b,large,0.47,medium,94.04,160.61
+KIT-0045,validation,hard_hat,a,medium,0.71,medium,50.91,171.85
+KIT-0045,validation,safety_vest,b,small,0.68,medium,36.03,151.9
+KIT-0045,validation,phone,a,medium,0.42,medium,74.21,127.15
+KIT-0045,validation,access_badge,a,large,0.71,medium,113.65,191.1
+KIT-0047,validation,access_badge,a,medium,0.78,high,126.71,211.16
+KIT-0047,validation,phone,b,small,0.81,high,144.73,245.38
+KIT-0050,train,safety_vest,b,medium,0.87,high,43.73,176.33
+KIT-0050,train,hard_hat,b,small,0.24,low,14.0,24.25
+KIT-0051,train,hard_hat,b,medium,0.63,medium,39.24,66.64
+KIT-0051,train,access_badge,b,small,0.85,high,136.38,255.66
+KIT-0051,train,safety_vest,b,medium,0.67,medium,37.61,140.85
+KIT-0052,train,access_badge,b,small,0.99,high,174.14,321.98
+KIT-0052,train,laptop,a,small,0.88,high,133.68,226.35
+KIT-0052,train,safety_vest,b,small,0.35,low,17.58,73.33
+KIT-0053,train,access_badge,a,medium,0.63,medium,106.19,178.87
+KIT-0056,train,access_badge,b,small,0.42,medium,66.48,123.3
+KIT-0056,train,hard_hat,a,large,0.58,medium,39.6,126.63
+KIT-0057,validation,safety_vest,b,medium,0.27,low,15.87,58.03
+KIT-0057,validation,hard_hat,a,large,0.27,low,19.68,65.13
+KIT-0059,train,phone,b,medium,0.46,medium,89.02,151.41
+KIT-0060,train,access_badge,b,large,0.39,low,64.7,119.7
+KIT-0061,train,laptop,a,medium,0.8,high,139.0,235.11
+KIT-0061,train,hard_hat,b,large,0.27,low,16.5,28.44
+KIT-0062,train,phone,b,medium,0.31,low,61.74,105.65
+KIT-0063,train,laptop,b,medium,0.27,low,51.98,87.55
+KIT-0065,train,laptop,b,small,0.46,medium,86.28,145.43
+KIT-0067,train,safety_vest,b,small,0.46,medium,22.93,93.59
+KIT-0067,train,hard_hat,a,small,0.98,high,65.19,222.32
+KIT-0067,train,phone,b,medium,0.31,low,58.97,101.71
+KIT-0068,validation,safety_vest,b,medium,0.29,low,15.95,66.61
+KIT-0068,validation,laptop,a,large,0.45,medium,76.27,131.3
+KIT-0068,validation,access_badge,b,large,0.64,medium,97.79,181.92
+KIT-0068,validation,hard_hat,a,large,0.33,low,23.76,78.01
+KIT-0069,validation,safety_vest,b,medium,0.24,low,14.04,49.61
+KIT-0070,train,phone,a,small,0.95,high,160.79,274.27
+KIT-0071,train,phone,b,large,0.85,high,156.18,269.73
+KIT-0072,train,phone,b,large,0.72,medium,134.07,229.47
+KIT-0072,train,safety_vest,a,medium,0.26,low,23.81,61.75
+KIT-0072,train,access_badge,a,large,0.37,low,61.34,102.96
+KIT-0072,train,hard_hat,a,medium,0.5,medium,35.53,115.59
+KIT-0073,train,phone,a,medium,0.85,high,146.61,251.16
+KIT-0075,train,hard_hat,a,medium,0.34,low,24.07,78.88
+KIT-0075,train,safety_vest,a,small,0.48,medium,44.14,118.31
+KIT-0075,train,phone,a,medium,0.99,high,175.45,301.4
+KIT-0075,train,access_badge,b,large,0.97,high,162.81,302.5
+KIT-0077,train,access_badge,a,medium,0.56,medium,87.8,147.27
+KIT-0077,train,safety_vest,b,large,0.57,medium,26.79,124.44
+KIT-0077,train,hard_hat,b,large,0.32,low,18.23,32.37
+KIT-0077,train,phone,b,large,0.77,high,137.04,236.21
+KIT-0078,train,phone,b,medium,0.82,high,146.56,249.12
+KIT-0078,train,access_badge,b,large,0.87,high,140.15,256.52
+KIT-0079,train,safety_vest,b,small,0.36,low,16.17,74.59
+KIT-0079,train,access_badge,a,medium,0.61,medium,92.88,156.31
+KIT-0079,train,hard_hat,b,medium,0.55,medium,28.53,50.25
+KIT-0080,train,laptop,a,small,0.73,medium,118.93,203.64
+KIT-0080,train,access_badge,b,medium,0.92,high,153.69,283.48
+KIT-0081,train,safety_vest,a,small,0.46,medium,42.15,107.83
+KIT-0081,train,hard_hat,a,medium,0.57,medium,40.66,128.54
+KIT-0081,train,laptop,a,medium,0.84,high,146.01,246.29
+KIT-0083,train,safety_vest,a,medium,0.66,medium,60.0,156.2
+KIT-0084,train,safety_vest,a,large,0.72,medium,61.62,164.87
+KIT-0084,train,laptop,a,large,0.48,medium,82.63,139.47
+KIT-0084,train,access_badge,b,small,0.44,medium,66.85,122.58
+KIT-0084,train,hard_hat,a,medium,0.92,high,60.64,196.32
+KIT-0085,train,access_badge,b,large,0.36,low,59.63,109.57
+KIT-0087,train,access_badge,a,small,0.57,medium,92.26,153.61
+KIT-0087,train,phone,a,large,0.35,low,57.48,97.67
+KIT-0088,train,laptop,a,medium,0.54,medium,100.21,168.98
+KIT-0088,train,access_badge,b,medium,0.76,high,118.12,218.47
+KIT-0089,validation,phone,b,small,0.25,low,50.42,84.98
+KIT-0089,validation,access_badge,a,medium,0.46,medium,75.45,123.33
+KIT-0090,train,hard_hat,a,large,0.28,low,22.27,65.76
+KIT-0090,train,safety_vest,a,large,0.47,medium,44.74,115.14
+KIT-0090,train,phone,a,large,0.36,low,63.0,106.87
+KIT-0091,train,hard_hat,b,medium,0.72,medium,46.26,78.57
+KIT-0091,train,safety_vest,a,medium,0.22,low,21.92,57.31
+KIT-0092,train,access_badge,b,small,0.27,low,42.65,80.39
+KIT-0092,train,phone,b,medium,0.44,medium,81.03,140.97
+KIT-0093,train,safety_vest,a,large,0.76,high,60.84,173.46
+KIT-0093,train,hard_hat,b,large,0.39,low,20.25,33.62
+KIT-0095,train,safety_vest,a,medium,0.25,low,22.27,59.97
+KIT-0095,train,laptop,a,small,0.36,low,57.0,97.5
+KIT-0095,train,hard_hat,b,large,0.5,medium,27.99,47.97
+KIT-0097,train,safety_vest,a,large,0.91,high,70.8,200.84
+KIT-0097,train,access_badge,b,large,0.8,high,126.92,235.9
+KIT-0099,train,access_badge,a,large,0.56,medium,90.58,150.13
+KIT-0102,validation,hard_hat,b,large,0.49,medium,29.25,47.69
+KIT-0102,validation,safety_vest,a,small,0.43,medium,39.86,105.59
+KIT-0102,validation,access_badge,a,medium,0.87,high,142.52,235.04
+KIT-0103,train,access_badge,b,medium,0.72,medium,105.91,196.16
+KIT-0103,train,laptop,b,large,0.52,medium,103.75,174.45
+KIT-0104,train,safety_vest,b,medium,0.5,medium,25.96,105.66
+KIT-0104,train,hard_hat,a,large,0.62,medium,41.35,127.14
+KIT-0105,train,hard_hat,b,small,0.23,low,10.85,19.75
+KIT-0105,train,access_badge,b,large,0.44,medium,69.63,130.27
+KIT-0105,train,laptop,b,small,0.6,medium,110.0,187.98
+KIT-0106,train,safety_vest,a,large,0.3,low,27.1,72.79
+KIT-0106,train,hard_hat,b,medium,0.43,medium,23.01,40.01
+KIT-0106,train,access_badge,a,medium,0.35,low,55.08,92.32
+KIT-0107,train,phone,b,large,0.42,medium,77.66,133.39
+KIT-0108,train,access_badge,b,small,0.25,low,39.58,74.61
+KIT-0108,train,laptop,b,medium,0.91,high,173.89,298.44
+KIT-0109,validation,phone,b,medium,0.73,medium,137.87,236.48
+KIT-0109,validation,hard_hat,a,large,0.73,medium,51.09,170.95
+KIT-0109,validation,safety_vest,b,large,0.29,low,15.16,61.85
+KIT-0110,train,laptop,a,medium,0.8,high,143.86,242.33
+KIT-0111,train,hard_hat,b,small,0.78,high,46.0,79.67
+KIT-0111,train,safety_vest,b,medium,0.43,medium,22.42,100.68
+KIT-0111,train,access_badge,b,large,0.22,low,37.35,68.67
+KIT-0112,train,access_badge,a,small,0.43,medium,71.51,119.99
+KIT-0112,train,safety_vest,a,large,0.94,high,77.2,211.55
+KIT-0112,train,hard_hat,a,small,0.44,medium,27.64,95.74
+KIT-0112,train,laptop,b,large,0.77,high,146.57,248.8
+KIT-0113,train,hard_hat,a,large,0.36,low,26.02,82.35
+KIT-0113,train,access_badge,a,medium,0.29,low,49.4,82.44
+KIT-0113,train,safety_vest,a,medium,0.42,medium,39.19,107.02
+KIT-0114,validation,hard_hat,b,medium,0.79,high,43.69,73.13
+KIT-0114,validation,safety_vest,a,large,0.97,high,82.69,228.57
+KIT-0114,validation,access_badge,a,small,0.68,medium,107.93,179.42
+KIT-0116,validation,safety_vest,a,medium,0.85,high,70.66,197.5
+KIT-0116,validation,hard_hat,b,small,0.78,high,39.49,69.56
+KIT-0116,validation,phone,b,medium,0.72,medium,129.83,225.33
+KIT-0117,train,access_badge,b,small,0.55,medium,82.2,155.4
+KIT-0117,train,hard_hat,b,medium,0.3,low,18.07,30.74
+KIT-0117,train,safety_vest,b,large,0.47,medium,23.04,99.2
+KIT-0118,validation,laptop,b,large,0.38,low,78.17,132.53
+KIT-0118,validation,hard_hat,b,small,0.35,low,20.24,33.62
+KIT-0118,validation,safety_vest,b,medium,0.48,medium,24.48,100.09
+KIT-0118,validation,access_badge,b,small,0.23,low,37.08,68.1
+KIT-0119,validation,safety_vest,a,large,0.34,low,30.84,80.52
+KIT-0119,validation,hard_hat,a,large,0.96,high,63.19,210.96
+KIT-0119,validation,laptop,a,medium,0.84,high,150.49,255.93
+KIT-0120,train,access_badge,b,medium,0.52,medium,86.77,160.33
+KIT-0120,train,hard_hat,a,small,0.35,low,23.29,75.52
+KIT-0120,train,phone,b,large,0.74,medium,145.61,246.79
+KIT-0122,train,hard_hat,b,large,0.9,high,54.49,90.09
+KIT-0123,train,safety_vest,a,large,0.66,medium,61.94,167.35
+KIT-0123,train,access_badge,a,large,0.6,medium,93.82,157.79
+KIT-0123,train,hard_hat,b,small,0.51,medium,30.0,51.97
+KIT-0125,train,safety_vest,a,small,0.7,medium,61.16,164.29
+KIT-0125,train,access_badge,a,medium,0.7,medium,111.39,183.4
+KIT-0125,train,hard_hat,b,medium,0.63,medium,37.43,60.94
+KIT-0127,train,access_badge,a,medium,0.26,low,42.44,71.24
+KIT-0127,train,laptop,a,medium,0.69,medium,117.23,197.87
+KIT-0128,train,hard_hat,a,medium,0.8,high,59.14,185.36
+KIT-0128,train,safety_vest,a,large,0.99,high,88.28,225.93
+KIT-0128,train,access_badge,a,medium,0.82,high,136.8,227.8
+KIT-0128,train,phone,a,medium,0.5,medium,90.46,153.29
+KIT-0129,train,laptop,b,large,0.44,medium,81.82,140.6
+KIT-0130,validation,laptop,b,small,0.74,medium,147.3,247.74
+KIT-0131,validation,access_badge,b,large,0.36,low,59.72,112.1
+KIT-0131,validation,laptop,b,large,0.92,high,168.23,285.57
+KIT-0132,train,access_badge,a,medium,0.28,low,49.31,82.2
+KIT-0132,train,hard_hat,b,medium,0.99,high,58.09,95.32
+KIT-0132,train,safety_vest,a,small,0.34,low,32.89,86.16
+KIT-0133,train,laptop,b,large,0.4,low,80.34,137.64
+KIT-0134,validation,access_badge,a,small,0.63,medium,110.33,183.05
+KIT-0134,validation,laptop,a,large,0.32,low,57.5,97.18
+KIT-0135,train,safety_vest,a,small,0.63,medium,56.1,154.39
+KIT-0135,train,access_badge,a,large,0.79,high,127.55,215.51
+KIT-0135,train,hard_hat,b,medium,0.3,low,17.3,30.03
+KIT-0136,validation,safety_vest,a,medium,0.83,high,65.24,187.09
+KIT-0136,validation,phone,a,medium,0.42,medium,73.14,124.86
+KIT-0136,validation,access_badge,a,medium,0.32,low,49.82,83.05
+KIT-0136,validation,hard_hat,a,small,0.68,medium,41.11,143.3
+KIT-0137,train,phone,b,small,0.72,medium,136.95,234.14
+KIT-0138,train,safety_vest,a,medium,0.95,high,78.9,216.08
+KIT-0138,train,hard_hat,b,small,0.32,low,18.3,31.89
+KIT-0139,train,safety_vest,a,small,0.67,medium,57.73,152.26
+KIT-0139,train,hard_hat,a,medium,0.72,medium,48.04,154.66
+KIT-0140,train,phone,a,small,0.68,medium,102.53,175.92
+KIT-0141,train,safety_vest,a,large,0.86,high,74.2,200.47
+KIT-0141,train,hard_hat,b,medium,0.75,high,42.13,73.78
+KIT-0141,train,access_badge,a,medium,0.61,medium,94.69,160.25
+KIT-0142,validation,access_badge,b,medium,0.58,medium,97.5,177.19
+KIT-0142,validation,hard_hat,b,medium,0.25,low,13.84,22.83
+KIT-0143,train,access_badge,a,medium,0.64,medium,98.54,165.24
+KIT-0143,train,safety_vest,b,large,0.59,medium,26.09,116.57
+KIT-0145,train,phone,b,small,0.98,high,177.71,301.6
+KIT-0146,train,access_badge,a,large,0.91,high,143.01,235.11
+KIT-0146,train,safety_vest,b,medium,0.27,low,16.18,60.1
+KIT-0146,train,laptop,b,small,0.97,high,189.78,317.75
+KIT-0146,train,hard_hat,a,small,0.24,low,17.39,57.02
+KIT-0147,train,hard_hat,a,medium,0.8,high,51.77,180.87
+KIT-0147,train,safety_vest,a,large,0.83,high,69.68,197.32
+KIT-0149,train,phone,a,medium,0.78,high,133.6,228.04
+KIT-0150,train,access_badge,b,large,0.67,medium,107.11,197.68
+KIT-0150,train,safety_vest,a,medium,0.88,high,70.85,203.56
+KIT-0150,train,hard_hat,a,large,0.43,medium,28.19,95.35
+KIT-0151,validation,phone,b,large,0.79,high,149.83,259.43
+KIT-0152,train,hard_hat,a,small,0.62,medium,49.2,157.9
+KIT-0152,train,safety_vest,b,small,0.51,medium,27.61,107.75
+KIT-0152,train,access_badge,b,small,0.31,low,53.79,97.85
+KIT-0153,validation,hard_hat,a,large,0.34,low,24.57,77.3
+KIT-0153,validation,laptop,b,large,0.53,medium,94.31,159.36
+KIT-0153,validation,safety_vest,b,large,0.99,high,45.32,204.44
+KIT-0155,train,laptop,a,large,0.72,medium,125.11,211.99
+KIT-0155,train,hard_hat,b,medium,0.55,medium,31.46,51.89
+KIT-0155,train,safety_vest,b,medium,0.75,high,37.09,156.09
+KIT-0155,train,access_badge,a,medium,0.26,low,43.43,72.35
+KIT-0156,train,access_badge,a,medium,0.5,medium,73.8,122.52
+KIT-0156,train,hard_hat,a,medium,0.9,high,64.75,218.67
+KIT-0157,train,phone,a,medium,0.24,low,41.42,69.86
+KIT-0157,train,access_badge,b,large,0.94,high,146.52,272.01
+KIT-0162,train,access_badge,a,large,0.9,high,142.68,236.58
+KIT-0162,train,hard_hat,b,medium,0.71,medium,45.19,75.27
+KIT-0163,train,access_badge,a,large,0.42,medium,69.28,113.18
+KIT-0163,train,hard_hat,a,large,0.56,medium,39.83,123.6
+KIT-0163,train,safety_vest,b,large,0.37,low,20.26,79.23
+KIT-0164,validation,hard_hat,a,medium,0.36,low,26.73,84.84
+KIT-0164,validation,safety_vest,a,medium,0.5,medium,45.62,119.91
+KIT-0165,train,hard_hat,a,large,0.75,medium,49.14,167.84
+KIT-0165,train,laptop,b,large,0.49,medium,92.25,156.98
+KIT-0165,train,access_badge,a,small,0.66,medium,107.82,181.51
+KIT-0165,train,safety_vest,a,large,0.86,high,75.08,207.82
+KIT-0166,validation,phone,b,medium,0.81,high,151.15,259.37
+KIT-0166,validation,access_badge,a,medium,0.33,low,55.21,91.98
+KIT-0167,train,safety_vest,b,large,0.29,low,16.51,65.14
+KIT-0167,train,hard_hat,b,large,0.72,medium,42.71,72.1
+KIT-0168,train,laptop,b,large,0.62,medium,122.27,206.14
+KIT-0169,validation,safety_vest,a,large,0.99,high,81.25,239.17
+KIT-0169,validation,hard_hat,a,large,0.54,medium,35.9,130.03
+KIT-0169,validation,phone,b,large,0.86,high,151.26,259.83
+KIT-0169,validation,access_badge,a,small,0.68,medium,107.97,179.07
+KIT-0173,train,access_badge,b,medium,0.5,medium,78.87,149.36
+KIT-0175,train,phone,a,small,0.32,low,54.0,93.28
+KIT-0176,validation,phone,a,large,0.68,medium,126.62,217.1
+KIT-0178,validation,phone,a,large,0.47,medium,86.24,146.76
+KIT-0179,validation,phone,a,medium,0.42,medium,76.13,129.96
+KIT-0179,validation,hard_hat,a,medium,0.45,medium,31.07,105.66
+KIT-0179,validation,access_badge,a,large,0.66,medium,106.23,177.5
+KIT-0181,train,access_badge,b,large,0.9,high,144.13,266.6
+KIT-0181,train,laptop,b,large,0.44,medium,82.7,141.05
+KIT-0182,train,safety_vest,a,large,0.24,low,25.03,62.3
+KIT-0182,train,access_badge,b,medium,0.36,low,54.83,102.17
+KIT-0183,train,phone,b,medium,0.39,low,69.97,120.34
+KIT-0184,train,laptop,a,small,0.61,medium,100.47,168.42
+KIT-0184,train,access_badge,a,small,0.86,high,140.04,230.11
+KIT-0186,train,hard_hat,a,small,0.94,high,66.66,208.07
+KIT-0186,train,safety_vest,a,large,0.72,medium,64.15,167.26
+KIT-0186,train,access_badge,b,small,0.49,medium,80.05,147.08
+KIT-0189,validation,access_badge,b,medium,0.7,medium,107.55,200.24
+KIT-0189,validation,hard_hat,a,medium,0.48,medium,33.55,108.65
+KIT-0189,validation,safety_vest,b,medium,0.8,high,39.61,165.11
+KIT-0190,train,hard_hat,a,large,0.61,medium,37.84,133.41
+KIT-0190,train,laptop,a,medium,0.65,medium,113.09,192.35
+KIT-0190,train,access_badge,b,small,0.59,medium,83.85,157.85
+KIT-0190,train,safety_vest,a,large,0.96,high,75.53,211.06
+KIT-0191,train,hard_hat,a,medium,0.37,low,25.62,83.19
+KIT-0191,train,safety_vest,b,large,0.36,low,19.37,75.43
+KIT-0191,train,access_badge,a,large,0.37,low,63.21,105.46
+KIT-0193,validation,hard_hat,b,medium,0.79,high,43.32,76.15
+KIT-0193,validation,access_badge,b,medium,0.59,medium,84.25,158.66
+KIT-0198,validation,hard_hat,b,large,0.93,high,57.16,93.26
+KIT-0198,validation,safety_vest,b,medium,0.3,low,17.34,60.44
+KIT-0201,train,access_badge,a,medium,0.95,high,145.65,242.64
+KIT-0201,train,hard_hat,b,medium,0.52,medium,27.0,46.79
+KIT-0203,train,hard_hat,a,small,0.39,low,28.71,92.18
+KIT-0203,train,safety_vest,a,small,0.68,medium,61.29,163.71
+KIT-0203,train,access_badge,b,small,0.92,high,144.57,266.56
+KIT-0204,train,hard_hat,b,small,0.6,medium,31.94,52.33
+KIT-0205,train,hard_hat,b,small,0.78,high,45.82,75.29
+KIT-0205,train,safety_vest,b,medium,0.35,low,18.26,68.77
+KIT-0206,train,hard_hat,b,medium,0.7,medium,40.16,66.24
+KIT-0206,train,safety_vest,b,large,0.42,medium,23.62,87.78
+KIT-0206,train,access_badge,b,small,0.24,low,40.71,75.44
+KIT-0206,train,laptop,a,large,0.88,high,158.01,266.41
+KIT-0207,validation,laptop,a,small,0.52,medium,81.26,136.64
+KIT-0208,train,phone,a,medium,0.38,low,72.22,122.87
+KIT-0208,train,access_badge,a,large,0.43,medium,69.14,115.12
+KIT-0210,validation,laptop,b,medium,0.36,low,70.24,119.16
+KIT-0210,validation,safety_vest,a,small,0.58,medium,53.13,138.48
+KIT-0210,validation,hard_hat,a,large,0.92,high,68.09,211.52
+KIT-0211,train,laptop,b,medium,0.72,medium,137.7,231.86
+KIT-0212,train,laptop,a,small,0.57,medium,91.95,157.02
+KIT-0212,train,access_badge,b,small,0.99,high,159.38,293.73
+KIT-0212,train,hard_hat,b,large,0.26,low,18.59,31.3
+KIT-0212,train,safety_vest,b,large,0.5,medium,27.09,104.14
+KIT-0213,train,hard_hat,b,large,0.9,high,53.82,90.76
+KIT-0213,train,safety_vest,b,small,0.82,high,42.64,167.05
+KIT-0214,validation,access_badge,b,medium,0.96,high,156.98,285.03
+KIT-0214,validation,phone,a,medium,0.71,medium,119.63,200.97
+KIT-0215,train,phone,b,medium,0.6,medium,113.22,192.95
+KIT-0217,train,phone,a,medium,0.91,high,158.87,269.04
+KIT-0218,train,access_badge,b,large,0.34,low,58.09,107.31
+KIT-0218,train,hard_hat,a,large,0.41,medium,27.07,89.58
+KIT-0218,train,safety_vest,a,medium,0.23,low,19.89,52.13
+KIT-0219,train,hard_hat,a,small,0.75,high,50.48,174.22
+KIT-0220,train,laptop,a,medium,0.46,medium,76.53,129.02
+KIT-0221,validation,phone,a,large,0.88,high,153.71,258.26
+KIT-0221,validation,access_badge,b,medium,0.6,medium,96.35,178.23
+KIT-0222,validation,access_badge,b,small,0.6,medium,93.42,171.32
+KIT-0223,validation,laptop,a,small,1.0,high,168.0,282.12
+KIT-0223,validation,access_badge,a,large,0.57,medium,92.87,152.71
+KIT-0223,validation,safety_vest,a,small,0.35,low,33.83,87.32
+KIT-0223,validation,hard_hat,a,medium,0.73,medium,53.88,171.97
+KIT-0225,train,laptop,a,small,0.57,medium,92.87,159.67
+KIT-0225,train,safety_vest,a,small,0.84,high,72.8,204.87
+KIT-0225,train,access_badge,b,large,0.71,medium,116.73,218.71
+KIT-0225,train,hard_hat,a,medium,0.59,medium,39.73,138.46
+KIT-0227,train,phone,b,small,0.51,medium,98.52,165.02
+KIT-0227,train,hard_hat,a,large,0.31,low,24.4,76.48
+KIT-0229,train,safety_vest,b,large,0.68,medium,35.04,141.89
+KIT-0230,train,hard_hat,a,large,0.68,medium,45.7,152.68
+KIT-0230,train,safety_vest,b,medium,0.69,medium,31.57,140.01
+KIT-0231,train,hard_hat,b,large,0.33,low,18.78,32.47
+KIT-0231,train,access_badge,b,small,0.61,medium,95.85,180.54
+KIT-0232,train,safety_vest,b,large,0.56,medium,28.03,114.98
+KIT-0232,train,hard_hat,a,large,0.87,high,60.86,194.12
+KIT-0234,validation,access_badge,a,large,0.84,high,132.63,223.47
+KIT-0234,validation,hard_hat,b,medium,0.28,low,15.78,26.25
+KIT-0234,validation,safety_vest,a,medium,0.71,medium,57.53,160.22
+KIT-0235,train,hard_hat,b,small,0.76,high,45.89,76.97
+KIT-0235,train,phone,b,large,0.6,medium,109.39,186.63
+KIT-0235,train,safety_vest,b,large,0.74,medium,39.33,161.26
+KIT-0235,train,access_badge,a,large,0.6,medium,94.0,156.28
+KIT-0236,train,safety_vest,b,large,0.54,medium,25.42,106.53
+KIT-0236,train,hard_hat,b,large,1.0,high,52.69,89.59
+KIT-0236,train,laptop,b,large,0.96,high,183.25,311.03
+KIT-0236,train,access_badge,a,large,0.68,medium,114.06,190.85
+KIT-0237,train,phone,a,medium,0.62,medium,105.83,178.03
+KIT-0238,train,phone,a,large,0.47,medium,85.88,145.68
+KIT-0239,train,safety_vest,b,large,0.68,medium,30.14,138.48
+KIT-0239,train,access_badge,b,medium,0.25,low,36.7,68.76
+KIT-0239,train,hard_hat,b,large,0.88,high,46.22,79.38
+KIT-0240,validation,access_badge,b,small,0.91,high,146.04,266.98
+KIT-0240,validation,hard_hat,b,small,0.74,medium,46.17,77.1
+KIT-0240,validation,safety_vest,a,large,0.54,medium,50.23,132.19
+KIT-0241,validation,safety_vest,b,large,0.94,high,40.13,183.77
+KIT-0241,validation,hard_hat,b,medium,0.66,medium,35.14,59.25
+KIT-0242,train,access_badge,a,medium,0.6,medium,95.84,159.66
+KIT-0242,train,safety_vest,a,large,0.51,medium,42.53,123.69
+KIT-0242,train,hard_hat,a,large,0.99,high,61.87,225.68
+KIT-0244,validation,hard_hat,b,medium,0.44,medium,28.03,46.71
+KIT-0244,validation,laptop,a,small,0.99,high,177.11,298.52
+KIT-0245,train,phone,b,medium,0.8,high,150.06,252.12
+KIT-0245,train,hard_hat,a,medium,0.89,high,60.76,192.11
+KIT-0246,train,access_badge,a,large,0.7,medium,116.08,194.34
+KIT-0246,train,hard_hat,b,large,0.85,high,52.17,88.1
+KIT-0247,validation,hard_hat,a,medium,0.44,medium,31.94,99.9
+KIT-0247,validation,laptop,a,large,0.55,medium,99.43,169.55
+KIT-0247,validation,access_badge,b,small,0.37,low,61.32,115.19
+KIT-0247,validation,safety_vest,b,medium,0.43,medium,22.9,89.07
+KIT-0248,train,safety_vest,b,large,0.92,high,41.74,186.89
+KIT-0248,train,phone,a,large,0.92,high,159.61,273.09
+KIT-0248,train,hard_hat,b,large,0.79,high,43.98,75.64
+KIT-0250,validation,access_badge,b,large,1.0,high,163.8,301.75
+KIT-0250,validation,hard_hat,b,large,0.31,low,18.02,30.27
+KIT-0250,validation,safety_vest,a,medium,0.28,low,24.84,67.31
+KIT-0251,validation,safety_vest,a,medium,0.61,medium,50.08,143.4
+KIT-0251,validation,access_badge,b,medium,0.5,medium,74.43,141.55
+KIT-0251,validation,hard_hat,b,large,0.58,medium,30.71,53.71
+KIT-0254,train,safety_vest,a,medium,0.41,medium,33.63,93.32
+KIT-0254,train,hard_hat,b,large,0.75,high,38.32,64.27
+KIT-0257,train,access_badge,b,large,0.88,high,140.05,259.84
+KIT-0262,train,hard_hat,b,large,0.76,high,43.66,70.84
+KIT-0262,train,access_badge,b,large,0.93,high,148.0,269.15
+KIT-0262,train,safety_vest,a,medium,0.7,medium,64.2,167.5
+KIT-0263,validation,phone,b,medium,0.96,high,169.75,291.64
+KIT-0265,train,access_badge,b,large,0.87,high,141.34,260.96
+KIT-0265,train,safety_vest,a,medium,0.27,low,22.3,63.63
+KIT-0265,train,hard_hat,a,large,0.64,medium,40.6,140.68
+KIT-0266,train,access_badge,b,large,0.7,medium,119.44,217.99
+KIT-0266,train,safety_vest,b,large,0.46,medium,21.83,89.22
+KIT-0266,train,hard_hat,b,large,0.48,medium,30.24,50.89
+KIT-0267,train,phone,b,large,0.45,medium,85.61,149.0
+KIT-0268,train,access_badge,a,small,0.99,high,159.4,270.81
+KIT-0271,validation,safety_vest,a,medium,0.41,medium,34.69,94.07
+KIT-0271,validation,hard_hat,a,large,0.25,low,17.41,56.23
+KIT-0272,train,access_badge,b,medium,0.51,medium,85.63,158.72
+KIT-0273,validation,access_badge,a,medium,0.51,medium,78.86,129.79
+KIT-0274,train,phone,b,large,0.46,medium,89.05,149.8
+KIT-0275,train,safety_vest,b,medium,0.7,medium,38.63,141.2
+KIT-0275,train,laptop,a,large,0.84,high,153.21,257.71
+KIT-0275,train,hard_hat,b,medium,0.42,medium,28.24,46.3
+KIT-0276,validation,access_badge,b,medium,0.27,low,42.54,79.52
+KIT-0277,train,laptop,a,medium,0.52,medium,87.0,147.76
+KIT-0277,train,access_badge,a,medium,0.32,low,52.68,87.86
+KIT-0278,train,hard_hat,b,medium,0.88,high,53.53,87.85
+KIT-0278,train,safety_vest,a,large,0.97,high,88.66,237.21
+KIT-0278,train,access_badge,a,medium,0.45,medium,75.43,123.75
+KIT-0279,train,hard_hat,b,small,0.38,low,24.57,41.39
+KIT-0279,train,safety_vest,b,medium,0.86,high,48.8,180.65
+KIT-0279,train,laptop,a,medium,0.41,medium,70.06,119.02
+KIT-0282,train,safety_vest,b,small,0.28,low,12.2,48.67
+KIT-0282,train,phone,a,medium,0.27,low,46.49,78.57
+KIT-0282,train,access_badge,a,medium,0.96,high,141.18,236.97
+KIT-0283,train,hard_hat,a,medium,0.85,high,55.83,189.74
+KIT-0283,train,safety_vest,b,small,0.33,low,16.47,67.3
+KIT-0284,train,laptop,a,large,0.55,medium,97.16,164.4
+KIT-0285,validation,hard_hat,a,medium,0.88,high,66.97,218.26
+KIT-0285,validation,safety_vest,a,medium,0.95,high,90.32,233.48
+KIT-0289,train,hard_hat,a,medium,0.83,high,59.95,189.97
+KIT-0289,train,access_badge,a,small,0.96,high,155.52,259.26
+KIT-0289,train,safety_vest,b,small,0.3,low,15.69,59.87
+KIT-0290,train,access_badge,a,medium,0.28,low,47.12,78.68
+KIT-0290,train,safety_vest,a,large,0.41,medium,39.84,99.77
+KIT-0292,validation,access_badge,b,large,0.67,medium,105.26,192.97
+KIT-0292,validation,hard_hat,a,small,0.53,medium,31.73,112.74
+KIT-0292,validation,safety_vest,a,medium,0.96,high,77.73,216.32
+KIT-0294,train,safety_vest,a,medium,0.72,medium,61.01,163.82
+KIT-0294,train,hard_hat,a,medium,0.31,low,21.19,71.25
+KIT-0294,train,laptop,b,large,0.59,medium,110.0,187.2
+KIT-0294,train,access_badge,b,medium,0.9,high,141.18,262.62
+KIT-0295,train,access_badge,b,large,0.5,medium,86.85,158.69
+KIT-0296,train,safety_vest,b,medium,0.84,high,40.56,169.91
+KIT-0296,train,hard_hat,a,medium,0.96,high,63.7,209.83
+KIT-0297,validation,access_badge,a,medium,0.9,high,154.66,257.38
+KIT-0297,validation,hard_hat,b,large,0.49,medium,33.0,53.74
+KIT-0297,validation,phone,a,large,0.22,low,43.66,73.52
+KIT-0298,train,laptop,a,medium,0.63,medium,104.75,175.98
+KIT-0298,train,access_badge,b,large,0.71,medium,122.39,225.11
+KIT-0301,train,laptop,a,large,0.8,high,133.87,226.69
+KIT-0302,train,safety_vest,b,small,0.93,high,44.12,175.65
+KIT-0302,train,access_badge,a,medium,0.67,medium,100.17,164.27
+KIT-0303,validation,safety_vest,a,medium,0.41,medium,36.94,98.96
+KIT-0303,validation,access_badge,b,small,0.3,low,46.03,87.12
+KIT-0303,validation,hard_hat,b,medium,0.29,low,18.71,31.89
+KIT-0304,train,phone,a,small,0.81,high,128.76,219.45
+KIT-0305,train,hard_hat,a,medium,0.31,low,21.41,73.57
+KIT-0305,train,safety_vest,a,large,0.87,high,71.67,197.75
+KIT-0306,train,laptop,b,large,0.52,medium,99.01,167.41
+KIT-0306,train,hard_hat,a,medium,0.52,medium,38.7,125.17
+KIT-0306,train,safety_vest,b,large,0.55,medium,27.54,112.42
+KIT-0307,train,phone,a,small,0.79,high,128.69,216.49
+KIT-0308,train,safety_vest,a,small,0.7,medium,63.76,170.25
+KIT-0308,train,access_badge,a,medium,0.41,medium,69.81,116.3
+KIT-0308,train,hard_hat,b,small,0.73,medium,45.02,75.77
+KIT-0309,train,phone,b,large,0.35,low,68.05,115.73
+KIT-0310,train,laptop,b,medium,0.66,medium,125.36,211.6
+KIT-0311,train,safety_vest,a,small,0.54,medium,47.73,124.27
+KIT-0311,train,laptop,a,medium,0.77,high,128.76,215.56
+KIT-0311,train,hard_hat,a,small,0.51,medium,33.69,108.93
+KIT-0311,train,access_badge,b,small,0.77,high,117.31,216.07
+KIT-0312,validation,hard_hat,b,large,0.81,high,41.3,71.6
+KIT-0312,validation,access_badge,b,small,0.94,high,151.57,281.36
+KIT-0312,validation,safety_vest,a,medium,0.97,high,80.21,229.24
+KIT-0313,validation,hard_hat,b,large,0.26,low,14.72,25.08
+KIT-0313,validation,safety_vest,a,large,1.0,high,81.81,231.3
+KIT-0314,validation,hard_hat,a,medium,0.94,high,64.8,215.49
+KIT-0314,validation,laptop,b,medium,0.44,medium,84.04,142.88
+KIT-0314,validation,safety_vest,a,large,0.68,medium,58.84,159.78
+KIT-0314,validation,access_badge,b,large,0.41,medium,68.76,126.67
+KIT-0316,train,phone,a,small,0.97,high,167.2,288.73
+KIT-0317,train,safety_vest,a,small,0.48,medium,43.89,117.29
+KIT-0317,train,hard_hat,b,small,0.34,low,21.01,37.01
+KIT-0318,train,access_badge,a,small,0.34,low,59.67,98.32
+KIT-0318,train,phone,b,small,0.28,low,56.49,94.87
+KIT-0319,train,phone,a,medium,0.34,low,61.95,106.9
+KIT-0319,train,access_badge,a,medium,0.92,high,149.56,252.18
+KIT-0320,train,safety_vest,b,medium,0.82,high,40.04,164.93
+KIT-0320,train,laptop,b,medium,0.7,medium,138.32,236.03
+KIT-0320,train,hard_hat,b,medium,0.57,medium,35.48,60.74
+KIT-0322,train,access_badge,b,small,0.9,high,141.4,266.04
+KIT-0322,train,hard_hat,b,large,0.92,high,53.69,94.3
+KIT-0322,train,safety_vest,b,medium,0.71,medium,35.71,153.61
+KIT-0323,validation,access_badge,b,large,0.64,medium,107.51,198.92
+KIT-0323,validation,hard_hat,a,medium,0.42,medium,29.19,97.58
+KIT-0324,validation,hard_hat,a,medium,0.64,medium,41.0,137.8
+KIT-0324,validation,safety_vest,a,medium,0.54,medium,41.66,114.11
+KIT-0325,train,laptop,b,small,0.76,high,150.62,253.65
+KIT-0326,train,laptop,a,small,0.38,low,54.48,92.06
+KIT-0328,train,phone,b,medium,0.52,medium,104.37,179.03
+KIT-0328,train,access_badge,b,large,0.24,low,40.3,75.69
+KIT-0330,train,safety_vest,b,large,0.25,low,12.34,52.63
+KIT-0330,train,hard_hat,b,large,0.67,medium,36.13,60.74
+KIT-0330,train,laptop,b,medium,0.58,medium,108.97,183.85
+KIT-0331,train,laptop,a,medium,0.67,medium,113.48,193.88
+KIT-0334,train,access_badge,a,large,0.71,medium,119.62,199.9
+KIT-0334,train,phone,b,small,0.65,medium,121.56,209.76
+KIT-0335,validation,access_badge,b,large,0.8,high,127.58,237.95
+KIT-0336,train,access_badge,b,medium,0.41,medium,59.09,112.22
+KIT-0336,train,hard_hat,b,small,0.54,medium,28.0,48.5
+KIT-0336,train,safety_vest,b,large,0.62,medium,29.87,132.34
+KIT-0337,train,phone,a,large,0.71,medium,130.86,218.86
+KIT-0337,train,hard_hat,a,medium,0.78,high,56.09,168.24
+KIT-0341,validation,access_badge,a,medium,0.43,medium,76.28,126.75
+KIT-0342,train,phone,b,large,0.51,medium,96.59,164.07
+KIT-0343,train,safety_vest,b,large,0.24,low,15.11,55.77
+KIT-0343,train,hard_hat,b,small,0.86,high,49.06,83.7
+KIT-0343,train,access_badge,b,small,0.86,high,126.41,235.27
+KIT-0344,train,access_badge,a,large,0.77,high,130.01,217.32
+KIT-0345,train,laptop,a,large,0.44,medium,77.7,130.66
+KIT-0347,train,safety_vest,a,large,0.71,medium,68.1,177.91
+KIT-0347,train,access_badge,a,small,0.3,low,50.13,83.01
+KIT-0348,train,hard_hat,a,small,0.32,low,23.19,77.85
+KIT-0349,train,access_badge,a,large,0.57,medium,93.13,152.43
+KIT-0349,train,safety_vest,b,medium,0.79,high,42.21,168.0
+KIT-0350,train,access_badge,b,medium,0.55,medium,93.27,169.55
+KIT-0350,train,safety_vest,b,small,0.36,low,17.98,70.06
+KIT-0351,train,access_badge,b,medium,0.63,medium,104.26,192.55
+KIT-0351,train,safety_vest,b,medium,0.8,high,38.72,163.31
+KIT-0352,train,phone,b,large,0.52,medium,99.9,171.01
+KIT-0352,train,access_badge,b,medium,0.96,high,165.69,300.87
+KIT-0352,train,safety_vest,b,large,0.27,low,14.96,60.42
+KIT-0353,train,safety_vest,a,medium,0.44,medium,37.42,103.32
+KIT-0353,train,hard_hat,a,medium,0.87,high,56.26,197.33
+KIT-0355,train,safety_vest,b,medium,0.78,high,42.84,164.22
+KIT-0355,train,access_badge,b,large,0.22,low,39.65,72.43
+KIT-0355,train,hard_hat,a,medium,0.26,low,21.38,67.39
+KIT-0357,train,hard_hat,b,small,0.42,medium,20.42,36.48
+KIT-0357,train,laptop,b,medium,0.88,high,163.25,279.38
+KIT-0357,train,safety_vest,b,medium,0.34,low,18.17,72.1
+KIT-0358,train,hard_hat,a,large,0.44,medium,30.26,97.1
+KIT-0358,train,safety_vest,b,small,0.43,medium,21.71,85.86
+KIT-0359,train,access_badge,b,medium,0.31,low,48.67,90.17
+KIT-0360,train,access_badge,a,small,0.32,low,51.61,87.29
+KIT-0360,train,safety_vest,a,large,0.52,medium,42.2,123.97
+KIT-0361,train,phone,b,large,0.92,high,174.06,295.35
+KIT-0361,train,access_badge,a,medium,0.43,medium,70.24,116.45
+KIT-0361,train,hard_hat,b,small,0.5,medium,27.06,45.23
+KIT-0361,train,safety_vest,b,medium,1.0,high,45.3,194.1
+KIT-0365,train,laptop,b,large,0.47,medium,90.33,153.65
+KIT-0365,train,hard_hat,b,medium,0.38,low,24.37,41.67
+KIT-0366,validation,access_badge,b,medium,0.55,medium,90.72,167.68
+KIT-0366,validation,safety_vest,a,large,0.22,low,20.25,52.81
+KIT-0367,train,hard_hat,b,small,0.6,medium,34.0,57.18
+KIT-0367,train,safety_vest,a,large,0.3,low,26.51,70.86
+KIT-0368,train,access_badge,b,large,0.96,high,156.01,289.79
+KIT-0368,train,phone,a,large,0.34,low,59.44,101.73
+KIT-0369,train,access_badge,b,small,0.23,low,35.17,66.32
+KIT-0369,train,phone,a,large,0.76,high,135.94,229.79
+KIT-0370,train,access_badge,a,medium,0.95,high,155.67,255.71
+KIT-0370,train,safety_vest,b,medium,0.86,high,44.63,170.21
+KIT-0370,train,phone,b,small,0.86,high,163.82,274.65
+KIT-0371,validation,phone,b,small,0.49,medium,84.04,144.48
+KIT-0372,train,safety_vest,a,large,0.71,medium,65.75,170.45
+KIT-0372,train,hard_hat,a,small,0.4,medium,31.54,97.71
+KIT-0372,train,access_badge,b,large,0.86,high,156.34,288.05
+KIT-0373,train,phone,b,large,0.32,low,62.4,106.39
+KIT-0374,train,safety_vest,a,medium,0.81,high,74.5,195.98
+KIT-0375,validation,safety_vest,b,small,0.91,high,48.51,183.62
+KIT-0375,validation,hard_hat,b,small,0.97,high,58.21,95.13
+KIT-0375,validation,access_badge,a,large,0.86,high,133.47,221.51
+KIT-0379,train,hard_hat,a,small,0.55,medium,36.98,126.42
+KIT-0379,train,safety_vest,b,large,0.53,medium,26.57,115.09
+KIT-0381,train,access_badge,a,medium,0.96,high,156.02,258.37
+KIT-0381,train,laptop,a,medium,0.68,medium,119.08,200.62
+KIT-0383,train,safety_vest,a,medium,0.98,high,84.26,224.52
+KIT-0383,train,access_badge,a,medium,0.63,medium,104.04,174.82
+KIT-0383,train,laptop,b,medium,0.28,low,53.11,90.47
+KIT-0383,train,hard_hat,a,large,0.56,medium,38.34,123.3
+KIT-0384,train,phone,a,medium,0.59,medium,108.4,181.56
+KIT-0386,train,access_badge,b,large,0.38,low,65.94,120.87
+KIT-0386,train,phone,b,medium,0.8,high,148.95,255.54
+KIT-0387,train,hard_hat,b,large,0.67,medium,40.87,66.31
+KIT-0387,train,safety_vest,b,large,0.34,low,19.01,70.1
+KIT-0388,validation,hard_hat,b,large,0.78,high,45.79,80.55
+KIT-0388,validation,access_badge,a,medium,0.5,medium,74.98,127.11
+KIT-0388,validation,laptop,a,large,0.77,high,125.8,217.73
+KIT-0388,validation,safety_vest,a,medium,0.27,low,24.94,63.89
+KIT-0389,train,phone,a,large,0.94,high,167.25,285.65
+KIT-0390,train,safety_vest,a,small,0.56,medium,50.45,131.16
+KIT-0390,train,access_badge,b,small,0.66,medium,101.45,188.59
+KIT-0390,train,hard_hat,b,medium,0.24,low,16.0,27.71
+KIT-0391,train,hard_hat,a,large,0.79,high,55.04,181.39
+KIT-0391,train,safety_vest,b,large,0.81,high,38.09,162.79
+KIT-0391,train,access_badge,b,medium,0.48,medium,79.47,146.38
+KIT-0392,train,safety_vest,a,small,0.5,medium,44.04,122.58
+KIT-0392,train,hard_hat,b,large,0.73,medium,42.17,69.17
+KIT-0392,train,access_badge,b,medium,0.96,high,158.04,285.95
+KIT-0392,train,laptop,a,medium,0.78,high,124.44,209.34
+KIT-0393,train,laptop,a,small,0.37,low,66.02,112.09
+KIT-0394,train,access_badge,b,medium,0.51,medium,85.56,155.09
+KIT-0394,train,safety_vest,a,medium,0.88,high,81.28,205.58
+KIT-0394,train,hard_hat,b,medium,0.42,medium,27.79,45.45
+KIT-0395,train,access_badge,b,small,0.5,medium,78.65,145.51
+KIT-0396,train,hard_hat,a,medium,0.93,high,58.19,194.24
+KIT-0396,train,safety_vest,b,small,0.47,medium,22.41,94.45
+KIT-0396,train,access_badge,b,large,0.41,medium,68.42,126.21
+KIT-0399,validation,laptop,a,large,0.43,medium,81.86,138.23
+KIT-0399,validation,safety_vest,a,medium,0.28,low,28.67,71.65
+KIT-0399,validation,access_badge,b,medium,0.7,medium,117.7,215.82
+KIT-0399,validation,hard_hat,a,small,0.82,high,61.15,189.88
+KIT-0400,train,phone,b,large,0.98,high,178.85,305.29
+KIT-0401,validation,access_badge,b,medium,0.31,low,57.52,107.31
+KIT-0402,train,access_badge,b,large,0.24,low,38.93,71.95
+KIT-0402,train,phone,a,medium,0.99,high,161.76,277.9
+KIT-0403,train,access_badge,b,small,0.71,medium,112.44,205.22
+KIT-0403,train,hard_hat,a,medium,0.72,medium,46.68,159.12
+KIT-0403,train,laptop,b,medium,0.74,medium,127.95,217.0
+KIT-0403,train,safety_vest,b,small,0.36,low,17.38,72.21
+KIT-0405,train,safety_vest,a,large,0.75,high,66.41,178.77
+KIT-0405,train,access_badge,a,medium,0.96,high,155.64,255.17
+KIT-0405,train,hard_hat,a,large,0.73,medium,51.41,165.41
+KIT-0406,train,safety_vest,b,small,0.98,high,47.68,195.53
+KIT-0407,train,hard_hat,b,medium,0.81,high,50.99,84.25
+KIT-0407,train,safety_vest,b,large,0.93,high,44.68,191.64
+KIT-0408,train,hard_hat,b,small,0.8,high,43.0,72.97
+KIT-0408,train,access_badge,a,medium,0.43,medium,68.58,115.71
+KIT-0408,train,safety_vest,b,small,0.63,medium,29.44,123.39
+KIT-0411,validation,laptop,a,small,0.41,medium,67.78,114.77
+KIT-0413,train,safety_vest,b,small,0.59,medium,28.91,115.87
+KIT-0413,train,hard_hat,b,medium,0.65,medium,38.82,65.56
+KIT-0415,train,laptop,a,medium,0.28,low,48.44,82.44
+KIT-0416,validation,access_badge,a,large,0.54,medium,88.15,150.4
+KIT-0416,validation,laptop,a,large,0.43,medium,75.71,130.76
+KIT-0417,train,phone,a,medium,0.78,high,137.41,235.58
+KIT-0418,train,access_badge,b,small,0.53,medium,83.24,154.98
+KIT-0418,train,hard_hat,a,medium,0.36,low,23.78,82.49
+KIT-0418,train,safety_vest,b,small,0.78,high,35.36,156.32
+KIT-0419,validation,laptop,b,large,0.53,medium,99.88,169.09
+KIT-0420,validation,access_badge,a,large,0.66,medium,106.76,177.48
+KIT-0420,validation,hard_hat,b,small,0.85,high,50.02,84.44
+KIT-0420,validation,safety_vest,a,small,0.75,high,69.96,189.13
+KIT-0422,validation,hard_hat,b,small,0.34,low,22.25,36.57
+KIT-0422,validation,safety_vest,b,medium,0.64,medium,34.23,128.55
+KIT-0424,train,phone,b,medium,0.26,low,50.84,87.2
+KIT-0425,train,laptop,b,large,0.39,low,74.77,126.89
+KIT-0425,train,access_badge,a,large,0.36,low,61.9,103.95
+KIT-0426,train,access_badge,a,small,0.55,medium,89.68,149.67
+KIT-0427,train,hard_hat,a,medium,0.72,medium,51.4,171.28
+KIT-0427,train,safety_vest,b,small,0.23,low,11.55,42.4
+KIT-0428,train,laptop,a,medium,0.28,low,49.96,85.48
+KIT-0429,train,access_badge,b,small,0.28,low,44.89,83.74
+KIT-0429,train,hard_hat,a,medium,0.92,high,62.31,214.64
+KIT-0429,train,safety_vest,a,large,0.67,medium,59.12,164.16
+KIT-0430,train,hard_hat,b,large,0.93,high,54.02,90.28
+KIT-0430,train,safety_vest,b,large,0.78,high,37.77,162.2
+KIT-0432,train,laptop,a,large,0.31,low,54.36,92.03
+KIT-0433,train,safety_vest,a,medium,0.56,medium,50.99,135.15
+KIT-0433,train,hard_hat,b,medium,0.54,medium,33.43,54.83
+KIT-0434,train,hard_hat,a,small,0.26,low,18.23,60.21
+KIT-0434,train,safety_vest,b,small,0.67,medium,33.87,130.53
+KIT-0434,train,access_badge,b,medium,0.92,high,151.44,276.35
+KIT-0435,validation,access_badge,b,large,0.82,high,138.91,252.99
+KIT-0435,validation,hard_hat,b,medium,0.7,medium,42.58,71.76
+KIT-0437,validation,safety_vest,b,large,0.37,low,22.9,79.16
+KIT-0437,validation,access_badge,b,medium,0.92,high,157.33,284.8
+KIT-0437,validation,hard_hat,b,small,0.31,low,19.21,32.15
+KIT-0437,validation,laptop,b,large,0.28,low,53.87,89.5
+KIT-0439,validation,laptop,b,medium,0.66,medium,124.74,209.62
+KIT-0441,train,safety_vest,a,small,0.57,medium,51.76,138.24
+KIT-0442,validation,laptop,b,medium,0.76,high,146.08,245.66
+KIT-0442,validation,access_badge,b,large,0.65,medium,102.85,189.19
+KIT-0443,validation,phone,b,medium,0.47,medium,87.95,150.85
+KIT-0444,train,hard_hat,b,medium,0.99,high,52.92,85.96
+KIT-0444,train,safety_vest,a,large,0.97,high,76.33,209.7
+KIT-0444,train,access_badge,b,small,0.3,low,44.92,82.83
+KIT-0445,train,laptop,a,medium,0.52,medium,90.28,153.66
+KIT-0446,train,laptop,a,small,0.54,medium,75.42,128.95
+KIT-0446,train,access_badge,a,large,0.22,low,34.55,57.8
+KIT-0449,validation,phone,b,large,0.65,medium,122.73,205.74
+KIT-0450,train,access_badge,b,medium,0.49,medium,73.68,141.62
+KIT-0450,train,hard_hat,b,medium,0.74,medium,39.0,67.56
+KIT-0452,train,access_badge,b,large,0.26,low,47.44,86.12
+KIT-0454,train,access_badge,b,medium,0.64,medium,98.01,182.47
+KIT-0454,train,hard_hat,b,medium,0.92,high,50.21,85.12
+KIT-0454,train,safety_vest,b,medium,0.91,high,41.2,184.63
+KIT-0455,train,phone,a,medium,0.74,medium,137.12,232.31
+KIT-0456,train,access_badge,a,small,0.88,high,137.08,229.93
+KIT-0458,train,laptop,a,small,0.94,high,151.46,257.26
+KIT-0461,train,hard_hat,b,large,0.68,medium,37.95,67.0
+KIT-0461,train,safety_vest,b,large,0.33,low,17.69,73.49
+KIT-0461,train,laptop,b,large,0.6,medium,113.48,194.32
+KIT-0462,validation,access_badge,a,large,0.49,medium,79.27,134.87
+KIT-0462,validation,hard_hat,a,small,0.87,high,57.26,193.86
+KIT-0465,train,hard_hat,b,small,0.49,medium,25.59,43.89
+KIT-0465,train,safety_vest,b,medium,0.74,medium,32.56,148.9
+KIT-0465,train,access_badge,a,medium,0.52,medium,81.64,136.84
+KIT-0466,train,phone,a,large,0.86,high,159.86,269.7
+KIT-0466,train,safety_vest,b,large,0.64,medium,33.72,130.39
+KIT-0466,train,hard_hat,b,small,0.86,high,50.29,83.58
+KIT-0466,train,access_badge,b,large,0.98,high,160.33,294.07
+KIT-0468,train,access_badge,a,medium,0.24,low,41.1,67.83
+KIT-0468,train,safety_vest,b,medium,0.97,high,50.71,211.49
+KIT-0468,train,phone,a,medium,0.39,low,64.37,109.18
+KIT-0469,train,access_badge,b,medium,0.5,medium,85.85,159.21
+KIT-0469,train,hard_hat,b,medium,0.92,high,55.5,91.6
+KIT-0469,train,safety_vest,b,medium,0.82,high,39.67,161.52
+KIT-0470,train,safety_vest,a,small,0.3,low,28.64,72.45
+KIT-0470,train,hard_hat,b,large,0.45,medium,28.72,48.14
+KIT-0470,train,access_badge,a,large,0.34,low,58.22,96.83
+KIT-0470,train,phone,b,large,0.74,medium,141.05,239.73
+KIT-0473,train,laptop,b,small,0.97,high,180.59,309.35
+KIT-0474,validation,access_badge,b,medium,0.3,low,48.54,90.76
+KIT-0475,train,phone,a,medium,0.61,medium,108.12,181.97
+KIT-0477,train,safety_vest,b,small,0.46,medium,23.18,85.27
+KIT-0477,train,hard_hat,a,large,0.98,high,66.46,210.15
+KIT-0478,validation,laptop,b,small,0.39,low,78.51,130.83
+KIT-0481,validation,access_badge,a,small,0.92,high,139.59,235.83
+KIT-0482,train,access_badge,b,small,0.97,high,171.55,316.39
+KIT-0482,train,safety_vest,b,large,0.25,low,17.13,59.07
+KIT-0482,train,hard_hat,a,small,0.88,high,60.35,199.47
+KIT-0482,train,phone,b,medium,0.66,medium,132.25,225.8
+KIT-0483,train,safety_vest,a,medium,0.81,high,73.5,202.54
+KIT-0483,train,hard_hat,a,medium,0.38,low,26.93,91.22
+KIT-0485,train,phone,a,medium,0.43,medium,69.16,117.48
+KIT-0488,train,hard_hat,a,large,0.24,low,19.03,55.94
+KIT-0488,train,safety_vest,a,small,0.35,low,33.09,81.91
+KIT-0489,train,safety_vest,b,large,0.34,low,20.84,70.43
+KIT-0489,train,laptop,a,small,0.44,medium,69.83,117.29
+KIT-0491,train,access_badge,b,small,0.58,medium,93.1,173.47
+KIT-0492,train,hard_hat,b,large,0.41,medium,20.0,34.64
+KIT-0492,train,safety_vest,a,small,0.66,medium,55.26,159.58
+KIT-0492,train,access_badge,a,large,0.37,low,62.39,104.24
+KIT-0494,train,hard_hat,b,large,0.98,high,53.29,94.32
+KIT-0494,train,safety_vest,a,medium,0.84,high,69.14,194.8
+KIT-0495,train,phone,a,medium,0.67,medium,121.63,206.56
+KIT-0496,train,phone,b,medium,0.67,medium,124.69,210.47
+KIT-0496,train,access_badge,a,medium,0.24,low,38.94,64.4
+KIT-0496,train,safety_vest,a,medium,0.23,low,19.79,53.46
+KIT-0496,train,hard_hat,a,large,0.67,medium,44.52,150.55
+KIT-0498,train,access_badge,b,medium,0.31,low,53.79,98.09
+KIT-0499,train,phone,b,large,0.44,medium,85.79,145.62
+KIT-0500,validation,access_badge,b,medium,0.69,medium,105.76,197.97
+KIT-0500,validation,safety_vest,a,large,0.37,low,32.85,90.92
+KIT-0500,validation,hard_hat,a,large,0.62,medium,40.52,138.74
+KIT-0501,validation,laptop,a,small,0.34,low,63.64,106.98
+KIT-0502,validation,laptop,b,medium,0.76,high,143.1,244.07
+KIT-0503,train,phone,b,medium,0.69,medium,127.12,219.05
+KIT-0503,train,hard_hat,b,small,0.86,high,44.95,78.1
+KIT-0506,train,access_badge,b,large,0.99,high,166.94,307.36
+KIT-0506,train,safety_vest,a,large,0.53,medium,49.98,131.22
+KIT-0506,train,hard_hat,b,medium,0.94,high,59.1,99.79
+KIT-0507,validation,safety_vest,a,large,0.96,high,86.42,227.85
+KIT-0507,validation,access_badge,b,large,0.79,high,135.76,244.96
+KIT-0507,validation,hard_hat,b,medium,0.79,high,49.31,80.29
+KIT-0511,validation,safety_vest,b,medium,0.41,medium,20.93,89.44
+KIT-0511,validation,access_badge,a,large,0.92,high,140.01,235.57
+KIT-0511,validation,hard_hat,a,small,0.82,high,53.77,184.11
+KIT-0513,train,access_badge,a,small,0.41,medium,70.64,117.95
+KIT-0513,train,safety_vest,b,large,0.64,medium,30.54,128.02
+KIT-0513,train,hard_hat,b,medium,0.96,high,50.75,85.8
+KIT-0514,train,access_badge,a,small,0.79,high,122.13,204.97
+KIT-0514,train,laptop,a,large,0.66,medium,116.84,198.36
+KIT-0515,train,phone,a,medium,0.31,low,55.53,95.31
+KIT-0515,train,access_badge,b,large,0.44,medium,68.73,129.28
+KIT-0516,train,hard_hat,b,medium,0.97,high,56.59,90.59
+KIT-0516,train,access_badge,b,small,0.35,low,58.85,106.03
+KIT-0516,train,safety_vest,b,small,0.26,low,15.77,54.57
+KIT-0517,train,access_badge,a,medium,0.55,medium,87.98,146.35
+KIT-0517,train,phone,b,small,0.61,medium,111.16,190.21
+KIT-0518,train,access_badge,a,medium,0.57,medium,97.49,164.21
+KIT-0519,validation,access_badge,b,small,0.78,high,112.82,208.29
+KIT-0519,validation,hard_hat,a,large,0.23,low,15.88,51.23
+KIT-0520,train,phone,a,medium,0.59,medium,105.55,179.51
+KIT-0520,train,safety_vest,a,medium,0.87,high,75.75,202.15
+KIT-0520,train,hard_hat,b,large,0.36,low,21.67,37.12
+KIT-0522,validation,hard_hat,a,medium,0.97,high,64.17,213.0
+KIT-0522,validation,safety_vest,a,large,0.38,low,33.06,89.95
+KIT-0523,validation,safety_vest,a,small,0.65,medium,59.37,158.21
+KIT-0523,validation,phone,b,large,0.35,low,66.73,113.35
+KIT-0523,validation,hard_hat,a,large,0.5,medium,37.66,117.35
+KIT-0524,train,hard_hat,b,medium,0.49,medium,26.9,44.2
+KIT-0524,train,safety_vest,a,large,0.47,medium,40.6,112.38
+KIT-0524,train,access_badge,a,large,0.68,medium,105.35,173.68
+KIT-0524,train,phone,b,large,0.72,medium,129.94,219.26
+KIT-0525,train,laptop,a,large,0.97,high,171.68,288.58
+KIT-0526,train,safety_vest,a,large,0.93,high,80.01,220.09
+KIT-0526,train,access_badge,a,small,0.82,high,125.97,207.77
+KIT-0527,train,hard_hat,b,large,0.88,high,48.57,84.88
+KIT-0527,train,laptop,b,large,0.78,high,144.03,247.33
+KIT-0528,train,phone,b,small,0.36,low,72.0,123.03
+KIT-0529,train,hard_hat,a,medium,0.29,low,21.03,69.72
+KIT-0529,train,access_badge,b,small,0.8,high,129.21,239.35
+KIT-0529,train,safety_vest,a,large,0.68,medium,61.12,166.92
+KIT-0529,train,phone,b,medium,0.55,medium,105.86,180.83
+KIT-0530,train,hard_hat,a,small,0.75,high,54.32,171.54
+KIT-0530,train,safety_vest,a,large,0.38,low,36.11,88.35
+KIT-0530,train,access_badge,a,medium,0.51,medium,86.93,143.48
+KIT-0532,train,laptop,a,small,0.89,high,161.16,277.79
+KIT-0532,train,access_badge,b,large,0.87,high,151.51,284.41
+KIT-0533,validation,safety_vest,a,large,0.23,low,22.65,57.83
+KIT-0533,validation,hard_hat,b,small,0.72,medium,41.79,68.08
+KIT-0534,train,safety_vest,a,small,0.46,medium,40.24,111.23
+KIT-0534,train,hard_hat,a,medium,0.47,medium,29.59,101.42
+KIT-0535,train,laptop,a,small,0.37,low,63.69,107.65
+KIT-0535,train,access_badge,a,medium,0.24,low,40.81,68.3
+KIT-0537,train,hard_hat,b,medium,0.75,high,47.73,80.69
+KIT-0537,train,laptop,a,large,0.84,high,146.34,249.02
+KIT-0537,train,safety_vest,a,large,0.26,low,25.76,65.4
+KIT-0538,validation,laptop,b,small,0.63,medium,125.86,216.62
+KIT-0538,validation,access_badge,a,small,0.41,medium,66.62,113.59
+KIT-0539,train,laptop,b,medium,0.77,high,147.42,249.82
+KIT-0540,validation,hard_hat,a,large,0.7,medium,47.66,154.26
+KIT-0540,validation,access_badge,a,large,0.5,medium,73.43,120.17
+KIT-0541,train,access_badge,b,medium,0.79,high,130.51,239.96
+KIT-0541,train,hard_hat,a,small,0.28,low,20.61,66.73
+KIT-0541,train,safety_vest,b,medium,0.94,high,47.58,190.58
+KIT-0542,validation,phone,b,large,0.74,medium,139.68,237.5
+KIT-0542,validation,access_badge,b,medium,0.79,high,135.57,247.24
+KIT-0546,train,phone,a,large,0.46,medium,82.94,140.13
+KIT-0547,train,hard_hat,b,small,0.41,medium,21.07,36.37
+KIT-0547,train,safety_vest,b,medium,0.24,low,11.0,48.15
+KIT-0547,train,laptop,a,small,0.34,low,50.78,87.2
+KIT-0547,train,access_badge,a,medium,0.64,medium,96.66,161.77
+KIT-0548,train,access_badge,b,large,0.82,high,135.61,249.61
+KIT-0548,train,safety_vest,a,medium,0.3,low,30.27,76.97
+KIT-0550,validation,phone,b,medium,0.91,high,174.3,299.19
+KIT-0551,train,safety_vest,b,small,0.33,low,15.48,64.92
+KIT-0551,train,hard_hat,b,large,0.27,low,15.76,26.1
+KIT-0552,validation,safety_vest,a,large,0.4,medium,34.37,90.96
+KIT-0552,validation,laptop,b,small,0.33,low,58.82,100.89
+KIT-0552,validation,hard_hat,b,large,0.55,medium,33.21,58.03
+KIT-0553,train,access_badge,a,small,0.57,medium,86.43,141.44
+KIT-0553,train,phone,b,large,0.6,medium,110.28,185.59
+KIT-0554,train,safety_vest,b,small,0.85,high,43.64,179.4
+KIT-0554,train,access_badge,b,large,0.38,low,64.3,118.72
+KIT-0554,train,laptop,a,large,0.28,low,54.48,92.53
+KIT-0554,train,hard_hat,b,medium,0.72,medium,44.71,74.65
+KIT-0555,train,safety_vest,b,medium,0.55,medium,27.98,107.25
+KIT-0555,train,laptop,a,medium,0.34,low,61.93,105.17
+KIT-0555,train,hard_hat,a,large,0.56,medium,41.53,129.08
+KIT-0556,train,safety_vest,a,large,0.42,medium,38.26,102.0
+KIT-0557,train,phone,a,medium,0.57,medium,98.22,166.75
+KIT-0558,train,hard_hat,b,large,0.38,low,25.13,41.57
+KIT-0558,train,access_badge,a,large,0.44,medium,73.09,121.81
+KIT-0558,train,safety_vest,a,medium,0.5,medium,44.17,116.92
+KIT-0558,train,laptop,a,small,0.38,low,60.0,101.63
+KIT-0560,validation,access_badge,b,large,0.7,medium,109.13,198.62
+KIT-0561,train,laptop,b,medium,0.72,medium,145.74,246.41
+KIT-0562,validation,hard_hat,b,medium,0.3,low,19.36,32.13
+KIT-0562,validation,access_badge,b,large,0.89,high,151.82,276.36
+KIT-0562,validation,safety_vest,b,medium,0.82,high,42.14,163.15
+KIT-0563,validation,phone,a,medium,0.81,high,142.31,237.37
+KIT-0564,train,hard_hat,a,small,0.71,medium,47.77,156.06
+KIT-0564,train,access_badge,b,large,0.79,high,134.49,247.86
+KIT-0565,validation,phone,b,medium,0.41,medium,74.97,129.72
+KIT-0566,train,phone,b,large,0.84,high,153.78,264.76
+KIT-0568,train,safety_vest,a,large,0.28,low,25.09,68.06
+KIT-0568,train,hard_hat,b,small,0.58,medium,34.02,60.12
+KIT-0568,train,laptop,b,small,0.38,low,72.27,124.84
+KIT-0568,train,access_badge,b,small,0.54,medium,83.07,158.76
+KIT-0569,train,access_badge,a,medium,1.0,high,169.74,280.66
+KIT-0569,train,laptop,a,medium,0.3,low,57.01,94.98
+KIT-0570,train,access_badge,a,large,0.67,medium,112.48,187.42
+KIT-0570,train,hard_hat,a,medium,0.43,medium,31.57,99.65
+KIT-0570,train,safety_vest,b,large,0.22,low,13.99,51.05
+KIT-0571,train,phone,a,large,0.59,medium,110.73,188.25
+KIT-0572,validation,access_badge,b,large,0.93,high,154.5,289.36
+KIT-0572,validation,laptop,a,large,0.76,high,132.84,229.05
+KIT-0572,validation,hard_hat,a,medium,0.41,medium,28.87,97.05
+KIT-0572,validation,safety_vest,b,medium,0.7,medium,34.69,151.33
+KIT-0573,train,access_badge,a,small,0.39,low,64.35,107.43
+KIT-0573,train,hard_hat,a,large,0.91,high,61.09,204.27
+KIT-0573,train,safety_vest,b,medium,0.49,medium,25.28,104.73
+KIT-0574,train,access_badge,b,large,0.7,medium,115.56,212.92
+KIT-0574,train,laptop,a,medium,0.96,high,168.94,288.79
+KIT-0574,train,safety_vest,a,large,0.4,medium,38.03,102.88
+KIT-0574,train,hard_hat,a,medium,0.39,low,27.32,92.03
+KIT-0575,train,hard_hat,b,medium,0.28,low,16.7,28.88
+KIT-0575,train,safety_vest,b,large,0.56,medium,27.22,126.85
+KIT-0576,train,hard_hat,a,small,0.98,high,71.03,231.48
+KIT-0576,train,access_badge,b,large,0.36,low,60.32,110.81
+KIT-0576,train,safety_vest,b,large,0.47,medium,26.21,95.97
+KIT-0577,train,laptop,a,medium,0.82,high,136.84,231.56
+KIT-0577,train,hard_hat,b,large,0.78,high,41.97,70.35
+KIT-0577,train,access_badge,a,medium,0.3,low,47.71,79.9
+KIT-0577,train,safety_vest,a,medium,0.97,high,83.09,222.4
+KIT-0579,validation,access_badge,a,large,0.74,medium,117.96,196.86
+KIT-0579,validation,safety_vest,b,large,0.65,medium,32.78,131.26
+KIT-0581,train,hard_hat,a,medium,0.26,low,18.57,59.89
+KIT-0581,train,access_badge,a,medium,0.62,medium,93.99,157.82
+KIT-0581,train,safety_vest,b,large,0.82,high,41.06,170.96
+KIT-0583,validation,access_badge,b,large,0.97,high,157.01,290.28
+KIT-0584,train,laptop,b,large,0.62,medium,113.66,191.73
+KIT-0584,train,access_badge,b,large,0.62,medium,106.58,196.77
+KIT-0584,train,safety_vest,a,large,0.32,low,29.92,76.26
+KIT-0584,train,hard_hat,a,small,0.37,low,27.53,90.49
+KIT-0585,train,access_badge,b,large,0.77,high,125.74,230.19
+KIT-0587,train,laptop,b,medium,0.67,medium,127.68,216.6
+KIT-0589,validation,safety_vest,a,small,0.29,low,26.79,75.61
+KIT-0589,validation,hard_hat,b,large,0.24,low,11.24,18.55
+KIT-0590,train,access_badge,a,medium,0.82,high,135.89,226.86
+KIT-0591,train,phone,a,large,0.5,medium,92.5,157.25
+KIT-0591,train,access_badge,a,medium,0.96,high,156.27,260.18
+KIT-0592,train,access_badge,a,large,0.55,medium,86.71,145.22
+KIT-0592,train,safety_vest,b,medium,0.45,medium,22.69,92.18
+KIT-0592,train,hard_hat,a,small,0.88,high,56.88,189.94
+KIT-0593,train,safety_vest,a,medium,0.89,high,76.78,208.21
+KIT-0593,train,access_badge,b,medium,0.61,medium,93.53,171.39
+KIT-0593,train,hard_hat,a,medium,0.84,high,56.04,184.76
+KIT-0593,train,laptop,b,large,0.37,low,70.46,118.71
+KIT-0596,validation,hard_hat,b,small,0.42,medium,25.78,42.25
+KIT-0596,validation,safety_vest,b,medium,0.87,high,40.97,168.36
+KIT-0597,validation,hard_hat,a,small,0.74,medium,45.69,157.82
+KIT-0597,validation,access_badge,a,medium,0.86,high,137.5,229.31
+KIT-0598,validation,hard_hat,b,small,0.26,low,14.97,25.77
+KIT-0598,validation,safety_vest,b,large,0.48,medium,24.56,103.2
+KIT-0598,validation,access_badge,a,large,0.97,high,158.64,269.63
+KIT-0599,train,access_badge,a,large,0.77,high,126.81,207.65
+KIT-0599,train,safety_vest,b,large,0.82,high,41.53,170.1
+KIT-0599,train,hard_hat,a,small,0.65,medium,45.64,149.65
+KIT-0600,train,phone,a,large,0.35,low,66.01,111.49
+KIT-0600,train,access_badge,a,large,0.97,high,163.52,271.0
+KIT-0001,validation,empty paper,,,,,5.29,10.05
+KIT-0004,train,empty paper,,,,,4.0,6.93
+KIT-0005,validation,empty paper,,,,,3.41,5.92
+KIT-0006,validation,empty paper,,,,,1.0,1.73
+KIT-0007,train,empty paper,,,,,2.7,4.69
+KIT-0009,validation,empty paper,,,,,5.0,8.66
+KIT-0010,train,empty paper,,,,,3.0,5.2
+KIT-0011,validation,empty paper,,,,,3.0,5.2
+KIT-0012,train,empty paper,,,,,4.0,6.93
+KIT-0013,train,empty paper,,,,,3.0,5.39
+KIT-0014,train,empty paper,,,,,2.0,3.46
+KIT-0016,train,empty paper,,,,,2.0,3.46
+KIT-0017,train,empty paper,,,,,1.11,2.45
+KIT-0018,train,empty paper,,,,,3.01,6.16
+KIT-0019,train,empty paper,,,,,2.89,4.69
+KIT-0021,train,empty paper,,,,,3.0,5.2
+KIT-0022,validation,empty paper,,,,,1.0,1.73
+KIT-0023,validation,empty paper,,,,,2.0,3.46
+KIT-0024,train,empty paper,,,,,3.89,6.4
+KIT-0025,validation,empty paper,,,,,1.83,4.36
+KIT-0026,train,empty paper,,,,,2.0,3.46
+KIT-0027,train,empty paper,,,,,2.0,3.46
+KIT-0028,train,empty paper,,,,,6.0,10.39
+KIT-0029,train,empty paper,,,,,2.0,6.4
+KIT-0030,train,empty paper,,,,,2.53,5.39
+KIT-0031,validation,empty paper,,,,,5.0,8.66
+KIT-0032,train,empty paper,,,,,2.0,3.46
+KIT-0033,train,empty paper,,,,,3.0,5.2
+KIT-0034,train,empty paper,,,,,1.0,2.45
+KIT-0035,train,empty paper,,,,,4.0,6.93
+KIT-0036,train,empty paper,,,,,4.11,7.55
+KIT-0037,train,empty paper,,,,,5.0,8.66
+KIT-0038,train,empty paper,,,,,6.0,10.39
+KIT-0041,train,empty paper,,,,,3.77,6.56
+KIT-0043,train,empty paper,,,,,1.0,2.0
+KIT-0044,train,empty paper,,,,,3.0,5.2
+KIT-0045,validation,empty paper,,,,,4.7,8.77
+KIT-0047,validation,empty paper,,,,,7.96,13.6
+KIT-0049,train,empty paper,,,,,2.0,3.46
+KIT-0050,train,empty paper,,,,,2.6,4.9
+KIT-0051,train,empty paper,,,,,5.59,9.85
+KIT-0052,train,empty paper,,,,,4.39,7.87
+KIT-0053,train,empty paper,,,,,6.11,11.0
+KIT-0056,train,empty paper,,,,,4.76,7.81
+KIT-0057,validation,empty paper,,,,,8.41,14.59
+KIT-0059,train,empty paper,,,,,5.77,10.1
+KIT-0060,train,empty paper,,,,,1.0,2.0
+KIT-0061,train,empty paper,,,,,5.0,8.66
+KIT-0062,train,empty paper,,,,,3.89,6.4
+KIT-0063,train,empty paper,,,,,2.0,3.46
+KIT-0065,train,empty paper,,,,,2.0,3.46
+KIT-0067,train,empty paper,,,,,2.0,3.46
+KIT-0068,validation,empty paper,,,,,1.65,3.16
+KIT-0069,validation,empty paper,,,,,3.89,6.4
+KIT-0070,train,empty paper,,,,,4.0,6.93
+KIT-0071,train,empty paper,,,,,0.0,0.0
+KIT-0072,train,empty paper,,,,,2.89,4.69
+KIT-0073,train,empty paper,,,,,4.0,7.0
+KIT-0074,train,empty paper,,,,,3.0,5.2
+KIT-0075,train,empty paper,,,,,5.3,9.27
+KIT-0076,train,empty paper,,,,,2.0,3.46
+KIT-0077,train,empty paper,,,,,1.0,1.73
+KIT-0078,train,empty paper,,,,,3.59,6.4
+KIT-0079,train,empty paper,,,,,2.6,4.9
+KIT-0080,train,empty paper,,,,,5.0,8.66
+KIT-0081,train,empty paper,,,,,3.23,5.64
+KIT-0083,train,empty paper,,,,,5.0,8.66
+KIT-0084,train,empty paper,,,,,4.11,7.35
+KIT-0085,train,empty paper,,,,,1.89,3.0
+KIT-0087,train,empty paper,,,,,4.41,7.68
+KIT-0088,train,empty paper,,,,,5.0,8.66
+KIT-0089,validation,empty paper,,,,,2.0,3.46
+KIT-0090,train,empty paper,,,,,3.23,6.56
+KIT-0091,train,empty paper,,,,,4.63,7.48
+KIT-0092,train,empty paper,,,,,2.28,4.58
+KIT-0093,train,empty paper,,,,,3.0,5.2
+KIT-0094,train,empty paper,,,,,1.0,1.73
+KIT-0095,train,empty paper,,,,,4.0,6.93
+KIT-0097,train,empty paper,,,,,3.99,6.71
+KIT-0099,train,empty paper,,,,,2.0,3.46
+KIT-0100,train,empty paper,,,,,2.0,3.46
+KIT-0102,validation,empty paper,,,,,6.0,10.39
+KIT-0103,train,empty paper,,,,,8.29,13.93
+KIT-0104,train,empty paper,,,,,1.64,4.58
+KIT-0105,train,empty paper,,,,,4.0,6.93
+KIT-0106,train,empty paper,,,,,4.04,7.3
+KIT-0107,train,empty paper,,,,,3.36,6.0
+KIT-0108,train,empty paper,,,,,3.41,6.4
+KIT-0109,validation,empty paper,,,,,2.0,3.46
+KIT-0110,train,empty paper,,,,,3.0,5.2
+KIT-0111,train,empty paper,,,,,4.05,7.01
+KIT-0112,train,empty paper,,,,,3.0,5.2
+KIT-0113,train,empty paper,,,,,3.0,5.2
+KIT-0114,validation,empty paper,,,,,2.7,4.69
+KIT-0116,validation,empty paper,,,,,3.0,5.2
+KIT-0117,train,empty paper,,,,,4.64,7.83
+KIT-0118,validation,empty paper,,,,,4.0,6.93
+KIT-0119,validation,empty paper,,,,,5.19,8.77
+KIT-0120,train,empty paper,,,,,2.24,5.0
+KIT-0122,train,empty paper,,,,,1.0,1.73
+KIT-0123,train,empty paper,,,,,4.0,6.93
+KIT-0125,train,empty paper,,,,,3.0,5.2
+KIT-0127,train,empty paper,,,,,2.0,3.46
+KIT-0128,train,empty paper,,,,,5.0,8.66
+KIT-0129,train,empty paper,,,,,0.5,0.87
+KIT-0130,validation,empty paper,,,,,5.89,9.85
+KIT-0131,validation,empty paper,,,,,2.0,3.46
+KIT-0132,train,empty paper,,,,,5.0,8.66
+KIT-0133,train,empty paper,,,,,4.71,8.25
+KIT-0134,validation,empty paper,,,,,4.11,7.55
+KIT-0135,train,empty paper,,,,,3.46,5.48
+KIT-0136,validation,empty paper,,,,,2.11,4.12
+KIT-0137,train,empty paper,,,,,2.0,3.46
+KIT-0138,train,empty paper,,,,,2.52,5.0
+KIT-0139,train,empty paper,,,,,2.0,3.46
+KIT-0140,train,empty paper,,,,,3.0,5.2
+KIT-0141,train,empty paper,,,,,5.17,9.27
+KIT-0142,validation,empty paper,,,,,0.77,2.0
+KIT-0143,train,empty paper,,,,,1.0,2.0
+KIT-0145,train,empty paper,,,,,3.71,5.74
+KIT-0146,train,empty paper,,,,,2.89,5.39
+KIT-0147,train,empty paper,,,,,5.0,8.37
+KIT-0149,train,empty paper,,,,,3.0,5.2
+KIT-0150,train,empty paper,,,,,2.0,3.46
+KIT-0151,validation,empty paper,,,,,4.89,8.12
+KIT-0152,train,empty paper,,,,,3.0,5.2
+KIT-0153,validation,empty paper,,,,,3.0,5.2
+KIT-0155,train,empty paper,,,,,2.89,4.69
+KIT-0156,train,empty paper,,,,,3.0,5.2
+KIT-0157,train,empty paper,,,,,2.0,3.46
+KIT-0158,train,empty paper,,,,,2.0,3.46
+KIT-0159,train,empty paper,,,,,3.0,5.2
+KIT-0161,validation,empty paper,,,,,2.0,3.46
+KIT-0162,train,empty paper,,,,,2.13,4.12
+KIT-0163,train,empty paper,,,,,4.24,7.55
+KIT-0164,validation,empty paper,,,,,4.62,8.25
+KIT-0165,train,empty paper,,,,,5.0,8.66
+KIT-0166,validation,empty paper,,,,,4.36,7.56
+KIT-0167,train,empty paper,,,,,2.59,4.69
+KIT-0168,train,empty paper,,,,,1.0,1.73
+KIT-0169,validation,empty paper,,,,,1.77,3.32
+KIT-0170,train,empty paper,,,,,4.82,8.77
+KIT-0173,train,empty paper,,,,,1.0,2.24
+KIT-0175,train,empty paper,,,,,1.0,1.73
+KIT-0176,validation,empty paper,,,,,7.58,12.73
+KIT-0177,train,empty paper,,,,,4.0,6.93
+KIT-0178,validation,empty paper,,,,,5.47,9.38
+KIT-0179,validation,empty paper,,,,,2.0,3.46
+KIT-0180,train,empty paper,,,,,4.47,7.68
+KIT-0181,train,empty paper,,,,,3.7,6.4
+KIT-0182,train,empty paper,,,,,2.89,4.69
+KIT-0183,train,empty paper,,,,,3.41,5.48
+KIT-0184,train,empty paper,,,,,4.0,6.93
+KIT-0185,train,empty paper,,,,,1.0,1.73
+KIT-0186,train,empty paper,,,,,2.0,3.46
+KIT-0189,validation,empty paper,,,,,3.7,6.4
+KIT-0190,train,empty paper,,,,,3.0,5.2
+KIT-0191,train,empty paper,,,,,6.0,10.39
+KIT-0193,validation,empty paper,,,,,4.58,7.55
+KIT-0198,validation,empty paper,,,,,4.0,6.93
+KIT-0201,train,empty paper,,,,,2.89,4.69
+KIT-0203,train,empty paper,,,,,5.06,8.77
+KIT-0204,train,empty paper,,,,,4.7,8.12
+KIT-0205,train,empty paper,,,,,4.6,8.25
+KIT-0206,train,empty paper,,,,,6.59,11.58
+KIT-0207,validation,empty paper,,,,,2.0,3.46
+KIT-0208,train,empty paper,,,,,4.41,8.12
+KIT-0210,validation,empty paper,,,,,4.3,7.55
+KIT-0211,train,empty paper,,,,,6.0,10.39
+KIT-0212,train,empty paper,,,,,2.77,4.9
+KIT-0213,train,empty paper,,,,,2.0,3.46
+KIT-0214,validation,empty paper,,,,,2.11,4.12
+KIT-0215,train,empty paper,,,,,2.29,3.74
+KIT-0217,train,empty paper,,,,,1.59,3.0
+KIT-0218,train,empty paper,,,,,2.0,3.46
+KIT-0219,train,empty paper,,,,,2.0,3.46
+KIT-0220,train,empty paper,,,,,3.0,5.2
+KIT-0221,validation,empty paper,,,,,2.01,4.12
+KIT-0222,validation,empty paper,,,,,1.0,1.73
+KIT-0223,validation,empty paper,,,,,1.11,2.45
+KIT-0224,train,empty paper,,,,,2.5,4.33
+KIT-0225,train,empty paper,,,,,2.0,3.46
+KIT-0227,train,empty paper,,,,,6.11,11.0
+KIT-0229,train,empty paper,,,,,3.11,5.83
+KIT-0230,train,empty paper,,,,,4.0,6.93
+KIT-0231,train,empty paper,,,,,2.0,3.46
+KIT-0232,train,empty paper,,,,,2.0,3.46
+KIT-0234,validation,empty paper,,,,,1.0,1.73
+KIT-0235,train,empty paper,,,,,1.0,1.73
+KIT-0236,train,empty paper,,,,,5.3,9.27
+KIT-0237,train,empty paper,,,,,1.0,1.73
+KIT-0238,train,empty paper,,,,,2.0,3.46
+KIT-0239,train,empty paper,,,,,2.0,3.46
+KIT-0240,validation,empty paper,,,,,2.09,7.21
+KIT-0241,validation,empty paper,,,,,2.0,3.46
+KIT-0242,train,empty paper,,,,,2.0,3.46
+KIT-0244,validation,empty paper,,,,,4.0,6.93
+KIT-0245,train,empty paper,,,,,6.94,12.12
+KIT-0246,train,empty paper,,,,,3.89,6.4
+KIT-0247,validation,empty paper,,,,,3.0,5.2
+KIT-0248,train,empty paper,,,,,3.0,5.2
+KIT-0250,validation,empty paper,,,,,6.89,11.58
+KIT-0251,validation,empty paper,,,,,2.89,4.69
+KIT-0252,train,empty paper,,,,,3.0,5.2
+KIT-0254,train,empty paper,,,,,2.7,4.69
+KIT-0257,train,empty paper,,,,,4.0,6.93
+KIT-0258,train,empty paper,,,,,3.0,5.2
+KIT-0262,train,empty paper,,,,,2.3,4.12
+KIT-0263,validation,empty paper,,,,,2.0,3.46
+KIT-0265,train,empty paper,,,,,1.0,1.73
+KIT-0266,train,empty paper,,,,,3.59,5.83
+KIT-0267,train,empty paper,,,,,4.31,8.6
+KIT-0268,train,empty paper,,,,,2.58,4.47
+KIT-0270,train,empty paper,,,,,3.0,5.2
+KIT-0271,validation,empty paper,,,,,4.17,7.81
+KIT-0272,train,empty paper,,,,,4.0,6.93
+KIT-0273,validation,empty paper,,,,,1.41,3.0
+KIT-0274,train,empty paper,,,,,2.89,5.03
+KIT-0275,train,empty paper,,,,,6.11,11.0
+KIT-0276,validation,empty paper,,,,,4.0,6.93
+KIT-0277,train,empty paper,,,,,3.7,7.55
+KIT-0278,train,empty paper,,,,,2.0,3.46
+KIT-0279,train,empty paper,,,,,5.0,8.66
+KIT-0282,train,empty paper,,,,,4.0,6.93
+KIT-0283,train,empty paper,,,,,4.0,6.93
+KIT-0284,train,empty paper,,,,,5.47,8.77
+KIT-0285,validation,empty paper,,,,,5.7,9.85
+KIT-0289,train,empty paper,,,,,1.36,3.16
+KIT-0290,train,empty paper,,,,,3.01,6.16
+KIT-0292,validation,empty paper,,,,,5.06,8.66
+KIT-0294,train,empty paper,,,,,4.29,7.07
+KIT-0295,train,empty paper,,,,,7.99,13.45
+KIT-0296,train,empty paper,,,,,4.0,6.93
+KIT-0297,validation,empty paper,,,,,1.11,5.1
+KIT-0298,train,empty paper,,,,,3.0,5.2
+KIT-0299,train,empty paper,,,,,3.01,5.83
+KIT-0301,train,empty paper,,,,,2.0,3.46
+KIT-0302,train,empty paper,,,,,2.41,4.69
+KIT-0303,validation,empty paper,,,,,4.0,6.93
+KIT-0304,train,empty paper,,,,,4.41,8.25
+KIT-0305,train,empty paper,,,,,8.78,15.65
+KIT-0306,train,empty paper,,,,,2.11,4.12
+KIT-0307,train,empty paper,,,,,1.31,4.12
+KIT-0308,train,empty paper,,,,,1.0,1.73
+KIT-0309,train,empty paper,,,,,3.0,5.2
+KIT-0310,train,empty paper,,,,,2.11,4.12
+KIT-0311,train,empty paper,,,,,2.59,4.69
+KIT-0312,validation,empty paper,,,,,6.0,10.49
+KIT-0313,validation,empty paper,,,,,2.0,3.46
+KIT-0314,validation,empty paper,,,,,1.0,1.73
+KIT-0315,validation,empty paper,,,,,6.01,11.0
+KIT-0316,train,empty paper,,,,,4.3,7.55
+KIT-0317,train,empty paper,,,,,4.0,6.93
+KIT-0318,train,empty paper,,,,,3.25,5.83
+KIT-0319,train,empty paper,,,,,1.0,1.73
+KIT-0320,train,empty paper,,,,,4.7,8.12
+KIT-0322,train,empty paper,,,,,4.29,7.07
+KIT-0323,validation,empty paper,,,,,2.0,3.46
+KIT-0324,validation,empty paper,,,,,5.11,9.27
+KIT-0325,train,empty paper,,,,,4.0,6.93
+KIT-0326,train,empty paper,,,,,5.13,8.77
+KIT-0328,train,empty paper,,,,,1.0,1.73
+KIT-0330,train,empty paper,,,,,2.0,3.46
+KIT-0331,train,empty paper,,,,,2.0,3.61
+KIT-0333,validation,empty paper,,,,,1.7,3.0
+KIT-0334,train,empty paper,,,,,3.0,5.2
+KIT-0335,validation,empty paper,,,,,2.0,3.46
+KIT-0336,train,empty paper,,,,,2.0,3.46
+KIT-0337,train,empty paper,,,,,3.47,5.39
+KIT-0341,validation,empty paper,,,,,6.85,11.88
+KIT-0342,train,empty paper,,,,,3.11,5.83
+KIT-0343,train,empty paper,,,,,3.0,5.2
+KIT-0344,train,empty paper,,,,,3.7,6.4
+KIT-0345,train,empty paper,,,,,2.59,4.12
+KIT-0346,train,empty paper,,,,,2.0,3.46
+KIT-0347,train,empty paper,,,,,5.17,8.77
+KIT-0348,train,empty paper,,,,,1.0,1.73
+KIT-0349,train,empty paper,,,,,2.19,4.12
+KIT-0350,train,empty paper,,,,,3.11,5.83
+KIT-0351,train,empty paper,,,,,2.0,3.46
+KIT-0352,train,empty paper,,,,,2.7,4.69
+KIT-0353,train,empty paper,,,,,3.0,5.2
+KIT-0355,train,empty paper,,,,,3.11,5.83
+KIT-0356,validation,empty paper,,,,,1.0,1.73
+KIT-0357,train,empty paper,,,,,4.11,7.55
+KIT-0358,train,empty paper,,,,,2.0,3.46
+KIT-0359,train,empty paper,,,,,2.0,3.46
+KIT-0360,train,empty paper,,,,,1.71,3.74
+KIT-0361,train,empty paper,,,,,4.0,6.93
+KIT-0365,train,empty paper,,,,,2.11,4.12
+KIT-0366,validation,empty paper,,,,,1.0,1.73
+KIT-0367,train,empty paper,,,,,3.0,5.2
+KIT-0368,train,empty paper,,,,,2.0,3.46
+KIT-0369,train,empty paper,,,,,2.0,3.46
+KIT-0370,train,empty paper,,,,,3.35,5.8
+KIT-0371,validation,empty paper,,,,,3.47,5.39
+KIT-0372,train,empty paper,,,,,3.0,5.2
+KIT-0373,train,empty paper,,,,,5.29,8.77
+KIT-0374,train,empty paper,,,,,3.59,6.4
+KIT-0375,validation,empty paper,,,,,5.11,9.27
+KIT-0379,train,empty paper,,,,,3.0,5.39
+KIT-0381,train,empty paper,,,,,4.0,6.93
+KIT-0382,train,empty paper,,,,,3.64,6.71
+KIT-0383,train,empty paper,,,,,2.0,3.46
+KIT-0384,train,empty paper,,,,,1.0,1.73
+KIT-0385,validation,empty paper,,,,,3.0,5.2
+KIT-0386,train,empty paper,,,,,2.0,3.46
+KIT-0387,train,empty paper,,,,,3.11,5.83
+KIT-0388,validation,empty paper,,,,,6.0,10.45
+KIT-0389,train,empty paper,,,,,2.0,3.46
+KIT-0390,train,empty paper,,,,,1.0,1.73
+KIT-0391,train,empty paper,,,,,1.0,1.73
+KIT-0392,train,empty paper,,,,,3.0,5.2
+KIT-0393,train,empty paper,,,,,0.0,0.0
+KIT-0394,train,empty paper,,,,,3.71,6.93
+KIT-0395,train,empty paper,,,,,4.26,7.81
+KIT-0396,train,empty paper,,,,,3.0,5.2
+KIT-0398,train,empty paper,,,,,2.41,4.69
+KIT-0399,validation,empty paper,,,,,5.06,9.07
+KIT-0400,train,empty paper,,,,,2.0,3.46
+KIT-0401,validation,empty paper,,,,,4.0,6.93
+KIT-0402,train,empty paper,,,,,2.41,4.69
+KIT-0403,train,empty paper,,,,,4.0,8.31
+KIT-0405,train,empty paper,,,,,3.0,5.2
+KIT-0406,train,empty paper,,,,,4.0,6.93
+KIT-0407,train,empty paper,,,,,1.66,3.74
+KIT-0408,train,empty paper,,,,,3.89,6.93
+KIT-0410,train,empty paper,,,,,6.0,10.39
+KIT-0411,validation,empty paper,,,,,2.0,3.46
+KIT-0412,train,empty paper,,,,,1.0,1.73
+KIT-0413,train,empty paper,,,,,1.47,2.24
+KIT-0414,train,empty paper,,,,,4.0,6.93
+KIT-0415,train,empty paper,,,,,1.3,2.45
+KIT-0416,validation,empty paper,,,,,5.39,9.43
+KIT-0417,train,empty paper,,,,,3.23,6.4
+KIT-0418,train,empty paper,,,,,2.0,3.46
+KIT-0419,validation,empty paper,,,,,1.0,1.73
+KIT-0420,validation,empty paper,,,,,2.0,3.46
+KIT-0422,validation,empty paper,,,,,5.06,9.38
+KIT-0424,train,empty paper,,,,,4.0,6.93
+KIT-0425,train,empty paper,,,,,4.77,8.25
+KIT-0426,train,empty paper,,,,,3.0,5.2
+KIT-0427,train,empty paper,,,,,4.0,6.93
+KIT-0428,train,empty paper,,,,,4.0,6.93
+KIT-0429,train,empty paper,,,,,0.0,0.0
+KIT-0430,train,empty paper,,,,,2.0,3.46
+KIT-0432,train,empty paper,,,,,5.0,8.66
+KIT-0433,train,empty paper,,,,,2.59,4.69
+KIT-0434,train,empty paper,,,,,2.0,3.46
+KIT-0435,validation,empty paper,,,,,1.0,1.73
+KIT-0437,validation,empty paper,,,,,6.0,10.39
+KIT-0439,validation,empty paper,,,,,4.0,6.93
+KIT-0441,train,empty paper,,,,,2.47,4.12
+KIT-0442,validation,empty paper,,,,,2.82,5.39
+KIT-0443,validation,empty paper,,,,,3.0,5.2
+KIT-0444,train,empty paper,,,,,2.59,4.69
+KIT-0445,train,empty paper,,,,,2.0,3.46
+KIT-0446,train,empty paper,,,,,4.11,7.55
+KIT-0448,train,empty paper,,,,,2.0,3.46
+KIT-0449,validation,empty paper,,,,,4.0,6.93
+KIT-0450,train,empty paper,,,,,5.0,8.66
+KIT-0452,train,empty paper,,,,,4.9,9.0
+KIT-0453,train,empty paper,,,,,2.0,3.46
+KIT-0454,train,empty paper,,,,,2.0,3.46
+KIT-0455,train,empty paper,,,,,3.0,5.2
+KIT-0456,train,empty paper,,,,,4.0,6.93
+KIT-0458,train,empty paper,,,,,2.0,3.46
+KIT-0459,train,empty paper,,,,,1.36,2.45
+KIT-0461,train,empty paper,,,,,4.11,7.07
+KIT-0462,validation,empty paper,,,,,4.0,6.93
+KIT-0465,train,empty paper,,,,,4.47,7.55
+KIT-0466,train,empty paper,,,,,6.7,12.21
+KIT-0468,train,empty paper,,,,,4.29,7.07
+KIT-0469,train,empty paper,,,,,4.77,8.77
+KIT-0470,train,empty paper,,,,,2.0,3.46
+KIT-0471,validation,empty paper,,,,,6.0,10.39
+KIT-0473,train,empty paper,,,,,2.29,3.74
+KIT-0474,validation,empty paper,,,,,3.0,5.2
+KIT-0475,train,empty paper,,,,,3.0,6.56
+KIT-0477,train,empty paper,,,,,4.0,6.93
+KIT-0478,validation,empty paper,,,,,5.17,8.77
+KIT-0479,train,empty paper,,,,,2.34,4.24
+KIT-0481,validation,empty paper,,,,,3.0,5.2
+KIT-0482,train,empty paper,,,,,7.43,12.88
+KIT-0483,train,empty paper,,,,,6.0,10.39
+KIT-0485,train,empty paper,,,,,3.01,6.16
+KIT-0486,train,empty paper,,,,,4.11,7.55
+KIT-0488,train,empty paper,,,,,3.41,6.4
+KIT-0489,train,empty paper,,,,,5.11,9.27
+KIT-0490,validation,empty paper,,,,,6.0,10.39
+KIT-0491,train,empty paper,,,,,3.0,5.2
+KIT-0492,train,empty paper,,,,,4.0,6.93
+KIT-0494,train,empty paper,,,,,4.89,8.12
+KIT-0495,train,empty paper,,,,,4.0,6.93
+KIT-0496,train,empty paper,,,,,3.0,5.2
+KIT-0497,validation,empty paper,,,,,0.0,0.0
+KIT-0498,train,empty paper,,,,,2.46,6.63
+KIT-0499,train,empty paper,,,,,6.47,11.0
+KIT-0500,validation,empty paper,,,,,3.59,6.4
+KIT-0501,validation,empty paper,,,,,5.23,9.95
+KIT-0502,validation,empty paper,,,,,3.94,6.65
+KIT-0503,train,empty paper,,,,,0.0,0.0
+KIT-0506,train,empty paper,,,,,2.0,3.46
+KIT-0507,validation,empty paper,,,,,5.41,9.27
+KIT-0511,validation,empty paper,,,,,2.3,4.12
+KIT-0513,train,empty paper,,,,,7.0,12.12
+KIT-0514,train,empty paper,,,,,4.0,6.93
+KIT-0515,train,empty paper,,,,,3.0,5.2
+KIT-0516,train,empty paper,,,,,5.3,9.27
+KIT-0517,train,empty paper,,,,,2.0,3.46
+KIT-0518,train,empty paper,,,,,3.0,5.2
+KIT-0519,validation,empty paper,,,,,3.3,5.83
+KIT-0520,train,empty paper,,,,,0.0,0.0
+KIT-0522,validation,empty paper,,,,,1.0,1.73
+KIT-0523,validation,empty paper,,,,,2.59,4.36
+KIT-0524,train,empty paper,,,,,2.89,4.69
+KIT-0525,train,empty paper,,,,,3.29,5.39
+KIT-0526,train,empty paper,,,,,2.0,3.46
+KIT-0527,train,empty paper,,,,,4.36,7.81
+KIT-0528,train,empty paper,,,,,3.0,5.2
+KIT-0529,train,empty paper,,,,,1.0,1.73
+KIT-0530,train,empty paper,,,,,5.0,8.66
+KIT-0532,train,empty paper,,,,,2.0,3.46
+KIT-0533,validation,empty paper,,,,,3.0,5.2
+KIT-0534,train,empty paper,,,,,3.43,6.3
+KIT-0535,train,empty paper,,,,,5.56,10.25
+KIT-0537,train,empty paper,,,,,2.89,4.69
+KIT-0538,validation,empty paper,,,,,6.7,12.21
+KIT-0539,train,empty paper,,,,,4.71,8.77
+KIT-0540,validation,empty paper,,,,,3.06,5.39
+KIT-0541,train,empty paper,,,,,2.0,3.46
+KIT-0542,validation,empty paper,,,,,3.0,5.2
+KIT-0543,train,empty paper,,,,,3.0,5.2
+KIT-0546,train,empty paper,,,,,3.0,5.2
+KIT-0547,train,empty paper,,,,,3.0,5.2
+KIT-0548,train,empty paper,,,,,4.0,6.93
+KIT-0550,validation,empty paper,,,,,3.3,5.83
+KIT-0551,train,empty paper,,,,,1.0,1.73
+KIT-0552,validation,empty paper,,,,,1.99,3.61
+KIT-0553,train,empty paper,,,,,5.11,8.77
+KIT-0554,train,empty paper,,,,,2.9,5.74
+KIT-0555,train,empty paper,,,,,7.41,12.88
+KIT-0556,train,empty paper,,,,,1.0,1.73
+KIT-0557,train,empty paper,,,,,4.0,6.93
+KIT-0558,train,empty paper,,,,,3.7,6.4
+KIT-0559,train,empty paper,,,,,6.52,11.0
+KIT-0560,validation,empty paper,,,,,6.0,10.39
+KIT-0561,train,empty paper,,,,,6.3,11.0
+KIT-0562,validation,empty paper,,,,,4.11,7.55
+KIT-0563,validation,empty paper,,,,,3.0,5.39
+KIT-0564,train,empty paper,,,,,3.88,6.16
+KIT-0565,validation,empty paper,,,,,3.0,5.2
+KIT-0566,train,empty paper,,,,,7.41,13.04
+KIT-0568,train,empty paper,,,,,2.0,3.46
+KIT-0569,train,empty paper,,,,,3.36,5.2
+KIT-0570,train,empty paper,,,,,3.0,5.2
+KIT-0571,train,empty paper,,,,,3.0,5.2
+KIT-0572,validation,empty paper,,,,,4.56,8.12
+KIT-0573,train,empty paper,,,,,4.17,7.07
+KIT-0574,train,empty paper,,,,,5.29,9.38
+KIT-0575,train,empty paper,,,,,0.89,1.73
+KIT-0576,train,empty paper,,,,,5.11,10.25
+KIT-0577,train,empty paper,,,,,3.0,5.2
+KIT-0579,validation,empty paper,,,,,5.47,8.77
+KIT-0581,train,empty paper,,,,,3.29,6.16
+KIT-0582,validation,empty paper,,,,,4.0,6.93
+KIT-0583,validation,empty paper,,,,,2.89,4.69
+KIT-0584,train,empty paper,,,,,4.0,6.93
+KIT-0585,train,empty paper,,,,,2.7,4.69
+KIT-0587,train,empty paper,,,,,3.0,5.2
+KIT-0589,validation,empty paper,,,,,5.23,9.95
+KIT-0590,train,empty paper,,,,,5.0,8.66
+KIT-0591,train,empty paper,,,,,2.4,4.36
+KIT-0592,train,empty paper,,,,,2.7,4.69
+KIT-0593,train,empty paper,,,,,4.0,6.93
+KIT-0596,validation,empty paper,,,,,5.0,8.66
+KIT-0597,validation,empty paper,,,,,2.89,5.74
+KIT-0598,validation,empty paper,,,,,2.69,5.0
+KIT-0599,train,empty paper,,,,,3.11,5.83
+KIT-0600,train,empty paper,,,,,6.0,10.39
