@@ -1,0 +1,13 @@
+,,tiles,tiles,tiles,identified,identified,identified
+contrast_band,,low,medium,high,low,medium,high
+answer,style,,,,,,
+access_badge,a,4,2,2,4,2,2
+access_badge,b,4,2,2,4,2,2
+hard_hat,a,4,2,2,4,2,2
+hard_hat,b,5,2,1,5,2,1
+laptop,a,4,2,2,4,2,2
+laptop,b,4,2,2,4,2,2
+phone,a,4,2,2,4,2,2
+phone,b,4,2,2,4,2,2
+safety_vest,a,4,2,2,4,2,2
+safety_vest,b,4,2,2,4,2,2

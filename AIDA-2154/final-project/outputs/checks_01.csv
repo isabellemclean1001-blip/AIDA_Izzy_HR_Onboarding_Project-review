@@ -1,0 +1,46 @@
+check,passed
+Recorded card-generation input matches the current cleaned file (fingerprint and cleaning version),True
+"All 600 images exist, open, and are 480 x 320 colour JPEGs",True
+Labels: Image file names are unique,True
+Labels: One card per employee,True
+Labels: Every drawn object belongs to a listed card,True
+Labels: Every drawn object has its card's split,True
+"Labels: Object roles, items and bands use allowed values",True
+Labels: Split sizes are 360 / 120 / 120,True
+Labels: access_badge: label columns use allowed values,True
+Labels: access_badge: unknown expectation has a blank expected value,True
+Labels: access_badge: drawn only if known to be expected,True
+"Labels: access_badge: known expected = drawn or omitted, never both",True
+Labels: access_badge: unknown expectation never drawn,True
+Labels: safety_vest: label columns use allowed values,True
+Labels: safety_vest: unknown expectation has a blank expected value,True
+Labels: safety_vest: drawn only if known to be expected,True
+"Labels: safety_vest: known expected = drawn or omitted, never both",True
+Labels: safety_vest: unknown expectation never drawn,True
+Labels: hard_hat: label columns use allowed values,True
+Labels: hard_hat: unknown expectation has a blank expected value,True
+Labels: hard_hat: drawn only if known to be expected,True
+"Labels: hard_hat: known expected = drawn or omitted, never both",True
+Labels: hard_hat: unknown expectation never drawn,True
+Labels: laptop: label columns use allowed values,True
+Labels: laptop: unknown expectation has a blank expected value,True
+Labels: laptop: drawn only if known to be expected,True
+"Labels: laptop: known expected = drawn or omitted, never both",True
+Labels: laptop: unknown expectation never drawn,True
+Labels: phone: label columns use allowed values,True
+Labels: phone: unknown expectation has a blank expected value,True
+Labels: phone: drawn only if known to be expected,True
+"Labels: phone: known expected = drawn or omitted, never both",True
+Labels: phone: unknown expectation never drawn,True
+Labels: Presence labels match the drawn kit items (at most one of each item per card),True
+Labels: Card counts match the drawn objects,True
+Labels: Every box is inside the card and below the header,True
+Labels: Boxes on a card are at least 14 pixels apart,True
+Pixel measurements use training and validation cards only,True
+Review sheet uses training cards only,True
+Review sheet has 80 items in the planned item-style-contrast mix and 8 blank controls,True
+Review tile IDs are unique,True
+Review tiles match the protected mapping,True
+"Answer file has exactly the review's tile IDs, each once",True
+Review: every tile answered with an allowed value,True
+Review: every reviewed crop is scored once,True
