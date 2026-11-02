@@ -1,0 +1,12 @@
+check,passed
+Recorded card-generation input matches the current cleaned file,True
+Scored objects and development cards contain training and validation only,True
+Every setting scored every development object exactly once,True
+Each object has exactly one outcome per setting,True
+Outcome counts add up to all kit items for every setting,True
+"Clean detections are one-to-one, checked from both sides (IoU >= 0.5)",True
+Chosen setting is first under the selection rule,True
+Frozen settings file matches this run exactly,True
+"Saved regions file: every region once, each with a known label group",True
+Saved regions file: merged and unmatched regions carry no forced object label,True
+"Saved object outcomes file: every development object once, including misses",True
