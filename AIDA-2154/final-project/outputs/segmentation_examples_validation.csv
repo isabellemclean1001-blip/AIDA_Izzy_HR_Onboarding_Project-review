@@ -1,0 +1,4 @@
+outcome,card_id,object_index,region,object,style,size_band,contrast_band,best_iou,x0,y0,x1,y1
+one_region_good_fit,KIT-0523,3,,phone,b,large,low,0.828,15,79,54,158
+one_region_poor_fit,KIT-0437,2,,hard_hat,b,small,low,0.413,397,235,436,262
+false_region,KIT-0031,,4,no object,-,-,-,0.0,333,295,349,310
