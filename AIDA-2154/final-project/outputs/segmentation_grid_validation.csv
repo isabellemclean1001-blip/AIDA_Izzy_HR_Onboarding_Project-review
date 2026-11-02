@@ -1,0 +1,17 @@
+setting,kit_items,one_region_good_fit,one_region_poor_fit,merged,split,missed,clean_%,merged_regions,false_regions,median_clean_iou,background,measure,threshold,close,grid_order
+gaussian | colour > 16 | close 11,238,88,84,66,0,0,37.0,33,0,0.738,gaussian,colour,16,11,1
+gaussian | colour > 16 | close 7,238,89,84,64,1,0,37.4,32,0,0.737,gaussian,colour,16,7,0
+gaussian | colour > 26 | close 11,238,174,38,16,3,7,73.1,9,0,0.74,gaussian,colour,26,11,3
+gaussian | colour > 26 | close 7,238,163,38,16,14,7,68.5,9,0,0.737,gaussian,colour,26,7,2
+gaussian | gray > 15 | close 11,238,172,34,7,6,19,72.3,5,0,0.737,gaussian,gray,15,11,7
+gaussian | gray > 15 | close 7,238,157,33,7,22,19,66.0,5,0,0.728,gaussian,gray,15,7,6
+gaussian | gray > 9 | close 11,238,117,67,49,4,1,49.2,25,0,0.735,gaussian,gray,9,11,5
+gaussian | gray > 9 | close 7,238,112,68,45,12,1,47.1,23,1,0.728,gaussian,gray,9,7,4
+masked | colour > 16 | close 11,238,236,2,0,0,0,99.2,0,1,0.869,masked,colour,16,11,9
+masked | colour > 16 | close 7,238,232,2,0,4,0,97.5,0,1,0.87,masked,colour,16,7,8
+masked | colour > 26 | close 11,238,227,6,0,0,5,95.4,0,1,0.844,masked,colour,26,11,11
+masked | colour > 26 | close 7,238,227,6,0,0,5,95.4,0,1,0.843,masked,colour,26,7,10
+masked | gray > 15 | close 11,238,222,6,0,3,7,93.3,0,1,0.806,masked,gray,15,11,15
+masked | gray > 15 | close 7,238,219,6,0,6,7,92.0,0,1,0.807,masked,gray,15,7,14
+masked | gray > 9 | close 11,238,237,1,0,0,0,99.6,0,2,0.83,masked,gray,9,11,13
+masked | gray > 9 | close 7,238,234,1,0,3,0,98.3,0,2,0.83,masked,gray,9,7,12
