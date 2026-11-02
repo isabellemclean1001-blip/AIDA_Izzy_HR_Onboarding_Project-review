@@ -1,0 +1,6 @@
+object,items,one_region_good_fit,one_region_poor_fit,merged,split,missed,clean_%
+access_badge,65,65,0,0,0,0,100.0
+safety_vest,55,55,0,0,0,0,100.0
+hard_hat,62,61,1,0,0,0,98.4
+laptop,31,31,0,0,0,0,100.0
+phone,25,25,0,0,0,0,100.0

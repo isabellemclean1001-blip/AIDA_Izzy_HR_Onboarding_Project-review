@@ -1,0 +1,168 @@
+{
+  "data_version": "2",
+  "content_area": {
+    "rows": [
+      46,
+      309
+    ],
+    "columns": [
+      10,
+      469
+    ],
+    "coordinate_convention": "inclusive bounds (a Python slice would use stop = last + 1)",
+    "excludes": "36-pixel header plus a 10-pixel band along the header and card edges"
+  },
+  "median_filter": 5,
+  "background_sigma": 25,
+  "masked_background": {
+    "preliminary_colour_threshold": 16,
+    "preliminary_mask_dilation": "7 x 7 square",
+    "estimate": "Gaussian blur of remaining pixels / Gaussian blur of the remaining-pixel mask (sigma 25)",
+    "minimum_background_weight": 0.001,
+    "fallback": "Gaussian estimate where the background weight is at or below the minimum",
+    "note": "both masked variants use a colour-based preliminary mask"
+  },
+  "threshold_units": {
+    "colour": "Euclidean distance in RGB (0-255 per channel)",
+    "gray": "absolute brightness difference (0-255)"
+  },
+  "opening": "3 x 3 square",
+  "closing": "ellipse of the chosen size",
+  "min_region_pixels": 30,
+  "connectivity": 8,
+  "iou_good_fit": 0.5,
+  "grid": [
+    {
+      "name": "gaussian | colour > 16 | close 7",
+      "background": "gaussian",
+      "measure": "colour",
+      "threshold": 16,
+      "close": 7
+    },
+    {
+      "name": "gaussian | colour > 16 | close 11",
+      "background": "gaussian",
+      "measure": "colour",
+      "threshold": 16,
+      "close": 11
+    },
+    {
+      "name": "gaussian | colour > 26 | close 7",
+      "background": "gaussian",
+      "measure": "colour",
+      "threshold": 26,
+      "close": 7
+    },
+    {
+      "name": "gaussian | colour > 26 | close 11",
+      "background": "gaussian",
+      "measure": "colour",
+      "threshold": 26,
+      "close": 11
+    },
+    {
+      "name": "gaussian | gray > 9 | close 7",
+      "background": "gaussian",
+      "measure": "gray",
+      "threshold": 9,
+      "close": 7
+    },
+    {
+      "name": "gaussian | gray > 9 | close 11",
+      "background": "gaussian",
+      "measure": "gray",
+      "threshold": 9,
+      "close": 11
+    },
+    {
+      "name": "gaussian | gray > 15 | close 7",
+      "background": "gaussian",
+      "measure": "gray",
+      "threshold": 15,
+      "close": 7
+    },
+    {
+      "name": "gaussian | gray > 15 | close 11",
+      "background": "gaussian",
+      "measure": "gray",
+      "threshold": 15,
+      "close": 11
+    },
+    {
+      "name": "masked | colour > 16 | close 7",
+      "background": "masked",
+      "measure": "colour",
+      "threshold": 16,
+      "close": 7
+    },
+    {
+      "name": "masked | colour > 16 | close 11",
+      "background": "masked",
+      "measure": "colour",
+      "threshold": 16,
+      "close": 11
+    },
+    {
+      "name": "masked | colour > 26 | close 7",
+      "background": "masked",
+      "measure": "colour",
+      "threshold": 26,
+      "close": 7
+    },
+    {
+      "name": "masked | colour > 26 | close 11",
+      "background": "masked",
+      "measure": "colour",
+      "threshold": 26,
+      "close": 11
+    },
+    {
+      "name": "masked | gray > 9 | close 7",
+      "background": "masked",
+      "measure": "gray",
+      "threshold": 9,
+      "close": 7
+    },
+    {
+      "name": "masked | gray > 9 | close 11",
+      "background": "masked",
+      "measure": "gray",
+      "threshold": 9,
+      "close": 11
+    },
+    {
+      "name": "masked | gray > 15 | close 7",
+      "background": "masked",
+      "measure": "gray",
+      "threshold": 15,
+      "close": 7
+    },
+    {
+      "name": "masked | gray > 15 | close 11",
+      "background": "masked",
+      "measure": "gray",
+      "threshold": 15,
+      "close": 11
+    }
+  ],
+  "selection_rule": "highest share of clean kit-item detections on validation (unrounded); ties: fewer merged regions, fewer false regions, higher median IoU of clean detections, smaller closing, fixed grid order",
+  "chosen": {
+    "name": "masked | gray > 9 | close 11",
+    "background": "masked",
+    "measure": "gray",
+    "threshold": 9,
+    "close": 11
+  },
+  "chosen_on": "validation (120 cards)",
+  "package_versions": {
+    "opencv": "4.14.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  },
+  "inputs_sha256": {
+    "manifest.csv": "05ce4c3ee88252397fa44e905c9cc649d9282816970cd7d50f7d8a472690b259",
+    "icon_instances.csv": "263b051302923271b7f041cb2dbd1c58e009144ef1f949803fbe074e9f9fa1dd",
+    "generation_info.json": "ea7e28b3e56b18b561c4323e07ce6686f8245b66151c09a38b01620875fd23bb",
+    "development_images (file names and contents, train + validation, sorted by name)": "930d57c713d1ebff963471d3d32a00a965fbe8e37df9584952503c5deefff69f"
+  }
+}
