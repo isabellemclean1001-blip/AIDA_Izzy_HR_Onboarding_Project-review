@@ -1,0 +1,13 @@
+check,passed
+Inputs match the frozen segmentation settings (fingerprints),True
+Rebuilt regions match notebook 02 on every development card,True
+Every saved region has a full set of features,True
+Training regions come from training cards only,True
+Training regions use only the planned label groups,True
+Cross-validation folds never split a card,True
+Saved model file reproduces the validation predictions,True
+Every validation region has a prediction,True
+Every validation card has exactly one decision for each item,True
+Omission counts match the manifest,True
+Unknown expectations are never scored as missing or unexpected,True
+Reconstructed cards belong to the development splits only,True

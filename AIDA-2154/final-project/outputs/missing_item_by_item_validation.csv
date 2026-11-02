@@ -1,0 +1,6 @@
+item,correct_missing_flag,missed_omission,omission_recall,false_missing_flag,correct_present,false_flag_rate,unexpected_detection
+access_badge,12,0,1.0,0,65,0.0,1
+safety_vest,14,0,1.0,0,55,0.0,0
+hard_hat,7,0,1.0,0,62,0.0,0
+laptop,4,0,1.0,0,31,0.0,0
+phone,6,0,1.0,0,25,0.0,0

@@ -1,0 +1,19 @@
+,validation
+actual omissions,43
+correct missing-item flags,43
+missed omissions,0
+missing-item recall,1.0
+false missing-item flags,0
+missing-item precision,1.0
+expected items actually present,238
+false-flag rate,0.0
+unexpected detections,1
+decisions needing review (unknown expectation),4
+cards,120
+cards needing a coordinator check,41
+share of cards needing a check,0.3416666666666667
+cards with all expectations known,118
+"  of these, completely correct",117
+  share completely correct,0.9915254237288136
+cards with an unknown expectation,2
+"  of these, all scored decisions correct",2

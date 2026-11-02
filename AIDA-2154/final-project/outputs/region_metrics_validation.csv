@@ -1,0 +1,7 @@
+class,regions,precision,recall,f1
+access_badge,65,0.9701,1.0,0.9848
+safety_vest,55,1.0,1.0,1.0
+hard_hat,62,1.0,1.0,1.0
+laptop,31,0.9688,1.0,0.9841
+phone,25,1.0,1.0,1.0
+not_kit_item,84,1.0,0.9643,0.9818

@@ -1,0 +1,3 @@
+example,card_id,flags,errors
+completely correct,KIT-0533,access_badge,no errors
+unexpected detection,KIT-0419,none,unexpected detection: access_badge

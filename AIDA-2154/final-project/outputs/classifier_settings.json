@@ -1,0 +1,73 @@
+{
+  "data_version": "2",
+  "model": "multinomial logistic regression, standardised features, balanced class weights",
+  "features": [
+    "dL",
+    "da",
+    "db",
+    "saturation",
+    "lighter_share",
+    "width",
+    "height",
+    "aspect",
+    "area",
+    "fill",
+    "solidity",
+    "hu1",
+    "hu2",
+    "hu3",
+    "hu4",
+    "hu5",
+    "hu6",
+    "hu7"
+  ],
+  "n_features": 18,
+  "classes": [
+    "access_badge",
+    "safety_vest",
+    "hard_hat",
+    "laptop",
+    "phone",
+    "not_kit_item"
+  ],
+  "C_grid": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "chosen_C": 10.0,
+  "selection": "5-fold GroupKFold by card within training; macro F1 over six classes; ties to smaller C",
+  "training_region_rule": "train split; label groups kit_item_clean, background_clean, unmatched",
+  "segmentation_settings_sha256": "2800cc14f1a7cd1cbef4f3672daed3475427f181f72f725513f436496155328d",
+  "region_features_sha256": "1c8cfd67f9f84e6519880203aae1667a817c45139e2fa27f23865bcaca6781d5",
+  "regions_dev_sha256": "4bc066a29daa75713d2938ffdc1935e40ed2b1c2f6f03719b9f04d5e3d6e4420",
+  "training_regions_file": "classifier_training_regions.csv",
+  "training_regions": 916,
+  "training_regions_sha256": "0e1ed1a75c77cf602b1f749f5761d912c84624314242e9aec864ab49a4b5119f",
+  "estimator_parameters": {
+    "C": 10.0,
+    "class_weight": "balanced",
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 5000,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": null,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "model_file": "baseline_classifier.joblib",
+  "model_sha256": "bf76a000f2b50d349ff7bd7d5e630c90a957ca3bb02d492c15b1b3f7c2ea8670",
+  "package_versions": {
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "opencv": "4.14.0",
+    "numpy": "2.5.3"
+  }
+}
