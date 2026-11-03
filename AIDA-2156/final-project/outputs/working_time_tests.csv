@@ -1,0 +1,9 @@
+case,start,end,expected_hours,calculated_hours,passed
+same working day,2026-03-03 09:00:00,2026-03-03 11:30:00,2.5,2.5,True
+overnight,2026-03-03 15:30:00,2026-03-04 09:00:00,2.0,2.0,True
+over a weekend,2026-03-06 16:00:00,2026-03-09 08:30:00,1.0,1.0,True
+after-hours submission,2026-03-06 21:00:00,2026-03-09 10:00:00,2.0,2.0,True
+after-hours = next working moment,2026-03-09 08:00:00,2026-03-09 10:00:00,2.0,2.0,True
+over a simulated closure date (Fri 3 Apr 2026),2026-04-02 16:00:00,2026-04-06 09:00:00,1.5,1.5,True
+whole working day,2026-03-03 08:00:00,2026-03-03 16:30:00,8.5,8.5,True
+start equals end,2026-03-03 10:00:00,2026-03-03 10:00:00,0.0,0.0,True

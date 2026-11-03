@@ -1,0 +1,13 @@
+check,passed
+Cleaned file matches its cleaning record (fingerprint),True
+Working-time calculation passes every hand-made test,True
+Every request is in exactly one group,True
+Completed-summary requests have all required stage timestamps,True
+Timestamps are in workflow order wherever present,True
+No recorded workflow timestamp is after the extract date,True
+Stages add up to processing time for every completed request,True
+Stage shares add up to 100% overall and for every task type,True
+Task-type tables cover every completed request,True
+Unfinished requests are excluded from completed summaries,True
+Unfinished requests have no team-completion time,True
+Count columns are written as whole numbers (presentation check),True
