@@ -1,0 +1,14 @@
+data_version,rule_threshold,review_volume,rule_at_risk_reached,model_at_risk_reached_expected,model_at_risk_reached_id_tiebreak,include_group_volume,include_group_at_risk,exclude_group_volume,exclude_group_at_risk,rule_at_risk_tasks_missed,model_at_risk_tasks_missed_include,model_at_risk_tasks_missed_exclude,cutoff_tied_group_size,tie_split_by_id
+2,<= 2 days,33,33,33.0,33,33,33,33,33,121,121,121,1,False
+2,<= 3 days,69,63,61.0,61,69,61,69,61,91,93,93,1,False
+2,<= 4 days,111,91,87.0,87,111,87,111,87,63,67,67,1,False
+2,<= 5 days,360,154,153.0,153,360,153,360,153,0,10,10,1,False
+2,<= 6 days,411,168,165.0,165,411,165,411,165,0,4,4,1,False
+2,<= 7 days,445,171,174.0,174,445,174,445,174,0,1,1,1,False
+2,<= 8 days,486,177,177.66666666666666,178,487,178,484,177,0,0,0,3,True
+2,<= 9 days,536,182,184.0,184,536,184,536,184,0,0,0,1,False
+2,<= 10 days,568,188,188.0,188,568,188,568,188,0,0,0,1,False
+2,<= 11 days,605,190,190.0,190,605,190,605,190,0,0,0,1,False
+2,<= 12 days,631,190,190.0,190,631,190,631,190,0,0,0,1,False
+2,<= 13 days,668,192,192.0,192,668,192,668,192,0,0,0,1,False
+2,<= 14 days,694,192,192.0,192,694,192,694,192,0,0,0,1,False

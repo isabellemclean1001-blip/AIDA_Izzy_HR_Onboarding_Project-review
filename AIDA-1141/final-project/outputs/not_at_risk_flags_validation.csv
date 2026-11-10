@@ -1,0 +1,5 @@
+data_version,method,checkpoint,not_at_risk_flagged,share_of_method_not_at_risk_flags_%,days_until_start_median,in_progress
+2,days rule,checkpoint_1,155,50.16181229773463,6.0,0
+2,days rule,checkpoint_2,154,49.83818770226537,5.0,147
+2,logistic regression,checkpoint_1,182,57.59493670886076,7.0,0
+2,logistic regression,checkpoint_2,134,42.40506329113924,5.0,127

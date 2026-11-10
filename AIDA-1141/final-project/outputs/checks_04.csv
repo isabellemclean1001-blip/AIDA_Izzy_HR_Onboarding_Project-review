@@ -1,0 +1,15 @@
+check,passed
+Inputs match the fingerprints saved with the model (notebook 02),True
+Predictions are exactly the eligible validation assessments,True
+Saved flags equal each method's cutoff,True
+Both real policies give equal scores equal flag decisions,True
+Expected tie result lies between the exclude-group and include-group results,True
+"Flagged = at-risk flagged + not-at-risk flagged, for both methods",True
+Missed list matches each method's missed count,True
+Every missed at-risk assessment's task was flagged by the same method at its other checkpoint,True
+Each grouping covers every assessment once,True
+No identifier is a model input,True
+Documented feature list matches the model inputs,True
+No group meets the predefined serious-concern criterion,True
+Frozen policy file matches this run,True
+Count columns are written as whole numbers (presentation check),True

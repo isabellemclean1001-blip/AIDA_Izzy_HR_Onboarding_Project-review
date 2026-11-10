@@ -1,0 +1,10 @@
+criterion,data_version,role,value,required,met
+(b): no more at-risk tasks missed than the rule (threshold policy),2,deciding,0.0,<= 0,True
+(b) 1: >= 5 more at-risk assessments than the rule (threshold policy),2,deciding,1.0,>= 5,False
+(b) 1: no more flags than the rule's 486 (threshold policy),2,deciding,494.0,<= 486,False
+(b) 2: recall >= 90% (threshold policy),2,deciding,91.75257731958763,>= 90,True
+(b) 2: flags <= 437 (10% fewer than the rule's 486),2,deciding,494.0,<= 437,False
+(c): >= 5 more at-risk assessments at 25% of the list,2,deciding,-2.783132530120483,>= 5,False
+(c): >= 5 more at-risk assessments at 50% of the list,2,deciding,7.602409638554207,>= 5,True
+"supporting: model's top 486 vs the rule's 486, more at-risk reached (expected over ties)",2,supporting evidence,0.6666666666666572,,
+"supporting: conservative task-coverage check with the entire boundary tie excluded, extra at-risk tasks missed",2,supporting evidence,0.0,,

@@ -1,0 +1,96 @@
+{
+  "data_version": "2",
+  "chosen_policy": "a",
+  "name": "(a) days rule decides flags and order",
+  "flag_rule": "business_days_until_start <= 8",
+  "threshold": 8,
+  "threshold_direction": "flag when the value is at or below the threshold",
+  "queue_order": "fewest business days until start first; equal day counts have equal priority (the order within a day count is not meaningful; assessment ID is used only to display a stable order)",
+  "model_used": false,
+  "tie_rule": "flags use cutoffs, so equal scores receive equal flag decisions; fixed-volume comparisons report the expected result across tied orders, with the whole tied group included or excluded as a sensitivity check",
+  "evaluation_eligibility": "known-outcome assessments made before the task's deadline, using notebook 01's rules; assessments whose outcome is unknown at the extract are excluded from scoring",
+  "operational_eligibility": "assessments of unfinished tasks made before the deadline; the eventual outcome is not required to generate a suggestion",
+  "overdue_handling": "assessments at or past the deadline go to a separate urgent-review list and are always reviewed",
+  "queue_rules": {
+    "note": "operating rules for applying the frozen policy; they were not evaluated in this retrospective validation",
+    "entry": "a task enters the list when one of its assessments is flagged by the policy",
+    "deduplication": "one entry per task; a later assessment of a task already on the list updates its entry (current days until start, status) rather than adding a second one",
+    "active_until": "an entry stays active from its first flag until the team records completion; it is not removed because a later assessment would not have been flagged on its own",
+    "priority": "recomputed from each task's current values whenever the list is refreshed, using the queue order above",
+    "removal": "a task leaves the list when the team records completion; the coordinator then confirms completion",
+    "missing_or_invalid_input": "the days rule needs only a valid days-until-start value; a task without one is not dropped but goes to the coordinator as 'needs manual check', outside the ranked list. If the model is used, a missing intake channel is handled with the documented 'unknown' category; any other missing or invalid required input also sends the task to 'needs manual check'",
+    "high_impact_label": "payroll, system access or workplace access with 5 or fewer days until start is shown as a label only; it does not add flags or change the order"
+  },
+  "unknown_input_handling": "days rule: needs only business days until start, which every assessment has; model (if used): missing intake channel is coded 'unknown', unseen categories are encoded as zeros",
+  "human_review": [
+    "a person confirms every follow-up; the list only suggests what to review",
+    "overdue: separate urgent-review list",
+    "missing or invalid inputs: 'needs manual check'"
+  ],
+  "decision_criteria": {
+    "improvement_margin_at_risk_assessments": 5,
+    "recall_target": 0.9,
+    "required_flag_reduction": 0.1,
+    "max_flags_for_b2": 437,
+    "order_budgets_share_of_list": [
+      0.25,
+      0.5
+    ],
+    "order_budget_rounding": "nearest whole assessment",
+    "limited_recall_support_below_at_risk": 30,
+    "documented_concern_gap_pp_vs_own_overall": -10,
+    "serious_concern_recall_below_pct": 80,
+    "precedence": "(b) if its criterion holds, otherwise (c) if its criterion holds, otherwise (a)",
+    "criteria_apply_to": "each candidate's specified assessment-level flagging rule (the saved full-precision threshold for b) or retrospective queue ordering (rule flags with model order for c); persistent live-queue behaviour is documented in queue_rules and was not evaluated; matched-volume results are supporting evidence only"
+  },
+  "criteria_results": {
+    "(b): no more at-risk tasks missed than the rule (threshold policy)": {
+      "value": 0.0,
+      "required": "<= 0",
+      "met": true
+    },
+    "(b) 1: >= 5 more at-risk assessments than the rule (threshold policy)": {
+      "value": 1.0,
+      "required": ">= 5",
+      "met": false
+    },
+    "(b) 1: no more flags than the rule's 486 (threshold policy)": {
+      "value": 494.0,
+      "required": "<= 486",
+      "met": false
+    },
+    "(b) 2: recall >= 90% (threshold policy)": {
+      "value": 91.75257731958763,
+      "required": ">= 90",
+      "met": true
+    },
+    "(b) 2: flags <= 437 (10% fewer than the rule's 486)": {
+      "value": 494.0,
+      "required": "<= 437",
+      "met": false
+    },
+    "(c): >= 5 more at-risk assessments at 25% of the list": {
+      "value": -2.783132530120483,
+      "required": ">= 5",
+      "met": false
+    },
+    "(c): >= 5 more at-risk assessments at 50% of the list": {
+      "value": 7.602409638554207,
+      "required": ">= 5",
+      "met": true
+    }
+  },
+  "group_concerns_to_note": [],
+  "closest_group_to_review_trigger": "employee_type = permanent: recall 81.5%, -9.8 points from the policy's overall recall (review trigger -10), 54 at-risk assessments",
+  "chosen_on": "validation (1,033 early-warning assessments); development criteria fixed before this notebook's comparison",
+  "frozen_before": "the single test evaluation and the time-based check; neither result had been opened",
+  "fingerprints_sha256": {
+    "requests_cleaned.csv": "571d98a916435dda570b2f8f035db217658d7a52a7b72b65d3b7097069149615",
+    "assessments.csv": "bcd8f8f387931d565205e25f750181007333d5ed19439c2bd224e32aac9990c8",
+    "employee_split.csv": "4a5822b164bc0a491c45ef320aa9b4135934233b186a75c7421824f6ddfc2cc8",
+    "feature_list.csv": "b9862423afb2e449d1954e87b876e0d82abe7566dec158216affb8fb6743af93",
+    "model_settings.json": "f2fd80057d55bc5b2faf9847c60176b38cf6a4d4e0ea198f1fb8f7eed1b292b1",
+    "model.joblib": "9bdd5e665da1ee1aa7582ba915bac3bea6cff05fff0c58934297798b9f40fc81",
+    "validation_predictions.csv": "32117918ce9138cbcc4fc4eee6a3523196e0e40a61e946bbd52810c5a0f4f336"
+  }
+}

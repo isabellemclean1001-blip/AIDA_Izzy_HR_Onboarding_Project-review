@@ -1,0 +1,20 @@
+missed_by,assessment_id,request_id,checkpoint,task_type,employee_type,hiring_department,intake_channel,info_issue_at_intake,current_status,business_days_until_start,business_days_in_current_status,team_open_workload,risk_probability,task_flagged_by_rule_any_checkpoint,task_flagged_by_model_any_checkpoint
+both,ASM-00222,REQ-00211,checkpoint_1,system_access,temporary,Transit,phone,False,open,9,0,13,0.1016412056417149,True,True
+both,ASM-03110,REQ-02527,checkpoint_1,orientation_scheduling,permanent,Administration,web_form,False,open,9,0,14,0.1086329112023915,True,True
+both,ASM-03785,REQ-03078,checkpoint_1,system_access,seasonal,Parks,phone,False,open,9,0,33,0.1145428774957273,True,True
+both,ASM-01176,REQ-00982,checkpoint_1,system_access,seasonal,Parks,web_form,False,open,10,0,35,0.0886530761282379,True,True
+both,ASM-01980,REQ-01611,checkpoint_1,system_access,temporary,Transit,email,False,open,10,0,10,0.0629096284889822,True,True
+both,ASM-02499,REQ-02042,checkpoint_1,workplace_access,permanent,Finance,web_form,False,open,10,0,7,0.1196751630939165,True,True
+both,ASM-02629,REQ-02134,checkpoint_1,payroll_setup,permanent,Transit,web_form,False,open,10,0,9,0.0997538453697742,True,True
+both,ASM-03126,REQ-02542,checkpoint_1,orientation_scheduling,permanent,Recreation,web_form,False,open,10,0,14,0.0926582991210264,True,True
+both,ASM-02644,REQ-02146,checkpoint_1,orientation_scheduling,temporary,Finance,web_form,False,open,11,0,5,0.0838313716616657,True,True
+both,ASM-04327,REQ-03443,checkpoint_1,payroll_setup,seasonal,Recreation,web_form,True,open,11,0,17,0.0799088515682837,True,True
+both,ASM-01719,REQ-01399,checkpoint_1,payroll_setup,permanent,Utilities,web_form,False,open,13,0,18,0.0383180464887633,True,True
+both,ASM-02653,REQ-02155,checkpoint_1,orientation_scheduling,permanent,Finance,email,False,open,13,0,6,0.0262657548611407,True,True
+both,ASM-02869,REQ-02328,checkpoint_1,orientation_scheduling,permanent,Utilities,email,False,open,22,0,13,0.0006135364063015,True,True
+both,ASM-03224,REQ-02596,checkpoint_1,equipment_setup,permanent,Parks,phone,True,open,22,0,27,0.0008818449430611,True,True
+days rule only,ASM-01344,REQ-01115,checkpoint_1,payroll_setup,permanent,Recreation,web_form,False,open,9,0,19,0.1794461233002167,True,True
+days rule only,ASM-01957,REQ-01566,checkpoint_1,payroll_setup,temporary,Utilities,web_form,True,open,9,0,7,0.1621133686923475,True,True
+days rule only,ASM-03129,REQ-02544,checkpoint_1,equipment_setup,permanent,Recreation,web_form,False,open,10,0,32,0.1571305285113431,True,True
+logistic regression only,ASM-00377,REQ-00309,checkpoint_2,workplace_access,seasonal,Utilities,email,True,in_progress,5,1,6,0.1317611825550756,True,True
+logistic regression only,ASM-03707,REQ-02963,checkpoint_2,workplace_access,seasonal,Parks,email,True,in_progress,5,2,5,0.1322108288800018,True,True

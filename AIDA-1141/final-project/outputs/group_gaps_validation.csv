@@ -1,0 +1,11 @@
+data_version,method,grouping,groups,groups_without_at_risk_cases,lowest_recall_group,largest_recall_gap_vs_own_overall_pp,largest_gap_supported_groups_pp,flag_rate_range_pp
+2,days rule,employee_type,3,0,permanent,-9.75563192058037,-9.75563192058037,41.66943774766537
+2,days rule,task_type,5,0,orientation_scheduling,-9.094256259204712,-0.5394389834572024,4.643568299482276
+2,days rule,intake_channel,4,0,web_form,-1.328856521327907,-1.328856521327907,13.783403656821378
+2,days rule,hiring_department,6,0,Transit,-5.522827687776143,-0.9145327569005701,28.404365904365907
+2,days rule,checkpoint,2,0,checkpoint_1,-2.2760744410228853,-2.2760744410228853,65.19666269368295
+2,logistic regression,employee_type,3,0,permanent,-6.567392134402439,-6.567392134402439,47.01346745365366
+2,logistic regression,task_type,5,0,orientation_scheduling,-9.609720176730491,-1.4299966744263486,17.010414020828044
+2,logistic regression,intake_channel,4,0,email,-1.367961934972243,-1.367961934972243,24.894514767932492
+2,logistic regression,hiring_department,6,0,Transit,-6.0382916053019215,-1.4299966744263486,33.6018711018711
+2,logistic regression,checkpoint,2,0,checkpoint_1,-0.8434864104967232,-0.8434864104967232,50.28077116842584

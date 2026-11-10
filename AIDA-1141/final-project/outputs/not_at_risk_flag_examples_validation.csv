@@ -1,0 +1,10 @@
+example_group,assessment_id,request_id,checkpoint,task_type,employee_type,hiring_department,intake_channel,info_issue_at_intake,current_status,business_days_until_start,business_days_in_current_status,team_open_workload,risk_probability
+flagged by both,ASM-04983,REQ-03756,checkpoint_2,payroll_setup,permanent,Utilities,web_form,False,in_progress,5,26,8,0.7307373093817418
+flagged by both,ASM-04397,REQ-03561,checkpoint_1,workplace_access,temporary,Utilities,phone,False,open,3,0,10,0.7147969116770431
+flagged by both,ASM-02495,REQ-02038,checkpoint_1,workplace_access,temporary,Parks,web_form,False,open,3,0,6,0.6966347173878944
+flagged by the rule only,ASM-03154,REQ-02531,checkpoint_2,system_access,permanent,Administration,web_form,False,in_progress,5,4,24,0.1334286598555249
+flagged by the rule only,ASM-04650,REQ-03753,checkpoint_2,system_access,seasonal,Parks,web_form,False,in_progress,5,1,30,0.1320310879652144
+flagged by the rule only,ASM-00680,REQ-00582,checkpoint_2,system_access,permanent,Administration,web_form,False,in_progress,5,1,37,0.1300010785064501
+flagged by the model only,ASM-04775,REQ-03841,checkpoint_1,equipment_setup,temporary,Recreation,web_form,False,open,9,0,36,0.292345526805336
+flagged by the model only,ASM-03092,REQ-02511,checkpoint_1,equipment_setup,permanent,Administration,unknown,False,open,10,0,26,0.2702517271514338
+flagged by the model only,ASM-03763,REQ-03053,checkpoint_1,equipment_setup,seasonal,Recreation,web_form,False,open,9,0,34,0.2372803637510832
