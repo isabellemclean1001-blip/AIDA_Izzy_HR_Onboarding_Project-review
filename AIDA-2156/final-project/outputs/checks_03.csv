@@ -1,0 +1,14 @@
+check,passed
+Cleaned file matches its cleaning record (fingerprint),True
+Generator unchanged since notebook 02 saved the working calendar,True
+"Completed table matches notebook 02 (unique requests, same count)",True
+Every completed request has a workload at assignment,True
+Workload groups use the overall quartile cutoffs,True
+Every contrast has both groups in the original data,True
+Weights of each weighted contrast sum to 1,True
+The raw information-issue contrast reproduces the descriptive medians,True
+Bootstrap resamples keep repeated employees,True
+Intervals are reported only when enough resamples are valid,True
+Figure 5 table: counts are whole numbers and missing groups have no median,True
+Spring comparison is reported only when both windows have complete observed follow-up,True
+Count columns are written as whole numbers (presentation check),True

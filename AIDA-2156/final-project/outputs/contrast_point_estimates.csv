@@ -1,0 +1,14 @@
+data_version,contrast,summary,estimate_days,comparison_requests,reference_requests,comparison_requests_in_included_strata,reference_requests_in_included_strata,included_strata,coverage_%
+2,equipment_setup - payroll_setup,raw,0.6637254901960778,632,1061,632,1061,,
+2,system_access - payroll_setup,raw,-0.809803921568629,1059,1061,1059,1061,,
+2,workplace_access - payroll_setup,raw,-0.1862745098039218,666,1061,666,1061,,
+2,orientation_scheduling - payroll_setup,raw,-1.168627450980393,901,1061,901,1061,,
+2,information issue - none,raw,2.8049019607843144,563,3756,563,3756,,
+2,high - low workload,raw,0.5901960784313722,1132,1160,1132,1160,,
+2,"high - low workload, within task type",weighted within-stratum,0.09452880522589568,1132,1160,1132,773,4.0,84.57976383422088
+2,after-hours - working hours,raw,0.23235294117646976,650,3669,650,3669,,
+2,"after-hours - working hours, within information issue x task type",weighted within-stratum,0.3426349145817162,650,3669,650,3669,10.0,100.0
+2,phone - web form,raw,-0.07352941176470651,668,2234,668,2234,,
+2,"phone - web form, within information issue",weighted within-stratum,-0.34314815067031723,668,2234,668,2234,2.0,100.0
+2,email - web form,raw,0.026470588235294024,1373,2234,1373,2234,,
+2,"email - web form, within information issue",weighted within-stratum,-0.12073600915244576,1373,2234,1373,2234,2.0,100.0

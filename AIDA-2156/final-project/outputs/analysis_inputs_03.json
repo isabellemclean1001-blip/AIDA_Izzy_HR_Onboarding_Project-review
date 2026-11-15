@@ -1,0 +1,9 @@
+{
+  "data_version": "2",
+  "cleaning_version": "1.1",
+  "inputs_sha256": {
+    "requests_cleaned.csv": "571d98a916435dda570b2f8f035db217658d7a52a7b72b65d3b7097069149615",
+    "processing_times_completed.csv (notebook 02)": "20feab1b762c76aa101e013a2e2af0f4b708df8b0b6a9e2ad1512fb12c9b28c0",
+    "working_calendar.json (notebook 02)": "0fb8bbbe84fe382f75e83a4b00081a3fef091f989b0c861c290c9aaf1fea3d8b"
+  }
+}
