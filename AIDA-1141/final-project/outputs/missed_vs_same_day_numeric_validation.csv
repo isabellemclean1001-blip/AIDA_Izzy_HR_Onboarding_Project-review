@@ -1,0 +1,9 @@
+data_version,input,group,assessments,median,q1,q3
+2,business_days_until_start,missed at risk,17,10.0,9.0,11.0
+2,business_days_until_start,"same day count, not at risk",151,11.0,9.0,13.0
+2,team_open_workload,missed at risk,17,14.0,9.0,19.0
+2,team_open_workload,"same day count, not at risk",151,13.0,9.0,21.5
+2,business_days_in_current_status,missed at risk,17,0.0,0.0,0.0
+2,business_days_in_current_status,"same day count, not at risk",151,0.0,0.0,0.0
+2,risk_probability,missed at risk,17,0.0926582991210264,0.0629096284889822,0.1145428774957273
+2,risk_probability,"same day count, not at risk",151,0.0769707922015626,0.04076255781945625,0.11913605405285566

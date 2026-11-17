@@ -1,0 +1,21 @@
+data_version,input,level,compared_with,coefficient,odds_multiplier
+2,business_days_until_start,+1 training SD,SD = 11.06,-4.543559770191027,0.010635479225374207
+2,business_days_until_start,+1 business day,one more day before the start,-0.410674088451186,0.6632030419129592
+2,business_days_in_current_status,+1 training SD,SD = 1.83,0.19390023065745463,1.2139751594106045
+2,team_open_workload,+1 training SD,SD = 9.14,0.2026850958323432,1.224686748557123
+2,task_type,orientation_scheduling,reference: equipment_setup,-0.20256700247732995,0.8166317644137223
+2,task_type,payroll_setup,reference: equipment_setup,0.037338740549641244,1.0380445890842434
+2,task_type,system_access,reference: equipment_setup,-0.6562653749354311,0.5187851893037834
+2,task_type,workplace_access,reference: equipment_setup,0.034584368134128185,1.0351893616869032
+2,hiring_department,Finance,reference: Administration,0.43807745695932054,1.5497249397523956
+2,hiring_department,Parks,reference: Administration,0.1160668392550433,1.1230709348493049
+2,hiring_department,Recreation,reference: Administration,0.23385542320525288,1.2634618117433907
+2,hiring_department,Transit,reference: Administration,0.1865038511079268,1.2050292627745063
+2,hiring_department,Utilities,reference: Administration,0.19607676186358625,1.216620291790886
+2,employee_type,seasonal,reference: permanent,0.05704658300807596,1.0587051269163124
+2,employee_type,temporary,reference: permanent,0.29630867590279286,1.3448852264291866
+2,intake_channel,phone,reference: email,0.04473616982464922,1.0457519225969107
+2,intake_channel,unknown,reference: email,1.1793500010491014,3.2522595504073615
+2,intake_channel,web_form,reference: email,0.12600567241385482,1.13428860241916
+2,info_issue_at_intake,True,reference: False,-0.11481347682081926,0.8915324198604846
+2,current_status,open,reference: in_progress,1.60149777404826,4.960456506231231

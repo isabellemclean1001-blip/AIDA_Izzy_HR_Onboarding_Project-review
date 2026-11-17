@@ -1,0 +1,10 @@
+rule input check,assessments,data_version
+validation early-warning assessments,1033,2
+raw confirmed start date missing or unparseable,0,2
+raw confirmed start date parseable but different from the cleaned value,0,2
+assessment timestamp not preserved from the source file (merge check),0,2
+checkpoint 1 time differs from the raw information-complete time (independent cross-check),0,2
+days until start recalculated from the raw start date differs from the saved value,0,2
+rule flag differs from notebook 02's saved flag,0,2
+rule flag differs between the repaired and as-of-assessment versions,0,2
+rule flag differs between the repaired and no-repairs versions,0,2

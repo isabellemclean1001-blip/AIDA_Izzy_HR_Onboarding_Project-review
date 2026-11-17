@@ -1,0 +1,4 @@
+data_version,version,assessments,at_risk,flagged,at_risk_flagged,recall_%,precision_%,average_precision,roc_auc,scores_changed,largest_score_change,flags_changed,rule_flags_changed,assessments_with_unknown_value,encoder_unknown_warning_recorded
+2,repaired,1033,194,494,178,91.75257731958763,36.03238866396761,0.7072270356408563,0.8849759777840581,0,0.0,0,0,0,False
+2,as_of_assessment,1033,194,494,178,91.75257731958763,36.03238866396761,0.707369166837995,0.8850312718872492,1,0.05434430379352506,0,0,8,True
+2,no_repairs,1033,194,494,178,91.75257731958763,36.03238866396761,0.707707342172058,0.885258592089257,12,0.07327637812898358,0,0,28,True

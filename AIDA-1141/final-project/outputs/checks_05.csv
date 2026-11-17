@@ -1,0 +1,16 @@
+check,passed
+Inputs match the fingerprints saved with the frozen policy (notebook 04),True
+"The policy file matches the policy loaded for this run, and policy a is selected",True
+Only validation early-warning assessments are used (no test employees),True
+Saved model reproduces notebook 02's validation scores,True
+"Repairs-check definition matches the saved, protected file",True
+Filled values match the cleaning log,True
+Rule-input audit found no discrepancies,True
+The frozen rule flags the same assessments in all three repair versions,True
+Days table covers every assessment once and no band straddles the cutoff,True
+Coefficients and unshuffled scores match notebook 02's saved tables,True
+Every missed task was flagged at a later checkpoint-2 assessment,True
+The comparison model flags the same assessments in all three repair versions,True
+"Every repair version and grouping is present, and each covers every assessment once",True
+An unknown repaired value is scored like the reference category,True
+Count columns are written as whole numbers (presentation check),True

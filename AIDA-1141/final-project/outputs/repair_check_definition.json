@@ -1,0 +1,27 @@
+{
+  "data_version": "2",
+  "cleaning_version": "1.1",
+  "repaired_fields": [
+    "employee_type",
+    "hiring_department"
+  ],
+  "filled_value": "raw export blank (after trimming spaces), cleaned value present",
+  "versions": {
+    "repaired": "cleaned values, as used in notebooks 01-04",
+    "as_of_assessment": "a filled value is kept only if the donor rule makes it available at the assessment time; otherwise 'unknown'",
+    "no_repairs": "every filled value becomes 'unknown'"
+  },
+  "donor_rule": {
+    "donors": "the same employee's other requests whose value was present in the raw export (standardised by cleaning, not filled)",
+    "employee_type_available_from": "the donor request's 'submitted' event in status_events.csv",
+    "hiring_department_available_from": "the donor request's info_complete_at; a donor without one does not count",
+    "timing": "available if at or before the assessment time",
+    "conflicting_donors": "value becomes 'unknown'",
+    "no_available_donor": "value becomes 'unknown'"
+  },
+  "unknown_value_in_model": "an unseen category; the saved encoder (handle_unknown='ignore', drop='first') gives it the same indicator values as the reference category",
+  "unknown_value_in_groups": "reported as its own 'unknown' group",
+  "fixed_items": "same eligible assessments, saved model, full-precision model threshold and frozen days rule in every version",
+  "measures": "flags and recall for the days rule; group results by employee type and department; model scores, flags, recall, precision, average precision and ROC AUC",
+  "applies_to": "validation here; notebooks 06-07 apply the same rule unchanged to the test set and the time-based check"
+}

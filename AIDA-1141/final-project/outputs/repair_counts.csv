@@ -1,0 +1,4 @@
+data_version,level,total,employee_type_filled,hiring_department_filled,both_fields_filled,either_field_filled,employee_type_not_yet_available,employee_type_conflicting_donors,hiring_department_not_yet_available,hiring_department_conflicting_donors,either_unavailable_as_of_assessment
+2,requests (all splits),4364,44,44,1,87,,,,,
+2,validation requests with an early-warning assessment,839,12,9,0,21,,,,,
+2,validation early-warning assessments,1033,16,12,0,28,4,0,4,0,8
