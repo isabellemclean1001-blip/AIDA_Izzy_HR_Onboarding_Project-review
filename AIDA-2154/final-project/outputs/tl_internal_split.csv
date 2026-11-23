@@ -1,0 +1,8 @@
+reference,data_version,internal_fit,internal_holdout,all_training
+access_badge,2,147,41,188
+safety_vest,2,139,38,177
+hard_hat,2,136,39,175
+laptop,2,71,17,88
+phone,2,73,15,88
+not_kit_item,2,165,35,200
+cards,2,275,69,344

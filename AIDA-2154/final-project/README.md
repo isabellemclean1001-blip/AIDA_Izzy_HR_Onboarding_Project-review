@@ -55,6 +55,36 @@ For each analysis included: the question, data version, method, key finding, lim
 | 15 (7–9 Dec) | Gate 6: release readiness and documentation check |
 | Final-examination period (14–18 Dec) | Submit, demonstrate, and complete the individual technical defence |
 
+## Reproducing notebook 04 (transfer learning)
+
+Notebook 04 needs two extra packages and a pretrained weights file, on top of the project environment (`.venv`, Python 3.14).
+
+**Packages** (CPU only; no GPU is used), installed into `.venv` from the repository root:
+
+```bash
+.venv/bin/python -m pip install torch==2.15.0 torchvision==0.29.2
+```
+
+**Pretrained weights:** MobileNetV3-Small ImageNet weights, `mobilenet_v3_small-047dcff4.pth` (10,306,551 bytes). They are not stored in this repository. Torchvision caches them in its hub folder, which the notebook finds through `torch.hub.get_dir()`; in the tested setup this was `~/.cache/torch/hub/checkpoints/`. Notebook 04 stops unless the file's SHA-256 checksum is `047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f`. Download them once, from the repository root:
+
+```bash
+.venv/bin/python -c "from torchvision.models import mobilenet_v3_small, MobileNet_V3_Small_Weights; mobilenet_v3_small(weights=MobileNet_V3_Small_Weights.IMAGENET1K_V1)"
+```
+
+**Certificate note:** if the download fails with `CERTIFICATE_VERIFY_FAILED`, Python could not verify the server's certificate with its configured trusted certificates. One workaround (used for this project on macOS with python.org's Python 3.14, tested with `certifi` 2026.10.23) is to install the `certifi` certificate bundle into `.venv`:
+
+```bash
+.venv/bin/python -m pip install certifi
+```
+
+and then run the download with that bundle, which applies only to this one command:
+
+```bash
+SSL_CERT_FILE="$(.venv/bin/python -m certifi)" .venv/bin/python -c "from torchvision.models import mobilenet_v3_small, MobileNet_V3_Small_Weights; mobilenet_v3_small(weights=MobileNet_V3_Small_Weights.IMAGENET1K_V1)"
+```
+
+**Run order:** notebooks 02 and 03 first, then notebook 04 (Restart and Run All; about 7 minutes on the tested Mac with four CPU threads). Results are reproducible in the tested environment; other package versions or hardware may give slightly different numbers.
+
 ## Boundaries
 
 This project uses only computer-generated, non-personal images. It is not identity recognition, document verification, or an automated onboarding decision. Its analysis is distinct from the AIDA 1141 and AIDA 2156 final projects, which share the same workflow but answer different questions.

@@ -1,0 +1,7 @@
+reference,access_badge,safety_vest,hard_hat,laptop,phone,not_kit_item
+access_badge,65,0,0,0,0,0
+safety_vest,0,55,0,0,0,0
+hard_hat,0,0,61,0,0,1
+laptop,0,0,0,31,0,0
+phone,0,0,0,0,25,0
+not_kit_item,0,0,0,1,6,77

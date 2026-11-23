@@ -1,0 +1,6 @@
+aspect,data_version,baseline,network
+learned numbers,2,"114 coefficients and intercepts (18 features x 6 classes + 6), plus 36 scaling values","653,446 trained parameters, of 1,524,006 used for every prediction"
+saved model files,2,2.9 KB (baseline_classifier.joblib),2.6 MB of trained layers (tl_trained_layers.pt) + 10.3 MB of pretrained weights (mobilenet_v3_small-047dcff4.pth)
+software beyond the course stack,2,"the course stack only (NumPy, pandas, scikit-learn, OpenCV, Pillow)","PyTorch 2.15.0 and torchvision 0.29.2, plus a one-time download of the pretrained weights"
+how its decisions can be read,2,"named colour and shape features, each with a coefficient per class (notebook 03)",no direct interpretation through named colour and shape coefficients; this notebook examines behaviour through confusion tables and error examples
+settings chosen,2,"regularisation C, chosen by card-grouped cross-validation on training regions","learning rate and number of epochs chosen on held-out training cards (2 learning rates, epochs 1-10); architecture, trained layers, augmentation, crop margin and batch size fixed in advance"

@@ -1,0 +1,13 @@
+method,class,regions,precision,recall,f1
+baseline,access_badge,65,0.9701,1.0,0.9848
+baseline,safety_vest,55,1.0,1.0,1.0
+baseline,hard_hat,62,1.0,1.0,1.0
+baseline,laptop,31,0.9688,1.0,0.9841
+baseline,phone,25,1.0,1.0,1.0
+baseline,not_kit_item,84,1.0,0.9643,0.9818
+network,access_badge,65,1.0,1.0,1.0
+network,safety_vest,55,1.0,1.0,1.0
+network,hard_hat,62,1.0,0.9839,0.9919
+network,laptop,31,0.9688,1.0,0.9841
+network,phone,25,0.8065,1.0,0.8929
+network,not_kit_item,84,0.9872,0.9167,0.9506

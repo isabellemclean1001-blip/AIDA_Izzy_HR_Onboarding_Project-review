@@ -1,0 +1,19 @@
+check,passed
+Pretrained weights file has the expected checksum,True
+Regions and training rows match notebook 03's fingerprints,True
+Crops were cut only from development cards (no test card),True
+One square 224 x 224 crop per region,True
+Internal hold-out is split by card,True
+Both sides of the internal hold-out contain every class,True
+Training and settings choice used training cards only,True
+Final model trained on exactly notebook 03's 916 training regions,True
+Saved trained layers rebuild the model exactly,True
+Every validation region has a network prediction,True
+The decision rule reproduces notebook 03's baseline decisions,True
+The summary reproduces notebook 03's baseline summary,True
+Baseline present-item recognition matches notebook 03,True
+"Every validation card has exactly one decision for each item, for both methods",True
+"Omission counts match the manifest, for both methods",True
+"Unknown expectations are never scored, for both methods",True
+"Every erroneous card-item decision appears in the error table, for both methods",True
+The decision table matches the saved result,True

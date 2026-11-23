@@ -1,0 +1,11 @@
+method,item,correct_missing_flag,missed_omission,false_missing_flag,correct_present,unexpected_detection
+baseline,access_badge,12,0,0,65,1
+baseline,safety_vest,14,0,0,55,0
+baseline,hard_hat,7,0,0,62,0
+baseline,laptop,4,0,0,31,0
+baseline,phone,6,0,0,25,0
+network,access_badge,12,0,0,65,0
+network,safety_vest,14,0,0,55,0
+network,hard_hat,7,0,1,61,0
+network,laptop,4,0,0,31,0
+network,phone,6,0,0,25,4

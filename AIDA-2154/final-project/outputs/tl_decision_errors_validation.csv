@@ -1,0 +1,7 @@
+method,card_id,item,outcome,causes,regions
+baseline,KIT-0419,access_badge,unexpected_detection,non-item region classified as the item,region 0 (not_kit_item predicted access_badge)
+network,KIT-0130,phone,unexpected_detection,non-item region classified as the item,region 0 (not_kit_item predicted phone)
+network,KIT-0366,phone,unexpected_detection,non-item region classified as the item,region 1 (not_kit_item predicted phone)
+network,KIT-0419,phone,unexpected_detection,non-item region classified as the item,region 0 (not_kit_item predicted phone)
+network,KIT-0437,hard_hat,false_missing_flag,kit-item region misclassified,region 3 (hard_hat predicted not_kit_item)
+network,KIT-0538,phone,unexpected_detection,non-item region classified as the item,region 2 (not_kit_item predicted phone)

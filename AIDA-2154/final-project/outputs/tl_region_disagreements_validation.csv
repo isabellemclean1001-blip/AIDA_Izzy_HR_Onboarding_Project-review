@@ -1,0 +1,10 @@
+card_id,region,label_group,reference,baseline,network
+KIT-0009,2,background_clean,not_kit_item,laptop,not_kit_item
+KIT-0031,4,unmatched,not_kit_item,access_badge,laptop
+KIT-0130,0,background_clean,not_kit_item,not_kit_item,phone
+KIT-0366,1,background_clean,not_kit_item,not_kit_item,phone
+KIT-0419,0,unmatched,not_kit_item,access_badge,phone
+KIT-0437,3,kit_item_poor_fit,hard_hat,hard_hat,not_kit_item
+KIT-0523,2,background_clean,not_kit_item,not_kit_item,phone
+KIT-0538,2,background_clean,not_kit_item,not_kit_item,phone
+KIT-0565,1,background_clean,not_kit_item,not_kit_item,phone

@@ -1,0 +1,4 @@
+step,device,seconds,what is timed
+settings search,"CPU, 4 threads",353.0,"settings search: 2 learning rates x 10 epochs on the internal-fit cards, scoring the hold-out after each epoch"
+final training,"CPU, 4 threads",38.0,final model: 2 epochs on all 916 training regions
+validation prediction,"CPU, 4 threads",5.1,"prediction step only, 322 validation regions (crops already in memory)"
