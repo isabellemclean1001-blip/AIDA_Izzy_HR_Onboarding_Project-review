@@ -1,0 +1,3 @@
+arm,correct in both,correct only in control,correct only in stress arm,wrong in both,needs review (not scored),"  of these, detection changed"
+reserved_style,509,83,2,2,4,1
+heavier_degradation,582,10,1,3,4,0

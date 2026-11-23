@@ -1,0 +1,16 @@
+arm,item,correct_missing_flag,missed_omission,false_missing_flag,correct_present,unexpected_detection
+control,access_badge,12,0,1,64,0
+control,safety_vest,14,0,2,53,0
+control,hard_hat,7,0,0,62,0
+control,laptop,4,0,0,31,1
+control,phone,6,0,0,25,0
+reserved_style,access_badge,12,0,63,2,0
+reserved_style,safety_vest,14,0,2,53,0
+reserved_style,hard_hat,5,2,0,62,8
+reserved_style,laptop,4,0,0,31,10
+reserved_style,phone,6,0,0,25,0
+heavier_degradation,access_badge,12,0,7,58,0
+heavier_degradation,safety_vest,14,0,2,53,0
+heavier_degradation,hard_hat,7,0,0,62,0
+heavier_degradation,laptop,4,0,0,31,0
+heavier_degradation,phone,4,2,0,25,2

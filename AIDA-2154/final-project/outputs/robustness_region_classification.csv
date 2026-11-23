@@ -1,0 +1,16 @@
+arm,drawn item,access_badge,safety_vest,hard_hat,laptop,phone,not_kit_item
+control,access_badge,64,0,0,0,0,1
+control,safety_vest,0,53,1,1,0,0
+control,hard_hat,0,0,62,0,0,0
+control,laptop,0,0,0,31,0,0
+control,phone,0,0,0,0,25,0
+reserved_style,access_badge,0,0,29,12,0,24
+reserved_style,safety_vest,0,53,2,0,0,0
+reserved_style,hard_hat,0,0,62,0,0,0
+reserved_style,laptop,0,0,0,31,0,0
+reserved_style,phone,0,0,0,0,25,0
+heavier_degradation,access_badge,58,0,0,0,3,4
+heavier_degradation,safety_vest,0,53,1,0,0,0
+heavier_degradation,hard_hat,0,0,62,0,0,0
+heavier_degradation,laptop,0,0,0,31,0,0
+heavier_degradation,phone,0,0,0,0,25,0

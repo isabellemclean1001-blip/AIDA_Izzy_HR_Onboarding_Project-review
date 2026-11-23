@@ -1,0 +1,9 @@
+arm,card_id,item,detected_control,detected_arm
+reserved_style,KIT-0102,laptop,False,True
+reserved_style,KIT-0102,phone,False,False
+reserved_style,KIT-0385,laptop,False,False
+reserved_style,KIT-0385,phone,False,False
+heavier_degradation,KIT-0102,laptop,False,False
+heavier_degradation,KIT-0102,phone,False,False
+heavier_degradation,KIT-0385,laptop,False,False
+heavier_degradation,KIT-0385,phone,False,False

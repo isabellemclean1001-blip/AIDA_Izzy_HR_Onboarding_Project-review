@@ -1,0 +1,18 @@
+check,passed
+The method tested is the baseline chosen in notebook 04,True
+"Model, segmentation settings and regions match notebook 03's fingerprints",True
+method_frozen.json matches this run's method and design,True
+"Copied pipeline reproduces notebooks 02-03 on the validation cards (regions, objects, predictions, decisions, summary)",True
+Robustness outputs contain validation IDs only; the image-reading card list contains validation cards only,True
+Style c appears only in the reserved-style arm and on no existing card,True
+Shared degradation reproduces the generator's degrade(); in-memory decoding matches a saved card,True
+The 14-pixel gaps hold in every arm,True
+"The arms are paired as specified (positions, sizes, contrast, rotation, paper and image settings)",True
+robustness_rendering.json matches this run's rendering code and images,True
+"Each arm has one decision per validation card and item, with the validation expectation fields",True
+Every drawn kit item is counted once per arm with one segmentation outcome,True
+"Unknown expectations are never scored, in any arm",True
+"Reserved style vs control: every card-item key once, in its recomputed paired group or the unscored table",True
+"Heavier degradation vs control: every card-item key once, in its recomputed paired group or the unscored table",True
+"Every erroneous card-item decision appears in the error table, in every arm",True
+Region classification covers exactly the good- and poor-fit kit items; included + excluded = 238 per arm,True
