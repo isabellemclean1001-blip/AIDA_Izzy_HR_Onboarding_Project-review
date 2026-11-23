@@ -1,0 +1,9 @@
+condition,data_version,baseline,network,met
+Strictly fewer cards with a card-level error,2,1,5,False
+Missing-item recall no lower,2,1.0,1.0,True
+Missing-item precision no lower (undefined counts as failing),2,1.0,0.9772727272727273,False
+No more false missing-item flags,2,0,1,False
+No more unexpected detections,2,1,4,False
+No fewer completely correct cards (all expectations known),2,117,113,False
+All conditions met (the network replaces the baseline),2,,,False
+Method that goes forward,2,baseline,,
