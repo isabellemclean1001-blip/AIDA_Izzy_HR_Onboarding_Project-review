@@ -1,0 +1,92 @@
+scenario,contrast,status,direction,interval vs zero,change in estimate
+H1 elapsed calendar time,equipment_setup - payroll_setup,unchanged,same direction,same relation to zero,
+H1 elapsed calendar time,system_access - payroll_setup,unchanged,same direction,same relation to zero,
+H1 elapsed calendar time,workplace_access - payroll_setup,changed,same direction,interval now excludes zero,
+H1 elapsed calendar time,orientation_scheduling - payroll_setup,unchanged,same direction,same relation to zero,
+H1 elapsed calendar time,information issue - none,unchanged,same direction,same relation to zero,
+H1 elapsed calendar time,high - low workload,unchanged,same direction,same relation to zero,
+H1 elapsed calendar time,"high - low workload, within task type",changed,direction changes,same relation to zero,
+H1 elapsed calendar time,after-hours - working hours,changed,same direction,interval now includes zero,
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",changed,same direction,interval now includes zero,
+H1 elapsed calendar time,phone - web form,unchanged,same direction,same relation to zero,
+H1 elapsed calendar time,"phone - web form, within information issue",unchanged,same direction,same relation to zero,
+H1 elapsed calendar time,email - web form,changed,direction changes,same relation to zero,
+H1 elapsed calendar time,"email - web form, within information issue",unchanged,same direction,same relation to zero,
+H3 working-hours submissions only,equipment_setup - payroll_setup,unchanged,same direction,same relation to zero,0.021568627450981204
+H3 working-hours submissions only,system_access - payroll_setup,unchanged,same direction,same relation to zero,0.004901960784315484
+H3 working-hours submissions only,workplace_access - payroll_setup,changed,same direction,interval now excludes zero,-0.09803921568627416
+H3 working-hours submissions only,orientation_scheduling - payroll_setup,unchanged,same direction,same relation to zero,-0.0009803921568618534
+H3 working-hours submissions only,information issue - none,unchanged,same direction,same relation to zero,-0.02549019607843217
+H3 working-hours submissions only,high - low workload,unchanged,same direction,same relation to zero,0.02450980392156943
+H3 working-hours submissions only,"high - low workload, within task type",unchanged,same direction,same relation to zero,0.004347570721308286
+H3 working-hours submissions only,after-hours - working hours,not applicable,,,
+H3 working-hours submissions only,"after-hours - working hours, within information issue x task type",not applicable,,,
+H3 working-hours submissions only,phone - web form,unchanged,same direction,same relation to zero,0.04313725490196063
+H3 working-hours submissions only,"phone - web form, within information issue",unchanged,same direction,same relation to zero,0.04425199367931182
+H3 working-hours submissions only,email - web form,changed,direction changes,same relation to zero,-0.045098039215686114
+H3 working-hours submissions only,"email - web form, within information issue",unchanged,same direction,same relation to zero,0.009529236991415169
+H4 narrower after-hours label,equipment_setup - payroll_setup,unchanged,same direction,same relation to zero,0.0
+H4 narrower after-hours label,system_access - payroll_setup,unchanged,same direction,same relation to zero,0.0
+H4 narrower after-hours label,workplace_access - payroll_setup,unchanged,same direction,same relation to zero,0.0
+H4 narrower after-hours label,orientation_scheduling - payroll_setup,unchanged,same direction,same relation to zero,0.0
+H4 narrower after-hours label,information issue - none,unchanged,same direction,same relation to zero,0.0
+H4 narrower after-hours label,high - low workload,unchanged,same direction,same relation to zero,0.0
+H4 narrower after-hours label,"high - low workload, within task type",unchanged,same direction,same relation to zero,0.0
+H4 narrower after-hours label,after-hours - working hours,changed,same direction,interval now includes zero,-0.033333333333333215
+H4 narrower after-hours label,"after-hours - working hours, within information issue x task type",changed,same direction,interval now includes zero,-0.0160766045457717
+H4 narrower after-hours label,phone - web form,unchanged,same direction,same relation to zero,0.0
+H4 narrower after-hours label,"phone - web form, within information issue",unchanged,same direction,same relation to zero,0.0
+H4 narrower after-hours label,email - web form,unchanged,same direction,same relation to zero,0.0
+H4 narrower after-hours label,"email - web form, within information issue",unchanged,same direction,same relation to zero,0.0
+"U1 unfinished, time so far",equipment_setup - payroll_setup,unchanged,same direction,same relation to zero,0.01960784313725572
+"U1 unfinished, time so far",system_access - payroll_setup,unchanged,same direction,same relation to zero,1.7763568394002505e-15
+"U1 unfinished, time so far",workplace_access - payroll_setup,unchanged,same direction,same relation to zero,0.016666666666667496
+"U1 unfinished, time so far",orientation_scheduling - payroll_setup,unchanged,same direction,same relation to zero,0.01764705882353068
+"U1 unfinished, time so far",information issue - none,unchanged,same direction,same relation to zero,-0.01862745098039298
+"U1 unfinished, time so far",high - low workload,unchanged,same direction,same relation to zero,0.03627450980392144
+"U1 unfinished, time so far","high - low workload, within task type",unchanged,same direction,same relation to zero,0.027527362853470544
+"U1 unfinished, time so far",after-hours - working hours,unchanged,same direction,same relation to zero,-0.015686274509803866
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",unchanged,same direction,same relation to zero,-0.01944248453912184
+"U1 unfinished, time so far",phone - web form,unchanged,same direction,same relation to zero,0.02450980392156943
+"U1 unfinished, time so far","phone - web form, within information issue",unchanged,same direction,same relation to zero,0.019696469356178636
+"U1 unfinished, time so far",email - web form,unchanged,same direction,same relation to zero,-0.012745098039214753
+"U1 unfinished, time so far","email - web form, within information issue",unchanged,same direction,same relation to zero,-0.003019180366075097
+"U2 unfinished, longest",equipment_setup - payroll_setup,unchanged,same direction,same relation to zero,0.03137254901960773
+"U2 unfinished, longest",system_access - payroll_setup,unchanged,same direction,same relation to zero,0.027450980392157653
+"U2 unfinished, longest",workplace_access - payroll_setup,changed,same direction,interval now excludes zero,0.0
+"U2 unfinished, longest",orientation_scheduling - payroll_setup,unchanged,same direction,same relation to zero,0.0029411764705877808
+"U2 unfinished, longest",information issue - none,unchanged,same direction,same relation to zero,0.0009803921568618534
+"U2 unfinished, longest",high - low workload,unchanged,same direction,same relation to zero,-0.0705882352941174
+"U2 unfinished, longest","high - low workload, within task type",unchanged,same direction,same relation to zero,-0.03472966346735035
+"U2 unfinished, longest",after-hours - working hours,unchanged,same direction,same relation to zero,-0.010784313725488381
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",unchanged,same direction,same relation to zero,-0.011198788343870003
+"U2 unfinished, longest",phone - web form,unchanged,same direction,same relation to zero,-0.019607843137253944
+"U2 unfinished, longest","phone - web form, within information issue",unchanged,same direction,same relation to zero,-0.011632721348518171
+"U2 unfinished, longest",email - web form,changed,direction changes,same relation to zero,-0.028431372549019507
+"U2 unfinished, longest","email - web form, within information issue",unchanged,same direction,same relation to zero,0.02523763565089071
+H2 closures as working days,equipment_setup - payroll_setup,unchanged,same direction,same relation to zero,-0.05882352941176272
+H2 closures as working days,system_access - payroll_setup,unchanged,same direction,same relation to zero,-0.017647058823527573
+H2 closures as working days,workplace_access - payroll_setup,changed,same direction,interval now excludes zero,-0.16274509803921422
+H2 closures as working days,orientation_scheduling - payroll_setup,unchanged,same direction,same relation to zero,-0.07058823529411518
+H2 closures as working days,information issue - none,unchanged,same direction,same relation to zero,0.09509803921568594
+H2 closures as working days,high - low workload,unchanged,same direction,same relation to zero,-0.00588235294117645
+H2 closures as working days,"high - low workload, within task type",unchanged,same direction,same relation to zero,-0.006586850453294296
+H2 closures as working days,after-hours - working hours,changed,same direction,interval now includes zero,0.017647058823531125
+H2 closures as working days,"after-hours - working hours, within information issue x task type",unchanged,same direction,same relation to zero,0.019590591504024535
+H2 closures as working days,phone - web form,unchanged,same direction,same relation to zero,-0.019607843137253056
+H2 closures as working days,"phone - web form, within information issue",unchanged,same direction,same relation to zero,0.07508319373130284
+H2 closures as working days,email - web form,changed,direction changes,same relation to zero,-0.04117647058823515
+H2 closures as working days,"email - web form, within information issue",unchanged,same direction,same relation to zero,-0.016109847504641117
+O1 without the long tail,equipment_setup - payroll_setup,unchanged,same direction,same relation to zero,-0.008823529411763786
+O1 without the long tail,system_access - payroll_setup,unchanged,same direction,same relation to zero,0.0411764705882387
+O1 without the long tail,workplace_access - payroll_setup,unchanged,same direction,same relation to zero,-0.02941176470588136
+O1 without the long tail,orientation_scheduling - payroll_setup,unchanged,same direction,same relation to zero,-0.001960784313724595
+O1 without the long tail,information issue - none,unchanged,same direction,same relation to zero,-0.21764705882352953
+O1 without the long tail,high - low workload,unchanged,same direction,same relation to zero,0.030392156862744102
+O1 without the long tail,"high - low workload, within task type",unchanged,same direction,same relation to zero,0.007005527984958543
+O1 without the long tail,after-hours - working hours,unchanged,same direction,same relation to zero,0.006862745098040968
+O1 without the long tail,"after-hours - working hours, within information issue x task type",unchanged,same direction,same relation to zero,-0.05599178674234534
+O1 without the long tail,phone - web form,unchanged,same direction,same relation to zero,-0.030392156862745878
+O1 without the long tail,"phone - web form, within information issue",unchanged,same direction,same relation to zero,0.025043732432433408
+O1 without the long tail,email - web form,unchanged,same direction,same relation to zero,-0.020588235294118462
+O1 without the long tail,"email - web form, within information issue",unchanged,same direction,same relation to zero,0.03147065595234183

@@ -1,0 +1,133 @@
+scenario,contrast,stratum,weight,coverage_%
+reference,"high - low workload, within task type",equipment_setup,0.17300848617574593,84.57976383422088
+reference,"high - low workload, within task type",orientation_scheduling,0.24664659184232138,84.57976383422088
+reference,"high - low workload, within task type",payroll_setup,0.29044620859567477,84.57976383422088
+reference,"high - low workload, within task type",system_access,0.28989871338625783,84.57976383422088
+reference,"after-hours - working hours, within information issue x task type",False | equipment_setup,0.1308173188238018,100.0
+reference,"after-hours - working hours, within information issue x task type",False | orientation_scheduling,0.17897661495716602,100.0
+reference,"after-hours - working hours, within information issue x task type",False | payroll_setup,0.21416994674693215,100.0
+reference,"after-hours - working hours, within information issue x task type",False | system_access,0.21278073628154665,100.0
+reference,"after-hours - working hours, within information issue x task type",False | workplace_access,0.13290113452188007,100.0
+reference,"after-hours - working hours, within information issue x task type",True | equipment_setup,0.015512850196804815,100.0
+reference,"after-hours - working hours, within information issue x task type",True | orientation_scheduling,0.029636489928224125,100.0
+reference,"after-hours - working hours, within information issue x task type",True | payroll_setup,0.03148877054873813,100.0
+reference,"after-hours - working hours, within information issue x task type",True | system_access,0.03241491085899514,100.0
+reference,"after-hours - working hours, within information issue x task type",True | workplace_access,0.02130122713591109,100.0
+reference,"phone - web form, within information issue",False,0.8696457513313267,100.0
+reference,"phone - web form, within information issue",True,0.13035424866867332,100.0
+reference,"email - web form, within information issue",False,0.8696457513313267,100.0
+reference,"email - web form, within information issue",True,0.13035424866867332,100.0
+H1 elapsed calendar time,"high - low workload, within task type",equipment_setup,0.17300848617574593,84.57976383422088
+H1 elapsed calendar time,"high - low workload, within task type",orientation_scheduling,0.24664659184232138,84.57976383422088
+H1 elapsed calendar time,"high - low workload, within task type",payroll_setup,0.29044620859567477,84.57976383422088
+H1 elapsed calendar time,"high - low workload, within task type",system_access,0.28989871338625783,84.57976383422088
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",False | equipment_setup,0.1308173188238018,100.0
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",False | orientation_scheduling,0.17897661495716602,100.0
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",False | payroll_setup,0.21416994674693215,100.0
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",False | system_access,0.21278073628154665,100.0
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",False | workplace_access,0.13290113452188007,100.0
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",True | equipment_setup,0.015512850196804815,100.0
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",True | orientation_scheduling,0.029636489928224125,100.0
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",True | payroll_setup,0.03148877054873813,100.0
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",True | system_access,0.03241491085899514,100.0
+H1 elapsed calendar time,"after-hours - working hours, within information issue x task type",True | workplace_access,0.02130122713591109,100.0
+H1 elapsed calendar time,"phone - web form, within information issue",False,0.8696457513313267,100.0
+H1 elapsed calendar time,"phone - web form, within information issue",True,0.13035424866867332,100.0
+H1 elapsed calendar time,"email - web form, within information issue",False,0.8696457513313267,100.0
+H1 elapsed calendar time,"email - web form, within information issue",True,0.13035424866867332,100.0
+H3 working-hours submissions only,"high - low workload, within task type",equipment_setup,0.17913832199546484,84.13736713000817
+H3 working-hours submissions only,"high - low workload, within task type",orientation_scheduling,0.24878522837706513,84.13736713000817
+H3 working-hours submissions only,"high - low workload, within task type",payroll_setup,0.2837706511175899,84.13736713000817
+H3 working-hours submissions only,"high - low workload, within task type",system_access,0.28830579850988014,84.13736713000817
+H3 working-hours submissions only,"phone - web form, within information issue",False,0.8691741618969746,100.0
+H3 working-hours submissions only,"phone - web form, within information issue",True,0.13082583810302534,100.0
+H3 working-hours submissions only,"email - web form, within information issue",False,0.8691741618969746,100.0
+H3 working-hours submissions only,"email - web form, within information issue",True,0.13082583810302534,100.0
+H4 narrower after-hours label,"high - low workload, within task type",equipment_setup,0.17300848617574593,84.57976383422088
+H4 narrower after-hours label,"high - low workload, within task type",orientation_scheduling,0.24664659184232138,84.57976383422088
+H4 narrower after-hours label,"high - low workload, within task type",payroll_setup,0.29044620859567477,84.57976383422088
+H4 narrower after-hours label,"high - low workload, within task type",system_access,0.28989871338625783,84.57976383422088
+H4 narrower after-hours label,"after-hours - working hours, within information issue x task type",False | equipment_setup,0.13700290979631424,95.48506598749711
+H4 narrower after-hours label,"after-hours - working hours, within information issue x task type",False | orientation_scheduling,0.18743937924345297,95.48506598749711
+H4 narrower after-hours label,"after-hours - working hours, within information issue x task type",False | payroll_setup,0.2242967992240543,95.48506598749711
+H4 narrower after-hours label,"after-hours - working hours, within information issue x task type",False | system_access,0.2228419010669253,95.48506598749711
+H4 narrower after-hours label,"after-hours - working hours, within information issue x task type",False | workplace_access,0.13918525703200776,95.48506598749711
+H4 narrower after-hours label,"after-hours - working hours, within information issue x task type",True | payroll_setup,0.03297769156159069,95.48506598749711
+H4 narrower after-hours label,"after-hours - working hours, within information issue x task type",True | system_access,0.03394762366634335,95.48506598749711
+H4 narrower after-hours label,"after-hours - working hours, within information issue x task type",True | workplace_access,0.02230843840931135,95.48506598749711
+H4 narrower after-hours label,"phone - web form, within information issue",False,0.8696457513313267,100.0
+H4 narrower after-hours label,"phone - web form, within information issue",True,0.13035424866867332,100.0
+H4 narrower after-hours label,"email - web form, within information issue",False,0.8696457513313267,100.0
+H4 narrower after-hours label,"email - web form, within information issue",True,0.13035424866867332,100.0
+"U1 unfinished, time so far","high - low workload, within task type",equipment_setup,0.17388949079089924,84.6012832263978
+"U1 unfinished, time so far","high - low workload, within task type",orientation_scheduling,0.24539544962080176,84.6012832263978
+"U1 unfinished, time so far","high - low workload, within task type",payroll_setup,0.29008667388949083,84.6012832263978
+"U1 unfinished, time so far","high - low workload, within task type",system_access,0.2906283856988083,84.6012832263978
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",False | equipment_setup,0.13153070577451878,100.0
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",False | orientation_scheduling,0.17804766269477543,100.0
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",False | payroll_setup,0.21402383134738773,100.0
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",False | system_access,0.21356553620531624,100.0
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",False | workplace_access,0.1324472960586618,100.0
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",True | equipment_setup,0.015582034830430797,100.0
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",True | orientation_scheduling,0.029560036663611365,100.0
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",True | payroll_setup,0.03139321723189734,100.0
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",True | system_access,0.03230980751604033,100.0
+"U1 unfinished, time so far","after-hours - working hours, within information issue x task type",True | workplace_access,0.02153987167736022,100.0
+"U1 unfinished, time so far","phone - web form, within information issue",False,0.8696150320806599,100.0
+"U1 unfinished, time so far","phone - web form, within information issue",True,0.13038496791934007,100.0
+"U1 unfinished, time so far","email - web form, within information issue",False,0.8696150320806599,100.0
+"U1 unfinished, time so far","email - web form, within information issue",True,0.13038496791934007,100.0
+"U2 unfinished, longest","high - low workload, within task type",equipment_setup,0.17388949079089924,84.6012832263978
+"U2 unfinished, longest","high - low workload, within task type",orientation_scheduling,0.24539544962080176,84.6012832263978
+"U2 unfinished, longest","high - low workload, within task type",payroll_setup,0.29008667388949083,84.6012832263978
+"U2 unfinished, longest","high - low workload, within task type",system_access,0.2906283856988083,84.6012832263978
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",False | equipment_setup,0.13153070577451878,100.0
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",False | orientation_scheduling,0.17804766269477543,100.0
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",False | payroll_setup,0.21402383134738773,100.0
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",False | system_access,0.21356553620531624,100.0
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",False | workplace_access,0.1324472960586618,100.0
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",True | equipment_setup,0.015582034830430797,100.0
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",True | orientation_scheduling,0.029560036663611365,100.0
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",True | payroll_setup,0.03139321723189734,100.0
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",True | system_access,0.03230980751604033,100.0
+"U2 unfinished, longest","after-hours - working hours, within information issue x task type",True | workplace_access,0.02153987167736022,100.0
+"U2 unfinished, longest","phone - web form, within information issue",False,0.8696150320806599,100.0
+"U2 unfinished, longest","phone - web form, within information issue",True,0.13038496791934007,100.0
+"U2 unfinished, longest","email - web form, within information issue",False,0.8696150320806599,100.0
+"U2 unfinished, longest","email - web form, within information issue",True,0.13038496791934007,100.0
+H2 closures as working days,"high - low workload, within task type",equipment_setup,0.17300848617574593,84.57976383422088
+H2 closures as working days,"high - low workload, within task type",orientation_scheduling,0.24664659184232138,84.57976383422088
+H2 closures as working days,"high - low workload, within task type",payroll_setup,0.29044620859567477,84.57976383422088
+H2 closures as working days,"high - low workload, within task type",system_access,0.28989871338625783,84.57976383422088
+H2 closures as working days,"after-hours - working hours, within information issue x task type",False | equipment_setup,0.1308173188238018,100.0
+H2 closures as working days,"after-hours - working hours, within information issue x task type",False | orientation_scheduling,0.17897661495716602,100.0
+H2 closures as working days,"after-hours - working hours, within information issue x task type",False | payroll_setup,0.21416994674693215,100.0
+H2 closures as working days,"after-hours - working hours, within information issue x task type",False | system_access,0.21278073628154665,100.0
+H2 closures as working days,"after-hours - working hours, within information issue x task type",False | workplace_access,0.13290113452188007,100.0
+H2 closures as working days,"after-hours - working hours, within information issue x task type",True | equipment_setup,0.015512850196804815,100.0
+H2 closures as working days,"after-hours - working hours, within information issue x task type",True | orientation_scheduling,0.029636489928224125,100.0
+H2 closures as working days,"after-hours - working hours, within information issue x task type",True | payroll_setup,0.03148877054873813,100.0
+H2 closures as working days,"after-hours - working hours, within information issue x task type",True | system_access,0.03241491085899514,100.0
+H2 closures as working days,"after-hours - working hours, within information issue x task type",True | workplace_access,0.02130122713591109,100.0
+H2 closures as working days,"phone - web form, within information issue",False,0.8696457513313267,100.0
+H2 closures as working days,"phone - web form, within information issue",True,0.13035424866867332,100.0
+H2 closures as working days,"email - web form, within information issue",False,0.8696457513313267,100.0
+H2 closures as working days,"email - web form, within information issue",True,0.13035424866867332,100.0
+O1 without the long tail,"high - low workload, within task type",equipment_setup,0.17149346961953435,84.56182472989197
+O1 without the long tail,"high - low workload, within task type",orientation_scheduling,0.2467348097671777,84.56182472989197
+O1 without the long tail,"high - low workload, within task type",payroll_setup,0.28818852924474725,84.56182472989197
+O1 without the long tail,"high - low workload, within task type",system_access,0.2935831913685406,84.56182472989197
+O1 without the long tail,"after-hours - working hours, within information issue x task type",False | equipment_setup,0.13109243697478992,100.0
+O1 without the long tail,"after-hours - working hours, within information issue x task type",False | orientation_scheduling,0.18007202881152462,100.0
+O1 without the long tail,"after-hours - working hours, within information issue x task type",False | payroll_setup,0.2156062424969988,100.0
+O1 without the long tail,"after-hours - working hours, within information issue x task type",False | system_access,0.21608643457382953,100.0
+O1 without the long tail,"after-hours - working hours, within information issue x task type",False | workplace_access,0.1342136854741897,100.0
+O1 without the long tail,"after-hours - working hours, within information issue x task type",True | equipment_setup,0.013925570228091237,100.0
+O1 without the long tail,"after-hours - working hours, within information issue x task type",True | orientation_scheduling,0.02857142857142857,100.0
+O1 without the long tail,"after-hours - working hours, within information issue x task type",True | payroll_setup,0.02809123649459784,100.0
+O1 without the long tail,"after-hours - working hours, within information issue x task type",True | system_access,0.032172869147659065,100.0
+O1 without the long tail,"after-hours - working hours, within information issue x task type",True | workplace_access,0.020168067226890758,100.0
+O1 without the long tail,"phone - web form, within information issue",False,0.8770708283313325,100.0
+O1 without the long tail,"phone - web form, within information issue",True,0.12292917166866747,100.0
+O1 without the long tail,"email - web form, within information issue",False,0.8770708283313325,100.0
+O1 without the long tail,"email - web form, within information issue",True,0.12292917166866747,100.0

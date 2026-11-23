@@ -1,0 +1,18 @@
+finding,source,label,H1 elapsed calendar time,H3 working-hours submissions only,H4 narrower after-hours label,"U1 unfinished, time so far","U2 unfinished, longest",H2 closures as working days,O1 without the long tail
+Median processing time about 4.7 working-day equivalents,notebook 02,stable,not comparable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+Team processing is the longest stage,notebook 02,stable,not comparable,unchanged,unchanged,unchanged,not applicable,unchanged,unchanged
+"Task types from shortest to longest median: orientation, system access, workplace access, payroll, equipment",notebook 02,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+equipment setup - payroll setup: longer (+0.66; interval excludes zero),notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+system access - payroll setup: shorter (-0.81; interval excludes zero),notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+workplace access - payroll setup: no clear difference (-0.19; interval includes zero),notebook 03,depends on scenario: H1; H3; U2; H2,interval excludes zero,interval excludes zero,unchanged,unchanged,interval excludes zero,interval excludes zero,unchanged
+orientation scheduling - payroll setup: shorter (-1.17; interval excludes zero),notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+information issue - none: longer (+2.80; interval excludes zero),notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+high - low workload: longer (+0.59; interval excludes zero),notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+"high - low workload, within task type: no clear difference (+0.09; interval includes zero)",notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+after-hours - working hours: longer (+0.23; interval excludes zero),notebook 03,depends on scenario: H1; H4; H2,interval includes zero,not applicable,interval includes zero,unchanged,unchanged,interval includes zero,unchanged
+"after-hours - working hours, within information issue x task type: longer (+0.34; interval excludes zero)",notebook 03,depends on scenario: H1; H4,interval includes zero,not applicable,interval includes zero,unchanged,unchanged,unchanged,unchanged
+phone - web form: no clear difference (-0.07; interval includes zero),notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+"phone - web form, within information issue: shorter (-0.34; interval excludes zero)",notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+email - web form: no clear difference (+0.03; interval includes zero),notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+"email - web form, within information issue: no clear difference (-0.12; interval includes zero)",notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged
+"Spring 2026 submissions took slightly less time than spring 2025 (descriptive, no interval)",notebook 03,stable,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged,unchanged

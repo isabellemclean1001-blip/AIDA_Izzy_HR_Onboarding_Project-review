@@ -1,0 +1,18 @@
+check,passed
+Cleaned file matches its cleaning record (fingerprint),True
+Generator unchanged since notebook 02 saved the working calendar,True
+"Working-time function passes every hand-made test, including closures counted as working days (H2)",True
+Only submissions occur outside working hours (the after-hours design assumes this),True
+"Reference reproduces notebook 02 (durations, summaries, stages) and notebook 03 (13 contrasts and intervals)",True
+"An unsupported weighted contrast is reported as not estimable, not as 0 (self-test)",True
+Length groups cover every completed request once; the long tail matches notebook 02,True
+Stage differences add up to the difference in mean total time (long tail minus middle group),True
+"PCA uses complete, non-negative inputs and its components account for all the variation",True
+"Each scenario contains exactly its intended requests (by request ID), and H4 relabels request by request",True
+Unfinished stage time adds up to time so far; the U2 value exceeds every completed duration and every time so far,True
+Percentile bounds match an independent recalculation; lower <= upper wherever the upper bound is finite,True
+Every scenario reports all 13 contrasts,True
+"Each contrast result has the status, reason and missing values that fit it (available, withheld or not applicable/estimable)",True
+H3's after-hours contrasts are not applicable because the after-hours group is empty,True
+Every written finding has a label and only allowed statuses,True
+Count columns are written as whole numbers (presentation check),True

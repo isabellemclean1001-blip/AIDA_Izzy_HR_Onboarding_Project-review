@@ -1,0 +1,17 @@
+variable,value,long tail (above the fence),middle group,at or below the 5th percentile,all completed,without the tail (O1)
+task_type,equipment_setup,28,604,0,632,604
+task_type,orientation_scheduling,32,720,149,901,869
+task_type,payroll_setup,46,986,29,1061,1015
+task_type,system_access,25,1013,21,1059,1034
+task_type,workplace_access,23,626,17,666,643
+info_issue_at_intake,False,103,3438,215,3756,3653
+info_issue_at_intake,True,51,511,1,563,512
+workload_group,high,38,1084,10,1132,1094
+workload_group,low,37,1029,94,1160,1123
+workload_group,middle,79,1836,112,2027,1948
+after_hours,False,125,3340,204,3669,3544
+after_hours,True,29,609,12,650,621
+intake_channel,email,39,1251,83,1373,1334
+intake_channel,phone,27,606,35,668,641
+intake_channel,unknown,3,40,1,44,41
+intake_channel,web_form,85,2052,97,2234,2149

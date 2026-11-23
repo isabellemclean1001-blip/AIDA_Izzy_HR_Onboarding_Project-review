@@ -1,0 +1,9 @@
+,order (shortest to longest median),compared with the reference
+reference,orientation scheduling < system access < workplace access < payroll setup < equipment setup,same order
+H1 elapsed calendar time,orientation scheduling < system access < workplace access < payroll setup < equipment setup,same order
+H3 working-hours submissions only,orientation scheduling < system access < workplace access < payroll setup < equipment setup,same order
+H4 narrower after-hours label,orientation scheduling < system access < workplace access < payroll setup < equipment setup,same order
+"U1 unfinished, time so far",orientation scheduling < system access < workplace access < payroll setup < equipment setup,same order
+"U2 unfinished, longest",orientation scheduling < system access < workplace access < payroll setup < equipment setup,same order
+H2 closures as working days,orientation scheduling < system access < workplace access < payroll setup < equipment setup,same order
+O1 without the long tail,orientation scheduling < system access < workplace access < payroll setup < equipment setup,same order
