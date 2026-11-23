@@ -1,0 +1,128 @@
+{
+  "data_version": "2",
+  "policy": "(a) days rule decides flags and order",
+  "flag_rule": "business_days_until_start <= 8",
+  "days_threshold": 8,
+  "model_threshold": 0.13377081029764315,
+  "fingerprints_sha256": {
+    "requests_cleaned.csv": "571d98a916435dda570b2f8f035db217658d7a52a7b72b65d3b7097069149615",
+    "assessments.csv": "bcd8f8f387931d565205e25f750181007333d5ed19439c2bd224e32aac9990c8",
+    "employee_split.csv": "4a5822b164bc0a491c45ef320aa9b4135934233b186a75c7421824f6ddfc2cc8",
+    "feature_list.csv": "b9862423afb2e449d1954e87b876e0d82abe7566dec158216affb8fb6743af93",
+    "model_settings.json": "f2fd80057d55bc5b2faf9847c60176b38cf6a4d4e0ea198f1fb8f7eed1b292b1",
+    "model.joblib": "9bdd5e665da1ee1aa7582ba915bac3bea6cff05fff0c58934297798b9f40fc81",
+    "validation_predictions.csv": "32117918ce9138cbcc4fc4eee6a3523196e0e40a61e946bbd52810c5a0f4f336",
+    "review_policy.json": "21710a7887c20e189cad2719c2574bc5556bc575c07c6d6081f65b85a87b56cc",
+    "repair_check_definition.json": "93b41c4413036f555d73e531d4a92f3bd7f9af11345db66d87867896fe16d560",
+    "generate_requests.py": "118e70dc53ffee04f03e94f45501696dc45edd499694767a3495f3659ce15068"
+  },
+  "population": {
+    "test_employees": 215,
+    "test_tasks_any_assessment": 877,
+    "scored_assessments": 1056,
+    "scored_at_risk": 192,
+    "scored_tasks": 829,
+    "scored_employees": 204,
+    "overdue_assessments": 41,
+    "unknown_outcome_assessments": 7
+  },
+  "results": {
+    "never_at_risk": {
+      "assessments": 1056,
+      "at_risk": 192,
+      "TP": 0,
+      "FP": 0,
+      "FN": 192,
+      "TN": 864,
+      "recall": 0.0,
+      "precision": null,
+      "flagged_assessments": 0,
+      "flagged_%": 0.0,
+      "unique_tasks_flagged": 0,
+      "scored_tasks": 829,
+      "at_risk_tasks": 146,
+      "at_risk_tasks_flagged_at_least_once": 0,
+      "at_risk_tasks_flagged_before_start_date": 0,
+      "at_risk_tasks_never_flagged": 146,
+      "median_business_days_left_at_first_flag": null,
+      "at_risk_tasks_first_flagged_with_5_or_fewer_days_left": 0
+    },
+    "days_rule": {
+      "assessments": 1056,
+      "at_risk": 192,
+      "TP": 174,
+      "FP": 329,
+      "FN": 18,
+      "TN": 535,
+      "recall": 0.90625,
+      "precision": 0.34592445328031807,
+      "flagged_assessments": 503,
+      "flagged_%": 47.63257575757576,
+      "unique_tasks_flagged": 373,
+      "scored_tasks": 829,
+      "at_risk_tasks": 146,
+      "at_risk_tasks_flagged_at_least_once": 146,
+      "at_risk_tasks_flagged_before_start_date": 146,
+      "at_risk_tasks_never_flagged": 0,
+      "median_business_days_left_at_first_flag": 4.0,
+      "at_risk_tasks_first_flagged_with_5_or_fewer_days_left": 118
+    },
+    "logistic_regression": {
+      "assessments": 1056,
+      "at_risk": 192,
+      "TP": 171,
+      "FP": 330,
+      "FN": 21,
+      "TN": 534,
+      "recall": 0.890625,
+      "precision": 0.3413173652694611,
+      "flagged_assessments": 501,
+      "flagged_%": 47.44318181818182,
+      "unique_tasks_flagged": 375,
+      "scored_tasks": 829,
+      "at_risk_tasks": 146,
+      "at_risk_tasks_flagged_at_least_once": 145,
+      "at_risk_tasks_flagged_before_start_date": 145,
+      "at_risk_tasks_never_flagged": 1,
+      "median_business_days_left_at_first_flag": 4.0,
+      "at_risk_tasks_first_flagged_with_5_or_fewer_days_left": 115
+    }
+  },
+  "ranking": {
+    "Logistic regression (probability)": {
+      "ROC AUC": 0.8706808207947531,
+      "average precision": 0.6761376000047892
+    },
+    "Days until start (fewer days = higher risk)": {
+      "ROC AUC": 0.8597397038966049,
+      "average precision": 0.602053737640573
+    }
+  },
+  "overdue": {
+    "overdue assessments (urgent-review list under the policy)": 41,
+    "would also be flagged by the days rule": 41,
+    "would also be flagged by the model": 41
+  },
+  "missed_warnings": {
+    "assessments": 18,
+    "tasks": 18,
+    "by_employee_type": {
+      "permanent": 10,
+      "seasonal": 4,
+      "temporary": 4
+    },
+    "flagged_later": 18,
+    "flagged_earlier": 0,
+    "tasks_never_warned": 0
+  },
+  "group_concerns": {
+    "documented": [
+      "employee_type = permanent",
+      "intake_channel = unknown",
+      "hiring_department = Utilities"
+    ],
+    "serious": [
+      "employee_type = permanent"
+    ]
+  }
+}
