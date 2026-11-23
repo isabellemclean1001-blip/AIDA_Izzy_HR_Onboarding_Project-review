@@ -1,0 +1,62 @@
+{
+  "data_version": "2",
+  "method": "notebook 02 segmentation + notebook 03 baseline classifier + notebook 03 card decision rule",
+  "segmentation_settings_sha256": "2800cc14f1a7cd1cbef4f3672daed3475427f181f72f725513f436496155328d",
+  "classifier_settings_sha256": "0a6ee2c029c216b023f9e075cf977c255df8434783ee0fc89a549bbcf7bc273d",
+  "model_file": "baseline_classifier.joblib",
+  "model_sha256": "bf76a000f2b50d349ff7bd7d5e630c90a957ca3bb02d492c15b1b3f7c2ea8670",
+  "decision_rule": "an item is detected if any region on the card is classified as that item; outcomes as in notebook 03 section E",
+  "method_choice_file_sha256": "4d396766d0bbe54c2255202a54c18880cdc3a13f4e9badeb3b1631d299b3e9ca",
+  "robustness_design": {
+    "cards": "kits of the 120 validation cards, drawn again; no test card used",
+    "kit_sources": {
+      "manifest.csv_sha256": "05ce4c3ee88252397fa44e905c9cc649d9282816970cd7d50f7d8a472690b259",
+      "icon_instances.csv_sha256": "263b051302923271b7f041cb2dbd1c58e009144ef1f949803fbe074e9f9fa1dd"
+    },
+    "seed": 2029,
+    "arms": [
+      "control",
+      "reserved_style",
+      "heavier_degradation"
+    ],
+    "control": "development styles a/b; image settings from the generator's ranges",
+    "reserved_style": "as control, every kit item drawn in style c",
+    "heavier_degradation": {
+      "as control, except": {
+        "blur_radius": 1.75,
+        "noise_sigma": 10.0,
+        "jpeg_quality": 40
+      },
+      "noise": "same noise pattern as the control, scaled"
+    },
+    "pairing_rules": [
+      "each card's layout (object order, positions, sizes, contrast, rotation, paper tint) is drawn once and shared by all arms",
+      "control and heavier-degradation arms use the same styles a/b; the reserved-style arm changes only the kit items' style to c",
+      "objects are placed using the box that encloses the object's drawings in every arm at the shared position and rotation",
+      "the generator's 14-pixel gap between objects and from the card edges is checked separately in every arm",
+      "each card's image settings and noise pattern are drawn once; control and reserved-style arms use them unchanged",
+      "the heavier-degradation arm replaces blur, noise strength and JPEG quality with the fixed values and scales the shared noise pattern"
+    ],
+    "generator_file_sha256": "8de8a869c57723af45160cfc063b54b5433bbae1036cdfc9e184dfd1ad9ce0e0"
+  },
+  "measures": [
+    "missing-item recall (main)",
+    "missing-item precision",
+    "false missing-item flags",
+    "unexpected detections",
+    "completely correct cards",
+    "by item",
+    "by contrast band",
+    "recognition over all drawn items",
+    "segmentation outcomes",
+    "region classification"
+  ],
+  "package_versions": {
+    "python": "3.14.7",
+    "opencv": "4.14.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "pillow": "12.3.0"
+  }
+}
