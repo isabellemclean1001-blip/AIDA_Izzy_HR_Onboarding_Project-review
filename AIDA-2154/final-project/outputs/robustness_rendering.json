@@ -1,0 +1,27 @@
+{
+  "generator_file_sha256": "8de8a869c57723af45160cfc063b54b5433bbae1036cdfc9e184dfd1ad9ce0e0",
+  "method_frozen_sha256": "2ca199c73c85d38e7cccec81bfe1a613dc54e51f1153de79a0ee62df08e50e3f",
+  "rendering_functions": [
+    "apply_degradation",
+    "draw_settings",
+    "to_jpeg",
+    "place",
+    "draw_card_arms"
+  ],
+  "rendering_code_sha256": "8688357b4dab3211ace50f205d5e94a4429a44a375bdbac33d0adaf6d79cee4b",
+  "arm_styles": {
+    "control": "shared a/b",
+    "reserved_style": "c",
+    "heavier_degradation": "shared a/b"
+  },
+  "stress_settings": {
+    "blur_radius": 1.75,
+    "noise_sigma": 10.0,
+    "jpeg_quality": 40
+  },
+  "seed": 2029,
+  "images": 360,
+  "images_sha256_of_jpeg_hashes": "8e57886c229d406ae497db1b0d95a8c078560313445e9ed342ca4018b87a3a52",
+  "cards_file_sha256": "3d5e32e5751c54e02163d603632ee32a4e35ea8adc69ddf64b7a7fbb67d8d414",
+  "objects_file_sha256": "ff83edae114309362a94ff2f1196a6b5421186b1ac8d0d9863fc7707157e361a"
+}
