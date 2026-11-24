@@ -1,0 +1,4 @@
+grouping,group,assessments,at_risk,limited_recall_support,rule_recall_%,rule_recall_gap_vs_own_overall_pp,rule_at_risk_tasks_never_flagged_any_checkpoint,documented_concern,serious_concern
+employee_type,permanent,548,49,False,79.59183673469387,-11.03316326530613,0,True,True
+intake_channel,unknown,10,2,True,50.0,-40.625,0,True,False
+hiring_department,Utilities,125,15,True,80.0,-10.625,0,True,False

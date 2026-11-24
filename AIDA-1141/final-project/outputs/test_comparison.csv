@@ -1,0 +1,4 @@
+method,data_version,assessments,at_risk,TP,FP,FN,TN,recall,precision,flagged_assessments,flagged_%,unique_tasks_flagged,scored_tasks,at_risk_tasks,at_risk_tasks_flagged_at_least_once,at_risk_tasks_flagged_before_start_date,at_risk_tasks_never_flagged,median_business_days_left_at_first_flag,at_risk_tasks_first_flagged_with_5_or_fewer_days_left
+Never at risk (reference),2,1056,192,0,0,192,864,0.0,,0,0.0,0,829,146,0,0,146,,0
+Policy (a): days until start <= 8,2,1056,192,174,329,18,535,0.90625,0.34592445328031807,503,47.63257575757576,373,829,146,146,146,0,4.0,118
+Logistic regression (comparison),2,1056,192,171,330,21,534,0.890625,0.3413173652694611,501,47.44318181818182,375,829,146,145,145,1,4.0,115

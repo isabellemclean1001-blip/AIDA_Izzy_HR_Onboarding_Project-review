@@ -1,0 +1,18 @@
+check,passed
+Inputs match the fingerprints saved with the frozen policy (notebook 04),True
+"The frozen policy is policy (a), and its threshold matches notebook 02's",True
+Saved model reproduces notebook 02's validation scores,True
+Test population matches notebook 01 and shares no employee with training or validation,True
+Policy flags are exactly 'business days until start <= 8'; model flags are exactly 'score >= saved threshold',True
+Every scored assessment is before its task's 08:00 start-date deadline (timestamps),True
+"Confusion counts add up for every method, and recall and precision recompute from them",True
+Task counts add up: flagged at least once + never flagged = at-risk tasks; first flags before the deadline <= flagged,True
+The missed-warning table holds exactly the policy's missed at-risk assessments; later flags come after the miss,True
+Tasks never warned (from all scored assessments) agree with the task-level results,True
+"All five groupings are reported, each covering every assessment once; the three labels recompute from the frozen rules",True
+"This run's results match the saved test record (fingerprints, thresholds, population, results)",True
+The repair check used the protected definition (its fingerprint matches the test record),True
+"Rule-input audit found no discrepancies, and the rule flags the same assessments in all three repair versions",True
+"Repair group table reports all six version-field combinations, each covering every assessment once",True
+An 'unknown' value is scored like the reference category,True
+Count columns are written as whole numbers (presentation check),True

@@ -1,0 +1,19 @@
+data_version,request_id,assessment_id,checkpoint,assessed_at,business_days_until_start,current_status,task_type,later_assessments,flagged_later,later_flag_assessment_id,later_flag_at,business_days_left_at_later_flag,task_ever_flagged,flagged_earlier
+2,REQ-00568,ASM-00699,checkpoint_1,2025-04-25 08:02:00,10,open,payroll_setup,1,True,ASM-00795,2025-05-02 08:00:00,5,True,False
+2,REQ-01271,ASM-01556,checkpoint_1,2025-07-04 08:00:00,11,open,equipment_setup,1,True,ASM-01615,2025-07-14 08:00:00,5,True,False
+2,REQ-01463,ASM-01797,checkpoint_1,2025-08-07 13:59:00,10,open,workplace_access,1,True,ASM-01836,2025-08-14 08:00:00,5,True,False
+2,REQ-01469,ASM-01802,checkpoint_1,2025-08-08 09:49:00,9,open,system_access,1,True,ASM-01837,2025-08-14 08:00:00,5,True,False
+2,REQ-01582,ASM-01943,checkpoint_1,2025-09-05 09:18:00,24,open,orientation_scheduling,1,True,ASM-02185,2025-10-03 08:00:00,5,True,False
+2,REQ-01677,ASM-02084,checkpoint_1,2025-09-23 08:56:00,11,open,workplace_access,1,True,ASM-02176,2025-10-02 08:00:00,5,True,False
+2,REQ-01787,ASM-02222,checkpoint_1,2025-10-09 13:54:00,10,open,payroll_setup,1,True,ASM-02274,2025-10-17 08:00:00,5,True,False
+2,REQ-01816,ASM-02291,checkpoint_1,2025-10-17 15:49:00,10,open,equipment_setup,1,True,ASM-02340,2025-10-24 08:00:00,5,True,False
+2,REQ-01976,ASM-02425,checkpoint_1,2025-11-06 13:17:00,10,open,equipment_setup,1,True,ASM-02466,2025-11-14 08:00:00,5,True,False
+2,REQ-01981,ASM-02457,checkpoint_1,2025-11-12 12:33:00,10,open,payroll_setup,1,True,ASM-02500,2025-11-19 08:00:00,5,True,False
+2,REQ-02160,ASM-02657,checkpoint_1,2025-12-10 08:00:00,10,open,equipment_setup,1,True,ASM-02717,2025-12-17 08:00:00,5,True,False
+2,REQ-02168,ASM-02663,checkpoint_1,2025-12-10 13:08:00,10,open,system_access,1,True,ASM-02719,2025-12-17 08:00:00,5,True,False
+2,REQ-02213,ASM-02732,checkpoint_1,2025-12-18 08:46:00,26,open,orientation_scheduling,1,True,ASM-02963,2026-01-21 08:00:00,5,True,False
+2,REQ-02785,ASM-03425,checkpoint_1,2026-03-18 15:40:00,12,open,equipment_setup,1,True,ASM-03502,2026-03-27 08:00:00,5,True,False
+2,REQ-03093,ASM-03805,checkpoint_1,2026-04-20 09:34:00,10,open,orientation_scheduling,1,True,ASM-03904,2026-04-27 08:00:00,5,True,False
+2,REQ-03470,ASM-04280,checkpoint_1,2026-05-21 15:53:00,15,open,payroll_setup,1,True,ASM-04473,2026-06-04 08:00:00,5,True,False
+2,REQ-03540,ASM-04370,checkpoint_1,2026-05-27 15:25:00,11,open,payroll_setup,1,True,ASM-04475,2026-06-04 08:00:00,5,True,False
+2,REQ-04003,ASM-04965,checkpoint_1,2026-07-20 12:39:00,9,open,orientation_scheduling,1,True,ASM-04992,2026-07-24 08:00:00,5,True,False

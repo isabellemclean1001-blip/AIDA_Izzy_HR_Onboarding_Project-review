@@ -1,0 +1,3 @@
+data_version,level,total,employee_type_filled,hiring_department_filled,both_fields_filled,either_field_filled,employee_type_not_yet_available,employee_type_conflicting_donors,hiring_department_not_yet_available,hiring_department_conflicting_donors,either_unavailable_as_of_assessment
+2,test requests with an early-warning assessment,829,5,7,0,12,,,,,
+2,test early-warning assessments,1056,7,10,0,17,0,0,1,0,1
